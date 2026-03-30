@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/wambs-consulting/',
+  base: '/wambs-simulator/',
   build: {
     outDir: 'dist',
   },
