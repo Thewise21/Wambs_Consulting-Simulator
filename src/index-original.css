@@ -1,0 +1,157 @@
+@import "tailwindcss";
+
+/* === Palette WAMB'S Consulting — basee sur le logo officiel === */
+@theme {
+  /* Couleurs primaires (gradient du logo) */
+  --color-wambs-cyan: #22D3EE;
+  --color-wambs-blue: #3B82F6;
+  --color-wambs-purple: #8B5CF6;
+  --color-wambs-magenta: #D946EF;
+  --color-wambs-orange: #F59E0B;
+
+  /* Neutres / Theme sombre */
+  --color-wambs-dark: #0A0F1E;
+  --color-wambs-panel: #111827;
+  --color-wambs-surface: #1E293B;
+  --color-wambs-border: #1E2D45;
+  --color-wambs-text: #CBD5E1;
+  --color-wambs-muted: #64748B;
+  --color-wambs-white: #F8FAFC;
+}
+
+body {
+  margin: 0;
+  background-color: #0A0F1E;
+  color: #CBD5E1;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+}
+
+/* Typographie */
+h1, h2, h3 {
+  font-family: 'Outfit', system-ui, sans-serif;
+}
+
+/* Texte en gradient (titres) */
+.text-gradient {
+  background: linear-gradient(135deg, #22D3EE 0%, #8B5CF6 50%, #D946EF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Bordure en gradient */
+.border-gradient {
+  border: 1px solid transparent;
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  background-image:
+    linear-gradient(#111827, #111827),
+    linear-gradient(135deg, #22D3EE, #8B5CF6, #D946EF);
+}
+
+/* Bouton CTA gradient */
+.btn-gradient {
+  background: linear-gradient(135deg, #8B5CF6 0%, #D946EF 50%, #F59E0B 100%);
+  color: white;
+  border: none;
+  box-shadow: 0 4px 20px rgba(217, 70, 239, 0.25);
+  transition: opacity 0.2s, transform 0.2s;
+}
+.btn-gradient:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+/* Bouton secondaire avec bordure gradient */
+.btn-outline-gradient {
+  position: relative;
+  background: transparent;
+  color: #CBD5E1;
+  border: 1px solid transparent;
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  background-image:
+    linear-gradient(#0A0F1E, #0A0F1E),
+    linear-gradient(135deg, #22D3EE, #8B5CF6, #D946EF);
+  transition: all 0.2s;
+}
+.btn-outline-gradient:hover {
+  color: #F8FAFC;
+}
+
+/* Barre de progression gradient */
+.progress-gradient {
+  background: linear-gradient(90deg, #22D3EE 0%, #8B5CF6 50%, #D946EF 100%);
+}
+
+/* Ligne decorative gradient (header bottom) */
+.line-gradient {
+  height: 1px;
+  background: linear-gradient(90deg, #22D3EE 0%, #8B5CF6 33%, #D946EF 66%, #F59E0B 100%);
+}
+
+/* Animation fade-in pour les transitions entre etapes */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.step-enter {
+  animation: fadeIn 0.35s ease-out;
+}
+
+/* Slider personnalise — gradient */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 6px;
+  background: #1E2D45;
+  border-radius: 3px;
+  outline: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  background: linear-gradient(135deg, #8B5CF6, #D946EF);
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid #0A0F1E;
+  box-shadow: 0 0 8px rgba(139, 92, 246, 0.4);
+}
+input[type="range"]::-moz-range-thumb {
+  width: 22px;
+  height: 22px;
+  background: linear-gradient(135deg, #8B5CF6, #D946EF);
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid #0A0F1E;
+  box-shadow: 0 0 8px rgba(139, 92, 246, 0.4);
+}
+
+/* Checkbox personnalisee */
+input[type="checkbox"] {
+  accent-color: #8B5CF6;
+  width: 18px;
+  height: 18px;
+}
+
+/* Montants en police mono */
+.font-data {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+/* Carte selectionnee — bordure gauche gradient */
+.selected-card {
+  border-left: 4px solid transparent;
+  border-image: linear-gradient(180deg, #22D3EE, #8B5CF6, #D946EF) 1;
+}
+
+/* Glow subtil sur hover des cartes */
+.card-hover:hover {
+  box-shadow: 0 0 15px rgba(139, 92, 246, 0.1);
+  border-color: rgba(139, 92, 246, 0.3);
+}

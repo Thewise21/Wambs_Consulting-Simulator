@@ -1,0 +1,142 @@
+@import "tailwindcss";
+
+/* === STYLE C — LUXURY DARK & GOLD === */
+/* Noir profond, accents or/ambre, elegance premium, cabinet de prestige */
+@theme {
+  --color-wambs-cyan: #D4AF37;
+  --color-wambs-blue: #B8860B;
+  --color-wambs-purple: #C9A84C;
+  --color-wambs-magenta: #E8C96A;
+  --color-wambs-orange: #F5D76E;
+  --color-wambs-dark: #09090B;
+  --color-wambs-panel: #111113;
+  --color-wambs-surface: #1A1A1E;
+  --color-wambs-border: #27272A;
+  --color-wambs-text: #D4D4D8;
+  --color-wambs-muted: #71717A;
+  --color-wambs-white: #FAFAFA;
+}
+
+body {
+  margin: 0;
+  background-color: #09090B;
+  color: #D4D4D8;
+  font-family: 'Inter', system-ui, sans-serif;
+  min-height: 100vh;
+}
+
+h1, h2, h3 { font-family: 'Outfit', system-ui, sans-serif; }
+
+/* Fond avec texture subtile en diamant */
+.bg-orbs {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(201, 168, 76, 0.05) 0%, transparent 60%),
+    radial-gradient(ellipse at 50% 100%, rgba(212, 175, 55, 0.03) 0%, transparent 50%);
+}
+
+/* Texte en or */
+.text-gradient {
+  background: linear-gradient(135deg, #C9A84C 0%, #F5D76E 50%, #D4AF37 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Bouton CTA — or massif avec lueur */
+.btn-gradient {
+  background: linear-gradient(135deg, #B8860B 0%, #D4AF37 40%, #F5D76E 70%, #D4AF37 100%);
+  color: #09090B;
+  font-weight: 700;
+  border: none;
+  box-shadow:
+    0 4px 20px rgba(201, 168, 76, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+}
+.btn-gradient:hover {
+  box-shadow:
+    0 6px 30px rgba(201, 168, 76, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  transform: translateY(-1px);
+}
+
+/* Bouton secondaire — bordure or fine */
+.btn-outline-gradient {
+  background: transparent;
+  color: #C9A84C;
+  border: 1px solid rgba(201, 168, 76, 0.3);
+  transition: all 0.3s;
+  letter-spacing: 0.3px;
+}
+.btn-outline-gradient:hover {
+  color: #F5D76E;
+  border-color: rgba(201, 168, 76, 0.6);
+  background: rgba(201, 168, 76, 0.05);
+}
+
+.progress-gradient {
+  background: linear-gradient(90deg, #B8860B 0%, #D4AF37 50%, #F5D76E 100%);
+  box-shadow: 0 0 8px rgba(201, 168, 76, 0.3);
+}
+
+.line-gradient {
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, rgba(201, 168, 76, 0.15) 20%, rgba(201, 168, 76, 0.4) 50%, rgba(201, 168, 76, 0.15) 80%, transparent 100%);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.step-enter { animation: fadeIn 0.35s ease-out; }
+
+/* Slider — or */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 4px;
+  background: #27272A;
+  border-radius: 2px;
+  outline: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(135deg, #D4AF37, #F5D76E);
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid #09090B;
+  box-shadow: 0 0 8px rgba(201, 168, 76, 0.4);
+}
+input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(135deg, #D4AF37, #F5D76E);
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid #09090B;
+  box-shadow: 0 0 8px rgba(201, 168, 76, 0.4);
+}
+
+input[type="checkbox"] { accent-color: #D4AF37; width: 18px; height: 18px; }
+
+.font-data { font-family: 'JetBrains Mono', ui-monospace, monospace; }
+
+/* Carte selectionnee — accent or a gauche */
+.selected-card {
+  border: 1px solid rgba(201, 168, 76, 0.35) !important;
+  border-left: 3px solid #D4AF37 !important;
+  background: rgba(201, 168, 76, 0.04) !important;
+}
+
+.card-hover:hover {
+  box-shadow: 0 0 12px rgba(201, 168, 76, 0.06);
+  border-color: rgba(201, 168, 76, 0.2) !important;
+}

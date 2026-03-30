@@ -1,0 +1,141 @@
+{
+  "title": "Tax Simulator",
+  "subtitle": "Estimate your tax optimization potential in just a few minutes",
+  "next": "Next",
+  "back": "Back",
+  "step": "Step",
+  "of": "of",
+
+  "welcome": {
+    "headline": "How much tax could you save?",
+    "subline": "Our free simulator analyzes your profile and shows you your optimization potential in just 2 minutes.",
+    "cta": "Start simulation",
+    "trust1": "1,000+ clients served",
+    "trust2": "Tax advisory firm in Berlin",
+    "trust3": "Trilingual: DE | FR | EN",
+    "trust4": "Digital firm with TaxDome",
+    "privacy": "No registration required. Your data is not stored."
+  },
+
+  "step1": {
+    "title": "What is your profile?",
+    "salarie": "Employee",
+    "salarie_de": "Arbeitnehmer",
+    "salarie_desc": "Permanent position, payslip",
+    "freelance": "Freelancer / Self-employed",
+    "freelance_de": "Freiberufler / Selbstaendiger",
+    "freelance_desc": "Trade license, own invoices",
+    "gerant": "Company Director",
+    "gerant_de": "Geschaeftsfuehrer",
+    "gerant_desc": "GmbH, UG, corporation",
+    "retraite": "Retiree",
+    "retraite_de": "Rentner",
+    "retraite_desc": "Old-age pension, retirement",
+    "double": "Dual Activity",
+    "double_de": "Main job + Side job",
+    "double_desc": "Employed + self-employed"
+  },
+
+  "step2": {
+    "title": "Income & Expenses",
+    "revenu": "Gross annual income",
+    "revenu_de": "Jahreseinkommen brutto",
+    "retraiteContrib": "Retirement contributions",
+    "retraiteContrib_de": "Riester, Ruerup, bAV, private pension",
+    "fraisPro": "Actual professional expenses",
+    "fraisPro_de": "Commuting, work equipment, training...",
+    "charges": "Business expenses",
+    "charges_de": "Rent, software, materials, vehicle...",
+    "oui": "Yes",
+    "non": "No",
+    "hint": "The flat-rate deduction (Pauschbetrag) is 1,230 EUR/year. Only specify if your actual expenses exceed this amount."
+  },
+
+  "step3": {
+    "title": "Family Situation",
+    "statut": "Marital status",
+    "celibataire": "Single",
+    "marie": "Married",
+    "pacse": "Registered civil partnership",
+    "veuf": "Widowed",
+    "steuerklasse": "Tax class",
+    "enfants": "Number of children",
+    "kindergeld": "Child benefit received",
+    "kindergeld_de": "250 EUR/month per child (2025)",
+    "hint": "Married couples can benefit significantly from a tax class change (III/V or IV/IV)."
+  },
+
+  "step4": {
+    "title": "Special Deductions",
+    "subtitle": "Select all applicable situations — each can increase your tax advantage.",
+    "homeoffice": "Home office allowance",
+    "homeoffice_de": "6 EUR/day, max. 1,260 EUR/year",
+    "doppelte": "Double household",
+    "doppelte_de": "Second home at workplace",
+    "fortbildung": "Professional training",
+    "fortbildung_de": "Courses, seminars, specialist literature",
+    "kinderbetreuung": "Childcare costs",
+    "kinderbetreuung_de": "Daycare, childminder, after-school care (max. 4,000 EUR/child)",
+    "spenden": "Donations",
+    "spenden_de": "Charitable organizations",
+    "handwerker": "Craftsman services",
+    "handwerker_de": "Renovation, household repairs (20%, max. 1,200 EUR)",
+    "umzug": "Relocation costs",
+    "umzug_de": "Work-related move, flat-rate deduction",
+    "crypto": "Crypto / Digital assets",
+    "crypto_de": "Holding period, loss offsetting",
+    "vermietung": "Rental property",
+    "vermietung_de": "Rental income, depreciation, renovation",
+    "medical": "Extraordinary expenses",
+    "medical_de": "Medical costs, care costs"
+  },
+
+  "step5": {
+    "title": "Your Tax Estimate",
+    "calculating": "Analyzing your tax profile...",
+    "potential": "Optimization potential",
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High",
+    "estimated": "Estimated recoverable amount",
+    "optimized": "Optimized portion",
+    "notOptimized": "Non-optimized portion",
+    "disclaimer": "This is a simplified estimate. The actual refund depends on your individual situation."
+  },
+
+  "step6": {
+    "title": "Your Result",
+    "summary": "Summary of your tax potential",
+    "ctaPrimary": "Book your free consultation",
+    "ctaSecondary": "Send my results by email",
+    "ctaWhatsapp": "Contact via WhatsApp",
+    "nom": "Name",
+    "email": "Email",
+    "envoyer": "Send",
+    "merci": "Thank you! We will get back to you within 24 hours.",
+    "restart": "New simulation",
+
+    "msgSalarie": "As an employee, you have significant optimization potential — especially through professional expenses, commuter allowance and special deductions. Our team reviews your situation and maximizes your refund.",
+    "msgFreelance": "As a freelancer, smart structuring of your business expenses, proper income-expenditure accounting and VAT returns can generate substantial tax savings. We also handle your ongoing bookkeeping.",
+    "msgGerant": "As a company director, compensation optimization, shareholder loans and deductible business costs offer major tax leverage. We prepare your annual financial statements and ongoing accounting.",
+    "msgRetraite": "As a retiree, often overlooked deductions — medical costs, craftsman services and household services — can significantly reduce your tax. We review your pension assessment.",
+    "msgDouble": "With dual activity, tax coordination between both income sources is essential. We optimize your overall tax burden and handle your trade registration and income-expenditure accounting.",
+
+    "servicesTitle": "Recommended services for you",
+    "services": {
+      "einkommensteuer": "Income tax return",
+      "bescheidpruefung": "Tax assessment review & appeal",
+      "lohnsteuerausgleich": "Wage tax adjustment",
+      "eur": "Income-expenditure accounting (EUeR)",
+      "ustVoranmeldung": "VAT advance return",
+      "gewerbeanmeldung": "Trade registration",
+      "fibu": "Ongoing bookkeeping",
+      "jahresabschluss": "Annual financial statements",
+      "lohnbuchhaltung": "Payroll accounting",
+      "rentenberatung": "Pension taxation review"
+    },
+
+    "signature": "WAMB'S Consulting — Tax Advisory Firm — Berlin",
+    "teamNote": "Your contact: Poclaire Wamba & Team"
+  }
+}

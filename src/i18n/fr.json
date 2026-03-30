@@ -1,0 +1,141 @@
+{
+  "title": "Simulateur Fiscal",
+  "subtitle": "Estimez votre potentiel d'optimisation fiscale en quelques minutes",
+  "next": "Suivant",
+  "back": "Retour",
+  "step": "Etape",
+  "of": "sur",
+
+  "welcome": {
+    "headline": "Combien d'impots pourriez-vous economiser ?",
+    "subline": "Notre simulateur gratuit analyse votre profil et vous montre en 2 minutes votre potentiel d'optimisation.",
+    "cta": "Lancer la simulation",
+    "trust1": "1.000+ clients accompagnes",
+    "trust2": "Cabinet fiscal a Berlin",
+    "trust3": "Trilingue : DE | FR | EN",
+    "trust4": "Cabinet digital avec TaxDome",
+    "privacy": "Aucune inscription requise. Vos donnees ne sont pas enregistrees."
+  },
+
+  "step1": {
+    "title": "Quel est votre profil ?",
+    "salarie": "Salarie(e)",
+    "salarie_de": "Arbeitnehmer",
+    "salarie_desc": "Emploi fixe, fiche de paie",
+    "freelance": "Freelance / Auto-entrepreneur",
+    "freelance_de": "Freiberufler / Selbstaendiger",
+    "freelance_desc": "Numero de commerce, facturation propre",
+    "gerant": "Gerant(e) d'entreprise",
+    "gerant_de": "Geschaeftsfuehrer",
+    "gerant_desc": "GmbH, UG, societe de capitaux",
+    "retraite": "Retraite(e)",
+    "retraite_de": "Rentner",
+    "retraite_desc": "Pension de retraite",
+    "double": "Double activite",
+    "double_de": "Hauptberuf + Nebenberuf",
+    "double_desc": "Salarie + independant"
+  },
+
+  "step2": {
+    "title": "Revenus & charges",
+    "revenu": "Revenu brut annuel",
+    "revenu_de": "Jahreseinkommen brutto",
+    "retraiteContrib": "Cotisations retraite versees",
+    "retraiteContrib_de": "Riester, Ruerup, bAV, prevoyance privee",
+    "fraisPro": "Frais professionnels reels",
+    "fraisPro_de": "Transport, materiel, formation...",
+    "charges": "Charges d'exploitation",
+    "charges_de": "Loyer, logiciel, materiel, vehicule...",
+    "oui": "Oui",
+    "non": "Non",
+    "hint": "Le forfait pour frais professionnels (Pauschbetrag) est de 1.230 EUR/an. Ne detaillez que si vos frais reels depassent ce montant."
+  },
+
+  "step3": {
+    "title": "Situation familiale",
+    "statut": "Statut marital",
+    "celibataire": "Celibataire",
+    "marie": "Marie(e)",
+    "pacse": "Partenariat enregistre",
+    "veuf": "Veuf(ve)",
+    "steuerklasse": "Classe fiscale",
+    "enfants": "Nombre d'enfants",
+    "kindergeld": "Allocations familiales percues",
+    "kindergeld_de": "250 EUR/mois par enfant (2025)",
+    "hint": "Les couples maries peuvent beneficier considerablement d'un changement de classe fiscale (III/V ou IV/IV)."
+  },
+
+  "step4": {
+    "title": "Deductions speciales",
+    "subtitle": "Selectionnez toutes les situations applicables — chacune peut augmenter votre avantage fiscal.",
+    "homeoffice": "Travail en home office",
+    "homeoffice_de": "6 EUR/jour, max. 1.260 EUR/an",
+    "doppelte": "Double residence",
+    "doppelte_de": "Logement secondaire sur le lieu de travail",
+    "fortbildung": "Formation professionnelle",
+    "fortbildung_de": "Cours, seminaires, litterature specialisee",
+    "kinderbetreuung": "Frais de garde d'enfants",
+    "kinderbetreuung_de": "Creche, nourrice, garderie (max. 4.000 EUR/enfant)",
+    "spenden": "Dons",
+    "spenden_de": "Organisations caritatives",
+    "handwerker": "Prestations d'artisans",
+    "handwerker_de": "Renovation, reparations a domicile (20%, max. 1.200 EUR)",
+    "umzug": "Frais de demenagement",
+    "umzug_de": "Demenagement professionnel, forfait",
+    "crypto": "Crypto / Actifs numeriques",
+    "crypto_de": "Delai de detention, compensation de pertes",
+    "vermietung": "Bien immobilier locatif",
+    "vermietung_de": "Revenus locatifs, amortissement, renovation",
+    "medical": "Charges extraordinaires",
+    "medical_de": "Frais medicaux, frais de soins"
+  },
+
+  "step5": {
+    "title": "Votre estimation fiscale",
+    "calculating": "Analyse de votre profil fiscal en cours...",
+    "potential": "Potentiel d'optimisation",
+    "low": "Faible",
+    "medium": "Moyen",
+    "high": "Eleve",
+    "estimated": "Montant estime recuperable",
+    "optimized": "Part optimisee",
+    "notOptimized": "Part non optimisee",
+    "disclaimer": "Ceci est une estimation simplifiee. Le remboursement reel depend de votre situation individuelle."
+  },
+
+  "step6": {
+    "title": "Votre resultat",
+    "summary": "Resume de votre potentiel fiscal",
+    "ctaPrimary": "Reserver ma consultation gratuite",
+    "ctaSecondary": "Envoyer mes resultats par email",
+    "ctaWhatsapp": "Contacter par WhatsApp",
+    "nom": "Nom",
+    "email": "Email",
+    "envoyer": "Envoyer",
+    "merci": "Merci ! Nous vous contacterons dans les 24 heures.",
+    "restart": "Nouvelle simulation",
+
+    "msgSalarie": "En tant que salarie(e), vous avez un potentiel significatif d'optimisation — notamment via les frais reels, le forfait deplacement et les charges speciales. Notre equipe examine votre situation et maximise votre remboursement.",
+    "msgFreelance": "En tant qu'independant(e), une bonne structuration de vos charges, une EUeR correcte et les declarations de TVA peuvent generer des economies fiscales importantes. Nous prenons aussi en charge votre comptabilite courante.",
+    "msgGerant": "En tant que gerant(e), l'optimisation de votre remuneration, les prets d'associe et les charges deductibles offrent des leviers fiscaux majeurs. Nous elaborons vos comptes annuels et la comptabilite courante.",
+    "msgRetraite": "En tant que retraite(e), certaines deductions souvent meconnues — frais medicaux, artisans, services a domicile — peuvent reduire significativement votre impot. Nous verifions votre avis d'imposition.",
+    "msgDouble": "Avec une double activite, la coordination fiscale entre vos revenus est essentielle. Nous optimisons votre charge fiscale globale et gerons votre declaration de commerce et EUeR.",
+
+    "servicesTitle": "Prestations recommandees pour vous",
+    "services": {
+      "einkommensteuer": "Declaration d'impot sur le revenu",
+      "bescheidpruefung": "Verification d'avis & reclamation",
+      "lohnsteuerausgleich": "Regularisation de l'impot sur les salaires",
+      "eur": "Compte de resultat simplifie (EUeR)",
+      "ustVoranmeldung": "Declaration de TVA anticipee",
+      "gewerbeanmeldung": "Inscription au registre du commerce",
+      "fibu": "Comptabilite courante",
+      "jahresabschluss": "Comptes annuels",
+      "lohnbuchhaltung": "Gestion des salaires",
+      "rentenberatung": "Verification de l'imposition des retraites"
+    },
+
+    "signature": "WAMB'S Consulting — Cabinet de conseil fiscal — Berlin",
+    "teamNote": "Votre interlocuteur : Poclaire Wamba & Equipe"
+  }
+}
