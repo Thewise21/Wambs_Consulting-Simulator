@@ -1,9 +1,9 @@
 /* Configuration des liens et donnees WAMB'S Consulting */
 export const LINKS = {
-  calendly: 'https://calendly.com/wambs-consulting/consultation',
+  calendly: 'https://calendly.com/wambsconsulting',
   website: 'https://wambsconsulting.de',
   email: 'info@wambsconsulting.de',
-  phone: '+49 30 12345678',
+  whatsapp: '+4917648358408',
   taxdome: 'https://wambsconsulting.eu.taxdome.com',
   address: 'Knesebeckstr. 63, 10719 Berlin',
 };

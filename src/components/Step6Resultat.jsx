@@ -28,7 +28,8 @@ export default function Step6Resultat({ data, t, onRestart }) {
 
   /* Lien WhatsApp pre-rempli */
   const whatsappMsg = encodeURIComponent(`Bonjour, j'ai utilise le simulateur fiscal WAMB'S. Mon potentiel estime : ${fmt(resultat.montant)}. Je souhaite prendre rendez-vous.`);
-  const whatsappLink = `https://wa.me/4930123456?text=${whatsappMsg}`;
+  const waNumber = LINKS.whatsapp.replace(/[^0-9]/g, '');
+  const whatsappLink = `https://wa.me/${waNumber}?text=${whatsappMsg}`;
 
   return (
     <div className="step-enter space-y-6">
