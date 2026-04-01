@@ -19,7 +19,7 @@ export default function Step4Deductions({ data, setData, t }) {
     <div className="step-enter">
       <h2 className="text-2xl font-semibold text-gradient mb-2">{s.title}</h2>
       {s.subtitle && <p className="text-wambs-muted text-sm mb-6">{s.subtitle}</p>}
-      <div className="grid gap-3">
+      <div className="grid gap-3 lg:grid-cols-2">
         {DEDUCTIONS.map((key) => (
           <label key={key}
             className={`flex items-center gap-4 p-4 rounded-lg border cursor-pointer transition-all card-hover ${

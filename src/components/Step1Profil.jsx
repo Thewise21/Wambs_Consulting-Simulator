@@ -36,7 +36,7 @@ export default function Step1Profil({ data, setData, t }) {
   return (
     <div className="step-enter">
       <h2 className="text-2xl font-semibold text-gradient mb-6">{s.title}</h2>
-      <div className="grid gap-3">
+      <div className="grid gap-3 lg:grid-cols-2">
         {PROFILS.map((profil) => (
           <button
             key={profil}
