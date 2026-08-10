@@ -1,3 +1,8 @@
+/* Lokal gehostete Schriften — DSGVO-konform, kein Google-Server-Kontakt */
+@font-face{font-family:'Inter';src:url('/fonts/inter-var.woff2') format('woff2');font-weight:400 600;font-style:normal;font-display:swap}
+@font-face{font-family:'Outfit';src:url('/fonts/outfit-var.woff2') format('woff2');font-weight:600 700;font-style:normal;font-display:swap}
+@font-face{font-family:'JetBrains Mono';src:url('/fonts/jetbrains-mono-var.woff2') format('woff2');font-weight:400 700;font-style:normal;font-display:swap}
+
 @import "tailwindcss";
 
 /* === THEME SYSTEM — Light (defaut) + Dark (Neon Aurora) === */
