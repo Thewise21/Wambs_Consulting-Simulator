@@ -127,5 +127,11 @@
     },
     "signature": "WAMB'S Consulting — Financial & Business Consulting — Berlin",
     "teamNote": "Your contact: Poclaire Wamba & Team"
+  },
+  "legal": {
+    "legalTitle": "Provider",
+    "legalBody": "WAMB'S Consulting · Owner: Poclaire Wamba · Knesebeckstr. 63, 10719 Berlin, Germany · info@wambsconsulting.de · VAT ID DE344424912",
+    "legalDisclaimer": "This simulator provides a non-binding, heavily simplified orientation and does not constitute assistance in tax matters within the meaning of § 1 StBerG. WAMB'S Consulting provides services under § 6 no. 3+4 StBerG; the tax assessment is carried out exclusively by a cooperating certified tax advisor.",
+    "legalPrivacy": "No entries are stored and no cookies are used."
   }
 }

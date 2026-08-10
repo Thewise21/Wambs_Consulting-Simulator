@@ -197,6 +197,16 @@ export default function App() {
           </div>
         )}
       </main>
+
+      {/* Pflichtangaben & Haftungshinweis — auf jeder Ansicht sichtbar */}
+      <footer className="relative z-10 mt-10 border-t border-wambs-border">
+        <div className="max-w-2xl lg:max-w-4xl mx-auto px-4 py-6 text-center">
+          <p className="text-wambs-muted text-[11px] font-semibold uppercase tracking-wider mb-1">{t.legal.legalTitle}</p>
+          <p className="text-wambs-muted text-[11px] leading-relaxed">{t.legal.legalBody}</p>
+          <p className="text-wambs-muted text-[11px] leading-relaxed mt-2">{t.legal.legalDisclaimer}</p>
+          <p className="text-wambs-muted text-[11px] leading-relaxed mt-2 opacity-80">{t.legal.legalPrivacy}</p>
+        </div>
+      </footer>
     </div>
   );
 }
