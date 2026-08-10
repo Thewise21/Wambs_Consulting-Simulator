@@ -3,7 +3,7 @@ export const LINKS = {
   calendly: 'https://calendly.com/wambsconsulting',
   website: 'https://wambsconsulting.de',
   email: 'info@wambsconsulting.de',
-  whatsapp: '+4917648358408',
+  whatsapp: '+4917647358408',
   taxdome: 'https://wambsconsulting.eu.taxdome.com',
   address: 'Knesebeckstr. 63, 10719 Berlin',
 };
