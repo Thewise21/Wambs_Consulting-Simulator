@@ -2,57 +2,53 @@
   "title": "Steuer-Simulator",
   "subtitle": "Ermitteln Sie Ihr steuerliches Optimierungspotenzial in wenigen Minuten",
   "next": "Weiter",
-  "back": "Zurueck",
+  "back": "Zurück",
   "step": "Schritt",
   "of": "von",
-
   "welcome": {
-    "headline": "Wie viel Steuern koennten Sie sparen?",
+    "headline": "Wie viel Steuern könnten Sie sparen?",
     "subline": "Unser kostenloser Simulator analysiert Ihr Profil und zeigt Ihnen in 2 Minuten Ihr Optimierungspotenzial.",
     "cta": "Simulation starten",
-    "trust1": "1.000+ Mandanten betreut",
-    "trust2": "Steuerberatungskanzlei Berlin",
+    "trust1": "Mandate in DE, FR & international",
+    "trust2": "Finanz- & Unternehmensberatung, Berlin",
     "trust3": "Dreisprachig: DE | FR | EN",
     "trust4": "Digitale Kanzlei mit TaxDome",
-    "privacy": "Keine Anmeldung noetig. Ihre Daten werden nicht gespeichert."
+    "privacy": "Keine Anmeldung nötig. Ihre Daten werden nicht gespeichert."
   },
-
   "step1": {
     "title": "Was ist Ihr Profil?",
     "salarie": "Arbeitnehmer/in",
     "salarie_de": "Arbeitnehmer",
     "salarie_desc": "Festanstellung, Gehaltsabrechnung",
-    "freelance": "Freiberufler / Selbstaendiger",
-    "freelance_de": "Freiberufler / Selbstaendiger",
+    "freelance": "Freiberufler / Selbständiger",
+    "freelance_de": "Freiberufler / Selbständiger",
     "freelance_desc": "Gewerbeschein, eigene Rechnungen",
-    "gerant": "Geschaeftsfuehrer/in",
-    "gerant_de": "Geschaeftsfuehrer",
+    "gerant": "Geschäftsführer/in",
+    "gerant_de": "Geschäftsführer",
     "gerant_desc": "GmbH, UG, Kapitalgesellschaft",
     "retraite": "Rentner/in",
     "retraite_de": "Rentner",
     "retraite_desc": "Altersrente, Pension",
-    "double": "Doppelte Taetigkeit",
+    "double": "Doppelte Tätigkeit",
     "double_de": "Hauptberuf + Nebenberuf",
-    "double_desc": "Angestellt + selbstaendig"
+    "double_desc": "Angestellt + selbständig"
   },
-
   "step2": {
-    "title": "Einkuenfte & Ausgaben",
+    "title": "Einkünfte & Ausgaben",
     "revenu": "Jahreseinkommen brutto",
     "revenu_de": "Jahreseinkommen brutto",
-    "retraiteContrib": "Altersvorsorgebeitraege",
-    "retraiteContrib_de": "Riester, Ruerup, bAV, private Vorsorge",
-    "fraisPro": "Tatsaechliche Werbungskosten",
+    "retraiteContrib": "Altersvorsorgebeiträge",
+    "retraiteContrib_de": "Riester, Rürup, bAV, private Vorsorge",
+    "fraisPro": "Tatsächliche Werbungskosten",
     "fraisPro_de": "Fahrtkosten, Arbeitsmittel, Fortbildung...",
     "charges": "Betriebsausgaben",
     "charges_de": "Miete, Software, Material, Fahrzeug...",
     "oui": "Ja",
     "non": "Nein",
-    "hint": "Der Arbeitnehmer-Pauschbetrag liegt bei 1.230 EUR/Jahr. Nur wenn Ihre tatsaechlichen Kosten hoeher sind, lohnt sich die Angabe."
+    "hint": "Der Arbeitnehmer-Pauschbetrag liegt bei 1.230 EUR/Jahr. Nur wenn Ihre tatsächlichen Kosten höher sind, lohnt sich die Angabe."
   },
-
   "step3": {
-    "title": "Familiaere Situation",
+    "title": "Familiäre Situation",
     "statut": "Familienstand",
     "celibataire": "Ledig",
     "marie": "Verheiratet",
@@ -64,32 +60,30 @@
     "kindergeld_de": "250 EUR/Monat pro Kind (2025)",
     "hint": "Verheiratete Paare koennen durch Steuerklassenwechsel (III/V oder IV/IV) erheblich profitieren."
   },
-
   "step4": {
-    "title": "Sonderabzuege",
-    "subtitle": "Waehlen Sie alle zutreffenden Situationen — jede kann Ihren Steuervorteil erhoehen.",
+    "title": "Sonderabzüge",
+    "subtitle": "Wählen Sie alle zutreffenden Situationen — jede kann Ihren Steuervorteil erhöhen.",
     "homeoffice": "Homeoffice-Pauschale",
     "homeoffice_de": "6 EUR/Tag, max. 1.260 EUR/Jahr",
-    "doppelte": "Doppelte Haushaltsfuehrung",
+    "doppelte": "Doppelte Haushaltsführung",
     "doppelte_de": "Zweitwohnung am Arbeitsort",
     "fortbildung": "Fortbildungskosten",
     "fortbildung_de": "Kurse, Seminare, Fachliteratur",
     "kinderbetreuung": "Kinderbetreuungskosten",
     "kinderbetreuung_de": "Kita, Tagesmutter, Hort (max. 4.000 EUR/Kind)",
     "spenden": "Spenden",
-    "spenden_de": "Gemeinnuetzige Organisationen",
+    "spenden_de": "Gemeinnützige Organisationen",
     "handwerker": "Handwerkerleistungen",
     "handwerker_de": "Renovierung, Reparaturen im Haushalt (20%, max. 1.200 EUR)",
     "umzug": "Umzugskosten",
     "umzug_de": "Beruflich bedingter Umzug, Pauschale",
-    "crypto": "Krypto / Digitale Vermoegenswerte",
+    "crypto": "Krypto / Digitale Vermögenswerte",
     "crypto_de": "Haltefrist, Verlustverrechnung",
     "vermietung": "Vermietung und Verpachtung",
     "vermietung_de": "Mieteinnahmen, AfA, Renovierung",
-    "medical": "Aussergewoehnliche Belastungen",
+    "medical": "Außergewöhnliche Belastungen",
     "medical_de": "Krankheitskosten, Pflegekosten"
   },
-
   "step5": {
     "title": "Ihre Steuerberechnung",
     "calculating": "Ihr Steuerprofil wird analysiert...",
@@ -97,12 +91,11 @@
     "low": "Gering",
     "medium": "Mittel",
     "high": "Hoch",
-    "estimated": "Geschaetzter Erstattungsbetrag",
+    "estimated": "Geschätzter Erstattungsbetrag",
     "optimized": "Optimierter Anteil",
     "notOptimized": "Nicht optimierter Anteil",
-    "disclaimer": "Dies ist eine vereinfachte Schaetzung. Die tatsaechliche Erstattung haengt von Ihrer individuellen Situation ab."
+    "disclaimer": "Dies ist eine vereinfachte Schätzung. Die tatsächliche Erstattung hängt von Ihrer individuellen Situation ab."
   },
-
   "step6": {
     "title": "Ihr Ergebnis",
     "summary": "Zusammenfassung Ihres Steuerpotenzials",
@@ -114,28 +107,25 @@
     "envoyer": "Senden",
     "merci": "Vielen Dank! Wir melden uns innerhalb von 24 Stunden bei Ihnen.",
     "restart": "Neue Simulation starten",
-
-    "msgSalarie": "Als Arbeitnehmer/in haben Sie erhebliches Optimierungspotenzial — insbesondere durch Werbungskosten, Pendlerpauschale und Sonderausgaben. Unser Team prueft Ihre Situation und holt das Maximum fuer Sie heraus.",
-    "msgFreelance": "Als Freiberufler/Selbstaendiger koennen Sie durch geschickte Strukturierung Ihrer Betriebsausgaben, korrekte EUeR und USt-Voranmeldung erhebliche Steuerersparnisse erzielen. Wir uebernehmen auch Ihre laufende Finanzbuchhaltung.",
-    "msgGerant": "Als Geschaeftsfuehrer/in bieten Verguetunsoptimierung, Gesellschafter-Darlehen und absetzbare Betriebskosten grosse steuerliche Hebel. Wir erstellen Ihren Jahresabschluss und die laufende FiBu.",
-    "msgRetraite": "Als Rentner/in gibt es oft unbekannte Abzugsmoeglichkeiten — Krankheitskosten, Handwerkerleistungen und haushaltsnahe Dienstleistungen. Wir pruefen Ihren Rentenbescheid.",
-    "msgDouble": "Mit doppelter Taetigkeit ist die steuerliche Koordination beider Einkuenfte entscheidend. Wir optimieren Ihre Gesamtsteuerlast und kuemmern uns um Ihre Gewerbeanmeldung und EUeR.",
-
-    "servicesTitle": "Empfohlene Leistungen fuer Sie",
+    "msgSalarie": "Als Arbeitnehmer/in haben Sie erhebliches Optimierungspotenzial — insbesondere durch Werbungskosten, Pendlerpauschale und Sonderausgaben. Unser Team prüft Ihre Situation und holt das Maximum für Sie heraus.",
+    "msgFreelance": "Als Freiberufler/Selbständiger koennen Sie durch geschickte Strukturierung Ihrer Betriebsausgaben, korrekte EÜR und USt-Voranmeldung erhebliche Steuerersparnisse erzielen. Wir übernehmen auch Ihre laufende Finanzbuchhaltung.",
+    "msgGerant": "Als Geschäftsführer/in bieten Vergütungsoptimierung, Gesellschafter-Darlehen und absetzbare Betriebskosten große steuerliche Hebel. Wir erstellen Ihren Jahresabschluss und die laufende FiBu.",
+    "msgRetraite": "Als Rentner/in gibt es oft unbekannte Abzugsmöglichkeiten — Krankheitskosten, Handwerkerleistungen und haushaltsnahe Dienstleistungen. Wir prüfen Ihren Rentenbescheid.",
+    "msgDouble": "Mit doppelter Tätigkeit ist die steuerliche Koordination beider Einkünfte entscheidend. Wir optimieren Ihre Gesamtsteuerlast und kümmern uns um Ihre Gewerbeanmeldung und EÜR.",
+    "servicesTitle": "Empfohlene Leistungen für Sie",
     "services": {
-      "einkommensteuer": "Einkommensteuererklaerung",
-      "bescheidpruefung": "Bescheidpruefung & Einspruch",
+      "einkommensteuer": "Einkommensteuererklärung",
+      "bescheidpruefung": "Bescheidprüfung & Einspruch",
       "lohnsteuerausgleich": "Lohnsteuerausgleich",
-      "eur": "Einnahmen-Ueberschuss-Rechnung (EUeR)",
+      "eur": "Einnahmen-Überschuss-Rechnung (EÜR)",
       "ustVoranmeldung": "USt-Voranmeldung",
       "gewerbeanmeldung": "Gewerbeanmeldung",
       "fibu": "Laufende Finanzbuchhaltung",
       "jahresabschluss": "Jahresabschluss",
       "lohnbuchhaltung": "Lohnbuchhaltung",
-      "rentenberatung": "Rentenbesteuerung prufen"
+      "rentenberatung": "Rentenbesteuerung prüfen"
     },
-
-    "signature": "WAMB'S Consulting — Steuerberatungskanzlei — Berlin",
+    "signature": "WAMB'S Consulting — Finanz- & Unternehmensberatung — Berlin",
     "teamNote": "Ihr Ansprechpartner: Poclaire Wamba & Team"
   }
 }

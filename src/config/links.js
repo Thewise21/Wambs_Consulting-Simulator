@@ -11,14 +11,12 @@ export const LINKS = {
 /* Donnees de l'entreprise pour les trust signals */
 export const COMPANY = {
   name: "WAMB'S Consulting",
-  type: 'Steuerberatungskanzlei',
+  type: 'Finanz- & Unternehmensberatung',
   city: 'Berlin',
-  mandanten: '1.000+',
   founded: 2020,
   languages: ['DE', 'FR', 'EN'],
   team: [
     { name: 'Poclaire Wamba', role: 'ceo' },
-    { name: 'StB Winfried Mueller', role: 'steuerberater' },
     { name: 'Laura Meguedong', role: 'assistenz' },
     { name: 'Kengo Leonel', role: 'automation' },
     { name: 'Fikret Yildiz', role: 'sachbearbeiter' },

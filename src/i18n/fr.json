@@ -5,18 +5,16 @@
   "back": "Retour",
   "step": "Etape",
   "of": "sur",
-
   "welcome": {
     "headline": "Combien d'impots pourriez-vous economiser ?",
     "subline": "Notre simulateur gratuit analyse votre profil et vous montre en 2 minutes votre potentiel d'optimisation.",
     "cta": "Lancer la simulation",
-    "trust1": "1.000+ clients accompagnes",
+    "trust1": "Mandats en DE, FR & à l'international",
     "trust2": "Cabinet fiscal a Berlin",
     "trust3": "Trilingue : DE | FR | EN",
     "trust4": "Cabinet digital avec TaxDome",
     "privacy": "Aucune inscription requise. Vos donnees ne sont pas enregistrees."
   },
-
   "step1": {
     "title": "Quel est votre profil ?",
     "salarie": "Salarie(e)",
@@ -35,7 +33,6 @@
     "double_de": "Hauptberuf + Nebenberuf",
     "double_desc": "Salarie + independant"
   },
-
   "step2": {
     "title": "Revenus & charges",
     "revenu": "Revenu brut annuel",
@@ -50,7 +47,6 @@
     "non": "Non",
     "hint": "Le forfait pour frais professionnels (Pauschbetrag) est de 1.230 EUR/an. Ne detaillez que si vos frais reels depassent ce montant."
   },
-
   "step3": {
     "title": "Situation familiale",
     "statut": "Statut marital",
@@ -64,7 +60,6 @@
     "kindergeld_de": "250 EUR/mois par enfant (2025)",
     "hint": "Les couples maries peuvent beneficier considerablement d'un changement de classe fiscale (III/V ou IV/IV)."
   },
-
   "step4": {
     "title": "Deductions speciales",
     "subtitle": "Selectionnez toutes les situations applicables — chacune peut augmenter votre avantage fiscal.",
@@ -89,7 +84,6 @@
     "medical": "Charges extraordinaires",
     "medical_de": "Frais medicaux, frais de soins"
   },
-
   "step5": {
     "title": "Votre estimation fiscale",
     "calculating": "Analyse de votre profil fiscal en cours...",
@@ -102,7 +96,6 @@
     "notOptimized": "Part non optimisee",
     "disclaimer": "Ceci est une estimation simplifiee. Le remboursement reel depend de votre situation individuelle."
   },
-
   "step6": {
     "title": "Votre resultat",
     "summary": "Resume de votre potentiel fiscal",
@@ -114,13 +107,11 @@
     "envoyer": "Envoyer",
     "merci": "Merci ! Nous vous contacterons dans les 24 heures.",
     "restart": "Nouvelle simulation",
-
     "msgSalarie": "En tant que salarie(e), vous avez un potentiel significatif d'optimisation — notamment via les frais reels, le forfait deplacement et les charges speciales. Notre equipe examine votre situation et maximise votre remboursement.",
     "msgFreelance": "En tant qu'independant(e), une bonne structuration de vos charges, une EUeR correcte et les declarations de TVA peuvent generer des economies fiscales importantes. Nous prenons aussi en charge votre comptabilite courante.",
     "msgGerant": "En tant que gerant(e), l'optimisation de votre remuneration, les prets d'associe et les charges deductibles offrent des leviers fiscaux majeurs. Nous elaborons vos comptes annuels et la comptabilite courante.",
     "msgRetraite": "En tant que retraite(e), certaines deductions souvent meconnues — frais medicaux, artisans, services a domicile — peuvent reduire significativement votre impot. Nous verifions votre avis d'imposition.",
     "msgDouble": "Avec une double activite, la coordination fiscale entre vos revenus est essentielle. Nous optimisons votre charge fiscale globale et gerons votre declaration de commerce et EUeR.",
-
     "servicesTitle": "Prestations recommandees pour vous",
     "services": {
       "einkommensteuer": "Declaration d'impot sur le revenu",
@@ -134,8 +125,7 @@
       "lohnbuchhaltung": "Gestion des salaires",
       "rentenberatung": "Verification de l'imposition des retraites"
     },
-
-    "signature": "WAMB'S Consulting — Cabinet de conseil fiscal — Berlin",
+    "signature": "WAMB'S Consulting — Conseil financier & d'entreprise — Berlin",
     "teamNote": "Votre interlocuteur : Poclaire Wamba & Equipe"
   }
 }
