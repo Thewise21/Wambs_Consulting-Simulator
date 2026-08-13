@@ -1,4 +1,6 @@
 {
+  "vorbehalt": "Les missions réservées — déclarations fiscales, bilans, déclarations périodiques et l'évaluation fiscale de votre cas particulier — passent exclusivement par un Steuerberater partenaire.",
+
   "lead": {
     "introduction": "Laissez-nous vos coordonnées — nous revenons vers vous avec votre résultat et une proposition de rendez-vous.",
     "champs": {
@@ -20,13 +22,14 @@
 
   "hub": {
     "titreOnglet": "Simulateurs fiscaux",
-    "headline": "Des simulateurs qui donnent un chiffre, pas une brochure",
-    "subline": "Quatre outils gratuits d'un cabinet financier berlinois. Sans inscription, en français, allemand et anglais.",
+    "headline": "Des simulateurs qui donnent un ordre de grandeur, pas une brochure",
+    "subline": "Outils gratuits d'un cabinet financier berlinois. Sans inscription, en français, allemand et anglais.",
     "demarrer": "Commencer",
     "retour": "Tous les simulateurs",
     "badgeNouveau": "Nouveau",
     "badgePopulaire": "Populaire",
-    "trustMandanten": "clients accompagnés",
+    "trustMandantenValeur": "DE · FR · int.",
+    "trustMandanten": "mandats en DE, FR et à l'international",
     "trustSprachen": "langues de conseil",
     "trustStandort": "siège du cabinet",
     "trustKostenlos": "gratuit et sans inscription",
@@ -189,13 +192,13 @@
     "salaireConjointMois": "Salaire brut mensuel du conjoint",
     "salaireConjointAn": "Salaire brut annuel du conjoint",
     "gainCoupleTitre": "Jusqu'à {montant} de net en plus par mois",
-    "gainCoupleTexte": "C'est l'écart entre la meilleure et la moins bonne combinaison de classes. Le changement est possible une fois par an — nous vérifions s'il est intéressant dans votre cas.",
+    "gainCoupleTexte": "C'est l'écart entre la meilleure et la moins bonne combinaison de classes. Le changement est possible une fois par an — nous situons lors de l'entretien s'il peut vous concerner.",
     "alerteJAEGTitre": "Vous dépassez le seuil d'affiliation obligatoire",
     "alerteJAEGTexte": "À ce niveau de revenu, le passage à l'assurance maladie privée devient possible. La décision engage sur des décennies : elle mérite d'être chiffrée avant.",
     "alerteKlasseVTitre": "La classe V est volontairement surtaxée",
     "alerteKlasseVTexte": "Le prélèvement en classe V est majoré par construction. Pour les classes V et VI, ce calcul est une approximation du § 39b Abs. 2 EStG. Vérifiez si la classe IV avec facteur vous conviendrait mieux.",
     "ctaEtiquette": "Premier rendez-vous gratuit",
-    "ctaTexte": "Nous vérifions votre classe d'imposition, vos frais déductibles et votre droit à remboursement — en 15 minutes, sans engagement.",
+    "ctaTexte": "En 15 minutes, nous situons votre classe d'imposition, vos frais déductibles et la question d'un éventuel remboursement — sans engagement.",
     "avertissement": "Estimation indicative sans garantie. Ne sont pas pris en compte les avantages en nature, les abattements individuels accordés par l'administration, les primes exceptionnelles et les particularités de certaines caisses.",
     "stand": "Droit applicable {annee} · paramètres vérifiés le {date}"
   },
@@ -366,7 +369,7 @@
     },
 
     "ctaEtiquette": "Premier rendez-vous en français, allemand ou anglais",
-    "ctaTexte": "Nous accompagnons plus de 1 000 clients, dont de nombreux profils internationaux. Nous examinons votre dossier, demandons le quotient conjugal et prenons en charge les échanges avec l'administration.",
+    "ctaTexte": "Nous situons votre cas lors de l'entretien et vous indiquons les sujets pertinents — en français, allemand ou anglais. L'évaluation fiscale et la déclaration elle-même passent par un Steuerberater partenaire.",
     "ctaBouton": "Réserver un rendez-vous gratuit",
     "avertissement": "Estimation simplifiée. L'application concrète d'une convention fiscale dépend toujours du cas d'espèce — en particulier pour les pensions, les revenus locatifs, les revenus de capitaux et les détachements.",
     "stand": "Droit applicable {annee} · paramètres vérifiés le {date}"
@@ -624,7 +627,7 @@
       }
     },
     "ctaEtiquette": "Sécuriser la décision",
-    "ctaTexte": "Cinq ans d'engagement méritent un calcul propre. Nous examinons vos chiffres, votre clientèle et vos investissements prévus — et prenons en charge les déclarations si vous le souhaitez.",
+    "ctaTexte": "Cinq ans d'engagement méritent un calcul propre. Nous parcourons avec vous vos chiffres, votre clientèle et vos investissements prévus ; les déclarations périodiques passent par un Steuerberater partenaire.",
     "ctaBouton": "Réserver un rendez-vous gratuit",
     "avertissement": "Comparaison simplifiée. Ne sont pas pris en compte : les opérations intracommunautaires et l'autoliquidation, la taxation sur la marge, les taux mixtes et la régularisation de TVA déductible (§ 15a UStG) lors du changement de régime."
   },
@@ -1336,7 +1339,7 @@
       }
     },
     "ctaEtiquette": "Sécuriser le délai",
-    "ctaTexte": "Nous prenons en charge votre déclaration, examinons rétroactivement les années ouvertes, et vous gagnez automatiquement sept mois de délai.",
+    "ctaTexte": "Nous situons votre cas, passons en revue les années ouvertes et accompagnons la déclaration via un Steuerberater partenaire — avec le délai allongé.",
     "ctaBouton": "Réserver un rendez-vous gratuit",
     "avertissement": "Aide à l'orientation, pas un examen définitif. Le § 46 EStG prévoit d'autres cas ; seule votre situation concrète fait foi. Les délais peuvent être modifiés par décision individuelle de l'administration.",
     "stand": "Délais § 149 AO, au {date}"

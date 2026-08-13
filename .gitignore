@@ -2,6 +2,7 @@ node_modules/
 dist/
 .vite/
 .DS_Store
+package-lock.json
 
 # Configuration locale : contient l'URL du webhook n8n de production.
 # Seul .env.example est versionne.

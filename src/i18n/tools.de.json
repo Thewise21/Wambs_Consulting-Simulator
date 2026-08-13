@@ -1,4 +1,6 @@
 {
+  "vorbehalt": "Vorbehaltsaufgaben — Steuererklärungen, Jahresabschlüsse, Voranmeldungen und die steuerliche Bewertung Ihres Einzelfalls — erfolgen ausschließlich über einen kooperierenden Steuerberater.",
+
   "lead": {
     "introduction": "Hinterlassen Sie uns Ihre Kontaktdaten — wir melden uns mit Ihrem Ergebnis und schlagen einen Termin vor.",
     "champs": {
@@ -20,13 +22,14 @@
 
   "hub": {
     "titreOnglet": "Steuer-Rechner",
-    "headline": "Rechner, die Ihnen eine Zahl geben — keine Broschüre",
-    "subline": "Vier kostenlose Simulatoren einer Berliner Finanz- und Unternehmensberatung. Ohne Anmeldung, in Deutsch, Französisch und Englisch.",
+    "headline": "Rechner, die Ihnen einen Orientierungswert geben — keine Broschüre",
+    "subline": "Kostenlose Rechner einer Berliner Finanz- & Unternehmensberatung. Ohne Anmeldung, in Deutsch, Französisch und Englisch.",
     "demarrer": "Starten",
     "retour": "Alle Rechner",
     "badgeNouveau": "Neu",
     "badgePopulaire": "Beliebt",
-    "trustMandanten": "betreute Mandanten",
+    "trustMandantenValeur": "DE · FR · int.",
+    "trustMandanten": "Mandate in DE, FR & international",
     "trustSprachen": "Beratungssprachen",
     "trustStandort": "Kanzleisitz",
     "trustKostenlos": "kostenlos & ohne Anmeldung",
@@ -189,13 +192,13 @@
     "salaireConjointMois": "Bruttogehalt Partner/in pro Monat",
     "salaireConjointAn": "Bruttogehalt Partner/in pro Jahr",
     "gainCoupleTitre": "{montant} mehr Netto pro Monat möglich",
-    "gainCoupleTexte": "So groß ist der Unterschied zwischen der besten und der schlechtesten Steuerklassen-Kombination. Ein Wechsel ist einmal jährlich formlos möglich — wir prüfen für Sie, ob er sich lohnt.",
+    "gainCoupleTexte": "So groß ist der Unterschied zwischen der besten und der schlechtesten Steuerklassen-Kombination. Ein Wechsel ist einmal jährlich formlos möglich — wir ordnen im Gespräch ein, ob er für Sie in Frage kommt.",
     "alerteJAEGTitre": "Sie liegen über der Versicherungspflichtgrenze",
     "alerteJAEGTexte": "Ab diesem Einkommen können Sie in die private Krankenversicherung wechseln. Die Entscheidung ist auf Jahrzehnte bindend — sie gehört vorher durchgerechnet.",
     "alerteKlasseVTitre": "Steuerklasse V wird pauschal hoch besteuert",
     "alerteKlasseVTexte": "Der Abzug in Klasse V ist bewusst überhöht. Für V und VI ist diese Berechnung eine Näherung nach § 39b Abs. 2 EStG. Prüfen Sie, ob IV mit Faktor für Sie günstiger ist.",
     "ctaEtiquette": "Kostenlose Erstberatung",
-    "ctaTexte": "Wir prüfen Ihre Steuerklasse, Ihre Werbungskosten und Ihren Erstattungsanspruch — in 15 Minuten, unverbindlich.",
+    "ctaTexte": "In 15 Minuten ordnen wir Ihre Steuerklasse, Ihre Werbungskosten und die Frage einer möglichen Erstattung ein — unverbindlich.",
     "avertissement": "Unverbindliche Schätzung ohne Gewähr. Nicht berücksichtigt werden u. a. geldwerte Vorteile, Freibeträge aus dem Lohnsteuerermäßigungsverfahren, Einmalzahlungen und Besonderheiten einzelner Krankenkassen.",
     "stand": "Rechtsstand {annee} · Parameter geprüft am {date}"
   },
@@ -366,7 +369,7 @@
     },
 
     "ctaEtiquette": "Erstberatung auf Deutsch, Französisch oder Englisch",
-    "ctaTexte": "Wir betreuen über 1.000 Mandanten, viele davon international. Wir prüfen Ihren Fall, beantragen das Splitting und übernehmen die Kommunikation mit dem Finanzamt.",
+    "ctaTexte": "Wir ordnen Ihre Situation im Gespräch und zeigen, welche Themen für Sie relevant sind — auf Deutsch, Französisch oder Englisch. Die steuerliche Bewertung und die Erklärung selbst erfolgen über einen kooperierenden Steuerberater.",
     "ctaBouton": "Kostenlose Erstberatung buchen",
     "avertissement": "Vereinfachte Schätzung. Die konkrete Anwendung eines Doppelbesteuerungsabkommens hängt immer vom Einzelfall ab — insbesondere bei Renten, Vermietung, Kapitalerträgen und Entsendungen.",
     "stand": "Rechtsstand {annee} · Parameter geprüft am {date}"
@@ -624,7 +627,7 @@
       }
     },
     "ctaEtiquette": "Entscheidung absichern",
-    "ctaTexte": "Fünf Jahre Bindung verdienen eine saubere Rechnung. Wir prüfen Ihre Zahlen, Ihre Kundenstruktur und Ihre geplanten Investitionen — und übernehmen auf Wunsch die Voranmeldungen.",
+    "ctaTexte": "Fünf Jahre Bindung verdienen eine saubere Rechnung. Wir gehen Ihre Zahlen, Ihre Kundenstruktur und Ihre geplanten Investitionen mit Ihnen durch; die Voranmeldungen laufen über einen kooperierenden Steuerberater.",
     "ctaBouton": "Kostenlose Erstberatung buchen",
     "avertissement": "Vereinfachter Vergleich. Nicht berücksichtigt: innergemeinschaftliche Leistungen und Reverse-Charge-Fälle, Differenzbesteuerung, gemischte Steuersätze sowie die Vorsteuerberichtigung nach § 15a UStG beim Wechsel."
   },
@@ -1336,7 +1339,7 @@
       }
     },
     "ctaEtiquette": "Frist sichern",
-    "ctaTexte": "Wir übernehmen Ihre Erklärung, prüfen rückwirkend die offenen Jahre und Sie gewinnen automatisch sieben Monate Frist.",
+    "ctaTexte": "Wir ordnen Ihre Situation, sichten die offenen Jahre und begleiten die Erklärung über einen kooperierenden Steuerberater — mit dem verlängerten Abgabetermin.",
     "ctaBouton": "Kostenlose Erstberatung buchen",
     "avertissement": "Orientierungshilfe, keine abschließende Prüfung. § 46 EStG kennt weitere Tatbestände; maßgeblich bleibt Ihre konkrete Situation. Fristen können durch Einzelverfügung des Finanzamts abweichen.",
     "stand": "Fristen nach § 149 AO, Stand {date}"

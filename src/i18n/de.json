@@ -1,23 +1,20 @@
 {
   "title": "Steuer-Simulator",
-  "subtitle": "Ermitteln Sie Ihr steuerliches Optimierungspotenzial in wenigen Minuten",
+  "subtitle": "Verschaffen Sie sich in wenigen Minuten einen ersten Überblick über Ihre steuerliche Situation",
   "next": "Weiter",
   "back": "Zurück",
   "step": "Schritt",
   "of": "von",
-
   "welcome": {
-    "headline": "Wie viel Steuern könnten Sie sparen?",
-    "subline": "Unser kostenloser Simulator analysiert Ihr Profil und zeigt Ihnen in 2 Minuten Ihr Optimierungspotenzial.",
+    "headline": "Wie ist Ihre steuerliche Situation aufgestellt?",
+    "subline": "Unser kostenloser Simulator ordnet Ihre Angaben und zeigt Ihnen, welche steuerlichen Themen für Sie relevant sein können.",
     "cta": "Simulation starten",
-    "trust1": "1.000+ Mandanten betreut",
-    "trust2": "Finanz- und Unternehmensberatung Berlin",
+    "trust1": "Mandate in DE, FR & international",
+    "trust2": "Finanz- & Unternehmensberatung, Berlin",
     "trust3": "Dreisprachig: DE | FR | EN",
     "trust4": "Digitale Kanzlei mit TaxDome",
-    "privacy": "Keine Anmeldung nötig. Ihre Daten werden nicht gespeichert.",
-    "socialProof": "Durchschnittliches Optimierungspotenzial unserer Mandanten: 2.500 € pro Jahr"
+    "privacy": "Keine Anmeldung nötig. Ihre Daten werden nicht gespeichert."
   },
-
   "step1": {
     "title": "Was ist Ihr Profil?",
     "salarie": "Arbeitnehmer/in",
@@ -34,19 +31,8 @@
     "retraite_desc": "Altersrente, Pension",
     "double": "Doppelte Tätigkeit",
     "double_de": "Hauptberuf + Nebenberuf",
-    "double_desc": "Angestellt + selbständig",
-    "beamte": "Beamter/in",
-    "beamte_desc": "Öffentlicher Dienst, Pension",
-    "etudiant": "Student/in",
-    "etudiant_desc": "Werkstudent, Praktikant, Studium",
-    "elternzeit": "Elternzeit",
-    "elternzeit_desc": "Mutterschutz, Elterngeld-Bezug",
-    "arbeitslos": "Arbeitssuchend",
-    "arbeitslos_desc": "ALG I/II, Bürgergeld",
-    "autre": "Sonstiges",
-    "autre_desc": "Andere Lebenssituation"
+    "double_desc": "Angestellt + selbständig"
   },
-
   "step2": {
     "title": "Einkünfte & Ausgaben",
     "revenu": "Jahreseinkommen brutto",
@@ -59,9 +45,8 @@
     "charges_de": "Miete, Software, Material, Fahrzeug...",
     "oui": "Ja",
     "non": "Nein",
-    "hint": "Der Arbeitnehmer-Pauschbetrag liegt bei 1.230 €/Jahr. Nur wenn Ihre tatsächlichen Kosten höher sind, lohnt sich die Angabe."
+    "hint": "Der Arbeitnehmer-Pauschbetrag liegt bei 1.230 EUR/Jahr. Nur wenn Ihre tatsächlichen Kosten höher sind, lohnt sich die Angabe."
   },
-
   "step3": {
     "title": "Familiäre Situation",
     "statut": "Familienstand",
@@ -70,38 +55,26 @@
     "pacse": "Eingetragene Lebenspartnerschaft",
     "veuf": "Verwitwet",
     "steuerklasse": "Steuerklasse",
-    "steuerklasseUnknown": "Ich weiß es nicht",
     "enfants": "Anzahl der Kinder",
     "kindergeld": "Kindergeld erhalten",
-    "kindergeld_de": "250 €/Monat pro Kind (2025)",
-    "hint": "Verheiratete Paare können durch Steuerklassenwechsel (III/V oder IV/IV) erheblich profitieren.",
-    "tooltip": {
-      "title": "Welche Steuerklasse habe ich?",
-      "I": "I — Ledige, Geschiedene, Verwitwete (ohne Kinder)",
-      "II": "II — Alleinerziehende mit mindestens einem Kind",
-      "III": "III — Verheiratete, höher verdienender Partner (besser Steuerklasse)",
-      "IV": "IV — Verheiratete, beide gleichermaßen verdienend",
-      "V": "V — Verheiratete, niedriger verdienender Partner (Pendant zu III)",
-      "VI": "VI — Zweit- und Nebenjobs",
-      "info": "Sie finden Ihre Steuerklasse auf der Gehaltsabrechnung oder im ELSTER-Portal."
-    }
+    "kindergeld_de": "250 EUR/Monat pro Kind (2025)",
+    "hint": "Verheiratete Paare koennen durch Steuerklassenwechsel (III/V oder IV/IV) erheblich profitieren."
   },
-
   "step4": {
     "title": "Sonderabzüge",
     "subtitle": "Wählen Sie alle zutreffenden Situationen — jede kann Ihren Steuervorteil erhöhen.",
     "homeoffice": "Homeoffice-Pauschale",
-    "homeoffice_de": "6 €/Tag, max. 1.260 €/Jahr",
+    "homeoffice_de": "6 EUR/Tag, max. 1.260 EUR/Jahr",
     "doppelte": "Doppelte Haushaltsführung",
     "doppelte_de": "Zweitwohnung am Arbeitsort",
     "fortbildung": "Fortbildungskosten",
     "fortbildung_de": "Kurse, Seminare, Fachliteratur",
     "kinderbetreuung": "Kinderbetreuungskosten",
-    "kinderbetreuung_de": "Kita, Tagesmutter, Hort (max. 4.000 €/Kind)",
+    "kinderbetreuung_de": "Kita, Tagesmutter, Hort (max. 4.000 EUR/Kind)",
     "spenden": "Spenden",
     "spenden_de": "Gemeinnützige Organisationen",
     "handwerker": "Handwerkerleistungen",
-    "handwerker_de": "Renovierung, Reparaturen im Haushalt (20%, max. 1.200 €)",
+    "handwerker_de": "Renovierung, Reparaturen im Haushalt (20%, max. 1.200 EUR)",
     "umzug": "Umzugskosten",
     "umzug_de": "Beruflich bedingter Umzug, Pauschale",
     "crypto": "Krypto / Digitale Vermögenswerte",
@@ -111,71 +84,60 @@
     "medical": "Außergewöhnliche Belastungen",
     "medical_de": "Krankheitskosten, Pflegekosten"
   },
-
   "step5": {
     "title": "Ihre Steuerberechnung",
     "calculating": "Ihr Steuerprofil wird analysiert...",
-    "phase1": "Analysiere Ihr Profil...",
-    "phase2": "Prüfe Werbungskosten & Pendlerpauschale...",
-    "phase3": "Berechne Sonderausgaben & Familienvorteile...",
-    "phase4": "Ihr Ergebnis ist bereit!",
-    "potential": "Optimierungspotenzial",
+    "potential": "Orientierungswert",
     "low": "Gering",
     "medium": "Mittel",
     "high": "Hoch",
-    "estimated": "Geschätzter Erstattungsbetrag",
+    "estimated": "Unverbindlicher Orientierungswert",
     "optimized": "Optimierter Anteil",
     "notOptimized": "Nicht optimierter Anteil",
-    "disclaimer": "Dies ist eine vereinfachte Schätzung. Die tatsächliche Erstattung hängt von Ihrer individuellen Situation ab.",
-    "breakdownTitel": "So setzt sich Ihr Potenzial zusammen ({n} Positionen)",
-    "breakdownHinweis": "Schätzwerte — keine verbindliche Berechnung"
+    "disclaimer": "Unverbindliche, stark vereinfachte Orientierung — keine Steuerberatung und keine Berechnung Ihres Einzelfalls. Die steuerliche Bewertung erfolgt ausschließlich durch einen kooperierenden Steuerberater.",
+    "breakdownTitel": "So setzt sich der Orientierungswert zusammen ({n} Positionen)",
+    "breakdownHinweis": "Grobe Schätzwerte — keine Berechnung Ihres Einzelfalls"
   },
-
   "step6": {
     "title": "Ihr Ergebnis",
-    "summary": "Zusammenfassung Ihres Steuerpotenzials",
-    "ctaExclusive": "Exklusiv für Simulator-Nutzer",
-    "ctaPrimary": "Kostenlose Erstberatung buchen",
-    "ctaFreeNote": "15 Minuten • Gratis • Persönlich mit Poclaire Wamba & Team",
+    "summary": "Überblick über Ihre Angaben",
+    "ctaPrimary": "Kostenlose Beratung buchen",
+    "ctaSecondary": "Ergebnisse per E-Mail senden",
+    "ctaWhatsapp": "Per WhatsApp kontaktieren",
+    "nom": "Name",
+    "email": "E-Mail",
+    "envoyer": "Senden",
+    "merci": "Vielen Dank! Wir melden uns innerhalb von 24 Stunden bei Ihnen.",
     "restart": "Neue Simulation starten",
-
-    "msgSalarie": "Als Arbeitnehmer/in haben Sie erhebliches Optimierungspotenzial — insbesondere durch Werbungskosten, Pendlerpauschale und Sonderausgaben. Unser Team prüft Ihre Situation und holt das Maximum für Sie heraus.",
-    "msgFreelance": "Als Freiberufler/Selbständiger können Sie durch geschickte Strukturierung Ihrer Betriebsausgaben, korrekte EÜR und USt-Voranmeldung erhebliche Steuerersparnisse erzielen. Wir übernehmen auch Ihre laufende Finanzbuchhaltung.",
-    "msgGerant": "Als Geschäftsführer/in bieten Vergütungsoptimierung, Gesellschafter-Darlehen und absetzbare Betriebskosten große steuerliche Hebel. Wir erstellen Ihren Jahresabschluss und die laufende FiBu.",
-    "msgRetraite": "Als Rentner/in gibt es oft unbekannte Abzugsmöglichkeiten — Krankheitskosten, Handwerkerleistungen und haushaltsnahe Dienstleistungen. Wir prüfen Ihren Rentenbescheid.",
-    "msgDouble": "Mit doppelter Tätigkeit ist die steuerliche Koordination beider Einkünfte entscheidend. Wir optimieren Ihre Gesamtsteuerlast und kümmern uns um Ihre Gewerbeanmeldung und EÜR.",
-    "msgBeamte": "Als Beamter/in profitieren Sie von speziellen Pauschalen, Werbungskosten und Sonderausgaben. Wir kennen die Besonderheiten der Beamtenbesoldung und Pensionsbesteuerung.",
-    "msgEtudiant": "Als Student/in können Sie oft rückwirkend Steuern erstatten lassen — insbesondere Studienkosten, Fahrtkosten und Werkstudentengehalt. Verluste sind übertragbar.",
-    "msgElternzeit": "Während der Elternzeit kann Elterngeld den Progressionsvorbehalt auslösen. Wir prüfen, ob sich eine Steuererklärung für Sie lohnt — oft gibt es Erstattungen.",
-    "msgArbeitslos": "Arbeitssuchende können Bewerbungskosten, Fortbildungen und Umzugskosten geltend machen. Wir prüfen Ihre individuelle Situation auf Erstattungspotenzial.",
-    "msgAutre": "Jede Lebenssituation hat ihre steuerlichen Besonderheiten. Wir analysieren Ihren Fall individuell und finden die für Sie passende Lösung.",
-
-    "servicesTitle": "Empfohlene Leistungen für Sie",
+    "msgSalarie": "Für Arbeitnehmerinnen und Arbeitnehmer sind häufig Werbungskosten, Pendlerpauschale und Sonderausgaben relevante Themen. Ob und wie sich das in Ihrem Fall auswirkt, klärt ein kooperierender Steuerberater im persönlichen Gespräch.",
+    "msgFreelance": "Für Freiberufler und Selbständige sind Betriebsausgaben, EÜR und Umsatzsteuer-Voranmeldung typische Themen. Die laufende Finanzbuchhaltung übernehmen wir; die steuerliche Bewertung erfolgt durch einen kooperierenden Steuerberater.",
+    "msgGerant": "Für Geschäftsführerinnen und Geschäftsführer sind Vergütungsstruktur, Gesellschafter-Darlehen und Betriebskosten typische Themen. Die laufende Finanzbuchhaltung übernehmen wir; die steuerliche Bewertung erfolgt durch einen kooperierenden Steuerberater.",
+    "msgRetraite": "Für Rentnerinnen und Rentner sind Krankheitskosten, Handwerkerleistungen und haushaltsnahe Dienstleistungen häufige Themen. Ein kooperierender Steuerberater ordnet Ihren Einzelfall ein.",
+    "msgDouble": "Bei zwei Tätigkeiten ist das Zusammenspiel beider Einkunftsarten das zentrale Thema. Die laufende Finanzbuchhaltung übernehmen wir; die steuerliche Bewertung erfolgt durch einen kooperierenden Steuerberater.",
+    "servicesTitle": "Themen, die für Sie relevant sein können",
     "services": {
-      "einkommensteuer": "Einkommensteuererklärung",
-      "bescheidpruefung": "Bescheidprüfung & Einspruch",
-      "lohnsteuerausgleich": "Lohnsteuerausgleich",
+      "einkommensteuer": "Einkommensteuererklärung (über kooperierenden Steuerberater)",
+      "bescheidpruefung": "Bescheidprüfung & Einspruch (über kooperierenden Steuerberater)",
+      "lohnsteuerausgleich": "Lohnsteuerausgleich (über kooperierenden Steuerberater)",
       "eur": "Einnahmen-Überschuss-Rechnung (EÜR)",
       "ustVoranmeldung": "USt-Voranmeldung",
       "gewerbeanmeldung": "Gewerbeanmeldung",
       "fibu": "Laufende Finanzbuchhaltung",
-      "jahresabschluss": "Jahresabschluss",
+      "jahresabschluss": "Jahresabschluss (über kooperierenden Steuerberater)",
       "lohnbuchhaltung": "Lohnbuchhaltung",
-      "rentenberatung": "Rentenbesteuerung prüfen",
-      "beamtenberatung": "Beamtenberatung",
-      "studentenberatung": "Verlustvortrag Studium",
-      "elterngeldoptimierung": "Elterngeld-Optimierung",
-      "wiedereingliederung": "Wiedereingliederung"
+      "rentenberatung": "Rentenbesteuerung prüfen (über kooperierenden Steuerberater)"
     },
-
-    "signature": "WAMB'S Consulting — Finanz- und Unternehmensberatung — Berlin",
+    "signature": "WAMB'S Consulting — Finanz- & Unternehmensberatung — Berlin",
     "teamNote": "Ihr Ansprechpartner: Poclaire Wamba & Team"
   },
-
-  "footer": {
-    "disclaimer": "Dies ist keine Steuerberatung im Sinne des § 4 StBerG. Verbindliche Beratung ausschließlich durch einen unabhängigen Steuerberater.",
-    "impressum": "Impressum",
-    "datenschutz": "Datenschutz",
-    "kontakt": "Kontakt"
-  }
+  "legal": {
+    "legalTitle": "Anbieter",
+    "legalBody": "WAMB'S Consulting · Inhaber: Poclaire Wamba · Knesebeckstr. 63, 10719 Berlin · info@wambsconsulting.de · USt-IdNr. DE344424912",
+    "legalDisclaimer": "Dieser Simulator liefert eine unverbindliche, stark vereinfachte Orientierung und stellt keine Hilfeleistung in Steuersachen im Sinne des § 1 StBerG dar. WAMB'S Consulting erbringt Leistungen nach § 6 Nr. 3+4 StBerG; die steuerliche Bewertung erfolgt ausschließlich durch einen kooperierenden Steuerberater.",
+    "legalPrivacy": "Es werden keine Eingaben gespeichert und keine Cookies gesetzt."
+  },
+  "site.services": "Leistungen",
+  "site.firm": "Kanzlei",
+  "site.contact": "Kontakt",
+  "site.back": "Zur Website"
 }

@@ -268,6 +268,15 @@ export function BlocCta({ titre, sousTitre, libelleBouton, note, t, resume }) {
       )}
 
       {note && <p className="text-wambs-muted text-xs text-center">{note}</p>}
+
+      {/* Marquage des Vorbehaltsaufgaben, impose par la revision de conformite
+          du 10.08.2026. Rendu ici plutot que repete dans chaque texte : un
+          nouvel outil ne peut pas l'oublier. */}
+      {t?.vorbehalt && (
+        <p className="text-wambs-muted text-[11px] text-center mt-2 leading-relaxed opacity-80">
+          {t.vorbehalt}
+        </p>
+      )}
     </div>
   );
 }

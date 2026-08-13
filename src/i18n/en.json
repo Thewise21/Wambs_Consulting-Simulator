@@ -1,58 +1,44 @@
 {
   "title": "Tax Simulator",
-  "subtitle": "Estimate your tax optimization potential in just a few minutes",
+  "subtitle": "Get a first overview of your tax situation in just a few minutes",
   "next": "Next",
   "back": "Back",
   "step": "Step",
   "of": "of",
-
   "welcome": {
-    "headline": "How much tax could you save?",
-    "subline": "Our free simulator analyzes your profile and shows you your optimization potential in just 2 minutes.",
+    "headline": "How is your tax situation set up?",
+    "subline": "Our free simulator organises your details and shows which tax topics may be relevant for you.",
     "cta": "Start simulation",
-    "trust1": "1,000+ clients served",
-    "trust2": "Financial consultancy in Berlin",
+    "trust1": "Clients in DE, FR & internationally",
+    "trust2": "Financial & business consulting, Berlin",
     "trust3": "Trilingual: DE | FR | EN",
     "trust4": "Digital firm with TaxDome",
-    "privacy": "No registration required. Your data is not stored.",
-    "socialProof": "Average optimization potential of our clients: 2,500 € per year"
+    "privacy": "No registration required. Your data is not stored."
   },
-
   "step1": {
     "title": "What is your profile?",
     "salarie": "Employee",
     "salarie_de": "Arbeitnehmer",
     "salarie_desc": "Permanent position, payslip",
     "freelance": "Freelancer / Self-employed",
-    "freelance_de": "Freiberufler / Selbständiger",
+    "freelance_de": "Freiberufler / Selbstaendiger",
     "freelance_desc": "Trade license, own invoices",
     "gerant": "Company Director",
-    "gerant_de": "Geschäftsführer",
+    "gerant_de": "Geschaeftsfuehrer",
     "gerant_desc": "GmbH, UG, corporation",
     "retraite": "Retiree",
     "retraite_de": "Rentner",
     "retraite_desc": "Old-age pension, retirement",
     "double": "Dual Activity",
     "double_de": "Main job + Side job",
-    "double_desc": "Employed + self-employed",
-    "beamte": "Civil Servant",
-    "beamte_desc": "Public service, pension",
-    "etudiant": "Student",
-    "etudiant_desc": "Working student, intern",
-    "elternzeit": "Parental Leave",
-    "elternzeit_desc": "Maternity, parental allowance",
-    "arbeitslos": "Job Seeker",
-    "arbeitslos_desc": "Unemployment benefits, Bürgergeld",
-    "autre": "Other",
-    "autre_desc": "Other life situation"
+    "double_desc": "Employed + self-employed"
   },
-
   "step2": {
     "title": "Income & Expenses",
     "revenu": "Gross annual income",
     "revenu_de": "Jahreseinkommen brutto",
     "retraiteContrib": "Retirement contributions",
-    "retraiteContrib_de": "Riester, Rürup, bAV, private pension",
+    "retraiteContrib_de": "Riester, Ruerup, bAV, private pension",
     "fraisPro": "Actual professional expenses",
     "fraisPro_de": "Commuting, work equipment, training...",
     "charges": "Business expenses",
@@ -61,7 +47,6 @@
     "non": "No",
     "hint": "The flat-rate deduction (Pauschbetrag) is 1,230 EUR/year. Only specify if your actual expenses exceed this amount."
   },
-
   "step3": {
     "title": "Family Situation",
     "statut": "Marital status",
@@ -69,24 +54,12 @@
     "marie": "Married",
     "pacse": "Registered civil partnership",
     "veuf": "Widowed",
-    "steuerklasse": "Tax class (Steuerklasse)",
-    "steuerklasseUnknown": "I don't know",
+    "steuerklasse": "Tax class",
     "enfants": "Number of children",
     "kindergeld": "Child benefit received",
     "kindergeld_de": "250 EUR/month per child (2025)",
-    "hint": "Married couples can benefit significantly from a tax class change (III/V or IV/IV).",
-    "tooltip": {
-      "title": "Which tax class do I have?",
-      "I": "I — Single, divorced, widowed (no children)",
-      "II": "II — Single parent with at least one child",
-      "III": "III — Married, higher-earning partner",
-      "IV": "IV — Married, both earning roughly equally",
-      "V": "V — Married, lower-earning partner (counterpart to III)",
-      "VI": "VI — Second and side jobs",
-      "info": "You can find your tax class on your payslip or in the ELSTER portal."
-    }
+    "hint": "Married couples can benefit significantly from a tax class change (III/V or IV/IV)."
   },
-
   "step4": {
     "title": "Special Deductions",
     "subtitle": "Select all applicable situations — each can increase your tax advantage.",
@@ -111,71 +84,60 @@
     "medical": "Extraordinary expenses",
     "medical_de": "Medical costs, care costs"
   },
-
   "step5": {
     "title": "Your Tax Estimate",
     "calculating": "Analyzing your tax profile...",
-    "phase1": "Analyzing your profile...",
-    "phase2": "Reviewing work expenses & commuter allowance...",
-    "phase3": "Calculating special deductions & family benefits...",
-    "phase4": "Your result is ready!",
-    "potential": "Optimization potential",
+    "potential": "Indicative value",
     "low": "Low",
     "medium": "Medium",
     "high": "High",
-    "estimated": "Estimated recoverable amount",
+    "estimated": "Non-binding indicative value",
     "optimized": "Optimized portion",
     "notOptimized": "Non-optimized portion",
-    "disclaimer": "This is a simplified estimate. The actual refund depends on your individual situation.",
-    "breakdownTitel": "How your potential breaks down ({n} items)",
-    "breakdownHinweis": "Estimated values — not a binding calculation"
+    "disclaimer": "A non-binding, heavily simplified orientation — neither tax advice nor a calculation of your individual case. The tax assessment is carried out exclusively by a cooperating certified tax advisor (Steuerberater).",
+    "breakdownTitel": "How the indicative figure breaks down ({n} items)",
+    "breakdownHinweis": "Rough estimates — not a calculation of your individual case"
   },
-
   "step6": {
     "title": "Your Result",
-    "summary": "Summary of your tax potential",
-    "ctaExclusive": "Exclusive for simulator users",
+    "summary": "Overview of your details",
     "ctaPrimary": "Book your free consultation",
-    "ctaFreeNote": "15 minutes • Free • Personally with Poclaire Wamba & Team",
+    "ctaSecondary": "Send my results by email",
+    "ctaWhatsapp": "Contact via WhatsApp",
+    "nom": "Name",
+    "email": "Email",
+    "envoyer": "Send",
+    "merci": "Thank you! We will get back to you within 24 hours.",
     "restart": "New simulation",
-
-    "msgSalarie": "As an employee, you have significant optimization potential — especially through professional expenses, commuter allowance and special deductions. Our team reviews your situation and maximizes your refund.",
-    "msgFreelance": "As a freelancer, smart structuring of your business expenses, proper income-expenditure accounting and VAT returns can generate substantial tax savings. We also handle your ongoing bookkeeping.",
-    "msgGerant": "As a company director, compensation optimization, shareholder loans and deductible business costs offer major tax leverage. We prepare your annual financial statements and ongoing accounting.",
-    "msgRetraite": "As a retiree, often overlooked deductions — medical costs, craftsman services and household services — can significantly reduce your tax. We review your pension assessment.",
-    "msgDouble": "With dual activity, tax coordination between both income sources is essential. We optimize your overall tax burden and handle your trade registration and income-expenditure accounting.",
-    "msgBeamte": "As a civil servant, you benefit from specific allowances, work expenses and special deductions. We know the specifics of civil servant compensation and pension taxation.",
-    "msgEtudiant": "As a student, you can often retroactively reclaim taxes — especially study costs, travel expenses and working student income. Losses are carryable.",
-    "msgElternzeit": "During parental leave, parental allowance can trigger the progression clause. We check if a tax return is worthwhile — often there are refunds.",
-    "msgArbeitslos": "Job seekers can deduct application costs, training and relocation expenses. We analyze your individual situation for refund potential.",
-    "msgAutre": "Every life situation has its tax specifics. We analyze your case individually to find the right solution for you.",
-
-    "servicesTitle": "Recommended services for you",
+    "msgSalarie": "For employees, work-related expenses, the commuter allowance and special deductions are common topics. A cooperating certified tax advisor will clarify how this applies to your case in a personal consultation.",
+    "msgFreelance": "For freelancers and the self-employed, business expenses, the EÜR and VAT returns are typical topics. We handle the ongoing bookkeeping; the tax assessment is carried out by a cooperating certified tax advisor.",
+    "msgGerant": "For company directors, compensation structure, shareholder loans and business costs are typical topics. We handle the ongoing bookkeeping; the tax assessment is carried out by a cooperating certified tax advisor.",
+    "msgRetraite": "For pensioners, medical costs, tradesperson services and household-related services are common topics. A cooperating certified tax advisor will assess your individual case.",
+    "msgDouble": "With two activities, the interplay of both income types is the central topic. We handle the ongoing bookkeeping; the tax assessment is carried out by a cooperating certified tax advisor.",
+    "servicesTitle": "Topics that may be relevant for you",
     "services": {
-      "einkommensteuer": "Income tax return",
-      "bescheidpruefung": "Tax assessment review & appeal",
-      "lohnsteuerausgleich": "Wage tax adjustment",
-      "eur": "Income-expenditure accounting (EÜR)",
+      "einkommensteuer": "Income tax return (via a cooperating tax advisor)",
+      "bescheidpruefung": "Tax assessment review & appeal (via a cooperating tax advisor)",
+      "lohnsteuerausgleich": "Wage tax adjustment (via a cooperating tax advisor)",
+      "eur": "Income-expenditure accounting (EUeR)",
       "ustVoranmeldung": "VAT advance return",
       "gewerbeanmeldung": "Trade registration",
       "fibu": "Ongoing bookkeeping",
-      "jahresabschluss": "Annual financial statements",
+      "jahresabschluss": "Annual financial statements (via a cooperating tax advisor)",
       "lohnbuchhaltung": "Payroll accounting",
-      "rentenberatung": "Pension taxation review",
-      "beamtenberatung": "Civil servant consulting",
-      "studentenberatung": "Study loss carryforward",
-      "elterngeldoptimierung": "Parental allowance optimization",
-      "wiedereingliederung": "Job reintegration support"
+      "rentenberatung": "Pension taxation review (via a cooperating tax advisor)"
     },
-
-    "signature": "WAMB'S Consulting — Financial Consultancy — Berlin",
+    "signature": "WAMB'S Consulting — Financial & Business Consulting — Berlin",
     "teamNote": "Your contact: Poclaire Wamba & Team"
   },
-
-  "footer": {
-    "disclaimer": "This is not tax advice within the meaning of § 4 StBerG. Binding advice exclusively by an independent tax adviser (Steuerberater).",
-    "impressum": "Legal Notice",
-    "datenschutz": "Privacy",
-    "kontakt": "Contact"
-  }
+  "legal": {
+    "legalTitle": "Provider",
+    "legalBody": "WAMB'S Consulting · Owner: Poclaire Wamba · Knesebeckstr. 63, 10719 Berlin, Germany · info@wambsconsulting.de · VAT ID DE344424912",
+    "legalDisclaimer": "This simulator provides a non-binding, heavily simplified orientation and does not constitute assistance in tax matters within the meaning of § 1 StBerG. WAMB'S Consulting provides services under § 6 no. 3+4 StBerG; the tax assessment is carried out exclusively by a cooperating certified tax advisor.",
+    "legalPrivacy": "No entries are stored and no cookies are used."
+  },
+  "site.services": "Services",
+  "site.firm": "Firm",
+  "site.contact": "Contact",
+  "site.back": "To the website"
 }

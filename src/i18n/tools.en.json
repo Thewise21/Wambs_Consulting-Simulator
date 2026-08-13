@@ -1,4 +1,6 @@
 {
+  "vorbehalt": "Reserved activities — tax returns, annual accounts, periodic filings and the tax assessment of your individual case — are carried out exclusively through a cooperating certified tax advisor.",
+
   "lead": {
     "introduction": "Leave us your details — we will come back to you with your result and suggest an appointment.",
     "champs": {
@@ -20,13 +22,14 @@
 
   "hub": {
     "titreOnglet": "Tax calculators",
-    "headline": "Calculators that give you a number, not a brochure",
-    "subline": "Four free simulators from a Berlin financial consultancy. No sign-up, available in English, German and French.",
+    "headline": "Calculators that give you an indicative figure, not a brochure",
+    "subline": "Free calculators from a Berlin financial consultancy. No sign-up, available in English, German and French.",
     "demarrer": "Start",
     "retour": "All calculators",
     "badgeNouveau": "New",
     "badgePopulaire": "Popular",
-    "trustMandanten": "clients advised",
+    "trustMandantenValeur": "DE · FR · int.",
+    "trustMandanten": "engagements in DE, FR and internationally",
     "trustSprachen": "advisory languages",
     "trustStandort": "firm location",
     "trustKostenlos": "free, no sign-up",
@@ -189,13 +192,13 @@
     "salaireConjointMois": "Partner's gross salary per month",
     "salaireConjointAn": "Partner's gross salary per year",
     "gainCoupleTitre": "Up to {montant} more net per month",
-    "gainCoupleTexte": "That is the gap between the best and the worst tax class combination. You may switch once a year — we check whether it is worth it in your case.",
+    "gainCoupleTexte": "That is the gap between the best and the worst tax class combination. You may switch once a year — in the meeting we place whether it could apply to you.",
     "alerteJAEGTitre": "You are above the compulsory insurance threshold",
     "alerteJAEGTexte": "At this income you may move to private health insurance. The decision binds you for decades, so it deserves to be calculated first.",
     "alerteKlasseVTitre": "Class V is deliberately over-taxed",
     "alerteKlasseVTexte": "Withholding in class V is high by design. For classes V and VI this calculation approximates § 39b Abs. 2 EStG. Check whether class IV with factor suits you better.",
     "ctaEtiquette": "Free initial consultation",
-    "ctaTexte": "We review your tax class, your deductible expenses and your refund entitlement — 15 minutes, no obligation.",
+    "ctaTexte": "In 15 minutes we place your tax class, your deductible expenses and the question of a possible refund in context — no obligation.",
     "avertissement": "Non-binding estimate. Not included: benefits in kind, individual allowances granted by the tax office, one-off payments and the specifics of individual health funds.",
     "stand": "Law as at {annee} · parameters verified on {date}"
   },
@@ -366,7 +369,7 @@
     },
 
     "ctaEtiquette": "Initial consultation in English, German or French",
-    "ctaTexte": "We advise over 1,000 clients, many of them international. We review your case, claim joint assessment and handle all correspondence with the tax office.",
+    "ctaTexte": "We map out your situation in the meeting and show which topics are relevant to you — in English, German or French. The tax assessment and the return itself go through a cooperating certified tax advisor.",
     "ctaBouton": "Book a free consultation",
     "avertissement": "Simplified estimate. How a double taxation treaty actually applies always depends on the individual case — especially for pensions, rental income, investment income and secondments.",
     "stand": "Law as at {annee} · parameters verified on {date}"
@@ -624,7 +627,7 @@
       }
     },
     "ctaEtiquette": "Get the decision right",
-    "ctaTexte": "Five years of commitment deserve a proper calculation. We review your figures, your customer mix and your planned investments — and handle the returns if you wish.",
+    "ctaTexte": "Five years of commitment deserve a proper calculation. We go through your figures, your customer mix and your planned investments with you; the periodic returns run through a cooperating certified tax advisor.",
     "ctaBouton": "Book a free consultation",
     "avertissement": "Simplified comparison. Not included: intra-EU supplies and reverse charge, margin scheme, mixed rates, and the input VAT adjustment under § 15a UStG when switching regimes."
   },
@@ -1336,7 +1339,7 @@
       }
     },
     "ctaEtiquette": "Secure the deadline",
-    "ctaTexte": "We take on your return, review the open years retroactively, and you automatically gain seven months of extra time.",
+    "ctaTexte": "We map out your situation, go through the open years and support the return via a cooperating certified tax advisor — with the extended deadline.",
     "ctaBouton": "Book a free consultation",
     "avertissement": "Orientation only, not a definitive assessment. § 46 EStG contains further grounds; your actual circumstances govern. Deadlines may differ by individual order of the tax office.",
     "stand": "Deadlines under § 149 AO, as at {date}"

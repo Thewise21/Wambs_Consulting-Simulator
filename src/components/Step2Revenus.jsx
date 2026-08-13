@@ -72,7 +72,7 @@ export default function Step2Revenus({ data, setData, t }) {
       </div>
 
       {s.hint && (
-        <div className="rounded-lg p-3 text-xs text-wambs-cyan" style={{ backgroundColor: 'rgba(6, 245, 245, 0.06)', border: '1px solid rgba(6, 245, 245, 0.15)' }}>
+        <div className="hint p-3 text-xs text-wambs-muted">
           <span className="font-medium">💡</span> {s.hint}
         </div>
       )}

@@ -142,7 +142,9 @@ function sansExpressions(texte) {
 const ATTRIBUTS_VISIBLES = /\b(aria-label|alt|title|placeholder)="([^"]{4,})"/g;
 
 /* Le nom de marque et la ponctuation decorative ne se traduisent pas */
-const TOLERE = /^(&[a-z]+;|WAMB(&apos;|')?S( Consulting)?|Toggle theme|[\s·•—↻/|,.:;()-]+)$/i;
+/* Le libelle du selecteur de langue est trilingue par construction : il doit
+   rester lisible quelle que soit la langue affichee. */
+const TOLERE = /^(&[a-z]+;|WAMB(&apos;|')?S( Consulting)?|Toggle theme|Sprache \/ Langue \/ Language|[\s·•—↻/|,.:;()-]+)$/i;
 /* Un fragment qui contient ces marqueurs est du code JSX, pas de la prose */
 const CODE = /(&&|\|\||=>|===|!==|[<>=]=|\breturn\b|\bconst\b|[();]|:\s*\()/;
 

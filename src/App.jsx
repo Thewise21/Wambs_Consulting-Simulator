@@ -1,9 +1,14 @@
 /* Coquille de l'application — theme, langue, navigation entre simulateurs.
- * Chaque simulateur vit dans src/tools/ et ne connait ni le theme ni la route. */
+ * Chaque simulateur vit dans src/tools/ et ne connait ni le theme ni la route.
+ *
+ * L'en-tete, le pied de page legal et les retours vers le site principal
+ * proviennent de la revision de conformite validee le 10.08.2026 : ils ne
+ * doivent pas etre alleges. */
 import { useEffect, useState } from 'react';
 import LanguageSelector from './components/LanguageSelector';
 import ToolHub from './components/ToolHub';
 import { RetourHub } from './components/shared/UI';
+import FournisseurOutil from './components/shared/FournisseurOutil';
 import SteuerTool from './tools/SteuerTool';
 import BruttoNettoTool from './tools/BruttoNettoTool';
 import ExpatTool from './tools/ExpatTool';
@@ -21,10 +26,9 @@ import ErklaerungspflichtTool from './tools/ErklaerungspflichtTool';
 import UnterhaltTool from './tools/UnterhaltTool';
 import KindergeldAuslandTool from './tools/KindergeldAuslandTool';
 import RentenerstattungTool from './tools/RentenerstattungTool';
-import { LINKS } from './config/links';
+import { HOME, SITE } from './config/links';
 import { outilParRoute } from './config/tools';
 import { useRoute } from './lib/router';
-import FournisseurOutil from './components/shared/FournisseurOutil';
 
 import frJson from './i18n/fr.json';
 import deJson from './i18n/de.json';
@@ -40,7 +44,7 @@ const traductions = {
 };
 
 const CLE_LANGUE = 'wambs-langue';
-const CLE_THEME = 'wambs-theme';
+const THEME_KEY = 'wambs-theme';
 
 const COMPOSANTS = {
   steuer: SteuerTool,
@@ -88,7 +92,7 @@ function MoonIcon() {
 export default function App() {
   const [route, naviguer] = useRoute();
   const [langue, setLangue] = useState(() => lireStockage(CLE_LANGUE, ['fr', 'de', 'en'], 'de'));
-  const [theme, setTheme] = useState(() => lireStockage(CLE_THEME, ['light', 'dark'], 'light'));
+  const [theme, setTheme] = useState(() => lireStockage(THEME_KEY, ['light', 'dark'], 'light'));
 
   const t = traductions[langue];
   const outil = outilParRoute(route);
@@ -96,9 +100,11 @@ export default function App() {
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
-    document.body.style.backgroundColor = theme === 'dark' ? '#030712' : '#FFFFFF';
-    document.body.style.color = theme === 'dark' ? '#E2E8F0' : '#1E293B';
-    localStorage.setItem(CLE_THEME, theme);
+    /* Papier bzw. Tinte — muss zur Stildatei passen, sonst blitzt beim
+       Ueberscrollen die alte Farbe durch. */
+    document.body.style.backgroundColor = theme === 'dark' ? '#0E1620' : '#F4F1EA';
+    document.body.style.color = theme === 'dark' ? '#F4F1EA' : '#111A24';
+    localStorage.setItem(THEME_KEY, theme);
   }, [theme]);
 
   useEffect(() => {
@@ -113,28 +119,36 @@ export default function App() {
 
   const basculerTheme = () => setTheme((prev) => (prev === 'light' ? 'dark' : 'light'));
 
-  const sousTitre = outil ? t.hub.outils[outil.id]?.titre : t.subtitle;
-  const f = t.footer || {};
+  const sousTitre = outil ? t.hub.outils[outil.id]?.titre : t.title;
 
   return (
     <div className="min-h-screen bg-wambs-dark relative flex flex-col">
       <div className="bg-orbs" />
 
       <header className="sticky top-0 z-10 header-bg">
-        <div className="max-w-2xl lg:max-w-4xl xl:max-w-6xl mx-auto px-3 sm:px-4 py-2.5 sm:py-3
-                        flex items-center justify-between">
-          <button
-            type="button"
-            onClick={() => naviguer('')}
-            className="flex items-center gap-2 sm:gap-3 min-w-0 cursor-pointer text-left"
-          >
-            <img src="/logo-wambs.png" alt="WAMB'S Consulting" className="h-8 w-8 sm:h-10 sm:w-10 object-contain flex-shrink-0" />
+        <div className="max-w-2xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 py-3
+                        flex items-center justify-between gap-2">
+          {/* Die Marke fuehrt zurueck zur Website — sonst ist der Simulator
+              eine Sackgasse. */}
+          <a href={HOME} className="flex items-center gap-3 min-w-0 group" title={t['site.back']}>
+            <img src={`${import.meta.env.BASE_URL}logo-mark.png`} alt="WAMB'S Consulting"
+              className="h-10 w-10 object-contain flex-shrink-0" />
             <div className="min-w-0">
-              <h1 className="text-base sm:text-xl font-bold text-gradient tracking-wide">WAMB&apos;S</h1>
-              <p className="text-[10px] sm:text-xs text-wambs-muted truncate">{sousTitre}</p>
+              <h1 className="text-xl font-bold text-gradient tracking-wide">WAMB&apos;S</h1>
+              {/* Untertitel erst ab Tablet — auf dem Telefon fehlt die Breite */}
+              <p className="text-xs text-wambs-muted hidden sm:block truncate">{sousTitre}</p>
             </div>
-          </button>
-          <div className="flex items-center gap-1.5 sm:gap-2 flex-shrink-0">
+          </a>
+          <div className="flex items-center gap-2 flex-shrink-0">
+            {/* Website-Navigation ab Tablet — auf dem Telefon genuegt die Marke */}
+            <nav className="hidden lg:flex items-center gap-5 mr-3">
+              {SITE.map(({ key, href }) => (
+                <a key={key} href={href}
+                  className="text-sm text-wambs-muted hover:text-wambs-text transition-colors">
+                  {t[`site.${key}`]}
+                </a>
+              ))}
+            </nav>
             <button
               type="button"
               onClick={basculerTheme}
@@ -162,27 +176,27 @@ export default function App() {
         )}
       </main>
 
-      <footer className="relative z-1 mt-4 sm:mt-6 px-3 sm:px-4 pb-4 sm:pb-6">
-        <div className="max-w-2xl lg:max-w-4xl xl:max-w-6xl mx-auto border-t border-wambs-border pt-3 sm:pt-4">
-          <p className="text-[10px] sm:text-xs text-wambs-muted text-center leading-relaxed mb-2">
-            {f.disclaimer}
-          </p>
-          <div className="flex items-center justify-center gap-3 sm:gap-4 flex-wrap text-[10px] sm:text-xs">
-            <a href={LINKS.impressum} target="_blank" rel="noopener noreferrer"
-              className="text-wambs-muted hover:text-wambs-cyan transition-colors">
-              {f.impressum}
+      {/* Pflichtangaben & Haftungshinweis — auf jeder Ansicht sichtbar */}
+      <footer className="relative z-10 mt-10 border-t border-wambs-border">
+        <div className="max-w-2xl lg:max-w-4xl mx-auto px-4 py-6 text-center">
+          <p className="text-wambs-muted text-[11px] font-semibold uppercase tracking-wider mb-1">{t.legal.legalTitle}</p>
+          <p className="text-wambs-muted text-[11px] leading-relaxed">{t.legal.legalBody}</p>
+          <p className="text-wambs-muted text-[11px] leading-relaxed mt-2">{t.legal.legalDisclaimer}</p>
+          <p className="text-wambs-muted text-[11px] leading-relaxed mt-2 opacity-80">{t.legal.legalPrivacy}</p>
+
+          {/* Rueckwege zur Website — hier auch auf dem Telefon erreichbar */}
+          <nav className="flex flex-wrap items-center justify-center gap-x-5 mt-5 pt-4 border-t border-wambs-border">
+            <a href={HOME}
+              className="inline-flex items-center min-h-[44px] text-sm text-wambs-text hover:text-wambs-cyan transition-colors">
+              {t['site.back']}
             </a>
-            <span className="text-wambs-border">&bull;</span>
-            <a href={LINKS.datenschutz} target="_blank" rel="noopener noreferrer"
-              className="text-wambs-muted hover:text-wambs-cyan transition-colors">
-              {f.datenschutz}
-            </a>
-            <span className="text-wambs-border">&bull;</span>
-            <a href={`mailto:${LINKS.email}`}
-              className="text-wambs-muted hover:text-wambs-cyan transition-colors">
-              {f.kontakt}
-            </a>
-          </div>
+            {SITE.map(({ key, href }) => (
+              <a key={key} href={href}
+                className="inline-flex items-center min-h-[44px] text-sm text-wambs-muted hover:text-wambs-text transition-colors">
+                {t[`site.${key}`]}
+              </a>
+            ))}
+          </nav>
         </div>
       </footer>
     </div>

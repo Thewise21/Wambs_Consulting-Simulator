@@ -166,8 +166,10 @@ export default function ToolHub({ t, naviguer }) {
 
       {/* Signaux de confiance */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3">
+        {/* Aucun chiffre de clientele ici : la revision de conformite du
+            10.08.2026 a retire « 1.000+ Mandanten » comme non etaye. */}
         {[
-          { valeur: COMPANY.mandanten, libelle: s.trustMandanten },
+          { valeur: s.trustMandantenValeur, libelle: s.trustMandanten },
           { valeur: COMPANY.languages.join(' · '), libelle: s.trustSprachen },
           { valeur: COMPANY.city, libelle: s.trustStandort },
           { valeur: s.trustKostenlosValeur, libelle: s.trustKostenlos },
