@@ -8,6 +8,14 @@ export const LINKS = {
   address: 'Knesebeckstr. 63, 10719 Berlin',
 };
 
+/* Rueckwege zur Website. Absolute Adressen, damit sie gleich funktionieren,
+   egal ob der Simulator unter einer Subdomain oder unter /simulator liegt. */
+export const SITE = [
+  { key: 'services', href: LINKS.website + '/leistungen.html' },
+  { key: 'firm',     href: LINKS.website + '/kanzlei.html' },
+  { key: 'contact',  href: LINKS.website + '/#kontakt' },
+];
+
 /* Donnees de l'entreprise pour les trust signals */
 export const COMPANY = {
   name: "WAMB'S Consulting",

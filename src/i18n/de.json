@@ -133,5 +133,9 @@
     "legalBody": "WAMB'S Consulting · Inhaber: Poclaire Wamba · Knesebeckstr. 63, 10719 Berlin · info@wambsconsulting.de · USt-IdNr. DE344424912",
     "legalDisclaimer": "Dieser Simulator liefert eine unverbindliche, stark vereinfachte Orientierung und stellt keine Hilfeleistung in Steuersachen im Sinne des § 1 StBerG dar. WAMB'S Consulting erbringt Leistungen nach § 6 Nr. 3+4 StBerG; die steuerliche Bewertung erfolgt ausschließlich durch einen kooperierenden Steuerberater.",
     "legalPrivacy": "Es werden keine Eingaben gespeichert und keine Cookies gesetzt."
-  }
+  },
+  "site.services": "Leistungen",
+  "site.firm": "Kanzlei",
+  "site.contact": "Kontakt",
+  "site.back": "Zur Website"
 }

@@ -133,5 +133,9 @@
     "legalBody": "WAMB'S Consulting · Gérant : Poclaire Wamba · Knesebeckstr. 63, 10719 Berlin · info@wambsconsulting.de · N° TVA DE344424912",
     "legalDisclaimer": "Ce simulateur fournit une orientation indicative et fortement simplifiée et ne constitue pas une assistance en matière fiscale au sens du § 1 StBerG. WAMB'S Consulting fournit des prestations selon § 6 n° 3+4 StBerG ; l'évaluation fiscale est assurée exclusivement par un Steuerberater partenaire.",
     "legalPrivacy": "Aucune donnée saisie n'est enregistrée et aucun cookie n'est utilisé."
-  }
+  },
+  "site.services": "Services",
+  "site.firm": "Cabinet",
+  "site.contact": "Contact",
+  "site.back": "Vers le site"
 }

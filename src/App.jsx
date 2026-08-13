@@ -10,6 +10,8 @@ import Step4Deductions from './components/Step4Deductions';
 import Step5Calcul from './components/Step5Calcul';
 import Step6Resultat from './components/Step6Resultat';
 
+import { LINKS, SITE } from './config/links';
+
 import frJson from './i18n/fr.json';
 import deJson from './i18n/de.json';
 import enJson from './i18n/en.json';
@@ -138,15 +140,27 @@ export default function App() {
       {showHeader && (
         <header className="sticky top-0 z-10 header-bg">
           <div className="max-w-2xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 py-3 flex items-center justify-between gap-2">
-            <div className="flex items-center gap-3 min-w-0">
+            {/* Die Marke fuehrt zurueck zur Website — sonst ist der
+                Simulator eine Sackgasse. */}
+            <a href={LINKS.website} className="flex items-center gap-3 min-w-0 group" title={t['site.back']}>
               <img src="/logo-mark.png" alt="WAMB'S Consulting" className="h-10 w-10 object-contain flex-shrink-0" />
               <div className="min-w-0">
                 <h1 className="text-xl font-bold text-gradient tracking-wide">WAMB'S</h1>
                 {/* Untertitel erst ab Tablet — auf dem Telefon fehlt die Breite */}
                 <p className="text-xs text-wambs-muted hidden sm:block truncate">{t.title}</p>
               </div>
-            </div>
+            </a>
             <div className="flex items-center gap-2 flex-shrink-0">
+              {/* Website-Navigation ab Tablet — auf dem Telefon fehlt die Breite,
+                  dort genuegt die Marke als Rueckweg. */}
+              <nav className="hidden lg:flex items-center gap-5 mr-3">
+                {SITE.map(({ key, href }) => (
+                  <a key={key} href={href}
+                    className="text-sm text-wambs-muted hover:text-wambs-text transition-colors">
+                    {t['site.' + key]}
+                  </a>
+                ))}
+              </nav>
               <button onClick={toggleTheme}
                 className="p-2 rounded-lg border border-wambs-border text-wambs-muted hover:text-wambs-text transition-colors cursor-pointer"
                 aria-label="Toggle theme">
@@ -206,6 +220,20 @@ export default function App() {
           <p className="text-wambs-muted text-[11px] leading-relaxed">{t.legal.legalBody}</p>
           <p className="text-wambs-muted text-[11px] leading-relaxed mt-2">{t.legal.legalDisclaimer}</p>
           <p className="text-wambs-muted text-[11px] leading-relaxed mt-2 opacity-80">{t.legal.legalPrivacy}</p>
+
+          {/* Rueckwege zur Website — hier auch auf dem Telefon erreichbar */}
+          <nav className="flex flex-wrap items-center justify-center gap-x-5 mt-5 pt-4 border-t border-wambs-border">
+            <a href={LINKS.website}
+              className="inline-flex items-center min-h-[44px] text-sm text-wambs-text hover:text-wambs-cyan transition-colors">
+              {t['site.back']}
+            </a>
+            {SITE.map(({ key, href }) => (
+              <a key={key} href={href}
+                className="inline-flex items-center min-h-[44px] text-sm text-wambs-muted hover:text-wambs-text transition-colors">
+                {t['site.' + key]}
+              </a>
+            ))}
+          </nav>
         </div>
       </footer>
     </div>
