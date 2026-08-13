@@ -29,7 +29,7 @@ export default function StepWelcome({ onStart, t }) {
     <div className="step-enter flex flex-col items-center text-center py-4">
       {/* Logo et headline */}
       <div className="mb-8">
-        <img src="/logo-wambs.png" alt={COMPANY.name} className="h-20 w-20 object-contain mx-auto mb-4" />
+        <img src="/logo-mark.png" alt={COMPANY.name} className="h-20 w-20 object-contain mx-auto mb-4" />
         <h1 className="text-3xl md:text-4xl font-bold text-gradient mb-4 leading-tight">
           {w.headline}
         </h1>

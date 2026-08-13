@@ -97,17 +97,12 @@ export default function Step5Calcul({ data, setData, t }) {
 
   const fmt = (v) => new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 }).format(v);
 
-  const niveauConfig = {
-    low:    { color: '#06F5F5', bg: 'rgba(6, 245, 245, 0.1)' },
-    medium: { color: '#A855F7', bg: 'rgba(168, 85, 247, 0.1)' },
-    high:   { color: '#FB923C', bg: 'rgba(251, 146, 60, 0.1)' },
-  };
 
   if (!afficher) {
     return (
       <div className="step-enter flex flex-col items-center justify-center py-16">
         <div className="w-12 h-12 rounded-full animate-spin mb-6"
-          style={{ border: '4px solid #1C2640', borderTopColor: '#06F5F5', borderRightColor: '#A855F7' }} />
+          style={{ border: '2px solid var(--color-wambs-border)', borderTopColor: 'var(--color-wambs-purple)' }} />
         <p className="text-wambs-muted text-lg">{s.calculating}</p>
       </div>
     );
@@ -122,8 +117,8 @@ export default function Step5Calcul({ data, setData, t }) {
             <ResponsiveContainer width="100%" height="100%">
               <PieChart>
                 <Pie data={pieData} innerRadius={55} outerRadius={80} paddingAngle={3} dataKey="value" startAngle={90} endAngle={-270}>
-                  <Cell fill="#A855F7" />
-                  <Cell fill="#1C2640" />
+                  <Cell fill="var(--color-wambs-purple)" />
+                  <Cell fill="var(--color-wambs-border)" />
                 </Pie>
               </PieChart>
             </ResponsiveContainer>
@@ -131,8 +126,7 @@ export default function Step5Calcul({ data, setData, t }) {
           <div className="flex-1 text-center md:text-left">
             <div className="flex items-center gap-2 mb-2 justify-center md:justify-start">
               <span className="text-sm text-wambs-muted">{s.potential} :</span>
-              <span className="px-3 py-1 rounded-full text-sm font-medium"
-                style={{ color: niveauConfig[resultat.niveau].color, backgroundColor: niveauConfig[resultat.niveau].bg }}>
+              <span className={`badge badge--${resultat.niveau} px-3 py-1`}>
                 {s[resultat.niveau]}
               </span>
             </div>

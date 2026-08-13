@@ -137,15 +137,16 @@ export default function App() {
 
       {showHeader && (
         <header className="sticky top-0 z-10 header-bg">
-          <div className="max-w-2xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <img src="/logo-wambs.png" alt="WAMB'S Consulting" className="h-10 w-10 object-contain" />
-              <div>
+          <div className="max-w-2xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 py-3 flex items-center justify-between gap-2">
+            <div className="flex items-center gap-3 min-w-0">
+              <img src="/logo-mark.png" alt="WAMB'S Consulting" className="h-10 w-10 object-contain flex-shrink-0" />
+              <div className="min-w-0">
                 <h1 className="text-xl font-bold text-gradient tracking-wide">WAMB'S</h1>
-                <p className="text-xs text-wambs-muted">{t.title}</p>
+                {/* Untertitel erst ab Tablet — auf dem Telefon fehlt die Breite */}
+                <p className="text-xs text-wambs-muted hidden sm:block truncate">{t.title}</p>
               </div>
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 flex-shrink-0">
               <button onClick={toggleTheme}
                 className="p-2 rounded-lg border border-wambs-border text-wambs-muted hover:text-wambs-text transition-colors cursor-pointer"
                 aria-label="Toggle theme">
