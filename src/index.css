@@ -138,34 +138,41 @@ h1, h2, h3 { font-family: 'Outfit', system-ui, sans-serif; }
 }
 .step-enter { animation: fadeIn 0.4s ease-out; }
 
-/* Slider */
+/* Slider — Mobile-optimiert mit größeren Touch-Targets */
 input[type="range"] {
   -webkit-appearance: none;
   appearance: none;
   width: 100%;
-  height: 4px;
+  height: 6px;
   background: linear-gradient(90deg, rgba(168, 85, 247, 0.2), rgba(236, 72, 153, 0.2));
-  border-radius: 2px;
+  border-radius: 3px;
   outline: none;
+  padding: 8px 0;
+  margin: -8px 0;
+  cursor: pointer;
 }
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
-  width: 20px;
-  height: 20px;
+  width: 26px;
+  height: 26px;
   background: #A855F7;
   border-radius: 50%;
   cursor: pointer;
   border: 3px solid #FFFFFF;
-  box-shadow: 0 1px 4px rgba(168, 85, 247, 0.4);
+  box-shadow: 0 1px 6px rgba(168, 85, 247, 0.5);
+  transition: transform 0.2s ease;
+}
+input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.1);
 }
 input[type="range"]::-moz-range-thumb {
-  width: 20px;
-  height: 20px;
+  width: 26px;
+  height: 26px;
   background: #A855F7;
   border-radius: 50%;
   cursor: pointer;
   border: 3px solid #FFFFFF;
-  box-shadow: 0 1px 4px rgba(168, 85, 247, 0.4);
+  box-shadow: 0 1px 6px rgba(168, 85, 247, 0.5);
 }
 [data-theme="dark"] input[type="range"] {
   background: linear-gradient(90deg, rgba(6, 245, 245, 0.15), rgba(168, 85, 247, 0.15));
@@ -228,4 +235,44 @@ input[type="checkbox"] { accent-color: #A855F7; width: 18px; height: 18px; }
 }
 [data-theme="dark"] .header-bg {
   background-color: rgba(3, 7, 18, 0.9);
+}
+
+/* === MOBILE-OPTIMIZATIONS === */
+/* Empêcher le zoom involontaire sur iOS lors du focus input */
+@media screen and (max-width: 640px) {
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="range"],
+  select,
+  textarea {
+    font-size: 16px !important;
+  }
+  /* Touch target minimum */
+  button,
+  a {
+    min-height: 44px;
+  }
+  /* Réduire l'orbe de fond pour les petits écrans (perf) */
+  .bg-orbs {
+    background-size: 100% 100%, 100% 100%, 100% 100%, 100% 100%, 30px 30px, 30px 30px;
+  }
+}
+
+/* Safe area pour iPhones avec encoche */
+@supports (padding: max(0px)) {
+  footer {
+    padding-bottom: max(1rem, env(safe-area-inset-bottom));
+  }
+}
+
+/* Prevent horizontal scroll on mobile */
+html, body {
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Smoother scrolling */
+* {
+  -webkit-tap-highlight-color: rgba(168, 85, 247, 0.1);
 }

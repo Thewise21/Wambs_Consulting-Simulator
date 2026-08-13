@@ -1,0 +1,1682 @@
+{
+  "lead": {
+    "introduction": "Laissez-nous vos coordonnées — nous revenons vers vous avec votre résultat et une proposition de rendez-vous.",
+    "champs": {
+      "nom": "Nom",
+      "email": "E-mail",
+      "telephone": "Téléphone (facultatif)",
+      "message": "Votre question (facultatif)"
+    },
+    "emailInvalide": "Veuillez vérifier votre adresse e-mail.",
+    "consentement": "J'accepte que WAMB'S Consulting conserve et traite mes coordonnées ainsi que le résultat de ma simulation pour répondre à ma demande. Je peux retirer ce consentement à tout moment.",
+    "lienConfidentialite": "politique de confidentialité",
+    "bouton": "Envoyer et choisir un créneau",
+    "envoiEnCours": "Envoi en cours…",
+    "mentionDonnees": "Sont transmis vos coordonnées et les chiffres clés de cette simulation — aucune autre saisie.",
+    "confirmationTitre": "Merci, nous avons bien reçu votre demande",
+    "confirmationTexte": "L'agenda s'ouvre dans une nouvelle fenêtre. S'il ne s'ouvre pas, utilisez le lien ci-dessous.",
+    "confirmationLien": "Ouvrir l'agenda"
+  },
+
+  "hub": {
+    "titreOnglet": "Simulateurs fiscaux",
+    "headline": "Des simulateurs qui donnent un chiffre, pas une brochure",
+    "subline": "Quatre outils gratuits d'un cabinet financier berlinois. Sans inscription, en français, allemand et anglais.",
+    "demarrer": "Commencer",
+    "retour": "Tous les simulateurs",
+    "badgeNouveau": "Nouveau",
+    "badgePopulaire": "Populaire",
+    "trustMandanten": "clients accompagnés",
+    "trustSprachen": "langues de conseil",
+    "trustStandort": "siège du cabinet",
+    "trustKostenlos": "gratuit et sans inscription",
+    "trustKostenlosValeur": "100 %",
+    "privacy": "Tous les calculs s'exécutent dans votre navigateur. Vos saisies n'en sortent que si vous envoyez explicitement le formulaire de contact.",
+    "outils": {
+      "steuer": {
+        "titre": "Potentiel fiscal",
+        "description": "Quel remboursement pouvez-vous espérer de votre déclaration ? Dix profils, du salarié au congé parental.",
+        "duree": "environ 2 minutes"
+      },
+      "bruttoNetto": {
+        "titre": "Calculateur brut / net",
+        "description": "Que reste-t-il de votre salaire ? Avec comparaison des classes d'imposition, impôt d'église et coût employeur.",
+        "duree": "résultat immédiat"
+      },
+      "expat": {
+        "titre": "S'installer en Allemagne",
+        "description": "Arrivée, départ ou frontalier : assujettissement, taux effectif majoré et quotient conjugal avec conjoint resté à l'étranger.",
+        "duree": "environ 3 minutes"
+      },
+      "honorar": {
+        "titre": "Combien coûte un expert-comptable ?",
+        "description": "Vos honoraires selon le barème légal StBVV — détaillés poste par poste, avec la base juridique de chacun.",
+        "duree": "environ 1 minute"
+      },
+      "rechtsform": {
+        "titre": "Entreprise individuelle, UG ou GmbH ?",
+        "description": "Quatre formes juridiques comparées : taxe professionnelle, impôt sur les sociétés, rémunération du gérant et distribution.",
+        "duree": "résultat immédiat"
+      },
+      "kleinunternehmer": {
+        "titre": "Franchise de TVA ou régime normal ?",
+        "description": "Le § 19 UStG face au régime normal — avec la structure de clientèle à partir de laquelle l'arbitrage bascule.",
+        "duree": "résultat immédiat"
+      },
+      "firmenwagen": {
+        "titre": "Voiture de fonction : 1 % ou carnet de bord ?",
+        "description": "Ce que le véhicule vous coûte net chaque mois — avec l'assiette au quart pour les électriques.",
+        "duree": "résultat immédiat"
+      },
+      "immobilien": {
+        "titre": "Investissement locatif : rentable ?",
+        "description": "Rendement après impôt, amortissement, déficit foncier et délai de spéculation — pour un bien mis en location.",
+        "duree": "résultat immédiat"
+      },
+      "kaufnebenkosten": {
+        "titre": "Frais annexes d'un achat immobilier",
+        "description": "Droits de mutation, notaire, registre foncier, agence — et l'apport réellement nécessaire.",
+        "duree": "résultat immédiat"
+      },
+      "photovoltaik": {
+        "titre": "Photovoltaïque : exonéré ou non ?",
+        "description": "La limite de 30 kWc du § 3 Nr. 72 EStG, le taux zéro de TVA à l'achat et le rendement annuel réel.",
+        "duree": "résultat immédiat"
+      },
+      "abfindung": {
+        "titre": "Indemnité de départ : que reste-t-il ?",
+        "description": "Règle du cinquième, date de versement et la nouveauté 2025 — l'employeur ne l'applique plus.",
+        "duree": "résultat immédiat"
+      },
+      "altersvorsorge": {
+        "titre": "Déficit de retraite et prévoyance",
+        "description": "Ce qui vous manquera, et ce que Rürup ou Riester coûtent réellement après impôt et primes.",
+        "duree": "résultat immédiat"
+      },
+      "erbschaft": {
+        "titre": "Droits de succession et de donation",
+        "description": "Abattements, classe d'imposition et règle des dix ans — avec l'effet d'une transmission échelonnée.",
+        "duree": "résultat immédiat"
+      },
+      "erklaerungspflicht": {
+        "titre": "Dois-je déposer une déclaration ?",
+        "description": "Obligation au sens du § 46 EStG et votre délai au sens du § 149 AO — avec et sans conseil fiscal.",
+        "duree": "environ 1 minute"
+      },
+      "unterhalt": {
+        "titre": "Argent envoyé à la famille au pays",
+        "description": "Soutenir ses parents à l'étranger est déductible — avec le groupe de pays, l'Opfergrenze et les justificatifs sur lesquels échouent la plupart des dossiers.",
+        "duree": "résultat immédiat"
+      },
+      "kindergeldAusland": {
+        "titre": "Allocations pour enfants vivant à l'étranger",
+        "description": "UE, État conventionné ou pays tiers : trois réponses totalement différentes — plus l'abattement qui subsiste sans allocations.",
+        "duree": "résultat immédiat"
+      },
+      "rentenerstattung": {
+        "titre": "Retour au pays : se faire rembourser ?",
+        "description": "Le remboursement du § 210 SGB VI face au droit à pension — une décision qu'on ne peut pas défaire.",
+        "duree": "résultat immédiat"
+      }
+    }
+  },
+
+  "bn": {
+    "titre": "Calculateur brut / net",
+    "sousTitre": "Votre salaire net, avec impôt sur le salaire, contribution de solidarité, impôt d'église et cotisations sociales.",
+    "sectionSalaire": "Votre salaire",
+    "parMois": "Mensuel",
+    "parAn": "Annuel",
+    "bruttoMois": "Salaire brut mensuel",
+    "bruttoAn": "Salaire brut annuel",
+    "annee": "Année de calcul",
+    "sectionImposition": "Imposition",
+    "steuerklasse": "Classe d'imposition",
+    "steuerklasseIndice": "Elle figure sur votre bulletin de paie. Dans le doute : les célibataires relèvent en général de la classe I.",
+    "bundesland": "Land",
+    "laender": {
+      "BW": "Bade-Wurtemberg", "BY": "Bavière", "BE": "Berlin", "BB": "Brandebourg",
+      "HB": "Brême", "HH": "Hambourg", "HE": "Hesse", "MV": "Mecklembourg-Poméranie",
+      "NI": "Basse-Saxe", "NW": "Rhénanie-du-Nord-Westphalie", "RP": "Rhénanie-Palatinat",
+      "SL": "Sarre", "SN": "Saxe", "ST": "Saxe-Anhalt",
+      "SH": "Schleswig-Holstein", "TH": "Thuringe"
+    },
+    "kirchensteuer": "Assujetti à l'impôt d'église",
+    "kirchensteuerIndice": "8 % en Bavière et en Bade-Wurtemberg, 9 % ailleurs, calculés sur l'impôt sur le salaire.",
+    "oui": "Oui",
+    "non": "Non",
+    "sectionFamille": "Famille",
+    "kinderfreibetraege": "Nombre d'abattements pour enfants",
+    "kinderfreibetraegeIndice": "0,5 par enfant et par parent. N'agit que sur la contribution de solidarité et l'impôt d'église.",
+    "enfantsMoins25": "Enfants de moins de 25 ans",
+    "enfantsMoins25Indice": "À partir du deuxième enfant, la cotisation dépendance baisse de 0,25 point par enfant.",
+    "sansEnfant": "Sans enfant et plus de 23 ans",
+    "sansEnfantIndice": "Dans ce cas s'ajoute la majoration de 0,6 % sur l'assurance dépendance.",
+    "sectionAssurance": "Assurance maladie",
+    "typeAssurance": "Type d'assurance",
+    "legale": "Régime légal",
+    "privee": "Assurance privée",
+    "zusatzbeitrag": "Cotisation supplémentaire de votre caisse",
+    "zusatzbeitragIndice": "Moyenne de {moyen} %. Votre caisse vous communique le taux exact.",
+    "primePrivee": "Prime mensuelle (couverture de base)",
+    "primePriveeIndice": "Seul le tarif de base compte fiscalement. La participation employeur est prise en compte automatiquement.",
+    "rvPflichtig": "Affilié à l'assurance retraite",
+    "rvPflichtigIndice": "Répondez non par exemple comme gérant majoritaire de GmbH ou fonctionnaire.",
+    "resultatEtiquette": "Votre net mensuel",
+    "resultatSousTexte": "{annuel} par an, soit {part} du salaire brut",
+    "net": "Net",
+    "impots": "Impôts",
+    "social": "Cotisations sociales",
+    "detailTitre": "Détail du bulletin",
+    "brut": "Salaire brut",
+    "lohnsteuer": "Impôt sur le salaire",
+    "soli": "Contribution de solidarité",
+    "kirchensteuerLigne": "Impôt d'église",
+    "rentenversicherung": "Assurance retraite",
+    "arbeitslosenversicherung": "Assurance chômage",
+    "krankenversicherung": "Assurance maladie",
+    "pflegeversicherung": "Assurance dépendance",
+    "plafonne": "plafond de cotisation atteint",
+    "coutEmployeur": "Coût total employeur",
+    "coutEmployeurIndice": "Salaire brut augmenté de la part patronale des cotisations.",
+    "revenuImposable": "Revenu annuel imposable",
+    "revenuImposableIndice": "Après abattement salarié et forfait de prévoyance (§ 39b EStG).",
+    "comparaisonTitre": "Comparer les classes d'imposition",
+    "klasseCourt": "Classe",
+    "meilleureOption": "net le plus élevé",
+    "comparaisonNote": "La classe d'imposition ne modifie que le prélèvement en cours d'année, pas l'impôt définitif. Le trop-perçu vous est restitué via la déclaration annuelle.",
+    "coupleTitre": "En couple : quelle combinaison rapporte le plus chaque mois ?",
+    "salaireConjointMois": "Salaire brut mensuel du conjoint",
+    "salaireConjointAn": "Salaire brut annuel du conjoint",
+    "gainCoupleTitre": "Jusqu'à {montant} de net en plus par mois",
+    "gainCoupleTexte": "C'est l'écart entre la meilleure et la moins bonne combinaison de classes. Le changement est possible une fois par an — nous vérifions s'il est intéressant dans votre cas.",
+    "alerteJAEGTitre": "Vous dépassez le seuil d'affiliation obligatoire",
+    "alerteJAEGTexte": "À ce niveau de revenu, le passage à l'assurance maladie privée devient possible. La décision engage sur des décennies : elle mérite d'être chiffrée avant.",
+    "alerteKlasseVTitre": "La classe V est volontairement surtaxée",
+    "alerteKlasseVTexte": "Le prélèvement en classe V est majoré par construction. Pour les classes V et VI, ce calcul est une approximation du § 39b Abs. 2 EStG. Vérifiez si la classe IV avec facteur vous conviendrait mieux.",
+    "ctaEtiquette": "Premier rendez-vous gratuit",
+    "ctaTexte": "Nous vérifions votre classe d'imposition, vos frais déductibles et votre droit à remboursement — en 15 minutes, sans engagement.",
+    "avertissement": "Estimation indicative sans garantie. Ne sont pas pris en compte les avantages en nature, les abattements individuels accordés par l'administration, les primes exceptionnelles et les particularités de certaines caisses.",
+    "stand": "Droit applicable {annee} · paramètres vérifiés le {date}"
+  },
+
+  "expat": {
+    "titre": "S'installer en Allemagne — votre situation fiscale",
+    "sousTitre": "Arrivée, départ, travail frontalier : ce que cela change pour votre assujettissement, votre taux et votre classe d'imposition.",
+    "etapes": ["Votre situation", "Période et revenus", "Famille", "Votre résultat"],
+    "voirResultat": "Voir le résultat",
+    "oui": "Oui",
+    "non": "Non",
+
+    "q1Titre": "Quelle est votre situation ?",
+    "q1Indice": "Ce qui compte, c'est le lieu de votre domicile ou de votre séjour habituel (§ 1 EStG).",
+    "situations": {
+      "arrivee": { "titre": "Je me suis installé en Allemagne cette année", "description": "Domicile établi en cours d'année" },
+      "resident": { "titre": "Je vis en Allemagne toute l'année", "description": "Domicile sur l'année entière" },
+      "grenzgaenger": { "titre": "Je vis à l'étranger et travaille en Allemagne", "description": "Frontalier ou pendulaire" },
+      "depart": { "titre": "J'ai quitté l'Allemagne cette année", "description": "Départ en cours d'année" }
+    },
+
+    "q2Titre": "De quel pays venez-vous — ou dans lequel résidez-vous ?",
+    "q2Indice": "La convention fiscale conclue avec cet État détermine quel pays impose quels revenus.",
+    "pays": {
+      "FR": "France", "BE": "Belgique", "LU": "Luxembourg", "CH": "Suisse",
+      "AT": "Autriche", "NL": "Pays-Bas", "EU_AUTRE": "Autre pays UE/EEE", "HORS_UE": "Pays hors UE"
+    },
+
+    "q3TitreArrivee": "Quand êtes-vous arrivé ?",
+    "q3TitreDepart": "Quand avez-vous quitté l'Allemagne ?",
+    "q3Indice": "En cas d'arrivée ou de départ en cours d'année, vous n'êtes assujetti de manière illimitée que sur une partie de l'année — avec des conséquences sensibles.",
+    "moisArrivee": "Mois d'arrivée",
+    "moisDepart": "Mois de départ",
+    "mois": ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"],
+    "moisResume": "Cela représente {mois} mois d'assujettissement illimité en Allemagne.",
+
+    "q4Titre": "Vos revenus",
+    "q4Indice": "Indiquez les montants bruts — le simulateur applique lui-même les abattements.",
+    "q4IndiceFrontalier": "En tant que frontalier, n'indiquez que le salaire perçu en Allemagne.",
+    "revenuAllemand": "Revenus bruts en Allemagne",
+    "revenuAllemandIndice": "Salaire ou bénéfice sur la période allemande.",
+    "revenuEtranger": "Revenus à l'étranger (avant le déménagement)",
+    "revenuEtrangerIndice": "Ces revenus ne sont pas imposés en Allemagne, mais ils relèvent votre taux d'imposition (§ 32b EStG).",
+
+    "q5Titre": "Votre famille",
+    "celibataire": "Célibataire",
+    "marie": "Marié(e)",
+    "conjointAlEtranger": "Le conjoint est resté à l'étranger",
+    "conjointAlEtrangerIndice": "Au sein de l'UE et de l'EEE, le quotient conjugal reste possible (§ 1a EStG).",
+    "revenuConjoint": "Revenus annuels du conjoint",
+    "revenuConjointIndice": "Ils déterminent en partie le respect du seuil de 90 %.",
+    "enfants": "Nombre d'enfants",
+    "enfantsIndice": "Les allocations familiales allemandes sont en principe dues même si les enfants vivent dans un autre pays de l'UE.",
+
+    "resEconomieEtiquette": "Votre économie d'impôt possible",
+    "resEconomieSousTexte": "Accessible grâce au quotient conjugal du § 1a EStG — encore faut-il en faire la demande.",
+    "resSurcoutEtiquette": "Surcoût lié au taux effectif majoré",
+    "resSurcoutSousTexte": "Voilà ce que vos revenus étrangers vous coûtent en impôt allemand, alors qu'ils restent eux-mêmes exonérés.",
+
+    "resStatutTitre": "Votre statut fiscal",
+    "resAssujettissement": "Assujettissement",
+    "assujettissements": {
+      "unbeschraenkt": "Illimité (§ 1 Abs. 1 EStG)",
+      "beschraenkt": "Limité (§ 1 Abs. 4 EStG)",
+      "wechsel": "Changement en cours d'année"
+    },
+    "resMoisAllemagne": "Assujetti de façon illimitée",
+    "resMoisValeur": "{mois} mois",
+    "resSteuerklasse": "Classe d'imposition adaptée",
+    "resDeclaration": "Déclaration obligatoire",
+
+    "resChiffrageTitre": "Votre charge fiscale",
+    "resChiffrageIndice": "Estimation fondée sur le barème du § 32a EStG.",
+    "resRevenuImposable": "Revenu imposable",
+    "resImpotSansProgression": "Impôt sans les revenus étrangers",
+    "resImpotAvecProgression": "Impôt avec taux effectif majoré",
+    "resTauxSpecial": "Le taux passe de {normal} à {special}",
+    "resAvecSplitting": "Impôt avec quotient conjugal",
+    "resAvecSplittingIndice": "Après demande et production de l'attestation UE/EEE.",
+    "resSoli": "Contribution de solidarité",
+    "resChargeTotale": "Charge fiscale totale",
+    "resTauxEffectif": "Soit {taux} en effectif",
+
+    "resAlertesTitre": "Ce que vous devez savoir",
+    "alertes": {
+      "assujettissementMixte": {
+        "titre": "Vous n'êtes assujetti de façon illimitée que {mois} mois",
+        "texte": "Sur le reste de l'année, vous relevez de l'assujettissement limité. Les deux périodes sont réunies dans une seule et même déclaration.",
+        "reference": "§ 2 Abs. 7 S. 3 EStG"
+      },
+      "progressionvorbehalt": {
+        "titre": "Taux effectif majoré : {montant} de surcoût",
+        "texte": "Vos revenus étrangers restent exonérés en Allemagne, mais ils portent votre taux à {taux}. C'est la mauvaise surprise du premier avis d'imposition de presque tous les nouveaux arrivants.",
+        "reference": "§ 32b Abs. 1 Nr. 2 EStG"
+      },
+      "grenzgaengerFR": {
+        "titre": "Régime frontalier France–Allemagne",
+        "texte": "Si votre domicile et votre lieu de travail se situent tous deux dans la zone frontalière, votre salaire est imposé dans l'État de résidence — donc en France, et non en Allemagne. L'attestation du centre des finances publiques français est requise.",
+        "reference": "Art. 13 § 5 de la convention franco-allemande"
+      },
+      "grenzgaengerCH": {
+        "titre": "Régime frontalier Allemagne–Suisse",
+        "texte": "Les frontaliers relèvent d'une imposition partagée avec retenue à la source plafonnée. Ne pas rentrer régulièrement à son domicile après le travail fait perdre ce statut.",
+        "reference": "Art. 15a de la convention germano-suisse"
+      },
+      "grenzgaengerGeneral": {
+        "titre": "Imposition dans l'État d'activité",
+        "texte": "Aucun régime frontalier particulier n'existe avec cet État : votre salaire est en principe imposé là où vous travaillez. La règle des 183 jours devient déterminante.",
+        "reference": "Art. 15 du modèle OCDE"
+      },
+      "splittingPossible": {
+        "titre": "Quotient conjugal possible — {montant} d'économie",
+        "texte": "Bien que votre conjoint vive à l'étranger, vous pouvez opter pour l'imposition commune. Il vous faut l'attestation UE/EEE, validée par l'administration fiscale de votre pays d'origine.",
+        "reference": "§ 1a Abs. 1 Nr. 2 EStG"
+      },
+      "splittingRefuseRevenus": {
+        "titre": "Quotient conjugal hors d'atteinte pour l'instant",
+        "texte": "Seuls {part} de vos revenus communs sont imposés en Allemagne. Il en faut 90 % — ou des revenus étrangers inférieurs au double de l'abattement de base.",
+        "reference": "§ 1 Abs. 3, § 1a EStG"
+      },
+      "splittingRefusePays": {
+        "titre": "Conjoint résidant hors UE/EEE",
+        "texte": "L'imposition commune avec un conjoint resté à l'étranger suppose une résidence dans l'UE ou l'EEE. Vous serez donc imposé comme un célibataire.",
+        "reference": "§ 1a Abs. 1 EStG"
+      },
+      "optionIllimitee": {
+        "titre": "Demander l'assujettissement illimité est intéressant",
+        "texte": "Vos revenus proviennent presque entièrement d'Allemagne. Sur demande, vous obtenez l'abattement de base, les charges déductibles et les avantages familiaux comme un résident.",
+        "reference": "§ 1 Abs. 3 EStG"
+      },
+      "pasDeGrundfreibetrag": {
+        "titre": "Pas d'abattement de base en assujettissement limité",
+        "texte": "Hors salaires, l'abattement de base de {montant} n'est pas accordé. Votre impôt commence en pratique dès le premier euro.",
+        "reference": "§ 50 Abs. 1 S. 3 EStG"
+      },
+      "obligationDeclaration": {
+        "titre": "Vous devez déposer une déclaration",
+        "texte": "Dans votre configuration, la déclaration est obligatoire et non facultative. Les retards entraînent des majorations.",
+        "reference": "§ 46 Abs. 2 EStG"
+      },
+      "kindergeldEU": {
+        "titre": "Vérifier les allocations pour {enfants} enfant(s)",
+        "texte": "Le droit existe en principe même si les enfants vivent dans un autre pays de l'UE. Si l'autre parent y perçoit déjà des prestations, l'Allemagne verse le différentiel.",
+        "reference": "Règlement (CE) 883/2004"
+      },
+      "doubleImposition": {
+        "titre": "Éviter la double imposition",
+        "texte": "Une convention fiscale lie l'Allemagne et {pays}. L'État qui impose dépend de la nature du revenu : salaires, loyers, pensions et revenus de capitaux suivent des règles différentes.",
+        "reference": "Convention fiscale bilatérale"
+      }
+    },
+
+    "resChecklistTitre": "Vos prochaines démarches",
+    "resChecklistIndice": "L'ordre compte : sans déclaration de domicile, pas de numéro fiscal ; sans numéro fiscal, prélèvement erroné.",
+    "checklist": {
+      "anmeldung": "Déclarer votre domicile au Bürgeramt (dans les 14 jours)",
+      "steuerId": "Attendre le numéro d'identification fiscale et le transmettre à l'employeur",
+      "lohnsteuerabzug": "Faire vérifier vos paramètres de prélèvement et votre classe d'imposition",
+      "sozialversicherung": "Régler le numéro de sécurité sociale et le choix de la caisse maladie",
+      "ansaessigkeitsbescheinigung": "Obtenir l'attestation de résidence auprès de votre centre des impôts",
+      "a1Bescheinigung": "Demander le formulaire A1 pour la sécurité sociale",
+      "abmeldung": "Déclarer votre départ au Bürgeramt et prévoir la dernière déclaration",
+      "wegzugsbesteuerung": "Vérifier l'imposition de sortie (en cas de participation dans une société)",
+      "bescheinigungEUEWR": "Faire viser l'attestation UE/EEE par l'administration fiscale étrangère",
+      "kindergeldAntrag": "Demander les allocations familiales à la Familienkasse",
+      "elsterZugang": "Créer votre accès ELSTER (le certificat arrive par courrier)",
+      "unterlagenHeimatland": "Conserver vos justificatifs de revenus du pays d'origine pour la période concernée"
+    },
+
+    "ctaEtiquette": "Premier rendez-vous en français, allemand ou anglais",
+    "ctaTexte": "Nous accompagnons plus de 1 000 clients, dont de nombreux profils internationaux. Nous examinons votre dossier, demandons le quotient conjugal et prenons en charge les échanges avec l'administration.",
+    "ctaBouton": "Réserver un rendez-vous gratuit",
+    "avertissement": "Estimation simplifiée. L'application concrète d'une convention fiscale dépend toujours du cas d'espèce — en particulier pour les pensions, les revenus locatifs, les revenus de capitaux et les détachements.",
+    "stand": "Droit applicable {annee} · paramètres vérifiés le {date}"
+  },
+
+  "honorar": {
+    "titre": "Combien coûte un expert-comptable en Allemagne ?",
+    "sousTitre": "Vos honoraires selon le barème réglementaire StBVV — avec la base juridique de chaque poste.",
+    "sectionProfil": "Votre situation",
+    "sectionProfilIndice": "Ce choix présélectionne les prestations habituelles ; vous pouvez ensuite les ajuster.",
+    "profils": {
+      "arbeitnehmer": { "titre": "Salarié", "description": "Déclaration de revenus seule" },
+      "vermieter": { "titre": "Propriétaire bailleur", "description": "Avec annexe revenus locatifs" },
+      "freiberufler": { "titre": "Profession libérale", "description": "Recettes-dépenses, TVA, comptabilité" },
+      "gewerbe": { "titre": "Activité commerciale", "description": "Avec taxe professionnelle" },
+      "kapitalgesellschaft": { "titre": "GmbH / UG", "description": "Bilan et paie" }
+    },
+    "sectionPrestations": "Prestations souhaitées",
+    "sectionPrestationsIndice": "Le montant à droite indique l'honoraire moyen annuel de la prestation.",
+    "prestations": {
+      "einkommensteuer": { "titre": "Déclaration de revenus", "description": "Assiette : somme des revenus positifs, minimum 8 000 €" },
+      "anlageV": { "titre": "Annexe V — revenus locatifs", "description": "Détermination des revenus fonciers" },
+      "euer": { "titre": "Compte de recettes-dépenses", "description": "Détermination du bénéfice (§ 4 Abs. 3 EStG)" },
+      "jahresabschluss": { "titre": "Bilan annuel", "description": "Bilan et compte de résultat" },
+      "buchfuehrung": { "titre": "Comptabilité courante", "description": "Tenue mensuelle, imputation comprise" },
+      "ustVoranmeldung": { "titre": "Déclaration de TVA périodique", "description": "Par période, assiette de 10 % du chiffre d'affaires" },
+      "ustJahreserklaerung": { "titre": "Déclaration annuelle de TVA", "description": "Régularisation annuelle" },
+      "gewerbesteuer": { "titre": "Déclaration de taxe professionnelle", "description": "Assiette : bénéfice commercial avant abattement" },
+      "koerperschaftsteuer": { "titre": "Déclaration d'impôt sur les sociétés", "description": "Pour GmbH, UG et autres sociétés de capitaux" },
+      "lohnbuchhaltung": { "titre": "Gestion de la paie", "description": "Par salarié et par période de paie" }
+    },
+    "sectionChiffres": "Vos chiffres",
+    "sectionChiffresIndice": "Des ordres de grandeur suffisent : ils déterminent l'assiette, donc le montant des honoraires.",
+    "champs": {
+      "sommeEinkuenfte": { "label": "Somme de vos revenus positifs", "indice": "Montants bruts avant déductions. Assiette minimale de 8 000 €." },
+      "mieteinnahmen": { "label": "Loyers annuels encaissés", "indice": "C'est le plus élevé des deux montants — loyers ou charges — qui compte." },
+      "jahresumsatz": { "label": "Chiffre d'affaires annuel", "indice": "Chiffre d'affaires hors taxes de votre activité." },
+      "betriebsausgaben": { "label": "Charges d'exploitation annuelles", "indice": "L'assiette retient le plus élevé des deux montants." },
+      "bilanzsumme": { "label": "Total du bilan", "indice": "L'assiette est la moyenne entre le total du bilan et la production annuelle." },
+      "gewerbeertrag": { "label": "Bénéfice commercial", "indice": "Avant report de déficit et abattement." },
+      "einkommenKoerperschaft": { "label": "Résultat de la société", "indice": "Avant report de déficit. Assiette minimale de 16 000 €." },
+      "nombreSalaries": { "label": "Nombre de salariés", "indice": "Pour l'établissement mensuel des bulletins." },
+      "ustPeriodicite": { "label": "Fréquence des déclarations de TVA", "indice": "Mensuelle en cas de création récente ou de TVA due élevée." }
+    },
+    "mensuelle": "Mensuelle",
+    "trimestrielle": "Trimestrielle",
+    "resultatEtiquette": "Vos honoraires annuels",
+    "resultatSousTexte": "Fourchette légale de {min} à {max} · environ {mois} par mois",
+    "detailTitre": "Détail par base juridique",
+    "detailIndice": "L'honoraire moyen est retenu — c'est le point de départ usuel.",
+    "baseCalcul": "{cadre} table {table} · assiette {valeur}",
+    "baseForfait": "{cadre} € par salarié",
+    "parMois": "mensuel",
+    "sousTotal": "Total des honoraires",
+    "auslagen": "Forfait postal et télécommunications",
+    "auslagenIndice": "20 % des honoraires, plafonné à 20 € (§ 16 StBVV).",
+    "tva": "TVA {taux}",
+    "totalTTC": "Total TTC annuel",
+    "aucunePrestationTitre": "Aucune prestation sélectionnée",
+    "aucunePrestationTexte": "Cochez ci-dessus ce dont vous avez besoin — le calcul s'affiche immédiatement.",
+    "explicationTitre": "Pourquoi une fourchette et non un prix fixe ?",
+    "explicationTexte": "La StBVV fixe pour chaque prestation un cadre d'honoraires. À l'intérieur de ce cadre, le montant dépend du volume, de la difficulté et du risque de responsabilité. Des documents bien préparés font baisser sensiblement la facture.",
+    "pauschalTitre": "Forfait mensuel possible",
+    "pauschalTexte": "Pour les prestations récurrentes — comptabilité, paie, déclarations périodiques — nous convenons volontiers d'un forfait mensuel. Vous connaissez alors votre budget pour l'année entière.",
+    "ctaEtiquette": "Offre ferme",
+    "ctaTexte": "En 15 minutes nous cadrons votre besoin et vous recevez une offre écrite à prix fixe. Les missions réservées relèvent de la responsabilité d'un conseiller fiscal indépendant.",
+    "ctaBouton": "Demander une offre",
+    "avertissement": "Calcul indicatif fondé sur l'honoraire moyen. Le montant définitif est déterminé selon les circonstances du cas (§ 11 StBVV) ; une convention d'honoraires distincte reste possible (§ 4 StBVV).",
+    "stand": "Tables StBVV vérifiées le {date}"
+  },
+
+  "rechtsform": {
+    "titre": "Entreprise individuelle, UG ou GmbH ?",
+    "sousTitre": "Quatre formes juridiques calculées sur le même bénéfice — taxe professionnelle, impôt sur les sociétés, rémunération du gérant et distribution.",
+    "oui": "Oui",
+    "non": "Non",
+    "annee": "Année de calcul",
+    "sectionBenefice": "Bénéfice et prélèvements",
+    "sectionBeneficeIndice": "Bénéfice avant rémunération du gérant. Ce salaire est le vrai levier : il réduit le bénéfice de la société, jamais celui de l'entrepreneur individuel.",
+    "benefice": "Bénéfice annuel avant rémunération",
+    "remuneration": "Rémunération du gérant (UG et GmbH)",
+    "remunerationIndice": "L'entrepreneur individuel ne se verse pas de salaire : l'intégralité du bénéfice constitue son revenu.",
+    "quoteDistribution": "Part du bénéfice distribuée",
+    "quoteDistributionIndice": "Ce qui reste dans la société n'est pas perdu, seulement imposé plus tard. C'est précisément là que réside l'avantage de la société de capitaux.",
+    "sectionCommune": "Implantation",
+    "sectionCommuneIndice": "Le taux communal détermine la taxe professionnelle — et vous le choisissez librement en choisissant votre siège.",
+    "hebesatz": "Taux communal (Hebesatz)",
+    "hebesatzIndice": "Jusqu'à {neutre} %, la taxe professionnelle est intégralement imputée sur l'impôt sur le revenu de l'entrepreneur individuel.",
+    "communes": {
+      "Berlin": "Berlin", "Hamburg": "Hambourg", "Muenchen": "Munich", "Koeln": "Cologne",
+      "Frankfurt": "Francfort", "Leipzig": "Leipzig", "Potsdam": "Potsdam", "Duesseldorf": "Düsseldorf"
+    },
+    "sectionPersonnel": "Situation personnelle",
+    "splitting": "Imposition commune",
+    "splittingIndice": "Marié ou en partenariat enregistré.",
+    "kirchensteuer": "Assujetti à l'impôt d'église",
+    "bundesland": "Land",
+    "resultatEtiquette": "Forme la plus avantageuse",
+    "resultatSousTexte": "Jusqu'à {montant} d'écart avec la moins avantageuse",
+    "meilleure": "la meilleure",
+    "formes": {
+      "freiberufler": { "titre": "Profession libérale", "description": "Pas de taxe professionnelle, pas d'immatriculation au registre du commerce" },
+      "einzelunternehmen": { "titre": "Entreprise individuelle", "description": "Taxe professionnelle avec abattement et imputation (§ 35 EStG)" },
+      "ug": { "titre": "UG (à responsabilité limitée)", "description": "Comme la GmbH, mais dès 1 € de capital et avec réserve obligatoire" },
+      "gmbh": { "titre": "GmbH", "description": "Responsabilité limitée, 25 000 € de capital social" }
+    },
+    "postes": {
+      "gewerbesteuer": "Taxe professionnelle",
+      "anrechnung": "Imputation sur l'impôt sur le revenu",
+      "anrechnungIndice": "Plafonnée à quatre fois le montant de base.",
+      "koerperschaftsteuer": "Impôt sur les sociétés (15 %)",
+      "soliKst": "Contribution de solidarité sur l'IS",
+      "einkommensteuer": "Impôt sur le revenu",
+      "surRemuneration": "sur {montant} de rémunération",
+      "soli": "Contribution de solidarité",
+      "kirchensteuer": "Impôt d'église",
+      "abgeltungsteuer": "Prélèvement forfaitaire sur la distribution",
+      "surDistribution": "sur {montant} distribués"
+    },
+    "chargeTotale": "Charge totale",
+    "chargeCourte": "{montant} d'impôts · {taux}",
+    "valeurCreee": "Ce qu'il vous reste au bout du compte",
+    "valeurCreeeIndice": "Disponible à titre privé plus le bénéfice conservé, actualisé de l'impôt de distribution à venir. C'est ce montant qui sert au classement.",
+    "revenuDisponible": "Disponible pour vous à titre privé",
+    "resteDansSociete": "Reste dans la société",
+    "resteDansSocieteIndice": "Une distribution ultérieure supportera encore le prélèvement forfaitaire.",
+    "reserveObligatoire": "Dont réserve légale",
+    "reserveObligatoireIndice": "L'UG doit affecter 25 % de son résultat à la réserve jusqu'à atteindre 25 000 €.",
+    "alertes": {
+      "thesaurierung": {
+        "titre": "La société de capitaux reporte l'impôt, elle ne l'économise pas",
+        "texte": "Ce qui reste dans la GmbH ou l'UG n'est d'abord taxé qu'à environ 30 % — mais la distribution ultérieure ajoutera encore {decote}. C'est pourquoi ce comparatif actualise les bénéfices non distribués. La société l'emporte si vous réinvestissez ; si vous prélevez tout, l'entreprise individuelle est le plus souvent moins chère."
+      },
+      "hebesatzEleve": {
+        "titre": "Taux au-delà de {neutre} % — la taxe n'est plus intégralement imputée",
+        "texte": "La fraction au-dessus de ce seuil reste une charge réelle pour l'entrepreneur individuel. S'implanter dans une commune voisine peut représenter plusieurs milliers d'euros par an."
+      },
+      "hebesatzNeutre": {
+        "titre": "Taux jusqu'à {neutre} % — taxe professionnelle neutralisée",
+        "texte": "L'imputation du § 35 EStG compense intégralement la taxe pour l'entrepreneur individuel. Le désavantage face à la profession libérale disparaît alors en pratique."
+      },
+      "stammkapital": {
+        "titre": "Capital social : UG à partir de {ug}, GmbH à partir de {gmbh}",
+        "texte": "L'UG abaisse la barrière d'entrée mais inspire souvent moins confiance aux banques et aux grands comptes. Elle peut être transformée en GmbH par la suite."
+      },
+      "ugRuecklage": {
+        "titre": "L'UG ne peut pas distribuer tout son bénéfice",
+        "texte": "25 % du résultat annuel doivent alimenter la réserve légale jusqu'à 25 000 €. La distribution intégrale n'est possible qu'ensuite."
+      },
+      "angemessenheit": {
+        "titre": "La rémunération du gérant doit rester raisonnable",
+        "texte": "Un salaire excessif est requalifié par l'administration en distribution occulte et redressé. C'est la comparaison avec le marché qui tranche — nous l'examinons avec vous."
+      },
+      "hypotheses": {
+        "titre": "Ce que suppose ce calcul",
+        "texte": "Gérant associé majoritaire, donc non affilié au régime obligatoire : la comparaison avec l'entrepreneur individuel reste ainsi équitable. Ne sont pas pris en compte les réintégrations et déductions de la taxe professionnelle ni l'option pour l'imposition partielle des dividendes."
+      }
+    },
+    "ctaEtiquette": "Conseil en forme juridique",
+    "ctaTexte": "La forme juridique engage sur des décennies : responsabilité, financement, transmission et fiscalité en dépendent. Nous chiffrons votre cas concret, coûts de transformation compris.",
+    "ctaBouton": "Discuter de ma forme juridique",
+    "avertissement": "Comparaison simplifiée de la charge fiscale courante. Ne sont pas pris en compte : frais de constitution et de transformation, coûts comptables, questions de responsabilité, protection sociale, ni les réintégrations et déductions propres à la taxe professionnelle."
+  },
+
+  "kleinunternehmer": {
+    "titre": "Franchise de TVA ou régime normal ?",
+    "sousTitre": "Le § 19 UStG vous avantage face aux particuliers et vous pénalise face aux professionnels. Ce simulateur vous situe.",
+    "oui": "Oui",
+    "non": "Non",
+    "sectionChiffreAffaires": "Votre chiffre d'affaires",
+    "sectionChiffreAffairesIndice": "C'est le montant payé par vos clients qui compte.",
+    "umsatz": "Chiffre d'affaires de l'année en cours",
+    "premiereAnnee": "Premier exercice",
+    "premiereAnneeIndice": "L'année de création, seul le plafond de l'année en cours s'applique.",
+    "vorjahresumsatz": "Chiffre d'affaires de l'année précédente",
+    "vorjahresumsatzIndice": "Au-delà de {limite}, la franchise tombe l'année suivante.",
+    "sectionClientele": "Votre clientèle",
+    "sectionClienteleIndice": "C'est le véritable levier de la décision.",
+    "partParticuliers": "Part de clients particuliers",
+    "partParticuliersIndice": "Les particuliers regardent le prix final : sans TVA, vous conservez davantage. Les professionnels récupèrent la TVA de toute façon — la franchise ne leur apporte rien.",
+    "sectionDepenses": "Vos dépenses",
+    "sectionDepensesIndice": "Seules comptent les dépenses grevées de TVA. Indiquez les montants hors taxes.",
+    "achats": "Dépenses courantes avec TVA",
+    "achatsIndice": "Matériel, logiciels, loyer, véhicule, sous-traitance.",
+    "investissement": "Investissement prévu",
+    "investissementIndice": "Un achat important peut à lui seul justifier le régime normal.",
+    "satzReduit": "Taux réduit (7 %)",
+    "satzReduitIndice": "Livres, alimentation, transport de personnes, prestations culturelles.",
+    "resultatEtiquette": "Plus avantageux pour vous",
+    "resultatSousTexte": "Un gain de {montant} par an",
+    "resultatNonEligible": "Vous ne remplissez pas les conditions",
+    "resultatNonEligibleTexte": "Les plafonds du § 19 UStG sont dépassés — le régime normal s'impose.",
+    "regimeObligatoire": "Régime normal",
+    "options": {
+      "kleinunternehmer": "Franchise (§ 19)",
+      "regelbesteuerung": "Régime normal"
+    },
+    "recettes": "Recettes",
+    "depenses": "Dépenses",
+    "resultat": "Résultat",
+    "detailTitre": "D'où vient l'écart",
+    "tvaNonFacturee": "TVA non reversée",
+    "tvaNonFactureeIndice": "Votre avantage face aux particuliers : à prix final égal, elle vous reste.",
+    "vorsteuerPerdue": "TVA d'amont non déductible",
+    "vorsteuerPerdueIndice": "Votre inconvénient : sous la franchise, la TVA sur vos achats devient un coût définitif.",
+    "difference": "Écart annuel",
+    "differenceIndice": "en faveur de : {regime}",
+    "seuilBascule": "Point de bascule sur la clientèle particulière",
+    "seuilBasculeIndice": "Au-delà de cette part de particuliers, la franchise devient avantageuse.",
+    "alertes": {
+      "grenzeVorjahrDepassee": {
+        "titre": "Chiffre d'affaires de l'an dernier supérieur à {limite}",
+        "texte": "La franchise est donc exclue cette année. Vous devez facturer la TVA et déposer des déclarations périodiques.",
+        "reference": "§ 19 Abs. 1 UStG"
+      },
+      "grenzeLaufendDepassee": {
+        "titre": "Plafond de {limite} dépassé en cours d'année",
+        "texte": "Depuis 2025, la franchise cesse immédiatement à l'opération qui franchit le seuil — et non à la fin de l'année. La TVA est due dès cette facture.",
+        "reference": "§ 19 Abs. 1 S. 2 UStG"
+      },
+      "basculeAnneeProchaine": {
+        "titre": "Franchisé cette année, plus l'année prochaine",
+        "texte": "Votre chiffre d'affaires dépasse {limite}. Vous restez franchisé cette année mais basculez obligatoirement au 1er janvier. Revoyez vos prix à temps.",
+        "reference": "§ 19 Abs. 1 UStG"
+      },
+      "investissement": {
+        "titre": "TVA récupérable sur l'investissement : {montant}",
+        "texte": "C'est le montant que l'administration vous rembourserait sous le régime normal. Sur un achat conséquent, cela suffit souvent à trancher.",
+        "reference": "§ 15 UStG"
+      },
+      "renonciationInteressante": {
+        "titre": "Renoncer à la franchise rapporte {montant} par an",
+        "texte": "Votre clientèle et votre TVA d'amont plaident pour le régime normal. La renonciation se déclare sans formalisme auprès du centre des impôts.",
+        "reference": "§ 19 Abs. 3 UStG"
+      },
+      "franchiseInteressante": {
+        "titre": "La franchise vous rapporte {montant} par an",
+        "texte": "Conservez-la. Vous économisez en prime les déclarations périodiques et une partie de la comptabilité courante.",
+        "reference": "§ 19 Abs. 1 UStG"
+      },
+      "bindung": {
+        "titre": "La renonciation vous engage {annees} ans",
+        "texte": "Qui renonce à la franchise ne peut y revenir avant cinq années civiles. La décision mérite d'être chiffrée, pas expédiée.",
+        "reference": "§ 19 Abs. 3 UStG"
+      },
+      "clienteleProfessionnelle": {
+        "titre": "Face aux professionnels, le prix TTC ne compte pas",
+        "texte": "Vos clients déduisent la TVA : seul votre prix hors taxes les intéresse. L'avantage de prix supposé de la franchise disparaît entièrement ici.",
+        "reference": "§ 15 UStG"
+      },
+      "chargeAdministrative": {
+        "titre": "Le coût administratif fait partie du calcul",
+        "texte": "Le régime normal, ce sont des déclarations périodiques, un suivi de la TVA déductible et des mentions de facturation rigoureuses. Notre calculateur d'honoraires en donne le prix.",
+        "reference": "§ 18 UStG"
+      }
+    },
+    "ctaEtiquette": "Sécuriser la décision",
+    "ctaTexte": "Cinq ans d'engagement méritent un calcul propre. Nous examinons vos chiffres, votre clientèle et vos investissements prévus — et prenons en charge les déclarations si vous le souhaitez.",
+    "ctaBouton": "Réserver un rendez-vous gratuit",
+    "avertissement": "Comparaison simplifiée. Ne sont pas pris en compte : les opérations intracommunautaires et l'autoliquidation, la taxation sur la marge, les taux mixtes et la régularisation de TVA déductible (§ 15a UStG) lors du changement de régime."
+  },
+
+  "firmenwagen": {
+    "titre": "Voiture de fonction : forfait de 1 % ou carnet de bord ?",
+    "sousTitre": "Ce qui compte n'est pas l'avantage en nature, mais ce que le véhicule retire réellement de votre salaire net.",
+    "oui": "Oui",
+    "non": "Non",
+    "sectionVehicule": "Le véhicule",
+    "sectionVehiculeIndice": "C'est le prix catalogue TTC à la première immatriculation qui compte — pas le prix réellement payé.",
+    "bruttolistenpreis": "Prix catalogue TTC",
+    "motorisation": "Motorisation",
+    "motorisations": {
+      "verbrenner": { "titre": "Thermique", "description": "1 % du prix catalogue" },
+      "elektro": { "titre": "Électrique", "description": "0,25 % jusqu'à 100 000 €" },
+      "hybride": { "titre": "Hybride", "description": "0,5 % sous conditions" }
+    },
+    "anschaffungRecente": "Mise à disposition depuis le 01.07.2025",
+    "anschaffungRecenteIndice": "Auparavant, le plafond de l'assiette au quart était de 70 000 € et non 100 000 €.",
+    "sectionTrajets": "Vos trajets",
+    "distanceTravail": "Distance domicile – lieu de travail",
+    "distanceTravailIndice": "Trajet simple, par l'itinéraire routier le plus court.",
+    "joursTravailles": "Jours travaillés par an",
+    "joursTravaillesIndice": "220 jours est la valeur usuelle. Moins en cas de télétravail.",
+    "sectionSalaire": "Votre salaire",
+    "sectionSalaireIndice": "L'avantage en nature est imposé à votre taux personnel : votre salaire est donc déterminant.",
+    "bruttoAnnuel": "Salaire brut annuel",
+    "steuerklasse": "Classe d'imposition",
+    "bundesland": "Land",
+    "kirchensteuer": "Assujetti à l'impôt d'église",
+    "sectionCarnet": "Carnet de bord",
+    "sectionCarnetIndice": "À remplir uniquement si vous connaissez les coûts réels.",
+    "carnetActif": "Comparer avec le carnet de bord",
+    "carnetActifIndice": "Intéressant surtout en cas de faible usage privé et de véhicule coûteux.",
+    "coutAnnuelVehicule": "Coûts totaux annuels",
+    "coutAnnuelVehiculeIndice": "Amortissement, assurance, taxe, entretien, carburant ou électricité.",
+    "kmTotal": "Kilométrage annuel total",
+    "kmPrives": "Dont strictement privés",
+    "kmPrivesIndice": "Hors trajets domicile-travail : le simulateur les calcule lui-même.",
+    "resultatEtiquette": "Votre véhicule vous coûte net",
+    "resultatSousTexte": "{annuel} par an — méthode la plus favorable : {methode}",
+    "methodes": { "forfait": "Forfait de 1 %", "carnet": "Carnet de bord" },
+    "avantageEnNature": "Avantage en nature",
+    "impotsEtCotisations": "Impôts et cotisations",
+    "parMois": "Par mois",
+    "carnetInactif": "Activez la comparaison et saisissez vos coûts réels.",
+    "detailTitre": "Composition du montant (forfait de 1 %)",
+    "assiette": "Assiette retenue",
+    "assietteIndice": "{part} du prix catalogue",
+    "usagePrive": "Usage privé (1 % par mois)",
+    "trajetsTravail": "Trajets domicile-travail (0,03 % par mois)",
+    "trajetsTravailIndice": "par kilomètre de distance, ici {km} km",
+    "avantageTotal": "Avantage en nature annuel",
+    "impotsSupplementaires": "Impôts supplémentaires",
+    "cotisationsSupplementaires": "Cotisations supplémentaires",
+    "coutReel": "Charge réelle",
+    "coutReelIndice": "{taux} de l'avantage en nature",
+    "economieElectrique": {
+      "titre": "L'électrique vous fait économiser {montant} par an",
+      "texte": "Le même prix catalogue en thermique vous coûterait {thermique} par mois au lieu de {actuel}. L'assiette au quart est le levier le plus puissant sur un véhicule de fonction."
+    },
+    "alertes": {
+      "electriqueAvantage": {
+        "titre": "Assiette au quart applicable (prix catalogue jusqu'à {plafond})",
+        "texte": "Seul un quart du prix catalogue est retenu, aussi bien pour l'usage privé que pour les trajets domicile-travail.",
+        "reference": "§ 6 Abs. 1 Nr. 4 S. 2 Nr. 3 EStG"
+      },
+      "electriqueAuDessusPlafond": {
+        "titre": "Au-delà de {plafond} : assiette réduite de moitié seulement",
+        "texte": "Au-dessus du plafond, l'assiette au quart cède la place à la moitié. Quelques milliers d'euros de prix catalogue en moins peuvent représenter beaucoup sur plusieurs années.",
+        "reference": "§ 6 Abs. 1 Nr. 4 EStG"
+      },
+      "plafondAncien": {
+        "titre": "Mise à disposition antérieure : plafond à {plafond}",
+        "texte": "Les véhicules mis à disposition avant le 01.07.2025 conservent l'ancien plafond. C'est la date de mise à disposition qui compte, pas l'année d'imposition.",
+        "reference": "§ 6 Abs. 1 Nr. 4 EStG"
+      },
+      "hybrideConditions": {
+        "titre": "Les hybrides ne sont avantagés que sous conditions",
+        "texte": "La réduction de moitié suppose une autonomie électrique minimale ou de faibles émissions. À défaut, le forfait plein de 1 % s'applique.",
+        "reference": "§ 6 Abs. 1 Nr. 4 S. 2 Nr. 2 EStG"
+      },
+      "carnetInteressant": {
+        "titre": "Le carnet de bord vous fait gagner {montant} par an",
+        "texte": "Votre usage privé est assez faible pour justifier la contrainte. La méthode se choisit pour l'année entière et par véhicule.",
+        "reference": "§ 8 Abs. 2 S. 4 EStG"
+      },
+      "forfaitInteressant": {
+        "titre": "Le forfait de 1 % vous est plus favorable",
+        "texte": "L'écart est de {montant} par an en faveur du forfait — pour beaucoup moins de contraintes.",
+        "reference": "§ 8 Abs. 2 EStG"
+      },
+      "carnetNonRenseigne": {
+        "titre": "Carnet de bord non comparé",
+        "texte": "Sans les coûts totaux et le kilométrage, la seconde méthode ne peut pas être évaluée. Activez la comparaison lorsque vous aurez les chiffres."
+      },
+      "carnetExigences": {
+        "titre": "Un carnet de bord doit être sans faille",
+        "texte": "Date, kilométrage, destination, motif et interlocuteur pour chaque trajet — tenus au fil de l'eau et non modifiables. Un tableur est rejeté par l'administration, qui applique alors rétroactivement le forfait.",
+        "reference": "R 8.1 Abs. 9 Nr. 2 LStR"
+      },
+      "entfernungspauschale": {
+        "titre": "N'oubliez pas la déduction de {montant} pour vos trajets",
+        "texte": "Malgré le véhicule de fonction, les trajets domicile-travail restent déductibles. L'effet joue dans la déclaration annuelle, pas sur la retenue mensuelle.",
+        "reference": "§ 9 Abs. 1 Nr. 4 EStG"
+      },
+      "einzelbewertung": {
+        "titre": "Avec {jours} jours travaillés, l'évaluation au réel se justifie",
+        "texte": "En dessous de 180 trajets par an, on peut retenir 0,002 % par trajet effectif au lieu de 0,03 % forfaitaires par mois. Encore faut-il que l'employeur l'applique.",
+        "reference": "Circulaire du ministère fédéral des Finances"
+      }
+    },
+    "ctaEtiquette": "Bien monter son véhicule de fonction",
+    "ctaTexte": "Choix de la méthode, plafond électrique, recharge, conversion de salaire : sur un véhicule de fonction, les détails valent des milliers d'euros. Nous chiffrons votre configuration.",
+    "ctaBouton": "Réserver un rendez-vous gratuit",
+    "avertissement": "Calcul simplifié. Ne sont pas pris en compte : les participations du salarié, la recharge et la borne, les retours au domicile familial en cas de double résidence, les véhicules de pool et la taxation forfaitaire des indemnités de trajet."
+  },
+
+  "immobilien": {
+    "titre": "Bien locatif : est-ce rentable ?",
+    "sousTitre": "Rendement après impôt, amortissement et déficit foncier — à partir de vos propres chiffres.",
+    "oui": "Oui",
+    "non": "Non",
+    "sectionBien": "Le bien",
+    "sectionBienIndice": "Prix hors frais annexes — le simulateur les ajoute lui-même.",
+    "prix": "Prix d'achat",
+    "partTerrain": "Quote-part du terrain",
+    "partTerrainIndice": "Seule la construction s'amortit, jamais le terrain. Une quote-part de terrain surévaluée vous coûte de l'amortissement chaque année.",
+    "bundesland": "Land",
+    "courtier": "Avec commission d'agence",
+    "sectionAmortissement": "Amortissement",
+    "sectionAmortissementIndice": "Le taux dépend de l'année d'achèvement.",
+    "amortissements": {
+      "habitationDepuis2023": { "titre": "3 % linéaire", "description": "Achèvement à partir de 2023" },
+      "habitationDepuis1925": { "titre": "2 % linéaire", "description": "Achèvement à partir de 1925" },
+      "habitationAvant1925": { "titre": "2,5 % linéaire", "description": "Achèvement avant 1925" },
+      "degressif": { "titre": "5 % dégressif", "description": "Chantier 10/2023 – 09/2029" }
+    },
+    "sectionExploitation": "Recettes et dépenses",
+    "loyerAnnuel": "Loyer annuel hors charges",
+    "loyerAnnuelIndice": "Hors charges récupérables.",
+    "chargesAnnuelles": "Charges non récupérables",
+    "chargesAnnuellesIndice": "Gestion, provision pour travaux, réparations, assurance.",
+    "interetsAnnuels": "Intérêts annuels",
+    "interetsAnnuelsIndice": "Seuls les intérêts sont déductibles — pas le remboursement du capital.",
+    "remboursementCapital": "Remboursement du capital",
+    "remboursementCapitalIndice": "Pèse sur votre trésorerie sans réduire l'impôt.",
+    "sectionFiscalite": "Votre situation fiscale",
+    "sectionFiscaliteIndice": "Vos autres revenus déterminent ce que vaut un déficit.",
+    "autresRevenus": "Autres revenus imposables",
+    "splitting": "Imposition commune",
+    "resultatEtiquette": "Votre trésorerie mensuelle après impôt",
+    "resultatSousTexte": "{annuel} par an · rendement après impôt {rendement}",
+    "detailAcquisitionTitre": "Ce que l'achat coûte réellement",
+    "prixAchat": "Prix d'achat",
+    "mutation": "Droits de mutation",
+    "mutationIndice": "{taux} dans ce Land",
+    "notaire": "Notaire et registre foncier",
+    "commission": "Commission d'agence",
+    "coutTotal": "Investissement total",
+    "detailFiscalTitre": "Résultat fiscal",
+    "detailFiscalIndice": "Un excédent de charges réduit l'ensemble de votre impôt sur le revenu.",
+    "amortissement": "Amortissement",
+    "amortissementIndice": "{taux} sur {base}",
+    "resultatFiscal": "Revenus fonciers",
+    "effetImpot": "Effet sur votre impôt",
+    "effetImpotIndice": "à un taux marginal de {taux}",
+    "rendementsTitre": "Rendements",
+    "rendementBrut": "Rendement brut",
+    "rendementNet": "Rendement net",
+    "rendementNetIndice": "après charges non récupérables",
+    "rendementApresImpot": "Rendement après impôt",
+    "alertesTitre": "Ce que vous devez savoir",
+    "alertes": {
+      "fraisAcquisition": {
+        "titre": "Frais annexes : {montant} ({part} du prix)",
+        "texte": "Aucune banque ne les finance. Ils augmentent en revanche la base amortissable, pour la part revenant à la construction.",
+        "reference": "§ 255 HGB"
+      },
+      "deficit": {
+        "titre": "Le déficit foncier vous fait économiser {montant}",
+        "texte": "Il s'impute sur vos autres revenus. À un taux marginal de {taux}, l'administration prend en charge une part importante de vos intérêts.",
+        "reference": "§ 21 EStG"
+      },
+      "benefice": {
+        "titre": "Bénéfice foncier : {montant} d'impôt en plus",
+        "texte": "Vos loyers dépassent intérêts, charges et amortissement. Vérifiez si des travaux d'entretien peuvent être avancés.",
+        "reference": "§ 21 EStG"
+      },
+      "terrain": {
+        "titre": "Quote-part de terrain retenue : {part}",
+        "texte": "La répartition entre terrain et construction fixe votre amortissement pour des décennies. Elle a sa place dans l'acte — l'administration l'accepte rarement après coup.",
+        "reference": "Guide du ministère fédéral des Finances"
+      },
+      "speculation": {
+        "titre": "Délai de spéculation : {ans} ans",
+        "texte": "Une revente avant ce terme rend la plus-value imposable. L'occupation personnelle durant l'année de vente et les {ansUsage} précédentes fait disparaître l'impôt.",
+        "reference": "§ 23 Abs. 1 Nr. 1 EStG"
+      },
+      "degressif": {
+        "titre": "Amortissement dégressif de {taux} retenu",
+        "texte": "Vous amortissez beaucoup plus les premières années, moins ensuite. Le passage au linéaire reste possible une fois.",
+        "reference": "§ 7 Abs. 5a EStG"
+      },
+      "tilgung": {
+        "titre": "Le remboursement de {montant} n'est pas déductible",
+        "texte": "Il sort de votre trésorerie sans réduire l'impôt — la raison classique pour laquelle un bien peut être fiscalement rentable et pourtant coûteux en liquidités.",
+        "reference": "§ 9 EStG"
+      }
+    },
+    "ctaEtiquette": "Calculer avant le notaire",
+    "ctaTexte": "Répartition du prix, choix de l'amortissement et structure de financement fixent votre fiscalité pour des décennies. Après signature, on ne corrige plus grand-chose.",
+    "ctaBouton": "Réserver un rendez-vous gratuit",
+    "avertissement": "Calcul simplifié sur la première année. Ne sont pas pris en compte : la vacance locative, les travaux différés, les amortissements exceptionnels, les dépenses assimilées à des coûts de production et l'évolution des loyers et des taux."
+  },
+
+  "kaufnebenkosten": {
+    "titre": "Frais annexes d'un achat immobilier",
+    "sousTitre": "Droits de mutation, notaire, registre foncier et agence — la somme qu'aucune banque ne finance.",
+    "oui": "Oui",
+    "non": "Non",
+    "sectionAchat": "Votre achat",
+    "prix": "Prix d'achat",
+    "bundesland": "Land",
+    "courtier": "Agence impliquée",
+    "courtierIndice": "Depuis 2020, la commission est en principe partagée pour l'habitation.",
+    "apport": "Apport disponible",
+    "apportIndice": "Les frais annexes doivent en être intégralement couverts.",
+    "classementTitre": "Droits de mutation par Land",
+    "classementIndice": "Votre Land est mis en évidence.",
+    "resultatEtiquette": "Vos frais annexes",
+    "resultatSousTexte": "{part} du prix · investissement total {total}",
+    "detailTitre": "Détail",
+    "prixAchat": "Prix d'achat",
+    "mutation": "Droits de mutation",
+    "mutationIndice": "{taux} dans ce Land",
+    "notaire": "Frais de notaire",
+    "notaireIndice": "Acte et exécution, tarif réglementé.",
+    "registre": "Inscription au registre foncier",
+    "commission": "Commission d'agence",
+    "commissionIndice": "Part acquéreur, TVA comprise.",
+    "fraisTotal": "Total des frais annexes",
+    "coutTotal": "Investissement total",
+    "emprunt": "Besoin de financement",
+    "empruntIndice": "{part} de l'investissement total",
+    "alertesTitre": "Ce que vous devez savoir",
+    "alertes": {
+      "apportInsuffisant": {
+        "titre": "Votre apport ne couvre pas les frais annexes",
+        "texte": "Il vous faut au moins {montant} rien que pour les droits, le notaire et l'agence. Les banques ne les financent pratiquement jamais — c'est la première cause d'échec d'un financement."
+      },
+      "apportSuffisant": {
+        "titre": "Frais annexes couverts par l'apport",
+        "texte": "L'obstacle principal est franchi. Tout apport supplémentaire fait baisser sensiblement votre taux."
+      },
+      "ecartLand": {
+        "titre": "En Bavière, ce serait {montant} de moins",
+        "texte": "Le taux le plus bas d'Allemagne est de {taux}. Pour un investissement locatif, l'écart mérite réflexion ; pour une résidence principale, rarement.",
+        "reference": "§ 11 GrEStG"
+      },
+      "courtier": {
+        "titre": "Commission d'agence de {montant}",
+        "texte": "Librement négociable, même si on le présente rarement ainsi. Elle disparaît entièrement lors d'un achat direct auprès du propriétaire.",
+        "reference": "§ 656c BGB"
+      },
+      "mobilier": {
+        "titre": "Le mobilier repris réduit les droits",
+        "texte": "Cuisine équipée, store ou sauna ne font pas partie de l'immeuble. Si leur valeur figure séparément dans l'acte, elle échappe aux droits de mutation.",
+        "reference": "§ 2 GrEStG"
+      },
+      "delaiPaiement": {
+        "titre": "L'impôt arrive plus vite qu'on ne croit",
+        "texte": "L'avis suit de quelques semaines la signature et est exigible sous un mois. Sans attestation de paiement, pas d'inscription au registre foncier.",
+        "reference": "§ 22 GrEStG"
+      }
+    },
+    "ctaEtiquette": "Vérifier le financement",
+    "ctaTexte": "Nous examinons vos frais annexes, la répartition du prix et la structure fiscale — avant que vous ne soyez chez le notaire.",
+    "ctaBouton": "Réserver un rendez-vous gratuit",
+    "avertissement": "Les frais de notaire et de registre foncier sont des ordres de grandeur selon le GNotKG ; seul le décompte du notaire fait foi. Les commissions d'agence varient selon les régions et se négocient.",
+    "stand": "Taux de mutation vérifiés le {date}"
+  },
+
+  "photovoltaik": {
+    "titre": "Photovoltaïque : exonéré ou non ?",
+    "sousTitre": "La limite de 30 kWc décide — en dessous tout est exonéré, au-dessus l'installation devient une activité commerciale.",
+    "sectionInstallation": "Votre installation",
+    "sectionInstallationIndice": "C'est la puissance brute déclarée au registre qui compte.",
+    "puissance": "Puissance",
+    "unites": "Logements et locaux dans le bâtiment",
+    "unitesIndice": "La limite s'applique par unité — elle se multiplie en immeuble collectif.",
+    "autresInstallations": "Vos autres installations",
+    "autresInstallationsIndice": "Toutes les installations d'un même contribuable se cumulent.",
+    "investissement": "Montant investi",
+    "investissementIndice": "Modules, onduleur, batterie et pose.",
+    "sectionRendement": "Production et prix",
+    "sectionRendementIndice": "Valeurs indicatives, à ajuster selon votre devis.",
+    "productionParKwp": "Production par kWc et par an",
+    "partAutoconsommation": "Part autoconsommée",
+    "tarifInjection": "Tarif de rachat par kWh",
+    "tarifInjectionIndice": "Figure sur votre attestation EEG.",
+    "prixElectricite": "Votre prix de l'électricité par kWh",
+    "tauxMarginal": "Votre taux marginal",
+    "tauxMarginalIndice": "Utile seulement si l'installation n'est pas exonérée.",
+    "resultatEtiquette": "Votre gain annuel exonéré",
+    "resultatImposable": "Votre gain après impôt",
+    "resultatSousTexte": "Installation amortie au bout de {ans} ans",
+    "resultatSansAmortissement": "Pas d'amortissement avec ces hypothèses",
+    "detailTitre": "Composition du gain",
+    "production": "Production annuelle",
+    "productionIndice": "{puissance} kWc",
+    "injection": "Revente au réseau",
+    "injectionIndice": "{kwh} kWh",
+    "autoconsommation": "Électricité non achetée",
+    "autoconsommationIndice": "{kwh} kWh autoconsommés",
+    "beneficeAnnuel": "Gain annuel",
+    "impot": "Impôt sur le revenu",
+    "impotIndice": "à un taux marginal de {taux}",
+    "limitesTitre": "Les deux limites",
+    "limitesIndice": "Les deux doivent être respectées, sinon l'exonération tombe entièrement.",
+    "limiteObjet": "Limite pour ce bâtiment",
+    "limiteObjetIndice": "30 kWc × {unites} unités",
+    "limiteContribuable": "Total de vos installations",
+    "alertesTitre": "Ce que vous devez savoir",
+    "alertes": {
+      "exonere": {
+        "titre": "Exonéré — {montant} par an sans impôt",
+        "texte": "Votre installation reste sous {limite}. Ni le tarif de rachat ni l'autoconsommation ne sont imposés, et aucune détermination de bénéfice n'est requise.",
+        "reference": "§ 3 Nr. 72 EStG"
+      },
+      "depasseObjet": {
+        "titre": "Au-delà de la limite de {limite}",
+        "texte": "Avec {puissance} kWc vous perdez l'exonération en totalité — il n'existe pas de solution proportionnelle. Quelques modules de moins peuvent économiser plusieurs centaines d'euros par an.",
+        "reference": "§ 3 Nr. 72 EStG"
+      },
+      "depasseContribuable": {
+        "titre": "Plafond global de {limite} dépassé",
+        "texte": "Vous atteignez {total} kWc toutes installations confondues. Au-delà, toutes deviennent imposables, y compris les plus petites.",
+        "reference": "§ 3 Nr. 72 S. 1 EStG"
+      },
+      "tauxZero": {
+        "titre": "Le taux zéro vous fait économiser {montant}",
+        "texte": "La livraison et l'installation sur un bâtiment d'habitation sont facturées sans TVA. Aucune demande à formuler, aucune option à exercer.",
+        "reference": "§ 12 Abs. 3 UStG"
+      },
+      "kleinunternehmer": {
+        "titre": "Rester en franchise est désormais le bon choix",
+        "texte": "Autrefois on renonçait à la franchise pour récupérer la TVA sur l'achat. Avec le taux zéro il n'y a plus de TVA à récupérer — renoncer n'apporte que des obligations.",
+        "reference": "§ 19 UStG"
+      },
+      "euerRequise": {
+        "titre": "Détermination du bénéfice requise",
+        "texte": "Sans exonération, l'installation devient une activité commerciale : compte de recettes-dépenses, annexe G et amortissement sur vingt ans.",
+        "reference": "§ 4 Abs. 3 EStG"
+      },
+      "gewerbeanmeldung": {
+        "titre": "Déclaration obligatoire malgré tout",
+        "texte": "L'exonération ne dispense ni de l'inscription au registre des installations ni de la déclaration auprès du centre des impôts.",
+        "reference": "§ 138 AO"
+      }
+    },
+    "ctaEtiquette": "Vérifier avant d'acheter",
+    "ctaTexte": "Puissance, batterie et structure de propriété décident de l'exonération. Nous examinons votre devis avant que vous ne signiez.",
+    "ctaBouton": "Réserver un rendez-vous gratuit",
+    "avertissement": "Calcul de rentabilité simplifié. Ne sont pas pris en compte : la dégradation des modules, le remplacement de l'onduleur, l'assurance, les pertes de stockage, le coût du financement et l'évolution des prix."
+  },
+
+  "abfindung": {
+    "titre": "Indemnité de départ : que reste-t-il ?",
+    "sousTitre": "La règle du cinquième atténue la progressivité — mais depuis 2025 seulement à la déclaration, plus sur la fiche de paie.",
+    "oui": "Oui",
+    "non": "Non",
+    "sectionIndemnite": "Votre indemnité",
+    "indemnite": "Montant de l'indemnité",
+    "revenuRestant": "Autres revenus imposables de l'année de versement",
+    "revenuRestantIndice": "Salaire jusqu'au départ ; les allocations chômage ne comptent pas ici.",
+    "splitting": "Imposition commune",
+    "sectionTiming": "Date de versement",
+    "sectionTimingIndice": "Le levier le plus puissant : dans une année sans salaire, le taux est nettement plus bas.",
+    "versementAnneeSuivante": "Versement reporté à l'année suivante",
+    "versementAnneeSuivanteIndice": "Souvent négociable — la convention de rupture le fixe.",
+    "revenuAnneeSuivante": "Revenu prévisible l'année suivante",
+    "revenuAnneeSuivanteIndice": "Nouveau salaire, retraite, ou zéro en cas de chômage.",
+    "resultatEtiquette": "De votre indemnité il vous reste",
+    "resultatSousTexte": "{charge} d'impôt · soit {taux} en effectif",
+    "methodes": { "ordinaire": "Sans la règle du cinquième", "cinquieme": "Avec la règle du cinquième" },
+    "methodesIndice": {
+      "ordinaire": "L'indemnité s'ajoute intégralement au revenu de l'année.",
+      "cinquieme": "Imposée comme si elle était étalée sur cinq ans."
+    },
+    "detailTitre": "Calcul",
+    "indemniteBrute": "Indemnité brute",
+    "revenuBase": "Autres revenus",
+    "revenuBaseIndice": "Base servant à déterminer le taux",
+    "impotSansRegle": "Impôt sans la règle",
+    "impotAvecRegle": "Impôt avec la règle",
+    "economie": "Économie",
+    "economieIndice": "L'administration applique automatiquement la variante la plus favorable.",
+    "soli": "Contribution de solidarité",
+    "netVerse": "Net issu de l'indemnité",
+    "decalageTitre": "Ce qu'apporterait un report à l'année suivante",
+    "decalageIndice": "Même indemnité, autre année de versement.",
+    "decalageActuel": "Versement cette année",
+    "decalageReporte": "Versement l'année suivante",
+    "decalageGain": "Différence",
+    "alertesTitre": "Ce que vous devez savoir",
+    "alertes": {
+      "cinquiemeApplique": {
+        "titre": "La règle du cinquième vous fait gagner {montant}",
+        "texte": "L'effet de progressivité est atténué : l'impôt est calculé sur un cinquième, puis multiplié par cinq.",
+        "reference": "§ 34 Abs. 1 EStG"
+      },
+      "cinquiemeSansEffet": {
+        "titre": "La règle n'apporte rien ici",
+        "texte": "Vos autres revenus vous placent déjà au taux maximal. Un cinquième de l'indemnité y est alors imposé au même taux.",
+        "reference": "§ 34 Abs. 1 EStG"
+      },
+      "plusDePrelevement": {
+        "titre": "Depuis {annee}, l'employeur n'applique plus la règle",
+        "texte": "Le bulletin de paie impose d'abord au taux plein — votre compte affiche donc moins que votre dû. L'écart ne se récupère qu'à la déclaration.",
+        "reference": "Wachstumschancengesetz"
+      },
+      "declarationObligatoire": {
+        "titre": "Sans déclaration, aucun avantage",
+        "texte": "La règle ne s'applique que sur demande, lors de l'établissement de l'impôt. Ne pas déclarer, c'est renoncer à la totalité du gain.",
+        "reference": "§ 46 Abs. 2 Nr. 5 EStG"
+      },
+      "decalage": {
+        "titre": "Reporter à l'année suivante économise {montant}",
+        "texte": "Versée en janvier, l'indemnité tombe sur une année à revenus plus faibles. Cela se négocie dans la convention de rupture — jamais après.",
+        "reference": "§ 11 EStG"
+      },
+      "zusammenballung": {
+        "titre": "Le versement doit être concentré",
+        "texte": "Étalée sur deux années, l'indemnité perd en principe le bénéfice de la règle. De petits versements partiels, jusqu'à la moitié, restent tolérés.",
+        "reference": "Jurisprudence du BFH sur le § 34 EStG"
+      },
+      "sozialversicherung": {
+        "titre": "Aucune cotisation sociale",
+        "texte": "Une véritable indemnité pour perte d'emploi en est exonérée. Les rappels de salaire ou d'indemnités de congés, en revanche, y sont soumis.",
+        "reference": "§ 14 SGB IV"
+      }
+    },
+    "ctaEtiquette": "Avant de signer",
+    "ctaTexte": "Date de versement, concentration et étalement décident de montants à quatre ou cinq chiffres — et ne se négocient qu'avant la signature de la convention.",
+    "ctaBouton": "Réserver un rendez-vous gratuit",
+    "avertissement": "Calcul simplifié. Ne sont pas pris en compte : l'impôt d'église, le taux effectif majoré lié aux allocations chômage, la prévoyance d'entreprise et les rémunérations pluriannuelles."
+  },
+
+  "altersvorsorge": {
+    "titre": "Déficit de retraite et prévoyance",
+    "sousTitre": "Ce qui vous manquera — et ce que Rürup ou Riester coûtent réellement, après impôt et primes.",
+    "oui": "Oui",
+    "non": "Non",
+    "sectionSituation": "Votre situation",
+    "brutAnnuel": "Revenu brut annuel",
+    "age": "Votre âge",
+    "ageRetraite": "Départ en retraite prévu",
+    "enfants": "Enfants ouvrant droit aux allocations",
+    "enfantsIndice": "Chaque enfant augmente fortement la prime Riester.",
+    "splitting": "Imposition commune",
+    "sectionBesoin": "Votre besoin au grand âge",
+    "sectionBesoinIndice": "En part de votre revenu brut actuel.",
+    "besoinPart": "Besoin à la retraite",
+    "sectionEpargne": "Votre effort d'épargne",
+    "sectionEpargneIndice": "Le montant que vous pouvez mettre de côté chaque année.",
+    "epargneAnnuelle": "Épargne annuelle",
+    "rendement": "Rendement retenu",
+    "rendementIndice": "Après frais, avant inflation.",
+    "resultatEtiquette": "Votre déficit mensuel de retraite",
+    "resultatSousTexte": "Pension nette attendue {rente} · encore {ans} ans devant vous",
+    "renteTitre": "Votre pension légale",
+    "renteIndice": "Estimation fondée sur le niveau de pension — seul votre relevé de carrière fait foi.",
+    "renteBrute": "Pension brute",
+    "partImposable": "Part imposable",
+    "partImposableIndice": "pour un départ en {annee}",
+    "impotSurRente": "Impôt sur la pension",
+    "renteNette": "Pension nette",
+    "besoin": "Votre besoin",
+    "deficit": "Déficit",
+    "enveloppes": {
+      "ruerup": { "titre": "Rürup (rente de base)", "description": "Intégralement déductible, mais rente viagère sans sortie en capital." },
+      "riester": { "titre": "Riester", "description": "Des primes plutôt qu'un avantage fiscal — très fort avec des enfants." }
+    },
+    "versement": "Versement",
+    "avantage": "Aide de l'État",
+    "effortNet": "Votre effort net",
+    "capital": "Capital au départ",
+    "alertesTitre": "Ce que vous devez savoir",
+    "alertes": {
+      "deficit": {
+        "titre": "Il vous manquera {montant} par mois",
+        "texte": "Le déficit grandit chaque année d'attente — les intérêts composés ne travaillent qu'avec du temps."
+      },
+      "pasDeDeficit": {
+        "titre": "Aucun déficit calculé",
+        "texte": "Avec ces hypothèses, la pension légale couvre votre besoin. Examinez tout de même l'inflation et le risque de dépendance."
+      },
+      "estimationRente": {
+        "titre": "Cette estimation de pension est grossière",
+        "texte": "Elle retient un niveau de pension de {part} du revenu brut. Votre pension réelle dépend de toute votre carrière — votre relevé annuel est la seule source fiable.",
+        "reference": "§ 154 SGB VI"
+      },
+      "impositionRente": {
+        "titre": "Votre pension sera imposée à {part}",
+        "texte": "La part imposable dépend de l'année de départ et reste ensuite figée à vie. Partir en {annee} n'ouvre plus droit à un taux plus bas.",
+        "reference": "§ 22 Nr. 1 S. 3 EStG"
+      },
+      "ruerup": {
+        "titre": "Rürup vous fait économiser {montant} d'impôt",
+        "texte": "Les versements sont déductibles en totalité jusqu'à {plafond}. Plus votre taux est élevé aujourd'hui, plus l'effet est fort.",
+        "reference": "§ 10 Abs. 1 Nr. 2 EStG"
+      },
+      "plafondRuerupAtteint": {
+        "titre": "Plafond de {plafond} atteint",
+        "texte": "Au-delà, les versements n'apportent plus d'avantage fiscal. D'autres placements sont alors préférables.",
+        "reference": "§ 10 Abs. 3 EStG"
+      },
+      "riesterEnfants": {
+        "titre": "Primes enfants de {montant}",
+        "texte": "Avec {enfants} enfant(s), Riester dépasse presque toujours Rürup — les primes ne dépendent pas de votre taux d'imposition.",
+        "reference": "§ 85 EStG"
+      },
+      "ruerupIrrevocable": {
+        "titre": "Rürup est irrévocable",
+        "texte": "Pas de sortie en capital, pas de résiliation, pas de transmission sans option complémentaire. L'avantage fiscal se paie d'un engagement maximal.",
+        "reference": "§ 10 Abs. 1 Nr. 2b EStG"
+      }
+    },
+    "ctaEtiquette": "Chiffrer votre prévoyance",
+    "ctaTexte": "Rürup, Riester, prévoyance d'entreprise ou compte-titres : le bon choix dépend de votre taux, de vos enfants et de votre horizon. Nous chiffrons toutes les voies.",
+    "ctaBouton": "Réserver un rendez-vous gratuit",
+    "avertissement": "Ordre de grandeur, pas un conseil en placement. Ne sont pas pris en compte : l'inflation, les frais des contrats, la revalorisation des pensions, l'invalidité et votre carrière réelle."
+  },
+
+  "erbschaft": {
+    "titre": "Droits de succession et de donation",
+    "sousTitre": "Abattements, classe d'imposition et règle des dix ans — les trois seuls leviers.",
+    "oui": "Oui",
+    "non": "Non",
+    "sectionTransmission": "La transmission",
+    "donation": "Donation du vivant",
+    "donationIndice": "Plutôt qu'une succession — mêmes abattements, mais renouvelables.",
+    "patrimoine": "Valeur du patrimoine",
+    "beneficiaires": "Nombre de bénéficiaires",
+    "beneficiairesIndice": "Chaque bénéficiaire dispose de son propre abattement.",
+    "sectionLien": "Lien de parenté",
+    "sectionLienIndice": "Il fixe l'abattement et la classe — donc presque tout.",
+    "liens": {
+      "conjoint": { "titre": "Conjoint ou partenaire", "description": "500 000 € d'abattement" },
+      "enfant": { "titre": "Enfant ou bel-enfant", "description": "400 000 € d'abattement" },
+      "petitEnfant": { "titre": "Petit-enfant", "description": "200 000 € d'abattement" },
+      "parent": { "titre": "Parents (en succession)", "description": "100 000 € d'abattement" },
+      "frereSoeur": { "titre": "Frère ou sœur", "description": "20 000 €, classe II" },
+      "neveu": { "titre": "Neveu ou nièce", "description": "20 000 €, classe II" },
+      "autre": { "titre": "Sans lien de parenté", "description": "20 000 €, classe III" }
+    },
+    "resultatEtiquette": "Impôt dû",
+    "resultatSousTexte": "Soit {taux} en effectif · il reste {net}",
+    "detailTitre": "Calcul par bénéficiaire",
+    "detailIndice": "L'impôt se calcule séparément pour chaque bénéficiaire.",
+    "partParBeneficiaire": "Part par bénéficiaire",
+    "partParBeneficiaireIndice": "pour {nombre} bénéficiaire(s)",
+    "abattement": "Abattement personnel",
+    "abattementIndice": "classe {classe}",
+    "versorgung": "Abattement de pension",
+    "versorgungIndice": "Uniquement en succession, réduit des pensions de réversion.",
+    "baseTaxable": "Part taxable",
+    "taux": "Taux",
+    "tauxIndice": "classe {classe}",
+    "impotParPart": "Impôt par bénéficiaire",
+    "netParBeneficiaire": "Reste par bénéficiaire",
+    "etalementTitre": "Ce qu'apporte une transmission échelonnée",
+    "etalementIndice": "Deux donations espacées de {ans} ans plutôt qu'une seule transmission.",
+    "etalementSans": "En une fois",
+    "etalementAvec": "En deux temps",
+    "etalementGain": "Économie",
+    "alertesTitre": "Ce que vous devez savoir",
+    "alertes": {
+      "sousAbattement": {
+        "titre": "Sous l'abattement de {abattement} — aucun impôt",
+        "texte": "À cette valeur, rien n'est dû. Une déclaration au centre des impôts peut malgré tout être requise.",
+        "reference": "§ 16 ErbStG"
+      },
+      "impotDu": {
+        "titre": "{montant} d'impôt à un taux de {taux}",
+        "texte": "En classe {classe}, le taux s'applique à la totalité de la part taxable, sans tranches. Juste au-dessus d'un seuil, l'effet est brutal — un mécanisme d'atténuation ne le corrige que partiellement.",
+        "reference": "§ 19 ErbStG"
+      },
+      "etalement": {
+        "titre": "Échelonner économise {montant}",
+        "texte": "Les abattements se reconstituent tous les {ans} ans. Commencer tôt permet de transmettre le même patrimoine presque sans impôt.",
+        "reference": "§ 14 ErbStG"
+      },
+      "classeDefavorable": {
+        "titre": "La classe {classe} coûte cher",
+        "texte": "Hors famille proche, l'abattement tombe à 20 000 € et le taux démarre entre 15 et 30 %. Adoption, mariage ou montage sociétaire peuvent changer la donne — avec des conséquences majeures ailleurs.",
+        "reference": "§ 15 ErbStG"
+      },
+      "versorgungsfreibetrag": {
+        "titre": "Abattement de pension supplémentaire de {montant}",
+        "texte": "Réservé au conjoint survivant, il est réduit de la valeur en capital des pensions de réversion exonérées.",
+        "reference": "§ 17 ErbStG"
+      },
+      "immobilier": {
+        "titre": "Les biens immobiliers sont évalués autrement",
+        "texte": "Ce n'est pas la valeur vénale qui compte mais celle issue de la loi d'évaluation. Le logement familial occupé peut rester totalement exonéré pour le conjoint et les enfants, sous condition d'y habiter dix ans.",
+        "reference": "§ 13 Abs. 1 Nr. 4b et 4c ErbStG"
+      },
+      "delaiDeclaration": {
+        "titre": "Trois mois pour déclarer",
+        "texte": "Succession comme donation doivent être déclarées au centre des impôts sous trois mois, qu'un impôt soit dû ou non.",
+        "reference": "§ 30 ErbStG"
+      }
+    },
+    "ctaEtiquette": "Préparer la transmission",
+    "ctaTexte": "La règle des dix ans ne joue que si l'on s'y prend assez tôt. Nous examinons abattements, évaluation et usufruit — et chiffrons l'échelonnement pour votre famille.",
+    "ctaBouton": "Réserver un rendez-vous gratuit",
+    "avertissement": "Calcul simplifié. Ne sont pas pris en compte : l'évaluation des biens immobiliers et professionnels, les régimes de faveur pour les entreprises, l'usufruit, la réserve héréditaire, le mécanisme d'atténuation et les transmissions des dix dernières années.",
+    "stand": "Valeurs ErbStG vérifiées le {date}"
+  },
+
+  "erklaerungspflicht": {
+    "titre": "Dois-je déposer une déclaration ?",
+    "sousTitre": "Obligatoire ou facultative — et pour quand. Deux questions rarement traitées ensemble.",
+    "oui": "Oui",
+    "non": "Non",
+    "sectionAnnee": "Année fiscale",
+    "avecConseil": "Avec un conseil fiscal",
+    "avecConseilIndice": "Un mandat prolonge automatiquement le délai, sans demande.",
+    "sectionMotifs": "L'un de ces cas vous concerne-t-il ?",
+    "sectionMotifsIndice": "Un seul suffit à rendre la déclaration obligatoire.",
+    "motifs": {
+      "revenusAnnexes": { "titre": "Revenus annexes ou revenus de remplacement", "description": "Location, pensions, congé parental, chômage partiel, allocations chômage" },
+      "plusieursEmployeurs": { "titre": "Plusieurs employeurs simultanés", "description": "Second emploi en classe VI" },
+      "classeVouFacteur": { "titre": "Classes III/V ou IV avec facteur", "description": "Concerne presque tous les couples à revenus inégaux" },
+      "freibetrag": { "titre": "Abattement inscrit sur la fiche de paie", "description": "Abattement pris en compte au prélèvement" },
+      "abfindung": { "titre": "Indemnité de départ ou rémunération pluriannuelle", "description": "Revenus exceptionnels imposés de façon atténuée" },
+      "ehegattenWechsel": { "titre": "Divorce ou décès du conjoint avec remariage", "description": "La même année" },
+      "independant": { "titre": "Activité indépendante ou commerciale", "description": "Même à titre accessoire" },
+      "capitauxEtrangers": { "titre": "Revenus de capitaux sans retenue à la source", "description": "Compte-titres étranger, cryptomonnaies" },
+      "demandeFinanzamt": { "titre": "Le centre des impôts vous l'a demandée", "description": "Demande écrite reçue" }
+    },
+    "revenusAnnexesMontant": "Montant de ces revenus",
+    "revenusAnnexesIndice": "L'obligation ne naît qu'au-delà de {seuil}.",
+    "sectionVolontaires": "Et est-ce rentable ?",
+    "sectionVolontairesIndice": "Même sans obligation, la plupart des salariés récupèrent de l'argent.",
+    "volontaires": {
+      "fraisEleves": { "titre": "Frais professionnels élevés", "description": "Au-delà du forfait de 1 230 €" },
+      "emploiPartiel": { "titre": "Année incomplète travaillée", "description": "Premier emploi, congé parental, études" },
+      "changementEmploi": { "titre": "Changement d'emploi ou déménagement", "description": "Frais de candidature et de déménagement" },
+      "mariageRecent": { "titre": "Mariage", "description": "L'avantage du quotient passe souvent par la déclaration" },
+      "dons": { "titre": "Dons ou travaux à domicile", "description": "Les services à la personne comptent aussi" }
+    },
+    "resultatObligatoire": "Déclaration obligatoire — échéance",
+    "resultatFacultatif": "Facultative — vous avez jusqu'au",
+    "resultatSousTexte": "pour l'année fiscale {annee}",
+    "resultatSousTexteFacultatif": "Quatre ans rétroactivement, soit jusqu'au {date}",
+    "delaisTitre": "Vos délais comparés",
+    "delaisIndice": "Le délai se prolonge du seul fait du mandat, sans démarche.",
+    "delaiSansConseil": "Sans conseil",
+    "delaiAvecConseil": "Avec conseil",
+    "delaiAvecConseilIndice": "{jours} jours de plus",
+    "delaiVolontaire": "Déclaration volontaire",
+    "delaiVolontaireIndice": "Quatre ans de délai de prescription.",
+    "motifsRetenusTitre": "Ce qui déclenche votre obligation",
+    "alertesTitre": "Ce que vous devez savoir",
+    "alertes": {
+      "obligatoire": {
+        "titre": "Déclaration obligatoire — {nombre} motif(s) rempli(s)",
+        "texte": "Le dépôt est imposé, pas facultatif. Laisser filer le délai expose à une taxation d'office rarement favorable.",
+        "reference": "§ 46 Abs. 2 EStG"
+      },
+      "retard": {
+        "titre": "Le retard coûte dès le premier mois",
+        "texte": "La majoration atteint {part} de l'impôt par mois entamé, avec un minimum de {minimum} par mois. En cas d'obligation, elle est appliquée systématiquement.",
+        "reference": "§ 152 AO"
+      },
+      "volontaireRentable": {
+        "titre": "Déclarer volontairement est rentable ici",
+        "texte": "Vous avez coché {nombre} élément(s) qui donnent généralement lieu à remboursement. En moyenne, les salariés récupèrent des montants à quatre chiffres.",
+        "reference": "§ 46 Abs. 2 Nr. 8 EStG"
+      },
+      "aucuneObligation": {
+        "titre": "Aucune obligation apparente",
+        "texte": "D'après vos réponses, rien ne vous y oblige. Une déclaration volontaire reste possible — et le plus souvent avantageuse.",
+        "reference": "§ 46 EStG"
+      },
+      "quatreAns": {
+        "titre": "Quatre ans plutôt que quelques mois",
+        "texte": "Sans obligation, vous pouvez déclarer rétroactivement sur quatre ans. Les années anciennes sont souvent les plus rentables — et les plus oubliées.",
+        "reference": "§ 169 AO"
+      },
+      "gainDelai": {
+        "titre": "Avec un conseil, {jours} jours de plus",
+        "texte": "Le délai allongé s'applique automatiquement dès qu'un mandat existe. Ce n'est pas la raison principale de faire appel à un conseil, mais c'est un effet réel.",
+        "reference": "§ 149 Abs. 3 AO"
+      },
+      "sousSeuil": {
+        "titre": "Revenus annexes inférieurs à {seuil}",
+        "texte": "Ils ne déclenchent donc pas d'obligation. Pour les revenus de remplacement, le taux effectif majoré s'applique cependant même en dessous.",
+        "reference": "§ 46 Abs. 2 Nr. 1 EStG"
+      },
+      "abfindung": {
+        "titre": "Indemnité de départ : la déclaration rapporte",
+        "texte": "Depuis 2025 l'employeur n'applique plus la règle du cinquième. Seule la déclaration permet de récupérer la différence.",
+        "reference": "§ 34 EStG"
+      }
+    },
+    "ctaEtiquette": "Sécuriser le délai",
+    "ctaTexte": "Nous prenons en charge votre déclaration, examinons rétroactivement les années ouvertes, et vous gagnez automatiquement sept mois de délai.",
+    "ctaBouton": "Réserver un rendez-vous gratuit",
+    "avertissement": "Aide à l'orientation, pas un examen définitif. Le § 46 EStG prévoit d'autres cas ; seule votre situation concrète fait foi. Les délais peuvent être modifiés par décision individuelle de l'administration.",
+    "stand": "Délais § 149 AO, au {date}"
+  },
+
+  "unterhalt": {
+    "titre": "Déduire l'argent envoyé à la famille au pays",
+    "sousTitre": "Soutenir ses parents ou ses frères et sœurs à l'étranger est déductible — rares sont ceux qui le savent, plus rares encore ceux qui en connaissent les conditions.",
+    "oui": "Oui",
+    "non": "Non",
+    "sectionEnvois": "Vos versements",
+    "sectionEnvoisIndice": "Total d'une année civile, toutes personnes soutenues confondues.",
+    "montantVerse": "Montant viré dans l'année",
+    "nombrePersonnes": "Nombre de personnes soutenues",
+    "nombrePersonnesIndice": "Chaque personne dispose de son propre plafond.",
+    "moisSoutien": "Mois pendant lesquels vous avez aidé",
+    "parVirement": "Versement par virement bancaire",
+    "parVirementIndice": "Décisif : depuis 2025, les espèces et l'argent apporté lors d'un voyage ne sont plus déductibles.",
+    "sectionPays": "Pays de résidence de la personne aidée",
+    "sectionPaysIndice": "L'administration réduit le plafond selon le niveau de vie du pays. Votre groupe figure dans la circulaire du ministère fédéral des Finances — nous le vérifions avec vous.",
+    "groupes": {
+      "1": { "titre": "Groupe 1 — montant plein", "description": "Pays au niveau allemand" },
+      "2": { "titre": "Groupe 2 — trois quarts", "description": "Niveau un peu inférieur" },
+      "3": { "titre": "Groupe 3 — la moitié", "description": "Niveau nettement inférieur" },
+      "4": { "titre": "Groupe 4 — un quart", "description": "La plupart des pays d'Afrique subsaharienne" }
+    },
+    "sectionBeneficiaire": "La personne aidée",
+    "sectionBeneficiaireIndice": "Seuls les proches légalement créanciers d'aliments ouvrent droit à déduction : parents, grands-parents, enfants, conjoint. Les frères et sœurs n'en font pas partie.",
+    "conjointBeneficiaire": "Il s'agit de mon conjoint",
+    "conjointBeneficiaireIndice": "Pour le conjoint, l'Opfergrenze ne s'applique pas.",
+    "beneficiaireApteAuTravail": "Personne en capacité de travailler et de moins de 65 ans",
+    "beneficiaireApteAuTravailIndice": "Qui peut travailler doit en principe le faire : l'administration refuse alors la déduction.",
+    "revenusPersonne": "Revenus propres de la personne par an",
+    "revenusPersonneIndice": "Pension, loyers, salaire — tout ce qui dépasse 624 € s'impute.",
+    "sectionPayeur": "Votre situation",
+    "sectionPayeurIndice": "Détermine votre Opfergrenze et votre taux d'imposition.",
+    "revenuNetPayeur": "Votre revenu net disponible",
+    "revenuNetPayeurIndice": "Après impôts et cotisations sociales.",
+    "revenuImposablePayeur": "Votre revenu imposable",
+    "splitting": "Imposition commune",
+    "conjointPayeur": "J'ai un conjoint",
+    "conjointPayeurIndice": "Abaisse l'Opfergrenze de 5 points.",
+    "enfantsPayeur": "Mes enfants ouvrant droit aux allocations",
+    "enfantsPayeurIndice": "Chaque enfant abaisse l'Opfergrenze de 5 points supplémentaires.",
+    "resultatEtiquette": "Votre économie d'impôt",
+    "resultatSousTexte": "{deductible} déductibles à un taux marginal de {taux}",
+    "resultatBloque": "Aucune déduction possible",
+    "resultatBloqueTexte": "Une condition n'est pas remplie — voyez les points ci-dessous.",
+    "detailTitre": "Comment le montant se construit",
+    "detailIndice": "Le plafond s'applique par personne soutenue.",
+    "montantVerseLigne": "Viré",
+    "plafondPlein": "Plafond par personne",
+    "plafondPleinIndice": "groupe {groupe}, soit {part} de l'abattement de base",
+    "plafondProrata": "Après réduction mensuelle",
+    "imputation": "Imputation des revenus propres",
+    "imputationIndice": "au-delà de la franchise de 624 €",
+    "opfergrenzeLigne": "Opfergrenze",
+    "opfergrenzeIndice": "{part} de votre revenu net",
+    "deductible": "Déductible au total",
+    "economie": "Économie d'impôt",
+    "economieIndice": "à {taux} de taux marginal",
+    "partReconnue": "Part de vos versements reconnue",
+    "alertesTitre": "Ce qui décide de votre déduction",
+    "alertes": {
+      "especesRefusees": {
+        "titre": "Les espèces ne sont plus déductibles depuis {annee}",
+        "texte": "Seuls les virements sur un compte de la personne aidée sont admis. L'argent remis en main propre lors d'un voyage ne compte plus, même avec témoins ou reçu. C'est le premier motif de refus.",
+        "reference": "§ 33a Abs. 1 S. 12 EStG"
+      },
+      "virementObligatoire": {
+        "titre": "Virez exclusivement par banque",
+        "texte": "Depuis 2025, seuls les virements sur un compte de la personne aidée sont déductibles. Conservez chaque justificatif : c'est votre seule preuve.",
+        "reference": "§ 33a Abs. 1 S. 12 EStG"
+      },
+      "erwerbsobliegenheit": {
+        "titre": "L'obligation de travailler fait obstacle",
+        "texte": "Pour une personne apte au travail et de moins de 65 ans, l'administration présume qu'elle peut subvenir à ses besoins. La déduction n'aboutit qu'avec la preuve du contraire : maladie, charge d'un proche, chômage établi.",
+        "reference": "R 33a.1 Abs. 2 EStR"
+      },
+      "laendergruppe": {
+        "titre": "Groupe {groupe} : seulement {part} du plafond",
+        "texte": "Pour ce pays le plafond tombe à {plafond} au lieu de l'abattement de base entier. Cette réduction surprend presque tout le monde : elle suit le niveau de vie local, pas ce que vous envoyez réellement.",
+        "reference": "§ 33a Abs. 1 S. 6 EStG"
+      },
+      "opfergrenze": {
+        "titre": "L'Opfergrenze vous limite à {montant}",
+        "texte": "Hors conjoint, l'administration ne retient au maximum que {part} de votre revenu net — l'idée étant que nul ne peut donner davantage sans se mettre en difficulté.",
+        "reference": "Circulaire relative à l'Opfergrenze"
+      },
+      "revenusBeneficiaire": {
+        "titre": "Les revenus propres réduisent de {montant}",
+        "texte": "Tout ce qui dépasse la franchise de {seuil} vient en déduction du plafond. Une petite pension au pays peut fortement réduire l'avantage.",
+        "reference": "§ 33a Abs. 1 S. 5 EStG"
+      },
+      "zwoelftelung": {
+        "titre": "Seuls {nombre} mois sont retenus",
+        "texte": "Le plafond est réduit d'un douzième par mois sans soutien. Des virements mensuels réguliers valent donc mieux qu'un versement unique en décembre.",
+        "reference": "§ 33a Abs. 3 EStG"
+      },
+      "plafonne": {
+        "titre": "{montant} restent sans effet",
+        "texte": "Vos versements dépassent le montant reconnu. L'excédent est fiscalement perdu — en cas de plusieurs personnes aidées, une répartition permet souvent de l'éviter.",
+        "reference": "§ 33a Abs. 1 EStG"
+      },
+      "justificatifs": {
+        "titre": "Les justificatifs à réunir",
+        "texte": "Déclaration d'entretien signée par la personne aidée sur formulaire officiel, attestation de résidence, justificatif de ses revenus propres, et l'ensemble des preuves de virement. Il suffit qu'un seul manque pour que toute la déduction tombe.",
+        "reference": "§ 33a Abs. 1 S. 9 EStG"
+      },
+      "vermoegen": {
+        "titre": "La personne aidée ne doit pas avoir de patrimoine notable",
+        "texte": "Au-delà d'environ {limite}, la déduction disparaît. Un logement occupé par la personne elle-même reste en principe hors de ce calcul.",
+        "reference": "§ 33a Abs. 1 S. 4 EStG"
+      },
+      "groupeAVerifier": {
+        "titre": "Votre groupe de pays mérite vérification",
+        "texte": "Le classement est révisé chaque année par le ministère fédéral des Finances et des pays changent de groupe. Nous vérifions le vôtre : une erreur de groupe déplace fortement le résultat.",
+        "reference": "Circulaire Ländergruppeneinteilung"
+      }
+    },
+    "ctaEtiquette": "Rétroactif jusqu'à quatre ans",
+    "ctaTexte": "Ceux qui n'ont jamais rien déduit peuvent en général rattraper quatre années. Nous examinons vos virements, obtenons les formulaires pour votre famille et prenons en charge la déclaration.",
+    "ctaBouton": "Réserver un rendez-vous gratuit",
+    "avertissement": "Calcul simplifié. Ne sont pas pris en compte : le soutien à plusieurs personnes résidant dans des pays différents, les versements partagés entre plusieurs soutiens, les aides en nature et le calcul exact du revenu net servant à l'Opfergrenze."
+  },
+
+  "kindergeldAusland": {
+    "titre": "Allocations familiales pour enfants vivant à l'étranger",
+    "sousTitre": "Trois pays de résidence, trois réponses totalement différentes — et un abattement qui subsiste même sans allocations.",
+    "oui": "Oui",
+    "non": "Non",
+    "sectionResidence": "Où vivent les enfants ?",
+    "sectionResidenceIndice": "C'est le lieu de résidence de l'enfant qui compte, pas votre nationalité.",
+    "regimes": {
+      "ue": { "titre": "UE, EEE ou Suisse", "description": "Droit plein" },
+      "abkommen": { "titre": "État conventionné", "description": "Algérie, Bosnie, Kosovo, Maroc, Monténégro, Serbie, Tunisie, Turquie" },
+      "drittstaat": { "titre": "Pays tiers", "description": "Tous les autres pays" }
+    },
+    "activiteCotisante": "J'exerce une activité soumise à cotisations",
+    "activiteCotisanteIndice": "Ou je perçois des allocations chômage ou des indemnités maladie. Sans cela, la convention ne joue pas.",
+    "prestationsEtranger": "Prestations familiales dans le pays de résidence",
+    "prestationsEtrangerIndice": "Ce qui y est déjà versé vient en déduction des allocations allemandes.",
+    "sectionGroupe": "Groupe de pays de résidence",
+    "sectionGroupeIndice": "Il détermine ce qui reste de l'abattement pour enfant.",
+    "groupes": {
+      "1": { "titre": "Groupe 1 — montant plein", "description": "Pays au niveau allemand" },
+      "2": { "titre": "Groupe 2 — trois quarts", "description": "Niveau un peu inférieur" },
+      "3": { "titre": "Groupe 3 — la moitié", "description": "Niveau nettement inférieur" },
+      "4": { "titre": "Groupe 4 — un quart", "description": "La plupart des pays d'Afrique subsaharienne" }
+    },
+    "sectionFamille": "Votre famille",
+    "enfants": "Nombre d'enfants",
+    "revenuImposable": "Votre revenu imposable",
+    "revenuImposableIndice": "Détermine ce que vaut l'abattement.",
+    "splitting": "Imposition commune",
+    "resultatEtiquette": "Votre avantage annuel",
+    "resultatSousTexte": "{mensuel} d'allocations par mois",
+    "resultatSansAllocation": "Aucune allocation — mais l'abattement pour enfant vous reste acquis",
+    "voies": {
+      "allocations": { "titre": "Allocations", "description": "Versées chaque mois, indépendamment du revenu." },
+      "abattement": { "titre": "Abattement pour enfant", "description": "Agit via la déclaration, croît avec le taux d'imposition." }
+    },
+    "detailTitre": "Les deux voies comparées",
+    "detailIndice": "L'administration retient automatiquement la plus favorable.",
+    "allocationPleine": "Allocations au taux plein",
+    "allocationPleineIndice": "{enfants} enfant(s)",
+    "allocationVersee": "Réellement versé",
+    "abattementPlein": "Abattement non réduit",
+    "abattementReduit": "Après réduction",
+    "abattementReduitIndice": "groupe {groupe}, soit {part}",
+    "economieAbattement": "Économie d'impôt correspondante",
+    "avantageRetenu": "Effectif pour vous",
+    "avantageRetenuIndice": "La plus favorable des deux voies.",
+    "ecartAllemagne": "Écart avec des enfants vivant en Allemagne",
+    "ecartAllemagneIndice": "Ce que percevrait la même famille avec des enfants en Allemagne.",
+    "alertesTitre": "Ce que vous devez savoir",
+    "alertes": {
+      "regimeUE": {
+        "titre": "Droit plein au sein de l'UE",
+        "texte": "Si vos enfants vivent dans l'UE, l'EEE ou en Suisse, votre droit est le même que s'ils vivaient en Allemagne.",
+        "reference": "Règlement (CE) 883/2004"
+      },
+      "differenzzahlung": {
+        "titre": "Seul le différentiel est versé",
+        "texte": "Si {montant} de prestations familiales sont déjà versés dans le pays de résidence, l'Allemagne ne paie que la différence. Il n'y a pas de cumul.",
+        "reference": "Art. 68 du règlement (CE) 883/2004"
+      },
+      "regimeAbkommen": {
+        "titre": "Droit ouvert par la convention de sécurité sociale",
+        "texte": "Une convention lie l'Allemagne à ce pays et étend le droit aux enfants qui y résident. Elle suppose toutefois une activité soumise à cotisations en Allemagne.",
+        "reference": "§ 63 Abs. 1 S. 6 EStG"
+      },
+      "montantConventionnel": {
+        "titre": "Le montant dépend de la convention",
+        "texte": "Pour les enfants résidant dans un État conventionné, le montant versé est souvent inférieur à celui applicable en Allemagne. Le taux exact figure dans la convention — nous le vérifions pour votre pays.",
+        "reference": "Convention de sécurité sociale"
+      },
+      "abkommenSansActivite": {
+        "titre": "Sans activité cotisante, aucun droit",
+        "texte": "La convention ne joue que tant que vous exercez en Allemagne une activité soumise à cotisations, ou que vous percevez des allocations chômage ou indemnités maladie. Le statut d'indépendant ne suffit généralement pas.",
+        "reference": "§ 63 Abs. 1 S. 6 EStG"
+      },
+      "regimeDrittstaat": {
+        "titre": "Aucune allocation pour un enfant en pays tiers",
+        "texte": "Le principe de territorialité exclut le droit lorsque l'enfant ne réside ni dans l'UE ni dans un État conventionné. Ni votre nationalité ni votre titre de séjour n'y changent quoi que ce soit.",
+        "reference": "§ 63 Abs. 1 S. 6 EStG"
+      },
+      "macedoine": {
+        "titre": "La Macédoine du Nord n'est pas un État conventionné",
+        "texte": "Contrairement aux pays voisins — Serbie, Monténégro, Kosovo — aucune convention n'existe. Cette confusion cause régulièrement des refus.",
+        "reference": "§ 63 Abs. 1 S. 6 EStG"
+      },
+      "abattementReduit": {
+        "titre": "Abattement réduit de {montant}",
+        "texte": "En groupe {groupe}, il reste {part} de l'abattement. Mais il ne disparaît jamais entièrement : même sans allocations, vous pouvez le faire valoir.",
+        "reference": "§ 32 Abs. 6 S. 4 EStG"
+      },
+      "abattementPlusFavorable": {
+        "titre": "L'abattement rapporte {montant} de plus",
+        "texte": "À votre niveau de revenu, l'abattement pèse davantage que les allocations. L'administration retient automatiquement la meilleure option — mais seulement si vous déposez une déclaration.",
+        "reference": "§ 31 EStG"
+      },
+      "ecartAllemagne": {
+        "titre": "{montant} de moins qu'avec des enfants en Allemagne",
+        "texte": "Voilà l'écart dû au seul lieu de résidence de vos enfants. Vérifiez si vos versements sont déductibles comme soutien familial au titre du § 33a EStG.",
+        "reference": "§ 32 et § 63 EStG"
+      },
+      "titreSejour": {
+        "titre": "Votre titre de séjour doit convenir",
+        "texte": "Pour les ressortissants hors UE, les allocations supposent un titre d'établissement ou un titre de séjour autorisant à travailler. Une simple tolérance ou certains titres temporaires ne suffisent pas.",
+        "reference": "§ 62 Abs. 2 EStG"
+      },
+      "unterhaltAlternative": {
+        "titre": "Sans allocations, il reste la déduction pour soutien",
+        "texte": "Les versements à des enfants à l'étranger n'ouvrant pas droit aux allocations sont déductibles au titre du § 33a EStG. C'est l'issue que beaucoup de familles ignorent — notre simulateur de soutien familial en donne le montant.",
+        "reference": "§ 33a Abs. 1 EStG"
+      }
+    },
+    "ctaEtiquette": "Faire examiner votre droit",
+    "ctaTexte": "Résidence des enfants, titre de séjour et situation conventionnelle décident — et la caisse d'allocations les interprète souvent étroitement. Nous examinons votre dossier et contestons les refus.",
+    "ctaBouton": "Réserver un rendez-vous gratuit",
+    "avertissement": "Présentation simplifiée. Le montant des allocations pour les États conventionnés dépend de la convention applicable et est ici calculé au taux allemand plein. Ne sont pas pris en compte : le rang des enfants, les enfants majeurs en formation et les droits concurrents de l'autre parent."
+  },
+
+  "rentenerstattung": {
+    "titre": "Retour au pays : se faire rembourser ses cotisations ?",
+    "sousTitre": "Le remboursement rapporte tout de suite, mais efface tous vos droits, définitivement. Les deux voies chiffrées.",
+    "oui": "Oui",
+    "non": "Non",
+    "sectionCarriere": "Votre période de cotisation",
+    "sectionCarriereIndice": "Tous les mois durant lesquels vous avez cotisé à la retraite en Allemagne.",
+    "moisCotises": "Mois cotisés",
+    "moisFormat": "{mois} mois ({ans} ans)",
+    "ansFormat": "{ans} ans",
+    "salaireMoyenAnnuel": "Salaire brut moyen",
+    "salaireMoyenIndice": "Sur toute votre période de cotisation. Qui gagne exactement la moyenne nationale acquiert un point par an.",
+    "sectionSituation": "Votre situation",
+    "age": "Votre âge",
+    "moisDepuisDepart": "Mois depuis la fin de l'affiliation obligatoire",
+    "moisDepuisDepartIndice": "Le remboursement n'est possible qu'après 24 mois.",
+    "ressortissantUE": "Je suis ressortissant de l'UE",
+    "ressortissantUEIndice": "Qui peut continuer à cotiser volontairement n'obtient pas de remboursement.",
+    "resultatEtiquette": "Notre appréciation",
+    "resultatConserver": "Conserver le droit : {pension} par mois dès 67 ans plutôt que {remboursement} en une fois",
+    "resultatRembourser": "Remboursement de {remboursement} — la durée cotisée n'ouvre aucun droit à pension",
+    "recommandations": { "conserver": "Conserver le droit", "rembourser": "Demander le remboursement" },
+    "voies": {
+      "conserver": { "titre": "Conserver le droit", "description": "Pension à vie dès 67 ans, versée aussi à l'étranger." },
+      "rembourser": { "titre": "Se faire rembourser", "description": "Versement unique, après quoi tout est éteint." }
+    },
+    "parMois": "par mois dès 67 ans",
+    "uneFois": "en une fois",
+    "detailTitre": "Le détail des chiffres",
+    "periodeCotisee": "Période cotisée",
+    "wartezeit": "Cinq ans de cotisation atteints",
+    "wartezeitIndice": "Sans cela, aucun droit à pension.",
+    "points": "Points de retraite",
+    "pointsIndice": "Un point par an au salaire moyen.",
+    "pensionMensuelle": "Pension mensuelle",
+    "pensionIndice": "pour une valeur du point de {valeur}",
+    "cotisationsTotales": "Cotisations versées au total",
+    "remboursement": "Montant remboursé",
+    "remboursementIndice": "Votre part seulement.",
+    "partPerdue": "Part patronale",
+    "partPerdueIndice": "Jamais remboursée.",
+    "pointEquilibre": "Remboursement rattrapé après",
+    "pointEquilibreIndice": "Temps nécessaire pour que la pension atteigne le montant remboursé.",
+    "pensionCumulee": "Pension sur {ans} ans",
+    "pensionCumuleeIndice": "Pour une durée moyenne de perception à partir de 67 ans.",
+    "alertesTitre": "Ce que vous devez savoir",
+    "alertes": {
+      "ressortissantUE": {
+        "titre": "Aucun remboursement pour un ressortissant de l'UE",
+        "texte": "Qui conserve le droit de cotiser volontairement est exclu du remboursement. Vos périodes sont de toute façon totalisées avec celles des autres États membres.",
+        "reference": "§ 210 Abs. 1a SGB VI"
+      },
+      "delaiNonEcoule": {
+        "titre": "Encore {nombre} mois d'attente",
+        "texte": "Le remboursement ne peut être demandé que 24 mois après la fin de l'affiliation obligatoire. Le législateur veut ainsi éviter les décisions précipitées.",
+        "reference": "§ 210 Abs. 3 SGB VI"
+      },
+      "wartezeitAtteinte": {
+        "titre": "Vous avez un droit à pension de {montant} par mois",
+        "texte": "Au-delà de {nombre} années de cotisation, la durée d'attente générale est remplie. Ce droit subsiste à vie, même si vous ne travaillez plus jamais en Allemagne.",
+        "reference": "§ 50 Abs. 1 SGB VI"
+      },
+      "wartezeitManquante": {
+        "titre": "Encore {nombre} mois avant d'ouvrir un droit",
+        "texte": "En dessous de cinq ans, aucune pension ne naît. Des cotisations volontaires peuvent combler l'écart — souvent préférable au remboursement.",
+        "reference": "§ 50 Abs. 1 SGB VI"
+      },
+      "partPatronalePerdue": {
+        "titre": "{montant} de part patronale sont perdus",
+        "texte": "Seul ce que vous avez versé vous-même est restitué, soit environ la moitié. La part patronale disparaît sans contrepartie. C'est précisément ce que la plupart oublient.",
+        "reference": "§ 210 Abs. 1 SGB VI"
+      },
+      "irreversible": {
+        "titre": "La décision est définitive",
+        "texte": "Le remboursement dissout le rapport d'assurance : toutes les périodes, y compris celles d'éducation des enfants et de formation, sont effacées. Aucun rachat ne permet de les rétablir.",
+        "reference": "§ 210 Abs. 6 SGB VI"
+      },
+      "pointEquilibre": {
+        "titre": "Après {nombre} années de pension, le remboursement est rattrapé",
+        "texte": "Passé ce cap, la pension vous aura rapporté davantage que le versement unique. Sur une durée moyenne de perception de 18 ans, le calcul est le plus souvent sans appel."
+      },
+      "versementEtranger": {
+        "titre": "La pension est aussi versée à l'étranger",
+        "texte": "Les pensions allemandes sont virées dans le monde entier. L'ancienne réduction à 70 % ne s'applique plus aux pensions prenant effet depuis octobre 2013 — une raison de plus de conserver le droit.",
+        "reference": "§§ 110 et s. SGB VI"
+      },
+      "accordBilateral": {
+        "titre": "Une convention peut tout changer",
+        "texte": "Si une convention lie l'Allemagne à votre pays, les périodes acquises là-bas s'additionnent aux périodes allemandes. Beaucoup atteignent ainsi les cinq ans qui leur manquent.",
+        "reference": "Conventions bilatérales"
+      }
+    },
+    "ctaEtiquette": "Calculer avant de demander",
+    "ctaTexte": "Le remboursement est irréversible. Nous examinons votre relevé de carrière, les périodes conventionnelles possibles et l'option des cotisations volontaires — avant que vous ne déposiez la demande.",
+    "ctaBouton": "Réserver un rendez-vous gratuit",
+    "avertissement": "Estimation simplifiée. La pension réelle résulte de votre relevé de carrière auprès de la caisse allemande, y compris périodes d'éducation, périodes assimilées et périodes complémentaires. Les revalorisations, les décotes en cas de départ anticipé et l'imposition de la pension ne sont pas prises en compte.",
+    "stand": "Valeurs de retraite et § 210 SGB VI, au {date}"
+  }
+}

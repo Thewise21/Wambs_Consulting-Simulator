@@ -1,0 +1,1682 @@
+{
+  "lead": {
+    "introduction": "Leave us your details — we will come back to you with your result and suggest an appointment.",
+    "champs": {
+      "nom": "Name",
+      "email": "Email",
+      "telephone": "Phone (optional)",
+      "message": "Your question (optional)"
+    },
+    "emailInvalide": "Please check your email address.",
+    "consentement": "I agree that WAMB'S Consulting may store and process my details and my simulation result in order to answer my enquiry. I may withdraw this consent at any time.",
+    "lienConfidentialite": "privacy policy",
+    "bouton": "Send and pick a slot",
+    "envoiEnCours": "Sending…",
+    "mentionDonnees": "We transmit your contact details and the key figures of this simulation — nothing else you entered.",
+    "confirmationTitre": "Thank you, we have received your enquiry",
+    "confirmationTexte": "The booking calendar opens in a new window. If it does not, use the link below.",
+    "confirmationLien": "Open the calendar"
+  },
+
+  "hub": {
+    "titreOnglet": "Tax calculators",
+    "headline": "Calculators that give you a number, not a brochure",
+    "subline": "Four free simulators from a Berlin financial consultancy. No sign-up, available in English, German and French.",
+    "demarrer": "Start",
+    "retour": "All calculators",
+    "badgeNouveau": "New",
+    "badgePopulaire": "Popular",
+    "trustMandanten": "clients advised",
+    "trustSprachen": "advisory languages",
+    "trustStandort": "firm location",
+    "trustKostenlos": "free, no sign-up",
+    "trustKostenlosValeur": "100 %",
+    "privacy": "Every calculation runs in your browser. What you enter leaves it only if you deliberately submit the contact form.",
+    "outils": {
+      "steuer": {
+        "titre": "Tax refund potential",
+        "description": "How much can you realistically get back? Ten profiles, from employee to parental leave.",
+        "duree": "about 2 minutes"
+      },
+      "bruttoNetto": {
+        "titre": "Gross-to-net calculator",
+        "description": "What is left of your salary? Includes tax class comparison, church tax and employer cost.",
+        "duree": "instant result"
+      },
+      "expat": {
+        "titre": "Moving to Germany",
+        "description": "Arrival, departure or cross-border work: tax liability, the exemption-with-progression trap and joint filing with a spouse abroad.",
+        "duree": "about 3 minutes"
+      },
+      "honorar": {
+        "titre": "What does a tax adviser cost?",
+        "description": "Your fee under the statutory StBVV schedule — itemised, with the legal basis for every line.",
+        "duree": "about 1 minute"
+      },
+      "rechtsform": {
+        "titre": "Sole trader, UG or GmbH?",
+        "description": "Four legal forms compared head to head: trade tax, corporation tax, director's salary and dividends.",
+        "duree": "instant result"
+      },
+      "kleinunternehmer": {
+        "titre": "Small business VAT exemption — or not?",
+        "description": "Section 19 VAT exemption against standard VAT, with the customer mix at which the answer flips.",
+        "duree": "instant result"
+      },
+      "firmenwagen": {
+        "titre": "Company car: 1 % rule or logbook?",
+        "description": "What the car actually costs you in net pay each month — including the quarter rate for electric vehicles.",
+        "duree": "instant result"
+      },
+      "immobilien": {
+        "titre": "Buy-to-let: does it pay?",
+        "description": "After-tax yield, depreciation, rental losses and the speculation period — for a property you intend to let.",
+        "duree": "instant result"
+      },
+      "kaufnebenkosten": {
+        "titre": "Purchase costs on a property",
+        "description": "Transfer tax, notary, land registry and agent — and how much equity you actually need.",
+        "duree": "instant result"
+      },
+      "photovoltaik": {
+        "titre": "Solar panels: tax-free or not?",
+        "description": "The 30 kWp limit of § 3 Nr. 72 EStG, the zero VAT rate on purchase, and what the system earns each year.",
+        "duree": "instant result"
+      },
+      "abfindung": {
+        "titre": "Severance pay: what is left?",
+        "description": "The one-fifth rule, payment timing, and the 2025 change — your employer no longer applies it.",
+        "duree": "instant result"
+      },
+      "altersvorsorge": {
+        "titre": "Pension gap and provision",
+        "description": "What you will be short in retirement, and what Rürup or Riester really cost after tax and subsidies.",
+        "duree": "instant result"
+      },
+      "erbschaft": {
+        "titre": "Inheritance and gift tax",
+        "description": "Allowances, tax class and the ten-year rule — with the effect of transferring in stages.",
+        "duree": "instant result"
+      },
+      "erklaerungspflicht": {
+        "titre": "Do I have to file a tax return?",
+        "description": "Mandatory filing under § 46 EStG and your deadline under § 149 AO — with and without a tax adviser.",
+        "duree": "about 1 minute"
+      },
+      "unterhalt": {
+        "titre": "Money sent to family back home",
+        "description": "Supporting parents abroad is deductible — with the country group, the Opfergrenze cap and the evidence most claims fail on.",
+        "duree": "instant result"
+      },
+      "kindergeldAusland": {
+        "titre": "Child benefit for children living abroad",
+        "description": "EU, treaty state or third country: three completely different answers — plus the allowance that survives without benefit.",
+        "duree": "instant result"
+      },
+      "rentenerstattung": {
+        "titre": "Going home: claim your contributions back?",
+        "description": "The § 210 SGB VI refund against your pension entitlement — a decision that cannot be undone.",
+        "duree": "instant result"
+      }
+    }
+  },
+
+  "bn": {
+    "titre": "Gross-to-net calculator",
+    "sousTitre": "Your net salary including wage tax, solidarity surcharge, church tax and social security contributions.",
+    "sectionSalaire": "Your salary",
+    "parMois": "Monthly",
+    "parAn": "Yearly",
+    "bruttoMois": "Gross salary per month",
+    "bruttoAn": "Gross salary per year",
+    "annee": "Calculation year",
+    "sectionImposition": "Taxation",
+    "steuerklasse": "Tax class",
+    "steuerklasseIndice": "Shown on your payslip. Unsure? Single people are usually in class I.",
+    "bundesland": "Federal state",
+    "laender": {
+      "BW": "Baden-Württemberg", "BY": "Bavaria", "BE": "Berlin", "BB": "Brandenburg",
+      "HB": "Bremen", "HH": "Hamburg", "HE": "Hesse", "MV": "Mecklenburg-West Pomerania",
+      "NI": "Lower Saxony", "NW": "North Rhine-Westphalia", "RP": "Rhineland-Palatinate",
+      "SL": "Saarland", "SN": "Saxony", "ST": "Saxony-Anhalt",
+      "SH": "Schleswig-Holstein", "TH": "Thuringia"
+    },
+    "kirchensteuer": "Liable for church tax",
+    "kirchensteuerIndice": "8 % in Bavaria and Baden-Württemberg, otherwise 9 % of the wage tax.",
+    "oui": "Yes",
+    "non": "No",
+    "sectionFamille": "Family",
+    "kinderfreibetraege": "Number of child allowances",
+    "kinderfreibetraegeIndice": "0.5 per child per parent. Affects only the solidarity surcharge and church tax, not the wage tax itself.",
+    "enfantsMoins25": "Children under 25",
+    "enfantsMoins25Indice": "From the second child onwards, the long-term care contribution drops by 0.25 points per child.",
+    "sansEnfant": "Childless and over 23",
+    "sansEnfantIndice": "Then the 0.6 % childless surcharge on long-term care insurance applies.",
+    "sectionAssurance": "Health insurance",
+    "typeAssurance": "Type of cover",
+    "legale": "Statutory",
+    "privee": "Private",
+    "zusatzbeitrag": "Your fund's additional contribution",
+    "zusatzbeitragIndice": "Average {moyen} %. Your health fund can tell you the exact rate.",
+    "primePrivee": "Monthly premium (basic cover)",
+    "primePriveeIndice": "Only the basic tariff counts for tax. The employer subsidy is applied automatically.",
+    "rvPflichtig": "Subject to pension insurance",
+    "rvPflichtigIndice": "Choose no if you are, for example, a controlling managing director or a civil servant.",
+    "resultatEtiquette": "Your net pay per month",
+    "resultatSousTexte": "{annuel} per year — that is {part} of your gross salary",
+    "net": "Net",
+    "impots": "Taxes",
+    "social": "Social contributions",
+    "detailTitre": "Full breakdown",
+    "brut": "Gross salary",
+    "lohnsteuer": "Wage tax",
+    "soli": "Solidarity surcharge",
+    "kirchensteuerLigne": "Church tax",
+    "rentenversicherung": "Pension insurance",
+    "arbeitslosenversicherung": "Unemployment insurance",
+    "krankenversicherung": "Health insurance",
+    "pflegeversicherung": "Long-term care insurance",
+    "plafonne": "contribution ceiling reached",
+    "coutEmployeur": "Total employer cost",
+    "coutEmployeurIndice": "Gross salary plus the employer's share of social security.",
+    "revenuImposable": "Taxable annual income",
+    "revenuImposableIndice": "After the employee allowance and the pension expense allowance (§ 39b EStG).",
+    "comparaisonTitre": "Compare tax classes",
+    "klasseCourt": "Class",
+    "meilleureOption": "highest net pay",
+    "comparaisonNote": "The tax class only changes what is withheld during the year, not the final annual tax. Anything overpaid comes back through your tax return.",
+    "coupleTitre": "As a couple: which combination pays best each month?",
+    "salaireConjointMois": "Partner's gross salary per month",
+    "salaireConjointAn": "Partner's gross salary per year",
+    "gainCoupleTitre": "Up to {montant} more net per month",
+    "gainCoupleTexte": "That is the gap between the best and the worst tax class combination. You may switch once a year — we check whether it is worth it in your case.",
+    "alerteJAEGTitre": "You are above the compulsory insurance threshold",
+    "alerteJAEGTexte": "At this income you may move to private health insurance. The decision binds you for decades, so it deserves to be calculated first.",
+    "alerteKlasseVTitre": "Class V is deliberately over-taxed",
+    "alerteKlasseVTexte": "Withholding in class V is high by design. For classes V and VI this calculation approximates § 39b Abs. 2 EStG. Check whether class IV with factor suits you better.",
+    "ctaEtiquette": "Free initial consultation",
+    "ctaTexte": "We review your tax class, your deductible expenses and your refund entitlement — 15 minutes, no obligation.",
+    "avertissement": "Non-binding estimate. Not included: benefits in kind, individual allowances granted by the tax office, one-off payments and the specifics of individual health funds.",
+    "stand": "Law as at {annee} · parameters verified on {date}"
+  },
+
+  "expat": {
+    "titre": "Moving to Germany — your tax position",
+    "sousTitre": "Arrival, departure or cross-border work: what it means for your tax liability, your rate and your tax class.",
+    "etapes": ["Your situation", "Period and income", "Family", "Your result"],
+    "voirResultat": "Show result",
+    "oui": "Yes",
+    "non": "No",
+
+    "q1Titre": "Which applies to you?",
+    "q1Indice": "What matters is where your residence or habitual abode is (§ 1 EStG).",
+    "situations": {
+      "arrivee": { "titre": "I moved to Germany this year", "description": "Residence established during the year" },
+      "resident": { "titre": "I live in Germany all year", "description": "Residence for the full year" },
+      "grenzgaenger": { "titre": "I live abroad and work in Germany", "description": "Cross-border commuter" },
+      "depart": { "titre": "I left Germany this year", "description": "Departure during the year" }
+    },
+
+    "q2Titre": "Which country do you come from — or live in?",
+    "q2Indice": "The double taxation treaty with that state decides which country may tax which income.",
+    "pays": {
+      "FR": "France", "BE": "Belgium", "LU": "Luxembourg", "CH": "Switzerland",
+      "AT": "Austria", "NL": "Netherlands", "EU_AUTRE": "Other EU/EEA country", "HORS_UE": "Non-EU country"
+    },
+
+    "q3TitreArrivee": "When did you arrive?",
+    "q3TitreDepart": "When did you leave Germany?",
+    "q3Indice": "If you arrive or leave mid-year, you are only subject to unlimited tax liability for part of the year — with noticeable consequences.",
+    "moisArrivee": "Month of arrival",
+    "moisDepart": "Month of departure",
+    "mois": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    "moisResume": "That means {mois} months of unlimited tax liability in Germany.",
+
+    "q4Titre": "Your income",
+    "q4Indice": "Gross figures are enough — the calculator applies the allowances itself.",
+    "q4IndiceFrontalier": "As a cross-border commuter, enter only the salary earned in Germany.",
+    "revenuAllemand": "Gross income in Germany",
+    "revenuAllemandIndice": "Salary or profit during the German period.",
+    "revenuEtranger": "Income abroad (before the move)",
+    "revenuEtrangerIndice": "This income is not taxed in Germany, but it raises your tax rate (§ 32b EStG).",
+
+    "q5Titre": "Your family",
+    "celibataire": "Single",
+    "marie": "Married",
+    "conjointAlEtranger": "Spouse still lives abroad",
+    "conjointAlEtrangerIndice": "Within the EU/EEA, joint assessment is still possible (§ 1a EStG).",
+    "revenuConjoint": "Spouse's annual income",
+    "revenuConjointIndice": "It partly determines whether the 90 percent threshold is met.",
+    "enfants": "Number of children",
+    "enfantsIndice": "German child benefit is generally payable even if the children live in another EU country.",
+
+    "resEconomieEtiquette": "Your potential tax saving",
+    "resEconomieSousTexte": "Available through joint assessment under § 1a EStG — but it has to be claimed.",
+    "resSurcoutEtiquette": "Extra cost from exemption with progression",
+    "resSurcoutSousTexte": "This is what your foreign income costs you in German tax, even though it stays tax-free itself.",
+
+    "resStatutTitre": "Your tax status",
+    "resAssujettissement": "Tax liability",
+    "assujettissements": {
+      "unbeschraenkt": "Unlimited (§ 1 Abs. 1 EStG)",
+      "beschraenkt": "Limited (§ 1 Abs. 4 EStG)",
+      "wechsel": "Changes during the year"
+    },
+    "resMoisAllemagne": "Unlimited liability",
+    "resMoisValeur": "{mois} months",
+    "resSteuerklasse": "Suitable tax class",
+    "resDeclaration": "Tax return mandatory",
+
+    "resChiffrageTitre": "Your tax burden",
+    "resChiffrageIndice": "Estimated using the standard scale of § 32a EStG.",
+    "resRevenuImposable": "Taxable income",
+    "resImpotSansProgression": "Tax without foreign income",
+    "resImpotAvecProgression": "Tax with exemption with progression",
+    "resTauxSpecial": "Rate rises from {normal} to {special}",
+    "resAvecSplitting": "Tax with joint assessment",
+    "resAvecSplittingIndice": "After applying and submitting the EU/EEA certificate.",
+    "resSoli": "Solidarity surcharge",
+    "resChargeTotale": "Total tax burden",
+    "resTauxEffectif": "Effective rate {taux}",
+
+    "resAlertesTitre": "What you should know",
+    "alertes": {
+      "assujettissementMixte": {
+        "titre": "You have unlimited tax liability for only {mois} months",
+        "texte": "For the rest of the year you count as having limited liability. Both periods are combined in a single tax return.",
+        "reference": "§ 2 Abs. 7 S. 3 EStG"
+      },
+      "progressionvorbehalt": {
+        "titre": "Exemption with progression: {montant} extra tax",
+        "texte": "Your foreign income stays tax-free in Germany but lifts your tax rate to {taux}. It catches out almost every newcomer on their first tax assessment.",
+        "reference": "§ 32b Abs. 1 Nr. 2 EStG"
+      },
+      "grenzgaengerFR": {
+        "titre": "France–Germany cross-border rule",
+        "texte": "If both your home and your workplace lie within the border zone, your salary is taxed in your country of residence — France, not Germany. A certificate from the French tax office is required.",
+        "reference": "Art. 13(5) France–Germany treaty"
+      },
+      "grenzgaengerCH": {
+        "titre": "Germany–Switzerland cross-border rule",
+        "texte": "Cross-border commuters face split taxation with a capped withholding tax. Not returning home regularly after work forfeits this status.",
+        "reference": "Art. 15a Germany–Switzerland treaty"
+      },
+      "grenzgaengerGeneral": {
+        "titre": "Taxation in the country of employment",
+        "texte": "No special cross-border rule exists with this state: your salary is generally taxed where you work. The 183-day rule becomes decisive.",
+        "reference": "Art. 15 OECD Model Convention"
+      },
+      "splittingPossible": {
+        "titre": "Joint assessment possible — {montant} saving",
+        "texte": "Even though your spouse lives abroad, you can opt for joint assessment. You need the EU/EEA certificate, confirmed by the tax authority of your home country.",
+        "reference": "§ 1a Abs. 1 Nr. 2 EStG"
+      },
+      "splittingRefuseRevenus": {
+        "titre": "Joint assessment out of reach for now",
+        "texte": "Only {part} of your combined income is taxed in Germany. You need 90 percent — or foreign income below twice the basic allowance.",
+        "reference": "§ 1 Abs. 3, § 1a EStG"
+      },
+      "splittingRefusePays": {
+        "titre": "Spouse resident outside the EU/EEA",
+        "texte": "Joint assessment with a spouse abroad requires residence in the EU or EEA. You will therefore be taxed as a single person.",
+        "reference": "§ 1a Abs. 1 EStG"
+      },
+      "optionIllimitee": {
+        "titre": "Applying for unlimited liability is worthwhile",
+        "texte": "Almost all of your income comes from Germany. On application you receive the basic allowance, special expenses and family benefits like a resident.",
+        "reference": "§ 1 Abs. 3 EStG"
+      },
+      "pasDeGrundfreibetrag": {
+        "titre": "No basic allowance under limited liability",
+        "texte": "Outside employment income the basic allowance of {montant} is not granted. In practice your tax starts at the first euro.",
+        "reference": "§ 50 Abs. 1 S. 3 EStG"
+      },
+      "obligationDeclaration": {
+        "titre": "You must file a tax return",
+        "texte": "In your situation filing is mandatory, not optional. Missed deadlines trigger late-filing penalties.",
+        "reference": "§ 46 Abs. 2 EStG"
+      },
+      "kindergeldEU": {
+        "titre": "Check child benefit for {enfants} child(ren)",
+        "texte": "Entitlement generally exists even if the children live in another EU country. If the other parent already receives family benefits there, Germany pays the difference.",
+        "reference": "Regulation (EC) 883/2004"
+      },
+      "doubleImposition": {
+        "titre": "Avoiding double taxation",
+        "texte": "Germany and {pays} have a double taxation treaty. Which state taxes depends on the type of income: salary, rent, pensions and investment income follow different rules.",
+        "reference": "Double taxation treaty"
+      }
+    },
+
+    "resChecklistTitre": "Your next steps",
+    "resChecklistIndice": "Order matters: no registration means no tax ID, and no tax ID means the wrong tax is withheld.",
+    "checklist": {
+      "anmeldung": "Register your address at the Bürgeramt (within 14 days)",
+      "steuerId": "Wait for your tax identification number and pass it to your employer",
+      "lohnsteuerabzug": "Have your payroll tax details and tax class checked",
+      "sozialversicherung": "Sort out your social security number and health fund",
+      "ansaessigkeitsbescheinigung": "Obtain a certificate of residence from your local tax office",
+      "a1Bescheinigung": "Apply for the A1 social security certificate",
+      "abmeldung": "Deregister at the Bürgeramt and plan your final tax return",
+      "wegzugsbesteuerung": "Check exit taxation (if you hold shares in a company)",
+      "bescheinigungEUEWR": "Have the EU/EEA certificate confirmed by the foreign tax authority",
+      "kindergeldAntrag": "Apply for child benefit at the Familienkasse",
+      "elsterZugang": "Set up ELSTER access (the certificate arrives by post)",
+      "unterlagenHeimatland": "Keep proof of income from your home country for the relevant period"
+    },
+
+    "ctaEtiquette": "Initial consultation in English, German or French",
+    "ctaTexte": "We advise over 1,000 clients, many of them international. We review your case, claim joint assessment and handle all correspondence with the tax office.",
+    "ctaBouton": "Book a free consultation",
+    "avertissement": "Simplified estimate. How a double taxation treaty actually applies always depends on the individual case — especially for pensions, rental income, investment income and secondments.",
+    "stand": "Law as at {annee} · parameters verified on {date}"
+  },
+
+  "honorar": {
+    "titre": "What does a German tax adviser cost?",
+    "sousTitre": "Your fee under the statutory StBVV schedule — with the legal basis for every single item.",
+    "sectionProfil": "Your situation",
+    "sectionProfilIndice": "This preselects the usual services; you can adjust them afterwards.",
+    "profils": {
+      "arbeitnehmer": { "titre": "Employee", "description": "Income tax return only" },
+      "vermieter": { "titre": "Landlord", "description": "Including rental income schedule" },
+      "freiberufler": { "titre": "Freelancer", "description": "Cash accounting, VAT, bookkeeping" },
+      "gewerbe": { "titre": "Trade business", "description": "Plus trade tax" },
+      "kapitalgesellschaft": { "titre": "GmbH / UG", "description": "Annual accounts and payroll" }
+    },
+    "sectionPrestations": "Services required",
+    "sectionPrestationsIndice": "The amount on the right shows the median fee per year for that service.",
+    "prestations": {
+      "einkommensteuer": { "titre": "Income tax return", "description": "Basis: sum of positive income, minimum €8,000" },
+      "anlageV": { "titre": "Schedule V — rental income", "description": "Determining income from letting property" },
+      "euer": { "titre": "Cash-basis profit statement", "description": "Profit determination under § 4 Abs. 3 EStG" },
+      "jahresabschluss": { "titre": "Annual accounts", "description": "Balance sheet and profit and loss account" },
+      "buchfuehrung": { "titre": "Ongoing bookkeeping", "description": "Monthly bookkeeping including coding" },
+      "ustVoranmeldung": { "titre": "VAT return (periodic)", "description": "Per period, basis 10 % of turnover" },
+      "ustJahreserklaerung": { "titre": "Annual VAT return", "description": "Year-end VAT reconciliation" },
+      "gewerbesteuer": { "titre": "Trade tax return", "description": "Basis: trade profit before allowance" },
+      "koerperschaftsteuer": { "titre": "Corporation tax return", "description": "For GmbH, UG and other corporations" },
+      "lohnbuchhaltung": { "titre": "Payroll", "description": "Per employee and pay period" }
+    },
+    "sectionChiffres": "Your figures",
+    "sectionChiffresIndice": "Rough figures are fine — they set the basis of assessment and therefore the fee.",
+    "champs": {
+      "sommeEinkuenfte": { "label": "Sum of your positive income", "indice": "Gross, before deductions. Minimum basis €8,000." },
+      "mieteinnahmen": { "label": "Annual rental income", "indice": "The higher of rental income or related expenses counts." },
+      "jahresumsatz": { "label": "Annual turnover", "indice": "Net turnover of your business." },
+      "betriebsausgaben": { "label": "Annual business expenses", "indice": "The basis uses whichever of the two figures is higher." },
+      "bilanzsumme": { "label": "Balance sheet total", "indice": "The basis is the average of balance sheet total and annual output." },
+      "gewerbeertrag": { "label": "Trade profit", "indice": "Before loss carry-forward and allowance." },
+      "einkommenKoerperschaft": { "label": "Company income", "indice": "Before loss carry-forward. Minimum basis €16,000." },
+      "nombreSalaries": { "label": "Number of employees", "indice": "For monthly payroll processing." },
+      "ustPeriodicite": { "label": "VAT filing frequency", "indice": "Monthly for new businesses and higher VAT liabilities." }
+    },
+    "mensuelle": "Monthly",
+    "trimestrielle": "Quarterly",
+    "resultatEtiquette": "Your annual fee",
+    "resultatSousTexte": "Statutory range {min} to {max} · roughly {mois} per month",
+    "detailTitre": "Breakdown by legal basis",
+    "detailIndice": "The median fee is applied — the usual starting point.",
+    "baseCalcul": "{cadre} table {table} · basis {valeur}",
+    "baseForfait": "{cadre} € per employee",
+    "parMois": "monthly",
+    "sousTotal": "Total fees",
+    "auslagen": "Postage and telecoms flat rate",
+    "auslagenIndice": "20 % of fees, capped at €20 (§ 16 StBVV).",
+    "tva": "VAT {taux}",
+    "totalTTC": "Total per year, incl. VAT",
+    "aucunePrestationTitre": "No service selected yet",
+    "aucunePrestationTexte": "Tick what you need above — the calculation appears immediately.",
+    "explicationTitre": "Why a range instead of a fixed price?",
+    "explicationTexte": "The StBVV sets a fee range for each service. Within that range the amount depends on volume, difficulty and liability risk. Well-prepared records noticeably reduce the fee.",
+    "pauschalTitre": "Flat monthly fee available",
+    "pauschalTexte": "For recurring work — bookkeeping, payroll, periodic returns — we are happy to agree a fixed monthly fee, so you know your budget for the whole year.",
+    "ctaEtiquette": "Firm quote",
+    "ctaTexte": "In 15 minutes we scope your needs and you receive a written fixed-price offer. Reserved activities are the responsibility of an independent tax adviser (Steuerberater).",
+    "ctaBouton": "Request a quote",
+    "avertissement": "Non-binding calculation based on the median fee. The actual fee is set according to the circumstances of the case (§ 11 StBVV); a separate fee agreement under § 4 StBVV remains possible.",
+    "stand": "StBVV tables verified on {date}"
+  },
+
+  "rechtsform": {
+    "titre": "Sole trader, UG or GmbH?",
+    "sousTitre": "Four legal forms calculated on the same profit — trade tax, corporation tax, director's salary and dividends.",
+    "oui": "Yes",
+    "non": "No",
+    "annee": "Calculation year",
+    "sectionBenefice": "Profit and drawings",
+    "sectionBeneficeIndice": "Profit before the director's salary. That salary is the real lever: it reduces the company's profit, never the sole trader's.",
+    "benefice": "Annual profit before director's salary",
+    "remuneration": "Director's salary (UG and GmbH only)",
+    "remunerationIndice": "A sole trader pays themselves no salary: the entire profit is their income.",
+    "quoteDistribution": "Share of profit distributed",
+    "quoteDistributionIndice": "What stays in the company is not lost, merely taxed later. That is exactly where the corporate form wins.",
+    "sectionCommune": "Location",
+    "sectionCommuneIndice": "The municipal multiplier drives the trade tax — and you choose it when you choose your registered office.",
+    "hebesatz": "Municipal multiplier (Hebesatz)",
+    "hebesatzIndice": "Up to {neutre} %, trade tax is fully credited against a sole trader's income tax.",
+    "communes": {
+      "Berlin": "Berlin", "Hamburg": "Hamburg", "Muenchen": "Munich", "Koeln": "Cologne",
+      "Frankfurt": "Frankfurt", "Leipzig": "Leipzig", "Potsdam": "Potsdam", "Duesseldorf": "Düsseldorf"
+    },
+    "sectionPersonnel": "Personal situation",
+    "splitting": "Joint assessment",
+    "splittingIndice": "Married or in a registered partnership.",
+    "kirchensteuer": "Liable for church tax",
+    "bundesland": "Federal state",
+    "resultatEtiquette": "Most favourable legal form",
+    "resultatSousTexte": "Up to {montant} apart from the least favourable option",
+    "meilleure": "best",
+    "formes": {
+      "freiberufler": { "titre": "Liberal profession", "description": "No trade tax, no commercial register entry" },
+      "einzelunternehmen": { "titre": "Sole trader", "description": "Trade tax with allowance, credited under § 35 EStG" },
+      "ug": { "titre": "UG (limited liability)", "description": "Like a GmbH but from €1 capital, with a mandatory reserve" },
+      "gmbh": { "titre": "GmbH", "description": "Limited liability, €25,000 share capital" }
+    },
+    "postes": {
+      "gewerbesteuer": "Trade tax",
+      "anrechnung": "Credit against income tax",
+      "anrechnungIndice": "Capped at four times the base amount.",
+      "koerperschaftsteuer": "Corporation tax (15 %)",
+      "soliKst": "Solidarity surcharge on corporation tax",
+      "einkommensteuer": "Income tax",
+      "surRemuneration": "on {montant} of salary",
+      "soli": "Solidarity surcharge",
+      "kirchensteuer": "Church tax",
+      "abgeltungsteuer": "Withholding tax on the distribution",
+      "surDistribution": "on {montant} distributed"
+    },
+    "chargeTotale": "Total burden",
+    "chargeCourte": "{montant} tax · {taux}",
+    "valeurCreee": "What you are left with overall",
+    "valeurCreeeIndice": "Personally available plus retained profit, discounted for the tax due on a later distribution. This is the figure the ranking uses.",
+    "revenuDisponible": "Available to you personally",
+    "resteDansSociete": "Retained in the company",
+    "resteDansSocieteIndice": "A later distribution will still attract withholding tax.",
+    "reserveObligatoire": "Of which statutory reserve",
+    "reserveObligatoireIndice": "A UG must retain 25 % of annual profit until the reserve reaches €25,000.",
+    "alertes": {
+      "thesaurierung": {
+        "titre": "A company defers the tax, it does not save it",
+        "texte": "What stays inside the GmbH or UG is taxed at roughly 30 % for now — but distributing it later adds another {decote}. That is why this comparison discounts retained profits. The corporate form wins if you reinvest; take everything out and the sole trader is usually cheaper."
+      },
+      "hebesatzEleve": {
+        "titre": "Multiplier above {neutre} % — trade tax is no longer fully credited",
+        "texte": "The portion above that threshold is a genuine extra burden for a sole trader. Moving to a neighbouring municipality can save several thousand euros a year."
+      },
+      "hebesatzNeutre": {
+        "titre": "Multiplier up to {neutre} % — trade tax effectively neutral",
+        "texte": "The credit under § 35 EStG fully offsets the trade tax for a sole trader. The disadvantage against a liberal profession then disappears in practice."
+      },
+      "stammkapital": {
+        "titre": "Share capital: UG from {ug}, GmbH from {gmbh}",
+        "texte": "The UG lowers the entry barrier but often looks less solid to banks and large customers. It can be converted into a GmbH later."
+      },
+      "ugRuecklage": {
+        "titre": "A UG may not distribute its full profit",
+        "texte": "25 % of annual profit must go to the statutory reserve until it reaches €25,000. Only then is full distribution possible."
+      },
+      "angemessenheit": {
+        "titre": "The director's salary must be reasonable",
+        "texte": "An excessive salary is reclassified by the tax office as a hidden distribution and assessed accordingly. The arm's-length comparison decides — we run it with you."
+      },
+      "hypotheses": {
+        "titre": "What this calculation assumes",
+        "texte": "A controlling shareholder-director, therefore outside compulsory social insurance — which keeps the comparison with the sole trader fair. Trade tax add-backs and reductions, and the option for partial income taxation of dividends, are not modelled."
+      }
+    },
+    "ctaEtiquette": "Legal form advice",
+    "ctaTexte": "The legal form commits you for decades: liability, financing, succession and tax all hang on it. We calculate your actual case, conversion costs included.",
+    "ctaBouton": "Discuss my legal form",
+    "avertissement": "Simplified comparison of the ongoing tax burden. Not included: formation and conversion costs, accounting fees, liability considerations, social insurance, or trade tax add-backs and reductions."
+  },
+
+  "kleinunternehmer": {
+    "titre": "Small business VAT exemption or standard VAT?",
+    "sousTitre": "Section 19 helps you with private customers and hurts you with business customers. This calculator shows where you stand.",
+    "oui": "Yes",
+    "non": "No",
+    "sectionChiffreAffaires": "Your turnover",
+    "sectionChiffreAffairesIndice": "What matters is the amount your customers pay.",
+    "umsatz": "Turnover in the current year",
+    "premiereAnnee": "First business year",
+    "premiereAnneeIndice": "In the year you start, only the current-year threshold applies.",
+    "vorjahresumsatz": "Turnover last year",
+    "vorjahresumsatzIndice": "Above {limite}, the exemption falls away the following year.",
+    "sectionClientele": "Your customer mix",
+    "sectionClienteleIndice": "This is the real lever behind the decision.",
+    "partParticuliers": "Share of private customers",
+    "partParticuliersIndice": "Private customers look at the final price: without VAT you keep more. Business customers reclaim VAT anyway — the exemption gains you nothing there.",
+    "sectionDepenses": "Your costs",
+    "sectionDepensesIndice": "Only costs carrying VAT count. Enter net amounts.",
+    "achats": "Ongoing costs with input VAT",
+    "achatsIndice": "Materials, software, rent, vehicle, subcontractors.",
+    "investissement": "Planned investment",
+    "investissementIndice": "One large purchase can justify standard VAT on its own.",
+    "satzReduit": "Reduced rate (7 %)",
+    "satzReduitIndice": "Books, food, passenger transport, cultural services.",
+    "resultatEtiquette": "Better for you",
+    "resultatSousTexte": "Worth {montant} per year",
+    "resultatNonEligible": "You do not meet the conditions",
+    "resultatNonEligibleTexte": "The § 19 UStG thresholds are exceeded — standard VAT is mandatory.",
+    "regimeObligatoire": "Standard VAT",
+    "options": {
+      "kleinunternehmer": "VAT exemption (§ 19)",
+      "regelbesteuerung": "Standard VAT"
+    },
+    "recettes": "Revenue",
+    "depenses": "Costs",
+    "resultat": "Result",
+    "detailTitre": "Where the difference comes from",
+    "tvaNonFacturee": "VAT you never remit",
+    "tvaNonFactureeIndice": "Your gain with private customers: at the same final price, it stays with you.",
+    "vorsteuerPerdue": "Input VAT you cannot reclaim",
+    "vorsteuerPerdueIndice": "Your loss: under the exemption, VAT on your costs becomes a permanent expense.",
+    "difference": "Annual difference",
+    "differenceIndice": "in favour of: {regime}",
+    "seuilBascule": "Tipping point on private customers",
+    "seuilBasculeIndice": "Above this share of private customers, the exemption pays off.",
+    "alertes": {
+      "grenzeVorjahrDepassee": {
+        "titre": "Last year's turnover above {limite}",
+        "texte": "The exemption is therefore unavailable this year. You must charge VAT and file periodic returns.",
+        "reference": "§ 19 Abs. 1 UStG"
+      },
+      "grenzeLaufendDepassee": {
+        "titre": "The {limite} limit was exceeded during the year",
+        "texte": "Since 2025 the exemption ends immediately with the transaction that breaches the limit — not at year end. VAT is due from that invoice onwards.",
+        "reference": "§ 19 Abs. 1 S. 2 UStG"
+      },
+      "basculeAnneeProchaine": {
+        "titre": "Exempt this year, not next year",
+        "texte": "Your turnover exceeds {limite}. You stay exempt this year but switch to standard VAT on 1 January without exception. Reprice in good time.",
+        "reference": "§ 19 Abs. 1 UStG"
+      },
+      "investissement": {
+        "titre": "Input VAT on the investment: {montant}",
+        "texte": "That is what the tax office would refund you under standard VAT. On a large purchase it often settles the question by itself.",
+        "reference": "§ 15 UStG"
+      },
+      "renonciationInteressante": {
+        "titre": "Waiving the exemption is worth {montant} a year",
+        "texte": "Your customer mix and input VAT argue for standard VAT. The waiver is declared informally to the tax office.",
+        "reference": "§ 19 Abs. 3 UStG"
+      },
+      "franchiseInteressante": {
+        "titre": "The exemption is worth {montant} a year",
+        "texte": "Keep it. You also save the periodic returns and part of your ongoing bookkeeping.",
+        "reference": "§ 19 Abs. 1 UStG"
+      },
+      "bindung": {
+        "titre": "Waiving binds you for {annees} years",
+        "texte": "Waive the exemption and you cannot return for five calendar years. That decision deserves a calculation, not a shrug.",
+        "reference": "§ 19 Abs. 3 UStG"
+      },
+      "clienteleProfessionnelle": {
+        "titre": "With business customers the gross price is irrelevant",
+        "texte": "Your customers reclaim the VAT: only your net price matters to them. The supposed price advantage of the exemption disappears entirely here.",
+        "reference": "§ 15 UStG"
+      },
+      "chargeAdministrative": {
+        "titre": "The admin burden belongs in the calculation",
+        "texte": "Standard VAT means periodic returns, tracking deductible input VAT and strict invoicing requirements. Our fee calculator shows what that costs.",
+        "reference": "§ 18 UStG"
+      }
+    },
+    "ctaEtiquette": "Get the decision right",
+    "ctaTexte": "Five years of commitment deserve a proper calculation. We review your figures, your customer mix and your planned investments — and handle the returns if you wish.",
+    "ctaBouton": "Book a free consultation",
+    "avertissement": "Simplified comparison. Not included: intra-EU supplies and reverse charge, margin scheme, mixed rates, and the input VAT adjustment under § 15a UStG when switching regimes."
+  },
+
+  "firmenwagen": {
+    "titre": "Company car: 1 % rule or logbook?",
+    "sousTitre": "What matters is not the benefit in kind, but what the car actually takes out of your net pay.",
+    "oui": "Yes",
+    "non": "No",
+    "sectionVehicule": "The vehicle",
+    "sectionVehiculeIndice": "The gross list price at first registration is what counts — not the price actually paid.",
+    "bruttolistenpreis": "Gross list price",
+    "motorisation": "Powertrain",
+    "motorisations": {
+      "verbrenner": { "titre": "Combustion", "description": "1 % of list price" },
+      "elektro": { "titre": "Electric", "description": "0.25 % up to €100,000" },
+      "hybride": { "titre": "Hybrid", "description": "0.5 % subject to conditions" }
+    },
+    "anschaffungRecente": "Provided on or after 01.07.2025",
+    "anschaffungRecenteIndice": "Before that date the quarter rate applied only up to €70,000 rather than €100,000.",
+    "sectionTrajets": "Your journeys",
+    "distanceTravail": "Distance home to primary workplace",
+    "distanceTravailIndice": "One way, by the shortest road route.",
+    "joursTravailles": "Working days per year",
+    "joursTravaillesIndice": "220 is the usual figure. Fewer if you work from home.",
+    "sectionSalaire": "Your salary",
+    "sectionSalaireIndice": "The benefit in kind is taxed at your personal rate, so your salary is decisive.",
+    "bruttoAnnuel": "Gross annual salary",
+    "steuerklasse": "Tax class",
+    "bundesland": "Federal state",
+    "kirchensteuer": "Liable for church tax",
+    "sectionCarnet": "Logbook",
+    "sectionCarnetIndice": "Only fill this in if you know the actual costs.",
+    "carnetActif": "Compare with a logbook",
+    "carnetActifIndice": "Worthwhile mainly with low private use and expensive vehicles.",
+    "coutAnnuelVehicule": "Total annual costs",
+    "coutAnnuelVehiculeIndice": "Depreciation, insurance, road tax, servicing, fuel or electricity.",
+    "kmTotal": "Total annual mileage",
+    "kmPrives": "Of which purely private",
+    "kmPrivesIndice": "Excluding commuting — the calculator works that out itself.",
+    "resultatEtiquette": "Your company car costs you, net",
+    "resultatSousTexte": "{annuel} per year — best method: {methode}",
+    "methodes": { "forfait": "1 % rule", "carnet": "Logbook" },
+    "avantageEnNature": "Benefit in kind",
+    "impotsEtCotisations": "Tax and contributions",
+    "parMois": "Per month",
+    "carnetInactif": "Switch on the logbook comparison and enter your actual costs.",
+    "detailTitre": "How the figure builds up (1 % rule)",
+    "assiette": "Assessment basis",
+    "assietteIndice": "{part} of the list price",
+    "usagePrive": "Private use (1 % monthly)",
+    "trajetsTravail": "Commuting (0.03 % monthly)",
+    "trajetsTravailIndice": "per kilometre of distance, here {km} km",
+    "avantageTotal": "Annual benefit in kind",
+    "impotsSupplementaires": "Additional tax",
+    "cotisationsSupplementaires": "Additional contributions",
+    "coutReel": "Actual burden",
+    "coutReelIndice": "{taux} of the benefit in kind",
+    "economieElectrique": {
+      "titre": "Going electric saves you {montant} a year",
+      "texte": "The same list price as a combustion car would cost you {thermique} a month instead of {actuel}. The quarter rate is the single most powerful lever on a company car."
+    },
+    "alertes": {
+      "electriqueAvantage": {
+        "titre": "Quarter rate applies (list price up to {plafond})",
+        "texte": "Only a quarter of the list price is taken into account, for private use and commuting alike.",
+        "reference": "§ 6 Abs. 1 Nr. 4 S. 2 Nr. 3 EStG"
+      },
+      "electriqueAuDessusPlafond": {
+        "titre": "Above {plafond}: only half the assessment basis",
+        "texte": "Beyond the price cap the quarter rate gives way to the half rate. A few thousand euros less on the list price can be worth a great deal over several years.",
+        "reference": "§ 6 Abs. 1 Nr. 4 EStG"
+      },
+      "plafondAncien": {
+        "titre": "Earlier provision: cap at {plafond}",
+        "texte": "Vehicles provided before 01.07.2025 keep the old price cap. The date the car was made available governs, not the tax year.",
+        "reference": "§ 6 Abs. 1 Nr. 4 EStG"
+      },
+      "hybrideConditions": {
+        "titre": "Hybrids qualify only under conditions",
+        "texte": "Halving the basis requires a minimum electric range or low emissions. If the car misses them, the full 1 % rule applies.",
+        "reference": "§ 6 Abs. 1 Nr. 4 S. 2 Nr. 2 EStG"
+      },
+      "carnetInteressant": {
+        "titre": "The logbook saves you {montant} a year",
+        "texte": "Your private share is low enough to justify the effort. The method is chosen for the whole year and per vehicle.",
+        "reference": "§ 8 Abs. 2 S. 4 EStG"
+      },
+      "forfaitInteressant": {
+        "titre": "The 1 % rule works out better for you",
+        "texte": "The gap is {montant} a year in favour of the flat rate — with far less effort.",
+        "reference": "§ 8 Abs. 2 EStG"
+      },
+      "carnetNonRenseigne": {
+        "titre": "Logbook not compared",
+        "texte": "Without total costs and mileage the second method cannot be assessed. Switch the comparison on once you have the figures."
+      },
+      "carnetExigences": {
+        "titre": "A logbook must be complete and contemporaneous",
+        "texte": "Date, odometer, destination, purpose and contact for every trip — recorded as you go and tamper-proof. Spreadsheets are rejected, and the 1 % rule then applies retrospectively.",
+        "reference": "R 8.1 Abs. 9 Nr. 2 LStR"
+      },
+      "entfernungspauschale": {
+        "titre": "Do not forget the {montant} commuting deduction",
+        "texte": "Even with a company car, commuting remains deductible. The relief lands in your annual return, not in the monthly payroll deduction.",
+        "reference": "§ 9 Abs. 1 Nr. 4 EStG"
+      },
+      "einzelbewertung": {
+        "titre": "At {jours} working days, per-trip valuation is worth it",
+        "texte": "Below 180 commutes a year you may use 0.002 % per actual trip instead of a flat 0.03 % per month. Your employer has to apply it.",
+        "reference": "Federal Ministry of Finance circular"
+      }
+    },
+    "ctaEtiquette": "Set the company car up properly",
+    "ctaTexte": "Method, electric price cap, charging and salary sacrifice: on a company car the details are worth four-figure sums. We calculate your specific set-up.",
+    "ctaBouton": "Book a free consultation",
+    "avertissement": "Simplified calculation. Not included: employee contributions to costs, charging and wallbox, family home journeys under a dual household, pool vehicles, and flat-rate taxation of travel allowances."
+  },
+
+  "immobilien": {
+    "titre": "Buy-to-let property: does it pay?",
+    "sousTitre": "After-tax yield, depreciation and rental losses — based on your own figures.",
+    "oui": "Yes",
+    "non": "No",
+    "sectionBien": "The property",
+    "sectionBienIndice": "Purchase price excluding costs — the calculator adds those itself.",
+    "prix": "Purchase price",
+    "partTerrain": "Land share",
+    "partTerrainIndice": "Only the building is depreciated, never the land. An inflated land share costs you depreciation every single year.",
+    "bundesland": "Federal state",
+    "courtier": "With agent commission",
+    "sectionAmortissement": "Depreciation",
+    "sectionAmortissementIndice": "The rate depends on the year of completion.",
+    "amortissements": {
+      "habitationDepuis2023": { "titre": "3 % straight-line", "description": "Completed from 2023" },
+      "habitationDepuis1925": { "titre": "2 % straight-line", "description": "Completed from 1925" },
+      "habitationAvant1925": { "titre": "2.5 % straight-line", "description": "Completed before 1925" },
+      "degressif": { "titre": "5 % declining", "description": "Construction started 10/2023 – 09/2029" }
+    },
+    "sectionExploitation": "Income and costs",
+    "loyerAnnuel": "Annual net rent",
+    "loyerAnnuelIndice": "Excluding recoverable service charges.",
+    "chargesAnnuelles": "Non-recoverable costs",
+    "chargesAnnuellesIndice": "Management, maintenance reserve, repairs, insurance.",
+    "interetsAnnuels": "Annual interest",
+    "interetsAnnuelsIndice": "Only interest is deductible — capital repayment is not.",
+    "remboursementCapital": "Annual capital repayment",
+    "remboursementCapitalIndice": "Drains your cash flow without reducing tax.",
+    "sectionFiscalite": "Your tax situation",
+    "sectionFiscaliteIndice": "Your other income determines what a loss is worth.",
+    "autresRevenus": "Other taxable income",
+    "splitting": "Joint assessment",
+    "resultatEtiquette": "Your monthly cash flow after tax",
+    "resultatSousTexte": "{annuel} per year · after-tax yield {rendement}",
+    "detailAcquisitionTitre": "What the purchase really costs",
+    "prixAchat": "Purchase price",
+    "mutation": "Property transfer tax",
+    "mutationIndice": "{taux} in this state",
+    "notaire": "Notary and land registry",
+    "commission": "Agent commission",
+    "coutTotal": "Total investment",
+    "detailFiscalTitre": "Tax result",
+    "detailFiscalIndice": "An excess of costs over rent reduces your overall income tax.",
+    "amortissement": "Depreciation",
+    "amortissementIndice": "{taux} on {base}",
+    "resultatFiscal": "Rental income result",
+    "effetImpot": "Effect on your tax",
+    "effetImpotIndice": "at a marginal rate of {taux}",
+    "rendementsTitre": "Yields",
+    "rendementBrut": "Gross yield",
+    "rendementNet": "Net yield",
+    "rendementNetIndice": "after non-recoverable costs",
+    "rendementApresImpot": "After-tax yield",
+    "alertesTitre": "What you should know",
+    "alertes": {
+      "fraisAcquisition": {
+        "titre": "Purchase costs: {montant} ({part} of the price)",
+        "texte": "No bank finances these. They do increase the depreciable base, to the extent they relate to the building.",
+        "reference": "§ 255 HGB"
+      },
+      "deficit": {
+        "titre": "The rental loss saves you {montant} in tax",
+        "texte": "It offsets your other income. At a marginal rate of {taux}, the tax office effectively pays a large share of your interest.",
+        "reference": "§ 21 EStG"
+      },
+      "benefice": {
+        "titre": "Rental profit: {montant} additional tax",
+        "texte": "Your rent exceeds interest, costs and depreciation. Check whether maintenance work can be brought forward.",
+        "reference": "§ 21 EStG"
+      },
+      "terrain": {
+        "titre": "Land share set at {part}",
+        "texte": "The split between land and building fixes your depreciation for decades. It belongs in the purchase contract — the tax office rarely accepts it afterwards.",
+        "reference": "Federal Ministry of Finance guidance"
+      },
+      "speculation": {
+        "titre": "Speculation period: {ans} years",
+        "texte": "Selling within that period makes the gain taxable. Living in the property yourself in the year of sale and the {ansUsage} preceding years removes the tax entirely.",
+        "reference": "§ 23 Abs. 1 Nr. 1 EStG"
+      },
+      "degressif": {
+        "titre": "Declining-balance depreciation of {taux} selected",
+        "texte": "You write off far more in the early years and less later. A one-off switch to straight-line remains possible.",
+        "reference": "§ 7 Abs. 5a EStG"
+      },
+      "tilgung": {
+        "titre": "Capital repayment of {montant} is not deductible",
+        "texte": "It leaves your account without reducing tax — the classic reason a property can be profitable on paper yet tight on cash.",
+        "reference": "§ 9 EStG"
+      }
+    },
+    "ctaEtiquette": "Run the numbers before the notary",
+    "ctaTexte": "Price allocation, depreciation choice and financing structure fix your tax position for decades. Afterwards there is little left to correct.",
+    "ctaBouton": "Book a free consultation",
+    "avertissement": "Simplified first-year calculation. Not included: vacancy and rent arrears, deferred maintenance, special depreciation, acquisition-related production costs, and future movements in rent and interest rates."
+  },
+
+  "kaufnebenkosten": {
+    "titre": "Purchase costs on a property",
+    "sousTitre": "Transfer tax, notary, land registry and agent — the sum no bank will finance.",
+    "oui": "Yes",
+    "non": "No",
+    "sectionAchat": "Your purchase",
+    "prix": "Purchase price",
+    "bundesland": "Federal state",
+    "courtier": "Agent involved",
+    "courtierIndice": "Since 2020 the commission on residential property is generally shared.",
+    "apport": "Available equity",
+    "apportIndice": "The purchase costs must be fully covered from it.",
+    "classementTitre": "Transfer tax by federal state",
+    "classementIndice": "Your state is highlighted.",
+    "resultatEtiquette": "Your purchase costs",
+    "resultatSousTexte": "{part} of the price · total investment {total}",
+    "detailTitre": "Breakdown",
+    "prixAchat": "Purchase price",
+    "mutation": "Property transfer tax",
+    "mutationIndice": "{taux} in this state",
+    "notaire": "Notary fees",
+    "notaireIndice": "Deed and execution, set by statute.",
+    "registre": "Land registry entry",
+    "commission": "Agent commission",
+    "commissionIndice": "Buyer's share including VAT.",
+    "fraisTotal": "Total purchase costs",
+    "coutTotal": "Total investment",
+    "emprunt": "Financing required",
+    "empruntIndice": "{part} of the total investment",
+    "alertesTitre": "What you should know",
+    "alertes": {
+      "apportInsuffisant": {
+        "titre": "Your equity does not cover the purchase costs",
+        "texte": "You need at least {montant} for tax, notary and agent alone. Banks virtually never finance these — it is the most common reason a mortgage falls through."
+      },
+      "apportSuffisant": {
+        "titre": "Purchase costs covered by equity",
+        "texte": "The main hurdle is cleared. Anything beyond that noticeably lowers your interest rate."
+      },
+      "ecartLand": {
+        "titre": "In Bavaria it would be {montant} less",
+        "texte": "The lowest rate in Germany is {taux}. Worth considering for an investment property; rarely for a home you will live in.",
+        "reference": "§ 11 GrEStG"
+      },
+      "courtier": {
+        "titre": "Agent commission of {montant}",
+        "texte": "Freely negotiable, even if it is rarely presented that way. Buying directly from the owner removes it entirely.",
+        "reference": "§ 656c BGB"
+      },
+      "mobilier": {
+        "titre": "Fixtures bought with the property reduce the tax",
+        "texte": "A fitted kitchen, awning or sauna are not part of the land. If their value is stated separately in the contract, no transfer tax is due on it.",
+        "reference": "§ 2 GrEStG"
+      },
+      "delaiPaiement": {
+        "titre": "The tax arrives sooner than expected",
+        "texte": "The assessment follows a few weeks after signing and is due within a month. Without the clearance certificate there is no land registry entry.",
+        "reference": "§ 22 GrEStG"
+      }
+    },
+    "ctaEtiquette": "Check the financing",
+    "ctaTexte": "We review your purchase costs, the price allocation and the tax structure — before you sit down at the notary.",
+    "ctaBouton": "Book a free consultation",
+    "avertissement": "Notary and land registry fees are typical values under the GNotKG; only the notary's own invoice is binding. Agent commissions vary by region and are negotiable.",
+    "stand": "Transfer tax rates verified on {date}"
+  },
+
+  "photovoltaik": {
+    "titre": "Solar panels: tax-free or not?",
+    "sousTitre": "The 30 kWp limit decides — below it everything stays tax-free, above it the system becomes a business.",
+    "sectionInstallation": "Your system",
+    "sectionInstallationIndice": "The gross output recorded in the market register is what counts.",
+    "puissance": "Output",
+    "unites": "Residential and commercial units in the building",
+    "unitesIndice": "The limit applies per unit — it multiplies in an apartment block.",
+    "autresInstallations": "Your other systems",
+    "autresInstallationsIndice": "All systems of one taxpayer count together.",
+    "investissement": "Investment",
+    "investissementIndice": "Panels, inverter, battery and installation.",
+    "sectionRendement": "Output and prices",
+    "sectionRendementIndice": "Reference values you can adjust to your quote.",
+    "productionParKwp": "Output per kWp per year",
+    "partAutoconsommation": "Self-consumption share",
+    "tarifInjection": "Feed-in tariff per kWh",
+    "tarifInjectionIndice": "Stated in your EEG notice.",
+    "prixElectricite": "Your electricity price per kWh",
+    "tauxMarginal": "Your marginal tax rate",
+    "tauxMarginalIndice": "Only relevant if the system is not exempt.",
+    "resultatEtiquette": "Your tax-free annual return",
+    "resultatImposable": "Your return after tax",
+    "resultatSousTexte": "The system pays for itself after {ans} years",
+    "resultatSansAmortissement": "No payback under these assumptions",
+    "detailTitre": "How the return builds up",
+    "production": "Annual output",
+    "productionIndice": "{puissance} kWp",
+    "injection": "Fed into the grid",
+    "injectionIndice": "{kwh} kWh",
+    "autoconsommation": "Electricity not bought",
+    "autoconsommationIndice": "{kwh} kWh self-consumed",
+    "beneficeAnnuel": "Annual return",
+    "impot": "Income tax",
+    "impotIndice": "at a marginal rate of {taux}",
+    "limitesTitre": "The two limits",
+    "limitesIndice": "Both must be met, otherwise the exemption is lost entirely.",
+    "limiteObjet": "Limit for this building",
+    "limiteObjetIndice": "30 kWp × {unites} units",
+    "limiteContribuable": "All your systems",
+    "alertesTitre": "What you should know",
+    "alertes": {
+      "exonere": {
+        "titre": "Tax-free — {montant} a year with no income tax",
+        "texte": "Your system stays below {limite}. Neither the feed-in tariff nor self-consumption is taxed, and no profit calculation is required.",
+        "reference": "§ 3 Nr. 72 EStG"
+      },
+      "depasseObjet": {
+        "titre": "Above the {limite} limit",
+        "texte": "At {puissance} kWp you lose the exemption entirely — there is no partial relief. A few panels fewer can save several hundred euros a year.",
+        "reference": "§ 3 Nr. 72 EStG"
+      },
+      "depasseContribuable": {
+        "titre": "Overall {limite} limit exceeded",
+        "texte": "Your systems total {total} kWp. Above that threshold every system becomes taxable, including the small ones.",
+        "reference": "§ 3 Nr. 72 S. 1 EStG"
+      },
+      "tauxZero": {
+        "titre": "The zero rate saves you {montant}",
+        "texte": "Supply and installation on a residential building are invoiced without VAT. Nothing to apply for, no option to exercise.",
+        "reference": "§ 12 Abs. 3 UStG"
+      },
+      "kleinunternehmer": {
+        "titre": "Staying VAT-exempt is now the right call",
+        "texte": "Operators used to waive the exemption to reclaim VAT on the purchase. With the zero rate there is no VAT to reclaim — waiving brings only paperwork.",
+        "reference": "§ 19 UStG"
+      },
+      "euerRequise": {
+        "titre": "Profit calculation required",
+        "texte": "Without the exemption the system becomes a business: cash-basis accounts, Schedule G and depreciation over twenty years.",
+        "reference": "§ 4 Abs. 3 EStG"
+      },
+      "gewerbeanmeldung": {
+        "titre": "Registration still required",
+        "texte": "The tax exemption does not remove the duty to register in the market data register and notify the tax office.",
+        "reference": "§ 138 AO"
+      }
+    },
+    "ctaEtiquette": "Check before you buy",
+    "ctaTexte": "System size, battery and ownership structure decide the exemption. We review your quote before you sign.",
+    "ctaBouton": "Book a free consultation",
+    "avertissement": "Simplified profitability calculation. Not included: panel degradation, inverter replacement, insurance, storage losses, financing costs, and future movements in electricity and feed-in prices."
+  },
+
+  "abfindung": {
+    "titre": "Severance pay: what is left?",
+    "sousTitre": "The one-fifth rule softens the progression — but since 2025 only in your tax return, no longer on your payslip.",
+    "oui": "Yes",
+    "non": "No",
+    "sectionIndemnite": "Your severance",
+    "indemnite": "Severance amount",
+    "revenuRestant": "Other taxable income in the payment year",
+    "revenuRestantIndice": "Salary up to your leaving date; unemployment benefit does not count here.",
+    "splitting": "Joint assessment",
+    "sectionTiming": "Timing of payment",
+    "sectionTimingIndice": "The single most powerful lever: in a year without salary the rate is far lower.",
+    "versementAnneeSuivante": "Payment deferred to next year",
+    "versementAnneeSuivanteIndice": "Often negotiable — the settlement agreement fixes it.",
+    "revenuAnneeSuivante": "Expected income next year",
+    "revenuAnneeSuivanteIndice": "New salary, pension, or zero if unemployed.",
+    "resultatEtiquette": "From your severance you keep",
+    "resultatSousTexte": "{charge} in tax · {taux} effective",
+    "methodes": { "ordinaire": "Without the one-fifth rule", "cinquieme": "With the one-fifth rule" },
+    "methodesIndice": {
+      "ordinaire": "The severance is added in full to the year's income.",
+      "cinquieme": "Taxed as if spread over five years."
+    },
+    "detailTitre": "Calculation",
+    "indemniteBrute": "Gross severance",
+    "revenuBase": "Other income",
+    "revenuBaseIndice": "Basis for the tax rate",
+    "impotSansRegle": "Tax without the rule",
+    "impotAvecRegle": "Tax with the rule",
+    "economie": "Saving",
+    "economieIndice": "The tax office automatically applies whichever is more favourable.",
+    "soli": "Solidarity surcharge",
+    "netVerse": "Net from the severance",
+    "decalageTitre": "What deferring to next year would bring",
+    "decalageIndice": "Same severance, different payment year.",
+    "decalageActuel": "Paid this year",
+    "decalageReporte": "Paid next year",
+    "decalageGain": "Difference",
+    "alertesTitre": "What you should know",
+    "alertes": {
+      "cinquiemeApplique": {
+        "titre": "The one-fifth rule saves you {montant}",
+        "texte": "The progression effect is softened: tax is computed on one fifth and then multiplied by five.",
+        "reference": "§ 34 Abs. 1 EStG"
+      },
+      "cinquiemeSansEffet": {
+        "titre": "The rule achieves nothing here",
+        "texte": "Your other income already sits at the top rate. One fifth of the severance is then taxed at that same rate.",
+        "reference": "§ 34 Abs. 1 EStG"
+      },
+      "plusDePrelevement": {
+        "titre": "Since {annee} your employer no longer applies the rule",
+        "texte": "The payslip taxes at the full rate first — so your account shows less than you are entitled to. You recover the difference only through your tax return.",
+        "reference": "Wachstumschancengesetz"
+      },
+      "declarationObligatoire": {
+        "titre": "No return, no benefit",
+        "texte": "The rule is granted only on application in the assessment. Not filing means giving up the entire amount.",
+        "reference": "§ 46 Abs. 2 Nr. 5 EStG"
+      },
+      "decalage": {
+        "titre": "Deferring to next year saves {montant}",
+        "texte": "Paid in January, the severance lands in a lower-income year. That belongs in the settlement agreement — it cannot be arranged afterwards.",
+        "reference": "§ 11 EStG"
+      },
+      "zusammenballung": {
+        "titre": "Payment must be concentrated",
+        "texte": "Split across two years, the severance generally loses the benefit of the rule. Small partial payments of up to half are tolerated.",
+        "reference": "Federal Fiscal Court case law on § 34 EStG"
+      },
+      "sozialversicherung": {
+        "titre": "No social security contributions",
+        "texte": "A genuine severance for loss of employment is exempt. Back pay or holiday compensation, however, is not.",
+        "reference": "§ 14 SGB IV"
+      }
+    },
+    "ctaEtiquette": "Before you sign",
+    "ctaTexte": "Payment date, concentration and staging decide four- and five-figure sums — and can only be negotiated before the settlement agreement is signed.",
+    "ctaBouton": "Book a free consultation",
+    "avertissement": "Simplified calculation. Not included: church tax, the effect of unemployment benefit on your rate, occupational pensions, and remuneration for multi-year activity."
+  },
+
+  "altersvorsorge": {
+    "titre": "Pension gap and provision",
+    "sousTitre": "What you will be short — and what Rürup or Riester really cost after tax and subsidies.",
+    "oui": "Yes",
+    "non": "No",
+    "sectionSituation": "Your situation",
+    "brutAnnuel": "Gross annual income",
+    "age": "Your age",
+    "ageRetraite": "Planned retirement age",
+    "enfants": "Children eligible for child benefit",
+    "enfantsIndice": "Each child substantially increases the Riester subsidy.",
+    "splitting": "Joint assessment",
+    "sectionBesoin": "Your needs in retirement",
+    "sectionBesoinIndice": "As a share of your current gross income.",
+    "besoinPart": "Needed in retirement",
+    "sectionEpargne": "Your saving",
+    "sectionEpargneIndice": "The amount you can set aside each year.",
+    "epargneAnnuelle": "Annual saving",
+    "rendement": "Assumed return",
+    "rendementIndice": "After charges, before inflation.",
+    "resultatEtiquette": "Your monthly pension gap",
+    "resultatSousTexte": "Expected net pension {rente} · {ans} years still to go",
+    "renteTitre": "Your state pension",
+    "renteIndice": "Estimated from the headline pension level — only your own pension statement is reliable.",
+    "renteBrute": "Gross pension",
+    "partImposable": "Taxable share",
+    "partImposableIndice": "for retirement in {annee}",
+    "impotSurRente": "Tax on the pension",
+    "renteNette": "Net pension",
+    "besoin": "Your need",
+    "deficit": "Gap",
+    "enveloppes": {
+      "ruerup": { "titre": "Rürup (basic pension)", "description": "Fully deductible, but a lifelong annuity with no lump sum." },
+      "riester": { "titre": "Riester", "description": "Subsidies rather than tax relief — very strong with children." }
+    },
+    "versement": "Contribution",
+    "avantage": "State support",
+    "effortNet": "Your net cost",
+    "capital": "Capital at retirement",
+    "alertesTitre": "What you should know",
+    "alertes": {
+      "deficit": {
+        "titre": "You will be {montant} short each month",
+        "texte": "The gap grows with every year you wait — compound interest only works with time."
+      },
+      "pasDeDeficit": {
+        "titre": "No calculated gap",
+        "texte": "On these assumptions the state pension covers your need. Still consider inflation and long-term care risk."
+      },
+      "estimationRente": {
+        "titre": "This pension estimate is rough",
+        "texte": "It assumes a pension level of {part} of gross income. Your actual pension depends on your whole contribution history — your annual pension statement is the only reliable source.",
+        "reference": "§ 154 SGB VI"
+      },
+      "impositionRente": {
+        "titre": "Your pension will be {part} taxable",
+        "texte": "The taxable share depends on the year you retire and is then fixed for life. Retiring in {annee} no longer gives you a lower share.",
+        "reference": "§ 22 Nr. 1 S. 3 EStG"
+      },
+      "ruerup": {
+        "titre": "Rürup saves you {montant} in tax",
+        "texte": "Contributions are fully deductible up to {plafond}. The higher your rate today, the stronger the effect.",
+        "reference": "§ 10 Abs. 1 Nr. 2 EStG"
+      },
+      "plafondRuerupAtteint": {
+        "titre": "Ceiling of {plafond} reached",
+        "texte": "Contributions above it bring no further tax relief. Other vehicles make more sense for the remainder.",
+        "reference": "§ 10 Abs. 3 EStG"
+      },
+      "riesterEnfants": {
+        "titre": "Child subsidies of {montant}",
+        "texte": "With {enfants} child(ren), Riester beats Rürup almost every time — the subsidies do not depend on your tax rate.",
+        "reference": "§ 85 EStG"
+      },
+      "ruerupIrrevocable": {
+        "titre": "Rürup is irrevocable",
+        "texte": "No lump sum, no cancellation, no inheritance without an add-on. The tax relief is bought with maximum commitment.",
+        "reference": "§ 10 Abs. 1 Nr. 2b EStG"
+      }
+    },
+    "ctaEtiquette": "Model your provision",
+    "ctaTexte": "Rürup, Riester, occupational pension or a plain portfolio: the right answer depends on your tax rate, your children and your horizon. We model every route.",
+    "ctaBouton": "Book a free consultation",
+    "avertissement": "Rough orientation, not investment advice. Not included: inflation, product charges, pension increases, incapacity, and your actual contribution history."
+  },
+
+  "erbschaft": {
+    "titre": "Inheritance and gift tax",
+    "sousTitre": "Allowances, tax class and the ten-year rule — the only three levers there are.",
+    "oui": "Yes",
+    "non": "No",
+    "sectionTransmission": "The transfer",
+    "donation": "Lifetime gift",
+    "donationIndice": "Rather than inheritance — same allowances, but repeatable.",
+    "patrimoine": "Value of the assets",
+    "beneficiaires": "Number of recipients",
+    "beneficiairesIndice": "Each recipient has their own allowance.",
+    "sectionLien": "Relationship",
+    "sectionLienIndice": "It sets the allowance and the tax class — and therefore almost everything.",
+    "liens": {
+      "conjoint": { "titre": "Spouse or partner", "description": "€500,000 allowance" },
+      "enfant": { "titre": "Child or stepchild", "description": "€400,000 allowance" },
+      "petitEnfant": { "titre": "Grandchild", "description": "€200,000 allowance" },
+      "parent": { "titre": "Parents (on death)", "description": "€100,000 allowance" },
+      "frereSoeur": { "titre": "Sibling", "description": "€20,000, class II" },
+      "neveu": { "titre": "Niece or nephew", "description": "€20,000, class II" },
+      "autre": { "titre": "Unrelated", "description": "€20,000, class III" }
+    },
+    "resultatEtiquette": "Tax due",
+    "resultatSousTexte": "{taux} effective · {net} remains",
+    "detailTitre": "Calculation per recipient",
+    "detailIndice": "Tax is calculated separately for each recipient.",
+    "partParBeneficiaire": "Share per recipient",
+    "partParBeneficiaireIndice": "with {nombre} recipient(s)",
+    "abattement": "Personal allowance",
+    "abattementIndice": "class {classe}",
+    "versorgung": "Pension allowance",
+    "versorgungIndice": "Only on death, reduced by survivor pensions.",
+    "baseTaxable": "Taxable amount",
+    "taux": "Rate",
+    "tauxIndice": "class {classe}",
+    "impotParPart": "Tax per recipient",
+    "netParBeneficiaire": "Remaining per recipient",
+    "etalementTitre": "What staged transfer achieves",
+    "etalementIndice": "Two gifts {ans} years apart instead of a single transfer.",
+    "etalementSans": "All at once",
+    "etalementAvec": "In two steps",
+    "etalementGain": "Saving",
+    "alertesTitre": "What you should know",
+    "alertes": {
+      "sousAbattement": {
+        "titre": "Below the {abattement} allowance — no tax",
+        "texte": "Nothing is due at this value. A notification to the tax office may still be required.",
+        "reference": "§ 16 ErbStG"
+      },
+      "impotDu": {
+        "titre": "{montant} tax at a rate of {taux}",
+        "texte": "In class {classe} the rate applies to the whole taxable amount, not in bands. Just above a threshold that gets expensive — a hardship adjustment only softens it.",
+        "reference": "§ 19 ErbStG"
+      },
+      "etalement": {
+        "titre": "Staging the transfer saves {montant}",
+        "texte": "Allowances refresh every {ans} years. Starting early lets you transfer the same assets in stages, almost tax-free.",
+        "reference": "§ 14 ErbStG"
+      },
+      "classeDefavorable": {
+        "titre": "Class {classe} is expensive",
+        "texte": "Outside the immediate family the allowance drops to €20,000 and rates start between 15 and 30 percent. Adoption, marriage or a corporate structure can change that — with major consequences elsewhere.",
+        "reference": "§ 15 ErbStG"
+      },
+      "versorgungsfreibetrag": {
+        "titre": "Additional pension allowance of {montant}",
+        "texte": "Available only to the surviving spouse or partner, reduced by the capital value of tax-free survivor pensions.",
+        "reference": "§ 17 ErbStG"
+      },
+      "immobilier": {
+        "titre": "Property is valued differently",
+        "texte": "Not market value but the value under the valuation act applies. An owner-occupied family home can be entirely exempt for spouse and children, provided they live there for ten years.",
+        "reference": "§ 13 Abs. 1 Nr. 4b and 4c ErbStG"
+      },
+      "delaiDeclaration": {
+        "titre": "Three months to notify",
+        "texte": "Both inheritance and gift must be notified to the tax office within three months, whether or not tax is due.",
+        "reference": "§ 30 ErbStG"
+      }
+    },
+    "ctaEtiquette": "Plan the transfer",
+    "ctaTexte": "The ten-year rule only works if you start early enough. We review allowances, valuation and usufruct — and model the staging for your family.",
+    "ctaBouton": "Book a free consultation",
+    "avertissement": "Simplified calculation. Not included: valuation of property and business assets, relief for family businesses, usufruct, forced heirship claims, the hardship adjustment, and transfers within the previous ten years.",
+    "stand": "ErbStG values verified on {date}"
+  },
+
+  "erklaerungspflicht": {
+    "titre": "Do I have to file a tax return?",
+    "sousTitre": "Mandatory or voluntary — and by when. Two questions rarely answered together.",
+    "oui": "Yes",
+    "non": "No",
+    "sectionAnnee": "Tax year",
+    "avecConseil": "With a tax adviser",
+    "avecConseilIndice": "An engagement extends the deadline automatically, with no application.",
+    "sectionMotifs": "Does any of these apply to you?",
+    "sectionMotifsIndice": "A single one is enough to make filing mandatory.",
+    "motifs": {
+      "revenusAnnexes": { "titre": "Side income or wage replacement benefits", "description": "Rental income, pensions, parental allowance, short-time or unemployment benefit" },
+      "plusieursEmployeurs": { "titre": "More than one employer at a time", "description": "Second job in tax class VI" },
+      "classeVouFacteur": { "titre": "Tax classes III/V or IV with factor", "description": "Applies to almost every couple with unequal incomes" },
+      "freibetrag": { "titre": "Allowance recorded for payroll", "description": "Allowance applied at the wage tax deduction" },
+      "abfindung": { "titre": "Severance or multi-year remuneration", "description": "Extraordinary income taxed at a reduced rate" },
+      "ehegattenWechsel": { "titre": "Divorce or death of a spouse with remarriage", "description": "In the same year" },
+      "independant": { "titre": "Self-employed or business activity", "description": "Including on the side" },
+      "capitauxEtrangers": { "titre": "Investment income without withholding tax", "description": "Foreign brokerage account, crypto assets" },
+      "demandeFinanzamt": { "titre": "The tax office asked you to file", "description": "Written request received" }
+    },
+    "revenusAnnexesMontant": "Amount of that income",
+    "revenusAnnexesIndice": "The obligation only arises above {seuil}.",
+    "sectionVolontaires": "And is it worth it?",
+    "sectionVolontairesIndice": "Even without an obligation, most employees get money back.",
+    "volontaires": {
+      "fraisEleves": { "titre": "High work-related expenses", "description": "Above the €1,230 standard allowance" },
+      "emploiPartiel": { "titre": "Did not work the full year", "description": "First job, parental leave, studies" },
+      "changementEmploi": { "titre": "Changed job or moved house", "description": "Application and relocation costs" },
+      "mariageRecent": { "titre": "Got married", "description": "The splitting benefit often only arrives via the return" },
+      "dons": { "titre": "Donations or work on your home", "description": "Household services count too" }
+    },
+    "resultatObligatoire": "You must file — deadline",
+    "resultatFacultatif": "Voluntary — you have until",
+    "resultatSousTexte": "for tax year {annee}",
+    "resultatSousTexteFacultatif": "Four years retroactively, so until {date}",
+    "delaisTitre": "Your deadlines compared",
+    "delaisIndice": "The deadline extends purely by virtue of the engagement, with no application.",
+    "delaiSansConseil": "Without an adviser",
+    "delaiAvecConseil": "With an adviser",
+    "delaiAvecConseilIndice": "{jours} days more",
+    "delaiVolontaire": "Voluntary filing",
+    "delaiVolontaireIndice": "Four-year assessment period.",
+    "motifsRetenusTitre": "What triggers your obligation",
+    "alertesTitre": "What you should know",
+    "alertes": {
+      "obligatoire": {
+        "titre": "Mandatory filing — {nombre} ground(s) met",
+        "texte": "Filing is required, not optional. Letting the deadline pass invites an estimated assessment, rarely in your favour.",
+        "reference": "§ 46 Abs. 2 EStG"
+      },
+      "retard": {
+        "titre": "Being late costs from the first month",
+        "texte": "The surcharge is {part} of the assessed tax per month started, at least {minimum} a month. Where filing is mandatory it is applied as a matter of course.",
+        "reference": "§ 152 AO"
+      },
+      "volontaireRentable": {
+        "titre": "Filing voluntarily pays off here",
+        "texte": "You ticked {nombre} item(s) that typically lead to a refund. On average, employees get four-figure sums back.",
+        "reference": "§ 46 Abs. 2 Nr. 8 EStG"
+      },
+      "aucuneObligation": {
+        "titre": "No obligation apparent",
+        "texte": "On your answers, nothing requires you to file. A voluntary return remains possible — and usually worthwhile.",
+        "reference": "§ 46 EStG"
+      },
+      "quatreAns": {
+        "titre": "Four years instead of a few months",
+        "texte": "Without an obligation you can file up to four years back. The older years are often the most rewarding — and the most often forgotten.",
+        "reference": "§ 169 AO"
+      },
+      "gainDelai": {
+        "titre": "With an adviser, {jours} days more",
+        "texte": "The extended deadline applies automatically once an engagement exists. Not the main reason to appoint an adviser, but a real side effect.",
+        "reference": "§ 149 Abs. 3 AO"
+      },
+      "sousSeuil": {
+        "titre": "Side income below {seuil}",
+        "texte": "It therefore triggers no filing obligation. For wage replacement benefits, however, the rate effect applies even below that.",
+        "reference": "§ 46 Abs. 2 Nr. 1 EStG"
+      },
+      "abfindung": {
+        "titre": "Severance: the return is worth real money",
+        "texte": "Since 2025 employers no longer apply the one-fifth rule. Only the assessment recovers the difference.",
+        "reference": "§ 34 EStG"
+      }
+    },
+    "ctaEtiquette": "Secure the deadline",
+    "ctaTexte": "We take on your return, review the open years retroactively, and you automatically gain seven months of extra time.",
+    "ctaBouton": "Book a free consultation",
+    "avertissement": "Orientation only, not a definitive assessment. § 46 EStG contains further grounds; your actual circumstances govern. Deadlines may differ by individual order of the tax office.",
+    "stand": "Deadlines under § 149 AO, as at {date}"
+  },
+
+  "unterhalt": {
+    "titre": "Deducting money sent to family back home",
+    "sousTitre": "Supporting parents or siblings abroad is tax-deductible — few people know it, and fewer still know the conditions.",
+    "oui": "Yes",
+    "non": "No",
+    "sectionEnvois": "Your payments",
+    "sectionEnvoisIndice": "Total for one calendar year, across everyone you support.",
+    "montantVerse": "Amount transferred per year",
+    "nombrePersonnes": "Number of people supported",
+    "nombrePersonnesIndice": "Each person has their own ceiling.",
+    "moisSoutien": "Months in which you provided support",
+    "parVirement": "Paid by bank transfer",
+    "parVirementIndice": "Decisive: since 2025, cash and money carried home on a visit are no longer deductible.",
+    "sectionPays": "Country where the person lives",
+    "sectionPaysIndice": "The tax office reduces the ceiling according to local living standards. Your group is set out in the Federal Ministry of Finance circular — we check it with you.",
+    "groupes": {
+      "1": { "titre": "Group 1 — full amount", "description": "Countries at German level" },
+      "2": { "titre": "Group 2 — three quarters", "description": "Somewhat lower level" },
+      "3": { "titre": "Group 3 — half", "description": "Markedly lower level" },
+      "4": { "titre": "Group 4 — one quarter", "description": "Most of sub-Saharan Africa" }
+    },
+    "sectionBeneficiaire": "The person you support",
+    "sectionBeneficiaireIndice": "Only relatives with a statutory maintenance claim qualify: parents, grandparents, children, spouse. Siblings do not.",
+    "conjointBeneficiaire": "It is my spouse",
+    "conjointBeneficiaireIndice": "For a spouse the Opfergrenze does not apply.",
+    "beneficiaireApteAuTravail": "Able to work and under 65",
+    "beneficiaireApteAuTravailIndice": "Anyone who could work is expected to: the tax office then refuses the deduction.",
+    "revenusPersonne": "Their own annual income",
+    "revenusPersonneIndice": "Pension, rent, wages — anything above €624 is set off.",
+    "sectionPayeur": "Your situation",
+    "sectionPayeurIndice": "Determines your Opfergrenze and your tax rate.",
+    "revenuNetPayeur": "Your disposable net income",
+    "revenuNetPayeurIndice": "After tax and social contributions.",
+    "revenuImposablePayeur": "Your taxable income",
+    "splitting": "Joint assessment",
+    "conjointPayeur": "I have a spouse",
+    "conjointPayeurIndice": "Lowers the Opfergrenze by 5 points.",
+    "enfantsPayeur": "My own children receiving child benefit",
+    "enfantsPayeurIndice": "Each child lowers the Opfergrenze by a further 5 points.",
+    "resultatEtiquette": "Your tax saving",
+    "resultatSousTexte": "{deductible} deductible at a marginal rate of {taux}",
+    "resultatBloque": "No deduction possible",
+    "resultatBloqueTexte": "One condition is not met — see the points below.",
+    "detailTitre": "How the figure is built up",
+    "detailIndice": "The ceiling applies per person supported.",
+    "montantVerseLigne": "Transferred",
+    "plafondPlein": "Ceiling per person",
+    "plafondPleinIndice": "group {groupe}, that is {part} of the basic allowance",
+    "plafondProrata": "After monthly proration",
+    "imputation": "Set-off of their own income",
+    "imputationIndice": "above the €624 threshold",
+    "opfergrenzeLigne": "Opfergrenze",
+    "opfergrenzeIndice": "{part} of your net income",
+    "deductible": "Total deductible",
+    "economie": "Tax saving",
+    "economieIndice": "at a {taux} marginal rate",
+    "partReconnue": "Share of your payments recognised",
+    "alertesTitre": "What decides your deduction",
+    "alertes": {
+      "especesRefusees": {
+        "titre": "Cash has not been deductible since {annee}",
+        "texte": "Only transfers to an account held by the person supported are accepted. Money handed over in person on a visit no longer counts, not even with witnesses or a receipt. It is the single most common reason for refusal.",
+        "reference": "§ 33a Abs. 1 S. 12 EStG"
+      },
+      "virementObligatoire": {
+        "titre": "Send money only by bank transfer",
+        "texte": "Since 2025 only transfers to an account of the person supported are deductible. Keep every receipt — it is your only proof.",
+        "reference": "§ 33a Abs. 1 S. 12 EStG"
+      },
+      "erwerbsobliegenheit": {
+        "titre": "The duty to work blocks the deduction",
+        "texte": "For someone able to work and under 65, the tax office assumes they can support themselves. The deduction succeeds only with evidence to the contrary: illness, caring duties, documented unemployment.",
+        "reference": "R 33a.1 Abs. 2 EStR"
+      },
+      "laendergruppe": {
+        "titre": "Group {groupe}: only {part} of the ceiling",
+        "texte": "For that country the ceiling drops to {plafond} instead of the full basic allowance. The cut surprises almost everyone: it follows local living standards, not what you actually send.",
+        "reference": "§ 33a Abs. 1 S. 6 EStG"
+      },
+      "opfergrenze": {
+        "titre": "The Opfergrenze caps you at {montant}",
+        "texte": "Outside marriage the tax office recognises at most {part} of your net income — the assumption being that nobody can give more without putting themselves at risk.",
+        "reference": "Ministry circular on the Opfergrenze"
+      },
+      "revenusBeneficiaire": {
+        "titre": "Their own income cuts {montant}",
+        "texte": "Everything above the {seuil} threshold is deducted from the ceiling. A modest pension back home can shrink the benefit considerably.",
+        "reference": "§ 33a Abs. 1 S. 5 EStG"
+      },
+      "zwoelftelung": {
+        "titre": "Only {nombre} months counted",
+        "texte": "The ceiling is cut by one twelfth for every month without support. Regular monthly transfers therefore beat a single payment in December.",
+        "reference": "§ 33a Abs. 3 EStG"
+      },
+      "plafonne": {
+        "titre": "{montant} has no effect",
+        "texte": "Your payments exceed the recognised amount. The excess is lost for tax purposes — where several people are supported, splitting the payments often avoids this.",
+        "reference": "§ 33a Abs. 1 EStG"
+      },
+      "justificatifs": {
+        "titre": "The evidence you need",
+        "texte": "A maintenance declaration signed by the person supported on the official form, proof of their address, evidence of their own income, and every transfer receipt. If one is missing, the whole deduction fails.",
+        "reference": "§ 33a Abs. 1 S. 9 EStG"
+      },
+      "vermoegen": {
+        "titre": "They must not hold significant assets",
+        "texte": "Above roughly {limite} in assets the deduction disappears. A home they occupy themselves is generally left out of that assessment.",
+        "reference": "§ 33a Abs. 1 S. 4 EStG"
+      },
+      "groupeAVerifier": {
+        "titre": "Your country group is worth checking",
+        "texte": "The classification is revised annually by the Federal Ministry of Finance and countries do move between groups. We verify yours — the wrong group shifts the result substantially.",
+        "reference": "Ländergruppeneinteilung circular"
+      }
+    },
+    "ctaEtiquette": "Retroactive for up to four years",
+    "ctaTexte": "If you have never claimed this, you can usually still go back four years. We review your transfers, obtain the forms for your family and handle the return.",
+    "ctaBouton": "Book a free consultation",
+    "avertissement": "Simplified calculation. Not included: support to several people living in different countries, payments shared between several supporters, benefits in kind, and the precise determination of net income for the Opfergrenze."
+  },
+
+  "kindergeldAusland": {
+    "titre": "Child benefit for children living abroad",
+    "sousTitre": "Three countries of residence, three completely different answers — and an allowance that survives even without benefit.",
+    "oui": "Yes",
+    "non": "No",
+    "sectionResidence": "Where do the children live?",
+    "sectionResidenceIndice": "What matters is the child's residence, not your nationality.",
+    "regimes": {
+      "ue": { "titre": "EU, EEA or Switzerland", "description": "Full entitlement" },
+      "abkommen": { "titre": "Treaty state", "description": "Algeria, Bosnia, Kosovo, Morocco, Montenegro, Serbia, Tunisia, Türkiye" },
+      "drittstaat": { "titre": "Third country", "description": "All other countries" }
+    },
+    "activiteCotisante": "I am in employment subject to social insurance",
+    "activiteCotisanteIndice": "Or receiving unemployment or sickness benefit. Without that the treaty does not apply.",
+    "prestationsEtranger": "Family benefits in the country of residence",
+    "prestationsEtrangerIndice": "Whatever is already paid there reduces the German benefit.",
+    "sectionGroupe": "Country group of residence",
+    "sectionGroupeIndice": "It determines how much of the child allowance remains.",
+    "groupes": {
+      "1": { "titre": "Group 1 — full amount", "description": "Countries at German level" },
+      "2": { "titre": "Group 2 — three quarters", "description": "Somewhat lower level" },
+      "3": { "titre": "Group 3 — half", "description": "Markedly lower level" },
+      "4": { "titre": "Group 4 — one quarter", "description": "Most of sub-Saharan Africa" }
+    },
+    "sectionFamille": "Your family",
+    "enfants": "Number of children",
+    "revenuImposable": "Your taxable income",
+    "revenuImposableIndice": "Determines what the allowance is worth.",
+    "splitting": "Joint assessment",
+    "resultatEtiquette": "Your benefit per year",
+    "resultatSousTexte": "{mensuel} child benefit per month",
+    "resultatSansAllocation": "No child benefit — but the child allowance still remains yours",
+    "voies": {
+      "allocations": { "titre": "Child benefit", "description": "Paid monthly, regardless of income." },
+      "abattement": { "titre": "Child allowance", "description": "Works through the tax return, grows with your tax rate." }
+    },
+    "detailTitre": "The two routes compared",
+    "detailIndice": "The tax office automatically applies whichever is better for you.",
+    "allocationPleine": "Child benefit at the full rate",
+    "allocationPleineIndice": "{enfants} child(ren)",
+    "allocationVersee": "Actually paid",
+    "abattementPlein": "Child allowance unreduced",
+    "abattementReduit": "After reduction",
+    "abattementReduitIndice": "group {groupe}, that is {part}",
+    "economieAbattement": "Resulting tax saving",
+    "avantageRetenu": "Effective for you",
+    "avantageRetenuIndice": "The better of the two routes.",
+    "ecartAllemagne": "Shortfall against children living in Germany",
+    "ecartAllemagneIndice": "What the same family would receive with children in Germany.",
+    "alertesTitre": "What you should know",
+    "alertes": {
+      "regimeUE": {
+        "titre": "Full entitlement within the EU",
+        "texte": "If your children live in the EU, the EEA or Switzerland, your entitlement is the same as if they lived in Germany.",
+        "reference": "Regulation (EC) 883/2004"
+      },
+      "differenzzahlung": {
+        "titre": "Only the difference is paid",
+        "texte": "If {montant} in family benefits is already paid in the country of residence, Germany pays only the difference. There is no double payment.",
+        "reference": "Art. 68 Regulation (EC) 883/2004"
+      },
+      "regimeAbkommen": {
+        "titre": "Entitlement under the social security agreement",
+        "texte": "An agreement links Germany to that state and extends entitlement to children living there. It still requires employment subject to social insurance in Germany.",
+        "reference": "§ 63 Abs. 1 S. 6 EStG"
+      },
+      "montantConventionnel": {
+        "titre": "The amount follows the agreement",
+        "texte": "For children in treaty states the amount paid is often lower than the German rate. The exact figure comes from the agreement — we look it up for your country.",
+        "reference": "Social security agreement"
+      },
+      "abkommenSansActivite": {
+        "titre": "No entitlement without insured employment",
+        "texte": "The agreement applies only while you are in employment subject to social insurance in Germany, or receiving unemployment or sickness benefit. Self-employment generally does not qualify.",
+        "reference": "§ 63 Abs. 1 S. 6 EStG"
+      },
+      "regimeDrittstaat": {
+        "titre": "No child benefit for a child in a third country",
+        "texte": "The territoriality principle rules out entitlement where the child lives neither in the EU nor in a treaty state. Neither your nationality nor your residence permit changes that.",
+        "reference": "§ 63 Abs. 1 S. 6 EStG"
+      },
+      "macedoine": {
+        "titre": "North Macedonia is not a treaty state",
+        "texte": "Unlike neighbouring Serbia, Montenegro and Kosovo, no such agreement exists. This confusion regularly leads to rejected claims.",
+        "reference": "§ 63 Abs. 1 S. 6 EStG"
+      },
+      "abattementReduit": {
+        "titre": "Child allowance cut by {montant}",
+        "texte": "In group {groupe}, {part} of the allowance remains. But it never disappears entirely — you can claim it even without child benefit.",
+        "reference": "§ 32 Abs. 6 S. 4 EStG"
+      },
+      "abattementPlusFavorable": {
+        "titre": "The allowance is worth {montant} more",
+        "texte": "At your income the child allowance outweighs the benefit. The tax office automatically applies the better option — but only if you file a return.",
+        "reference": "§ 31 EStG"
+      },
+      "ecartAllemagne": {
+        "titre": "{montant} less than with children in Germany",
+        "texte": "That is the gap caused purely by where your children live. Check whether your payments are deductible as family support under § 33a EStG.",
+        "reference": "§ 32 and § 63 EStG"
+      },
+      "titreSejour": {
+        "titre": "Your residence permit must qualify",
+        "texte": "For non-EU nationals, child benefit requires a settlement permit or a residence permit allowing work. A mere toleration and certain temporary permits do not suffice.",
+        "reference": "§ 62 Abs. 2 EStG"
+      },
+      "unterhaltAlternative": {
+        "titre": "Without benefit, the support deduction remains",
+        "texte": "Payments to children abroad who do not qualify for child benefit are deductible as maintenance under § 33a EStG. That is the way out many families miss — our family support calculator gives the figure.",
+        "reference": "§ 33a Abs. 1 EStG"
+      }
+    },
+    "ctaEtiquette": "Have your entitlement checked",
+    "ctaTexte": "Children's residence, residence permit and treaty position decide — and the benefits office often reads them narrowly. We review your case and appeal refusals.",
+    "ctaBouton": "Book a free consultation",
+    "avertissement": "Simplified presentation. The amount for treaty states depends on the applicable agreement and is calculated here at the full German rate. Not included: the ranking of children, children over 18 in education, and competing claims by the other parent."
+  },
+
+  "rentenerstattung": {
+    "titre": "Going home: claim your pension contributions back?",
+    "sousTitre": "A refund pays out immediately but erases every entitlement, permanently. Both routes in figures.",
+    "oui": "Yes",
+    "non": "No",
+    "sectionCarriere": "Your contribution period",
+    "sectionCarriereIndice": "Every month in which you paid German pension contributions.",
+    "moisCotises": "Contribution months",
+    "moisFormat": "{mois} months ({ans} years)",
+    "ansFormat": "{ans} years",
+    "salaireMoyenAnnuel": "Average gross salary",
+    "salaireMoyenIndice": "Across your whole contribution period. Earning exactly the national average yields one pension point per year.",
+    "sectionSituation": "Your situation",
+    "age": "Your age",
+    "moisDepuisDepart": "Months since compulsory insurance ended",
+    "moisDepuisDepartIndice": "A refund is only possible after 24 months.",
+    "ressortissantUE": "I am an EU national",
+    "ressortissantUEIndice": "Anyone still entitled to pay voluntary contributions gets no refund.",
+    "resultatEtiquette": "Our assessment",
+    "resultatConserver": "Keep the entitlement: {pension} a month from 67 rather than {remboursement} once",
+    "resultatRembourser": "Refund of {remboursement} — the contribution period creates no pension",
+    "recommandations": { "conserver": "Keep the entitlement", "rembourser": "Apply for the refund" },
+    "voies": {
+      "conserver": { "titre": "Keep the entitlement", "description": "Lifelong pension from 67, paid abroad too." },
+      "rembourser": { "titre": "Claim the refund", "description": "One-off payment, after which everything is extinguished." }
+    },
+    "parMois": "per month from 67",
+    "uneFois": "one-off",
+    "detailTitre": "The figures in detail",
+    "periodeCotisee": "Contribution period",
+    "wartezeit": "Five-year qualifying period met",
+    "wartezeitIndice": "Without it there is no pension entitlement.",
+    "points": "Pension points",
+    "pointsIndice": "One point per year at average earnings.",
+    "pensionMensuelle": "Monthly pension",
+    "pensionIndice": "at a point value of {valeur}",
+    "cotisationsTotales": "Total contributions paid",
+    "remboursement": "Refund amount",
+    "remboursementIndice": "Your own share only.",
+    "partPerdue": "Employer's share",
+    "partPerdueIndice": "Never refunded.",
+    "pointEquilibre": "Refund overtaken after",
+    "pointEquilibreIndice": "How long until the pension matches the refunded amount.",
+    "pensionCumulee": "Pension over {ans} years",
+    "pensionCumuleeIndice": "Based on an average period of receipt from 67.",
+    "alertesTitre": "What you should know",
+    "alertes": {
+      "ressortissantUE": {
+        "titre": "No refund for an EU national",
+        "texte": "Anyone who may still contribute voluntarily is excluded from the refund. Your periods are aggregated with those of other member states in any case.",
+        "reference": "§ 210 Abs. 1a SGB VI"
+      },
+      "delaiNonEcoule": {
+        "titre": "{nombre} months still to wait",
+        "texte": "The refund can only be claimed 24 months after compulsory insurance ends. The legislator wants to prevent hasty decisions.",
+        "reference": "§ 210 Abs. 3 SGB VI"
+      },
+      "wartezeitAtteinte": {
+        "titre": "You have a pension entitlement of {montant} a month",
+        "texte": "With more than {nombre} contribution years the general qualifying period is met. That entitlement lasts for life, even if you never work in Germany again.",
+        "reference": "§ 50 Abs. 1 SGB VI"
+      },
+      "wartezeitManquante": {
+        "titre": "{nombre} more contribution months to reach entitlement",
+        "texte": "Below five years no pension arises. Voluntary contributions can close the gap — often the better option than a refund.",
+        "reference": "§ 50 Abs. 1 SGB VI"
+      },
+      "partPatronalePerdue": {
+        "titre": "{montant} of employer contributions are lost",
+        "texte": "Only what you paid yourself is refunded, roughly half. The employer's share simply lapses. That is exactly what most people overlook.",
+        "reference": "§ 210 Abs. 1 SGB VI"
+      },
+      "irreversible": {
+        "titre": "The decision is final",
+        "texte": "The refund dissolves the insurance relationship: all periods, including child-raising and education periods, are erased. There is no way to buy them back.",
+        "reference": "§ 210 Abs. 6 SGB VI"
+      },
+      "pointEquilibre": {
+        "titre": "After {nombre} years of pension the refund is overtaken",
+        "texte": "Beyond that point the pension will have paid you more than the lump sum. Over an average receipt period of 18 years the arithmetic is usually clear-cut."
+      },
+      "versementEtranger": {
+        "titre": "The pension is paid abroad too",
+        "texte": "German pensions are transferred worldwide. The former reduction to 70 percent no longer applies to pensions starting from October 2013 — one more reason to keep the entitlement.",
+        "reference": "§§ 110 ff. SGB VI"
+      },
+      "accordBilateral": {
+        "titre": "A social security agreement can change everything",
+        "texte": "Where an agreement links Germany to your home country, insurance periods there are added to the German ones. Many reach the five years they lack in Germany alone that way.",
+        "reference": "Bilateral agreements"
+      }
+    },
+    "ctaEtiquette": "Calculate before applying",
+    "ctaTexte": "The refund cannot be undone. We review your contribution record, possible treaty periods and the voluntary contribution option — before you file the application.",
+    "ctaBouton": "Book a free consultation",
+    "avertissement": "Simplified estimate. Your actual pension follows from your record with the German pension insurance, including child-raising, credited and supplementary periods. Pension increases, deductions for early retirement and the taxation of the pension are not included.",
+    "stand": "Pension values and § 210 SGB VI, as at {date}"
+  }
+}

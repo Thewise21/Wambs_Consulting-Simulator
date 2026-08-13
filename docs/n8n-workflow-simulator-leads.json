@@ -1,0 +1,147 @@
+{
+  "name": "Simulateurs — reception des prospects",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "simulator-leads",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "webhook-reception",
+      "name": "Reception simulateur",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [-660, 300],
+      "webhookId": "simulator-leads"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": { "caseSensitive": true, "version": 2 },
+          "conditions": [
+            {
+              "leftValue": "={{ $json.body.consentement.accorde }}",
+              "rightValue": true,
+              "operator": { "type": "boolean", "operation": "true" }
+            },
+            {
+              "leftValue": "={{ $json.body.contact.email }}",
+              "rightValue": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]{2,}$",
+              "operator": { "type": "string", "operation": "regex" }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "controle-consentement",
+      "name": "Consentement et e-mail valides",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [-440, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "/* Normalise la charge utile et deduit la pipeline TaxDome.\n * Le champ `resume` varie d'un simulateur a l'autre : on le conserve tel\n * quel, sans schema fige. */\nconst PIPELINES = {\n  einkommensteuer: 'Einkommensteuererklärung',\n  bescheidpruefung: 'Bescheidprüfung',\n  lohnbuchhaltung: 'Lohnbuchhaltung',\n  ustVoranmeldung: 'USt-Voranmeldung',\n  fibu: 'Finanzbuchhaltung (FiBu)',\n  jahresabschluss: 'Jahresabschluss / EÜR',\n  existenzgruendung: 'Existenzgründung',\n  onboarding: 'Mandanten-Onboarding',\n};\n\nreturn items.map((item) => {\n  const c = item.json.body;\n  const identifiants = c.outil?.pipelines || [];\n  const pipelines = identifiants.map((id) => PIPELINES[id] || id);\n\n  return {\n    json: {\n      recuLe: new Date().toISOString(),\n      langue: c.langue,\n      nom: c.contact.nom,\n      email: c.contact.email,\n      telephone: c.contact.telephone,\n      message: c.contact.message,\n      simulateur: c.outil?.id,\n      pipelinePrincipale: pipelines[0] || 'Mandanten-Onboarding',\n      pipelinesSecondaires: pipelines.slice(1),\n      resume: c.resume,\n      resumeLisible: Object.entries(c.resume || {})\n        .map(([cle, valeur]) => `${cle} : ${valeur}`)\n        .join('\\n'),\n      consentementTexte: c.consentement.texte,\n      consentementHorodatage: c.consentement.horodatage,\n      urlPage: c.contexte?.urlPage,\n      versionContrat: c.version,\n    },\n  };\n});"
+      },
+      "id": "normalisation",
+      "name": "Normaliser et router",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-200, 200]
+    },
+    {
+      "parameters": {
+        "sendTo": "info@wambsconsulting.de",
+        "subject": "=Nouveau prospect — {{ $json.simulateur }} ({{ $json.pipelinePrincipale }})",
+        "message": "=Simulateur : {{ $json.simulateur }}\nPipeline : {{ $json.pipelinePrincipale }}\nLangue : {{ $json.langue }}\n\nNom : {{ $json.nom }}\nE-mail : {{ $json.email }}\nTéléphone : {{ $json.telephone }}\nMessage : {{ $json.message }}\n\nRésultat de la simulation :\n{{ $json.resumeLisible }}\n\nConsentement recueilli le {{ $json.consentementHorodatage }} :\n« {{ $json.consentementTexte }} »\n\nPage : {{ $json.urlPage }}",
+        "options": {}
+      },
+      "id": "notification",
+      "name": "Alerter la boite du cabinet",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2,
+      "position": [40, 100],
+      "notes": "Remplacer par OVH Mail si vous preferez ne pas passer par Gmail."
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": "REMPLACER_PAR_ID_FEUILLE",
+        "sheetName": "Prospects",
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "matchingColumns": []
+        },
+        "options": {}
+      },
+      "id": "journal",
+      "name": "Journaliser le prospect",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4,
+      "position": [40, 280],
+      "notes": "Journal durable, indispensable pour rapprocher plus tard le simulateur et le mandat signe. Remplacer par BigQuery si vous preferez."
+    },
+    {
+      "parameters": {
+        "content": "## TaxDome — a construire\n\nTaxDome est pilote chez WAMB'S par une API interne via navigateur, avec jeton CSRF. Un webhook serveur ne peut pas y ecrire directement de maniere fiable.\n\n**Voie recommandee pour demarrer :** laisser ce noeud vide. La notification et le journal suffisent a mesurer quel simulateur produit du mandat. La creation dans TaxDome se fait par le skill `taxdome-workflow-manager`, que vous maitrisez deja.\n\n**Si vous voulez automatiser plus tard :** ajouter ici un noeud HTTP Request, en sachant que la session et le jeton CSRF devront etre renouveles, et que l'API peut changer sans preavis.",
+        "height": 320,
+        "width": 420
+      },
+      "id": "note-taxdome",
+      "name": "TaxDome — emplacement reserve",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [320, 200]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={\"statut\":\"recu\"}",
+        "options": {}
+      },
+      "id": "reponse-ok",
+      "name": "Repondre au simulateur",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [280, 100]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={\"statut\":\"refuse\",\"motif\":\"consentement ou e-mail invalide\"}",
+        "options": {}
+      },
+      "id": "reponse-refus",
+      "name": "Refuser",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [-200, 420]
+    }
+  ],
+  "connections": {
+    "Reception simulateur": {
+      "main": [[{ "node": "Consentement et e-mail valides", "type": "main", "index": 0 }]]
+    },
+    "Consentement et e-mail valides": {
+      "main": [
+        [{ "node": "Normaliser et router", "type": "main", "index": 0 }],
+        [{ "node": "Refuser", "type": "main", "index": 0 }]
+      ]
+    },
+    "Normaliser et router": {
+      "main": [
+        [
+          { "node": "Alerter la boite du cabinet", "type": "main", "index": 0 },
+          { "node": "Journaliser le prospect", "type": "main", "index": 0 }
+        ]
+      ]
+    },
+    "Alerter la boite du cabinet": {
+      "main": [[{ "node": "Repondre au simulateur", "type": "main", "index": 0 }]]
+    }
+  },
+  "settings": { "executionOrder": "v1" },
+  "pinData": {}
+}
