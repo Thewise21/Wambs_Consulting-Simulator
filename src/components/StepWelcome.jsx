@@ -1,5 +1,5 @@
 /* Etape 0 — Page d'accueil avec trust signals */
-import { COMPANY, LINKS } from '../config/links';
+import { COMPANY, HOME } from '../config/links';
 
 const trustIcons = [
   /* Mandate international */
@@ -30,8 +30,8 @@ export default function StepWelcome({ onStart, t }) {
       {/* Logo et headline */}
       <div className="mb-8">
         {/* Auch hier fuehrt die Marke zurueck zur Website */}
-        <a href={LINKS.website} title={t['site.back']} className="inline-block mb-4">
-          <img src="/logo-mark.png" alt={COMPANY.name} className="h-20 w-20 object-contain mx-auto" />
+        <a href={HOME} title={t['site.back']} className="inline-block mb-4">
+          <img src={import.meta.env.BASE_URL + "logo-mark.png"} alt={COMPANY.name} className="h-20 w-20 object-contain mx-auto" />
         </a>
         <h1 className="text-3xl md:text-4xl font-bold text-gradient mb-4 leading-tight">
           {w.headline}

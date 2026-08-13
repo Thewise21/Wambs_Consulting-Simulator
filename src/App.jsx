@@ -10,7 +10,7 @@ import Step4Deductions from './components/Step4Deductions';
 import Step5Calcul from './components/Step5Calcul';
 import Step6Resultat from './components/Step6Resultat';
 
-import { LINKS, SITE } from './config/links';
+import { HOME, SITE } from './config/links';
 
 import frJson from './i18n/fr.json';
 import deJson from './i18n/de.json';
@@ -81,8 +81,10 @@ export default function App() {
   /* Appliquer le theme sur <html> */
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
-    document.body.style.backgroundColor = theme === 'dark' ? '#030712' : '#FFFFFF';
-    document.body.style.color = theme === 'dark' ? '#E2E8F0' : '#1E293B';
+    /* Papier bzw. Tinte — muss zur Stildatei passen, sonst blitzt beim
+       Ueberscrollen die alte Farbe durch. */
+    document.body.style.backgroundColor = theme === 'dark' ? '#0E1620' : '#F4F1EA';
+    document.body.style.color = theme === 'dark' ? '#F4F1EA' : '#111A24';
     localStorage.setItem(THEME_KEY, theme);
   }, [theme]);
 
@@ -142,8 +144,8 @@ export default function App() {
           <div className="max-w-2xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 py-3 flex items-center justify-between gap-2">
             {/* Die Marke fuehrt zurueck zur Website — sonst ist der
                 Simulator eine Sackgasse. */}
-            <a href={LINKS.website} className="flex items-center gap-3 min-w-0 group" title={t['site.back']}>
-              <img src="/logo-mark.png" alt="WAMB'S Consulting" className="h-10 w-10 object-contain flex-shrink-0" />
+            <a href={HOME} className="flex items-center gap-3 min-w-0 group" title={t['site.back']}>
+              <img src={import.meta.env.BASE_URL + "logo-mark.png"} alt="WAMB'S Consulting" className="h-10 w-10 object-contain flex-shrink-0" />
               <div className="min-w-0">
                 <h1 className="text-xl font-bold text-gradient tracking-wide">WAMB'S</h1>
                 {/* Untertitel erst ab Tablet — auf dem Telefon fehlt die Breite */}
@@ -223,7 +225,7 @@ export default function App() {
 
           {/* Rueckwege zur Website — hier auch auf dem Telefon erreichbar */}
           <nav className="flex flex-wrap items-center justify-center gap-x-5 mt-5 pt-4 border-t border-wambs-border">
-            <a href={LINKS.website}
+            <a href={HOME}
               className="inline-flex items-center min-h-[44px] text-sm text-wambs-text hover:text-wambs-cyan transition-colors">
               {t['site.back']}
             </a>

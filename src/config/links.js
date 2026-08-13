@@ -8,12 +8,14 @@ export const LINKS = {
   address: 'Knesebeckstr. 63, 10719 Berlin',
 };
 
-/* Rueckwege zur Website. Absolute Adressen, damit sie gleich funktionieren,
-   egal ob der Simulator unter einer Subdomain oder unter /simulator liegt. */
+/* Rueckwege zur Website. Der Simulator liegt unter /simulator/ auf derselben
+   Domain, deshalb wurzelrelative Pfade — die funktionieren auch in der lokalen
+   Vorschau und bleiben bei einem Domainwechsel richtig. */
+export const HOME = '/';
 export const SITE = [
-  { key: 'services', href: LINKS.website + '/leistungen.html' },
-  { key: 'firm',     href: LINKS.website + '/kanzlei.html' },
-  { key: 'contact',  href: LINKS.website + '/#kontakt' },
+  { key: 'services', href: '/leistungen.html' },
+  { key: 'firm',     href: '/kanzlei.html' },
+  { key: 'contact',  href: '/#kontakt' },
 ];
 
 /* Donnees de l'entreprise pour les trust signals */

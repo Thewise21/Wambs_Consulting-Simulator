@@ -27,6 +27,13 @@
   --color-wambs-white:   #111A24;
 }
 
+html{ overflow-x:hidden }
+
+/* Lange deutsche Komposita („Unternehmensberatung") sprengen sonst das
+   Raster und schieben die ganze Seite seitlich heraus. */
+body,p,span,li,h1,h2,h3,div{ overflow-wrap:break-word; hyphens:auto }
+.grid > *{ min-width:0 }
+
 body{
   margin:0;
   background-color:#F4F1EA;
