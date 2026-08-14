@@ -24,7 +24,7 @@
  *                     (Steueraenderungsgesetz 2025)
  * ========================================================================== */
 
-export const STAND = '13.08.2026';
+export const STAND = '14.08.2026';
 export const ANNEE_DEFAUT = 2026;
 export const ANNEES_DISPONIBLES = [2026, 2025];
 
@@ -507,10 +507,12 @@ export const STBVV_DIVERS = {
   tvaTaux: 0.19,                    // § 15 StBVV
   auslagenPart: 0.20,               // § 16 StBVV — forfait postal 20 %
   auslagenMax: 20,                  // plafonne a 20 EUR par affaire
-  zeitgebuehrMin: 30,               // § 13 StBVV — par demi-heure entamee
-  zeitgebuehrMax: 75,
-  lohnAbrechnungMin: 5,             // § 34 Abs. 2 StBVV — par salarie et par mois
-  lohnAbrechnungMax: 28,
-  lohnEinrichtungMin: 5,            // § 34 Abs. 1 StBVV — mise en place
-  lohnEinrichtungMax: 18,
+  /* § 13 StBVV — depuis la reforme, par QUART d'heure entame (et non plus
+   * par demi-heure). Verifie sur gesetze-im-internet.de le 14.08.2026. */
+  zeitgebuehrMin: 16.5,
+  zeitgebuehrMax: 41,
+  lohnAbrechnungMin: 6,             // § 34 Abs. 2 StBVV — par salarie et par periode
+  lohnAbrechnungMax: 30,
+  lohnEinrichtungMin: 6,            // § 34 Abs. 1 StBVV — mise en place
+  lohnEinrichtungMax: 19,
 };
