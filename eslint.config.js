@@ -5,9 +5,9 @@ import reactRefresh from 'eslint-plugin-react-refresh'
 import { defineConfig, globalIgnores } from 'eslint/config'
 
 export default defineConfig([
-  /* `.vite` est un cache de dependances pre-bundlees : le linter n'a rien
-     a y faire et il y trouvait 383 faux positifs. */
-  globalIgnores(['dist', '.vite', 'node_modules']),
+  /* Sorties de build et caches : le linter n'a rien a y faire — il y trouvait
+     des centaines de faux positifs (.vite d'abord, puis livraison/). */
+  globalIgnores(['dist', '.vite', 'node_modules', 'livraison']),
   {
     files: ['**/*.{js,jsx}'],
     extends: [

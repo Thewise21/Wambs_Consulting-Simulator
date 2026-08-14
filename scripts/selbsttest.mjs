@@ -177,6 +177,14 @@ verifier('plancher de 650 EUR applique aux petits chiffres d\'affaires',
   calculerHonoraire({ prestations: ['ustVoranmeldung'], jahresumsatz: 12000, ustPeriodicite: 12 })
     .lignes[0].gegenstandswert === 650);
 
+/* Regression : le § 34 StBVV a ete revise — 6 a 30 EUR par salarie et par
+   periode (et non plus 5 a 28). Constate a la relecture du 14.08.2026. */
+const lohnUnSalarie = calculerHonoraire({ prestations: ['lohnbuchhaltung'], nombreSalaries: 1 });
+verifier('paie : fourchette revisee du § 34 StBVV appliquee',
+  Math.abs(lohnUnSalarie.lignes[0].min - 6 * 12) < 0.01
+  && Math.abs(lohnUnSalarie.lignes[0].max - 30 * 12) < 0.01,
+  `obtenu ${lohnUnSalarie.lignes[0].min}-${lohnUnSalarie.lignes[0].max}`);
+
 console.log(`   Exemple freelance (60k revenus, 200k CA) -> ${eur(devis.totaux.moyenTTC)} TTC par an (fourchette `
   + `${eur(devis.totaux.minTTC)} - ${eur(devis.totaux.maxTTC)})`);
 console.log(`   TVA mensuelle sur 150k de CA -> ${eur(ustMensuel.totaux.moyen)} par an `
