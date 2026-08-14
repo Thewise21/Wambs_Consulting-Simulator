@@ -83,8 +83,8 @@ export default function RentenerstattungTool({ t, langue }) {
               }`}>
                 <p className="text-xs font-semibold mb-2" style={{ color: couleur }}>{s.voies[cle].titre}</p>
                 <p className="font-data text-base font-semibold" style={{ color: couleur }}>{principal}</p>
-                <p className="text-[11px] text-wambs-muted">{secondaire}</p>
-                <p className="text-[11px] text-wambs-muted mt-1.5 leading-relaxed">{s.voies[cle].description}</p>
+                <p className="text-[13px] text-wambs-muted">{secondaire}</p>
+                <p className="text-[13px] text-wambs-muted mt-1.5 leading-relaxed">{s.voies[cle].description}</p>
               </div>
             ))}
           </div>

@@ -179,10 +179,10 @@ export default function App() {
       {/* Pflichtangaben & Haftungshinweis — auf jeder Ansicht sichtbar */}
       <footer className="relative z-10 mt-10 border-t border-wambs-border">
         <div className="max-w-2xl lg:max-w-4xl mx-auto px-4 py-6 text-center">
-          <p className="text-wambs-muted text-[11px] font-semibold uppercase tracking-wider mb-1">{t.legal.legalTitle}</p>
-          <p className="text-wambs-muted text-[11px] leading-relaxed">{t.legal.legalBody}</p>
-          <p className="text-wambs-muted text-[11px] leading-relaxed mt-2">{t.legal.legalDisclaimer}</p>
-          <p className="text-wambs-muted text-[11px] leading-relaxed mt-2 opacity-80">{t.legal.legalPrivacy}</p>
+          <p className="text-wambs-muted text-[13px] font-semibold uppercase tracking-wider mb-1">{t.legal.legalTitle}</p>
+          <p className="text-wambs-muted text-[13px] leading-relaxed">{t.legal.legalBody}</p>
+          <p className="text-wambs-muted text-[13px] leading-relaxed mt-2">{t.legal.legalDisclaimer}</p>
+          <p className="text-wambs-muted text-[13px] leading-relaxed mt-2 opacity-80">{t.legal.legalPrivacy}</p>
 
           {/* Rueckwege zur Website — hier auch auf dem Telefon erreichbar */}
           <nav className="flex flex-wrap items-center justify-center gap-x-5 mt-5 pt-4 border-t border-wambs-border">

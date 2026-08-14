@@ -369,7 +369,7 @@ export default function BruttoNettoTool({ t, langue }) {
                     />
                   ))}
                 </div>
-                <p className="text-[11px] text-wambs-muted italic leading-relaxed">{s.comparaisonNote}</p>
+                <p className="text-[13px] text-wambs-muted italic leading-relaxed">{s.comparaisonNote}</p>
 
                 <div className="pt-3 border-t border-wambs-border space-y-3">
                   <p className="text-sm font-semibold text-wambs-purple">{s.coupleTitre}</p>

@@ -76,7 +76,7 @@ export default function AbfindungTool({ t, langue }) {
                 <p className="font-data text-base font-semibold" style={{ color: couleur }}>
                   {euro(montant, langue)}
                 </p>
-                <p className="text-[11px] text-wambs-muted mt-1 leading-relaxed">{s.methodesIndice[cle]}</p>
+                <p className="text-[13px] text-wambs-muted mt-1 leading-relaxed">{s.methodesIndice[cle]}</p>
               </div>
             ))}
           </div>

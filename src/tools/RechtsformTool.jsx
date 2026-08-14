@@ -191,14 +191,14 @@ export default function RechtsformTool({ t, langue }) {
                           </span>
                           {rang === 0 && (
                             <span
-                              className="px-2 py-0.5 rounded-full text-[10px] font-semibold uppercase"
+                              className="px-2 py-0.5 rounded-full text-[13px] font-semibold uppercase"
                               style={{ color: ACCENTS[r.forme], backgroundColor: `${ACCENTS[r.forme]}1A` }}
                             >
                               {s.meilleure}
                             </span>
                           )}
                         </span>
-                        <span className="block text-[11px] text-wambs-muted mt-1">
+                        <span className="block text-[13px] text-wambs-muted mt-1">
                           {s.formes[r.forme].description}
                         </span>
                       </span>
@@ -209,7 +209,7 @@ export default function RechtsformTool({ t, langue }) {
                         <span className="block font-data text-sm font-semibold" style={{ color: ACCENTS[r.forme] }}>
                           {euro(valeurCreee(r), langue)}
                         </span>
-                        <span className="block text-[11px] text-wambs-muted font-data">
+                        <span className="block text-[13px] text-wambs-muted font-data">
                           {interpoler(s.chargeCourte, {
                             montant: euro(r.chargeTotale, langue),
                             taux: pourcent(r.tauxCharge, langue),

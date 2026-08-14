@@ -240,7 +240,7 @@ export default function FirmenwagenTool({ t, langue }) {
                     </div>
                   </div>
                 ) : (
-                  <p className="text-[11px] text-wambs-muted leading-relaxed">{s.carnetInactif}</p>
+                  <p className="text-[13px] text-wambs-muted leading-relaxed">{s.carnetInactif}</p>
                 )}
               </div>
             ))}

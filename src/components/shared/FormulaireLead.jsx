@@ -77,7 +77,7 @@ export default function FormulaireLead({ t, resume, urlRendezVous }) {
         }`}
       />
       {nom === 'email' && erreurEmail && (
-        <span className="block text-[11px] text-wambs-magenta mt-1">{s.emailInvalide}</span>
+        <span className="block text-[13px] text-wambs-magenta mt-1">{s.emailInvalide}</span>
       )}
     </label>
   );
@@ -104,7 +104,7 @@ export default function FormulaireLead({ t, resume, urlRendezVous }) {
             </svg>
           )}
         </span>
-        <span className="text-[11px] text-wambs-muted leading-relaxed">
+        <span className="text-[13px] text-wambs-muted leading-relaxed">
           {s.consentement}{' '}
           <a href={LINKS.datenschutz} target="_blank" rel="noopener noreferrer"
             onClick={(e) => e.stopPropagation()}
@@ -126,7 +126,7 @@ export default function FormulaireLead({ t, resume, urlRendezVous }) {
         {etat === 'envoi' ? s.envoiEnCours : s.bouton}
       </button>
 
-      <p className="text-[10px] text-wambs-muted text-center leading-relaxed">{s.mentionDonnees}</p>
+      <p className="text-[13px] text-wambs-muted text-center leading-relaxed">{s.mentionDonnees}</p>
     </form>
   );
 }

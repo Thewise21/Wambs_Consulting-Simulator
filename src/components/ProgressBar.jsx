@@ -23,7 +23,7 @@ export default function ProgressBar({ etape, total, t }) {
             <div key={step} className="flex items-center flex-1 last:flex-none">
               {/* Step Dot */}
               <div
-                className={`relative flex-shrink-0 w-6 h-6 sm:w-7 sm:h-7 rounded-full flex items-center justify-center text-[10px] sm:text-xs font-semibold transition-all ${
+                className={`relative flex-shrink-0 w-6 h-6 sm:w-7 sm:h-7 rounded-full flex items-center justify-center text-[13px] sm:text-[13.5px] font-semibold transition-all ${
                   isDone
                     ? 'bg-gradient-to-br from-wambs-cyan to-wambs-purple text-white'
                     : isCurrent

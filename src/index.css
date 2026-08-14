@@ -13,6 +13,12 @@
 
 /* === Farbtoken — hell (Standard) ============================= */
 @theme {
+  /* Hausnorm der Website: keine Schrift unter 13px. Tailwind liefert
+     text-xs mit 12px aus — hier einmal zentral angehoben, statt an
+     achtzig Einzelstellen. */
+  --text-xs: 13px;
+  --text-\[13px\]: 13px;
+
   --color-wambs-cyan:    #0C7089;   /* Markenfarben, für Papier abgedunkelt */
   --color-wambs-blue:    #1D4ED8;
   --color-wambs-purple:  #7C3AED;
@@ -263,4 +269,15 @@ input[type="checkbox"]{ accent-color:#7C3AED; width:20px; height:20px; }
 @media (prefers-reduced-motion:reduce){
   .step-enter{ animation:none }
   *{ transition-duration:.01ms !important }
+}
+
+
+/* ══ TIPPZIELE BIS TABLET QUER ═══════════════════════════════════
+   Bis 1024px kann jedes Geraet ein Tablet im Querformat sein — dort
+   wird getippt, nicht geklickt. Gleiche Regel wie auf der Website.
+   Aendert nur die Trefferflaeche, nicht das Aussehen.             */
+@media (max-width:1024px){
+  a:not(.inline-link), button{ min-height:44px }
+  button, a[href]{ display:inline-flex; align-items:center; justify-content:center }
+  nav a{ min-height:44px }
 }

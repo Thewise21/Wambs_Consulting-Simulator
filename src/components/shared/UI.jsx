@@ -62,7 +62,7 @@ export function Curseur({ label, valeur, onChange, min, max, pas, langue, format
         value={valeur}
         onChange={(e) => onChange(Number(e.target.value))}
       />
-      <div className="flex justify-between text-[10px] text-wambs-muted mt-1 font-data">
+      <div className="flex justify-between text-[13px] text-wambs-muted mt-1 font-data">
         <span>{afficher(min)}</span>
         <span>{afficher(max)}</span>
       </div>
@@ -103,7 +103,7 @@ export function Choix({ label, indice, options, valeur, onChange, colonnes = 'au
               }`}
             >
               <span className="block font-medium">{option.label}</span>
-              {option.indice && <span className="block text-[11px] text-wambs-muted mt-0.5">{option.indice}</span>}
+              {option.indice && <span className="block text-[13px] text-wambs-muted mt-0.5">{option.indice}</span>}
             </button>
           );
         })}
@@ -197,7 +197,7 @@ export function LigneDetail({ label, indice, valeur, negatif, total, accent }) {
     }`}>
       <span className="min-w-0">
         <span className={`block text-sm ${total ? 'font-semibold text-wambs-text' : 'text-wambs-text'}`}>{label}</span>
-        {indice && <span className="block text-[11px] text-wambs-muted leading-relaxed">{indice}</span>}
+        {indice && <span className="block text-[13px] text-wambs-muted leading-relaxed">{indice}</span>}
       </span>
       <span
         className={`font-data text-sm sm:text-base flex-shrink-0 ${total ? 'font-semibold' : ''}`}
@@ -226,7 +226,7 @@ export function Alerte({ niveau = 'info', titre, texte, reference }) {
         <div className="min-w-0">
           <p className="text-sm font-semibold" style={{ color: c.texte }}>{titre}</p>
           {texte && <p className="text-xs sm:text-sm text-wambs-text mt-1 leading-relaxed">{texte}</p>}
-          {reference && <p className="text-[11px] text-wambs-muted mt-1.5 font-data">{reference}</p>}
+          {reference && <p className="text-[13px] text-wambs-muted mt-1.5 font-data">{reference}</p>}
         </div>
       </div>
     </div>
@@ -273,7 +273,7 @@ export function BlocCta({ titre, sousTitre, libelleBouton, note, t, resume }) {
           du 10.08.2026. Rendu ici plutot que repete dans chaque texte : un
           nouvel outil ne peut pas l'oublier. */}
       {t?.vorbehalt && (
-        <p className="text-wambs-muted text-[11px] text-center mt-2 leading-relaxed opacity-80">
+        <p className="text-wambs-muted text-[13px] text-center mt-2 leading-relaxed opacity-80">
           {t.vorbehalt}
         </p>
       )}
@@ -284,7 +284,7 @@ export function BlocCta({ titre, sousTitre, libelleBouton, note, t, resume }) {
 /* --- Mention legale de bas de simulateur --------------------------------- */
 export function Avertissement({ texte, stand }) {
   return (
-    <p className="text-[11px] text-wambs-muted text-center italic px-2 leading-relaxed">
+    <p className="text-[13px] text-wambs-muted text-center italic px-2 leading-relaxed">
       {texte}
       {stand && <span className="block not-italic mt-1 font-data">{stand}</span>}
     </p>

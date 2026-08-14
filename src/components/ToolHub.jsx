@@ -131,13 +131,13 @@ export default function ToolHub({ t, naviguer }) {
                   <div className="flex items-center gap-2 flex-wrap">
                     <h3 className="font-semibold text-sm sm:text-base text-wambs-text">{o.titre}</h3>
                     {outil.nouveau && (
-                      <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold uppercase tracking-wide"
+                      <span className="px-2 py-0.5 rounded-full text-[13px] font-semibold uppercase tracking-wide"
                         style={{ color: outil.accent, backgroundColor: `${outil.accent}1A` }}>
                         {s.badgeNouveau}
                       </span>
                     )}
                     {outil.populaire && (
-                      <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold uppercase tracking-wide"
+                      <span className="px-2 py-0.5 rounded-full text-[13px] font-semibold uppercase tracking-wide"
                         style={{ color: outil.accent, backgroundColor: `${outil.accent}1A` }}>
                         {s.badgePopulaire}
                       </span>
@@ -148,7 +148,7 @@ export default function ToolHub({ t, naviguer }) {
               </div>
 
               <div className="mt-auto pt-3 flex items-center justify-between gap-2">
-                <span className="text-[11px] text-wambs-muted font-data">{o.duree}</span>
+                <span className="text-[13px] text-wambs-muted font-data">{o.duree}</span>
                 <span
                   className="text-xs font-medium inline-flex items-center gap-1 transition-transform group-hover:translate-x-0.5"
                   style={{ color: outil.accent }}
@@ -176,12 +176,12 @@ export default function ToolHub({ t, naviguer }) {
         ].map((item) => (
           <div key={item.libelle} className="text-center p-3 rounded-lg border border-wambs-border bg-wambs-panel">
             <div className="text-sm sm:text-base font-semibold text-gradient font-data">{item.valeur}</div>
-            <div className="text-[10px] sm:text-xs text-wambs-muted mt-0.5 leading-tight">{item.libelle}</div>
+            <div className="text-[13px] sm:text-[13.5px] text-wambs-muted mt-0.5 leading-tight">{item.libelle}</div>
           </div>
         ))}
       </div>
 
-      <p className="text-center text-[11px] text-wambs-muted italic px-2">{s.privacy}</p>
+      <p className="text-center text-[13px] text-wambs-muted italic px-2">{s.privacy}</p>
     </div>
   );
 }

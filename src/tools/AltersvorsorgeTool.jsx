@@ -120,7 +120,7 @@ export default function AltersvorsorgeTool({ t, langue }) {
                     <span className="font-data text-wambs-muted">{euro(d.capital, langue)}</span>
                   </div>
                 </div>
-                <p className="text-[11px] text-wambs-muted mt-2 leading-relaxed">
+                <p className="text-[13px] text-wambs-muted mt-2 leading-relaxed">
                   {s.enveloppes[cle].description}
                 </p>
               </div>
