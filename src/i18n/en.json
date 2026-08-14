@@ -94,7 +94,9 @@
     "estimated": "Non-binding indicative value",
     "optimized": "Optimized portion",
     "notOptimized": "Non-optimized portion",
-    "disclaimer": "A non-binding, heavily simplified orientation — neither tax advice nor a calculation of your individual case. The tax assessment is carried out exclusively by a cooperating certified tax advisor (Steuerberater)."
+    "disclaimer": "A non-binding, heavily simplified orientation — neither tax advice nor a calculation of your individual case. The tax assessment is carried out exclusively by a cooperating certified tax advisor (Steuerberater).",
+    "breakdownTitel": "How the indicative figure breaks down ({n} items)",
+    "breakdownHinweis": "Rough estimates — not a calculation of your individual case"
   },
   "step6": {
     "title": "Your Result",

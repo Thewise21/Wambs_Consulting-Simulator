@@ -1,0 +1,147 @@
+/* Registre des simulateurs de la suite WAMB'S.
+ * Ajouter un outil = ajouter une entree ici + un composant dans src/tools/. */
+
+export const OUTILS = [
+  {
+    id: 'steuer',
+    route: 'steuer',
+    accent: '#A855F7',
+    icone: 'calculatrice',
+    /* Pipelines TaxDome visees — sert au routage du prospect */
+    pipelines: ['einkommensteuer', 'bescheidpruefung'],
+  },
+  {
+    id: 'bruttoNetto',
+    route: 'brutto-netto',
+    accent: '#06F5F5',
+    icone: 'fichePaie',
+    pipelines: ['lohnbuchhaltung', 'einkommensteuer'],
+    populaire: true,
+  },
+  {
+    id: 'expat',
+    route: 'expat',
+    accent: '#EC4899',
+    icone: 'globe',
+    pipelines: ['onboarding', 'einkommensteuer'],
+    nouveau: true,
+  },
+  {
+    id: 'honorar',
+    route: 'honorar',
+    accent: '#FB923C',
+    icone: 'document',
+    pipelines: ['onboarding', 'fibu'],
+  },
+  {
+    id: 'rechtsform',
+    route: 'rechtsform',
+    accent: '#3B82F6',
+    icone: 'immeuble',
+    pipelines: ['existenzgruendung', 'jahresabschluss'],
+    nouveau: true,
+  },
+  {
+    id: 'kleinunternehmer',
+    route: 'kleinunternehmer',
+    accent: '#A855F7',
+    icone: 'recu',
+    pipelines: ['ustVoranmeldung', 'fibu'],
+    nouveau: true,
+  },
+  {
+    id: 'firmenwagen',
+    route: 'firmenwagen',
+    accent: '#EC4899',
+    icone: 'voiture',
+    pipelines: ['lohnbuchhaltung', 'einkommensteuer'],
+    nouveau: true,
+  },
+  {
+    id: 'immobilien',
+    route: 'immobilien',
+    accent: '#06F5F5',
+    icone: 'maison',
+    pipelines: ['einkommensteuer', 'bescheidpruefung'],
+    nouveau: true,
+  },
+  {
+    id: 'kaufnebenkosten',
+    route: 'kaufnebenkosten',
+    accent: '#3B82F6',
+    icone: 'cle',
+    pipelines: ['einkommensteuer'],
+    nouveau: true,
+  },
+  {
+    id: 'photovoltaik',
+    route: 'photovoltaik',
+    accent: '#FB923C',
+    icone: 'soleil',
+    pipelines: ['einkommensteuer', 'ustVoranmeldung'],
+    nouveau: true,
+  },
+  {
+    id: 'abfindung',
+    route: 'abfindung',
+    accent: '#A855F7',
+    icone: 'valise',
+    pipelines: ['einkommensteuer', 'bescheidpruefung'],
+    nouveau: true,
+  },
+  {
+    id: 'altersvorsorge',
+    route: 'altersvorsorge',
+    accent: '#EC4899',
+    icone: 'bouclier',
+    pipelines: ['einkommensteuer', 'onboarding'],
+    nouveau: true,
+  },
+  {
+    id: 'erbschaft',
+    route: 'erbschaft',
+    accent: '#06F5F5',
+    icone: 'coeur',
+    pipelines: ['onboarding'],
+    nouveau: true,
+  },
+  {
+    id: 'erklaerungspflicht',
+    route: 'erklaerungspflicht',
+    accent: '#A855F7',
+    icone: 'calendrier',
+    pipelines: ['einkommensteuer'],
+    nouveau: true,
+  },
+  /* Outils pensés pour la diaspora : le pays d'origine hors UE change tout,
+     et aucun calculateur allemand courant ne traite ces situations. */
+  {
+    id: 'unterhalt',
+    route: 'unterhalt',
+    accent: '#06F5F5',
+    icone: 'mains',
+    pipelines: ['einkommensteuer', 'bescheidpruefung'],
+    nouveau: true,
+    populaire: true,
+  },
+  {
+    id: 'kindergeldAusland',
+    route: 'kindergeld-ausland',
+    accent: '#EC4899',
+    icone: 'famille',
+    pipelines: ['einkommensteuer', 'onboarding'],
+    nouveau: true,
+  },
+  {
+    id: 'rentenerstattung',
+    route: 'rentenerstattung',
+    accent: '#FB923C',
+    icone: 'avion',
+    pipelines: ['onboarding'],
+    nouveau: true,
+  },
+];
+
+export function outilParRoute(route) {
+  return OUTILS.find((o) => o.route === route) || null;
+}

@@ -94,7 +94,9 @@
     "estimated": "Unverbindlicher Orientierungswert",
     "optimized": "Optimierter Anteil",
     "notOptimized": "Nicht optimierter Anteil",
-    "disclaimer": "Unverbindliche, stark vereinfachte Orientierung — keine Steuerberatung und keine Berechnung Ihres Einzelfalls. Die steuerliche Bewertung erfolgt ausschließlich durch einen kooperierenden Steuerberater."
+    "disclaimer": "Unverbindliche, stark vereinfachte Orientierung — keine Steuerberatung und keine Berechnung Ihres Einzelfalls. Die steuerliche Bewertung erfolgt ausschließlich durch einen kooperierenden Steuerberater.",
+    "breakdownTitel": "So setzt sich der Orientierungswert zusammen ({n} Positionen)",
+    "breakdownHinweis": "Grobe Schätzwerte — keine Berechnung Ihres Einzelfalls"
   },
   "step6": {
     "title": "Ihr Ergebnis",

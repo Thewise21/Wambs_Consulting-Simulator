@@ -1,35 +1,79 @@
-/* Application principale — Wambs Simulator — Light/Dark + Responsive */
-import { useState, useEffect } from 'react';
+/* Coquille de l'application — theme, langue, navigation entre simulateurs.
+ * Chaque simulateur vit dans src/tools/ et ne connait ni le theme ni la route.
+ *
+ * L'en-tete, le pied de page legal et les retours vers le site principal
+ * proviennent de la revision de conformite validee le 10.08.2026 : ils ne
+ * doivent pas etre alleges. */
+import { useEffect, useState } from 'react';
 import LanguageSelector from './components/LanguageSelector';
-import ProgressBar from './components/ProgressBar';
-import StepWelcome from './components/StepWelcome';
-import Step1Profil from './components/Step1Profil';
-import Step2Revenus from './components/Step2Revenus';
-import Step3Famille from './components/Step3Famille';
-import Step4Deductions from './components/Step4Deductions';
-import Step5Calcul from './components/Step5Calcul';
-import Step6Resultat from './components/Step6Resultat';
-
+import ToolHub from './components/ToolHub';
+import { RetourHub } from './components/shared/UI';
+import FournisseurOutil from './components/shared/FournisseurOutil';
+import SteuerTool from './tools/SteuerTool';
+import BruttoNettoTool from './tools/BruttoNettoTool';
+import ExpatTool from './tools/ExpatTool';
+import HonorarTool from './tools/HonorarTool';
+import RechtsformTool from './tools/RechtsformTool';
+import KleinunternehmerTool from './tools/KleinunternehmerTool';
+import FirmenwagenTool from './tools/FirmenwagenTool';
+import ImmobilienTool from './tools/ImmobilienTool';
+import KaufnebenkostenTool from './tools/KaufnebenkostenTool';
+import PhotovoltaikTool from './tools/PhotovoltaikTool';
+import AbfindungTool from './tools/AbfindungTool';
+import AltersvorsorgeTool from './tools/AltersvorsorgeTool';
+import ErbschaftTool from './tools/ErbschaftTool';
+import ErklaerungspflichtTool from './tools/ErklaerungspflichtTool';
+import UnterhaltTool from './tools/UnterhaltTool';
+import KindergeldAuslandTool from './tools/KindergeldAuslandTool';
+import RentenerstattungTool from './tools/RentenerstattungTool';
 import { HOME, SITE } from './config/links';
+import { outilParRoute } from './config/tools';
+import { useRoute } from './lib/router';
 
 import frJson from './i18n/fr.json';
 import deJson from './i18n/de.json';
 import enJson from './i18n/en.json';
+import frTools from './i18n/tools.fr.json';
+import deTools from './i18n/tools.de.json';
+import enTools from './i18n/tools.en.json';
 
-const traductions = { fr: frJson, de: deJson, en: enJson };
-const TOTAL_ETAPES = 6;
-const STORAGE_KEY = 'wambs-simulator';
+const traductions = {
+  fr: { ...frJson, ...frTools },
+  de: { ...deJson, ...deTools },
+  en: { ...enJson, ...enTools },
+};
+
+const CLE_LANGUE = 'wambs-langue';
 const THEME_KEY = 'wambs-theme';
 
-function getInitialTheme() {
+const COMPOSANTS = {
+  steuer: SteuerTool,
+  bruttoNetto: BruttoNettoTool,
+  expat: ExpatTool,
+  honorar: HonorarTool,
+  rechtsform: RechtsformTool,
+  kleinunternehmer: KleinunternehmerTool,
+  firmenwagen: FirmenwagenTool,
+  immobilien: ImmobilienTool,
+  kaufnebenkosten: KaufnebenkostenTool,
+  photovoltaik: PhotovoltaikTool,
+  abfindung: AbfindungTool,
+  altersvorsorge: AltersvorsorgeTool,
+  erbschaft: ErbschaftTool,
+  erklaerungspflicht: ErklaerungspflichtTool,
+  unterhalt: UnterhaltTool,
+  kindergeldAusland: KindergeldAuslandTool,
+  rentenerstattung: RentenerstattungTool,
+};
+
+function lireStockage(cle, valeurs, defaut) {
   try {
-    const saved = localStorage.getItem(THEME_KEY);
-    if (saved === 'dark' || saved === 'light') return saved;
+    const enregistre = localStorage.getItem(cle);
+    if (valeurs.includes(enregistre)) return enregistre;
   } catch { /* ignore */ }
-  return 'light';
+  return defaut;
 }
 
-/* Icones soleil/lune pour le toggle */
 function SunIcon() {
   return (
     <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -45,40 +89,15 @@ function MoonIcon() {
   );
 }
 
-const donneesInitiales = {
-  profil: null,
-  revenu: 40000,
-  retraiteContrib: 0,
-  fraisProActif: null,
-  fraisPro: 0,
-  chargesActif: null,
-  charges: 0,
-  statut: null,
-  steuerklasse: null,
-  enfants: null,
-  kindergeld: null,
-  deductions: [],
-  resultat: null,
-};
-
-function chargerSession() {
-  try {
-    const sauvegarde = localStorage.getItem(STORAGE_KEY);
-    if (sauvegarde) return JSON.parse(sauvegarde);
-  } catch { /* ignore */ }
-  return null;
-}
-
 export default function App() {
-  const session = chargerSession();
-  const [langue, setLangue] = useState(session?.langue || 'de');
-  const [etape, setEtape] = useState(session?.etape || 0); /* 0 = Welcome */
-  const [data, setData] = useState(session?.data || { ...donneesInitiales });
-  const [theme, setTheme] = useState(getInitialTheme);
+  const [route, naviguer] = useRoute();
+  const [langue, setLangue] = useState(() => lireStockage(CLE_LANGUE, ['fr', 'de', 'en'], 'de'));
+  const [theme, setTheme] = useState(() => lireStockage(THEME_KEY, ['light', 'dark'], 'light'));
 
   const t = traductions[langue];
+  const outil = outilParRoute(route);
+  const Simulateur = outil ? COMPOSANTS[outil.id] : null;
 
-  /* Appliquer le theme sur <html> */
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
     /* Papier bzw. Tinte — muss zur Stildatei passen, sonst blitzt beim
@@ -88,130 +107,72 @@ export default function App() {
     localStorage.setItem(THEME_KEY, theme);
   }, [theme]);
 
-  const toggleTheme = () => setTheme((prev) => (prev === 'light' ? 'dark' : 'light'));
-
   useEffect(() => {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify({ langue, etape, data }));
-  }, [langue, etape, data]);
+    localStorage.setItem(CLE_LANGUE, langue);
+  }, [langue]);
 
-  const peutContinuer = () => {
-    switch (etape) {
-      case 0: return true;
-      case 1: return !!data.profil;
-      case 2: return data.revenu > 0;
-      case 3: return !!data.statut && !!data.steuerklasse && data.enfants !== null;
-      case 4: return true;
-      case 5: return true;
-      default: return false;
-    }
-  };
+  /* Titre de l'onglet aligne sur le simulateur ouvert */
+  useEffect(() => {
+    const nom = outil ? t.hub.outils[outil.id]?.titre : t.hub.titreOnglet;
+    document.title = nom ? `${nom} — WAMB'S Consulting` : "WAMB'S Consulting";
+  }, [outil, t]);
 
-  const suivant = () => {
-    if (etape < TOTAL_ETAPES && peutContinuer()) setEtape(etape + 1);
-  };
-  const retour = () => {
-    if (etape > 1) setEtape(etape - 1);
-  };
-  const recommencer = () => {
-    setData({ ...donneesInitiales });
-    setEtape(0);
-    localStorage.removeItem(STORAGE_KEY);
-  };
+  const basculerTheme = () => setTheme((prev) => (prev === 'light' ? 'dark' : 'light'));
 
-  const renderEtape = () => {
-    switch (etape) {
-      case 0: return <StepWelcome onStart={() => setEtape(1)} t={t} />;
-      case 1: return <Step1Profil data={data} setData={setData} t={t} />;
-      case 2: return <Step2Revenus data={data} setData={setData} t={t} />;
-      case 3: return <Step3Famille data={data} setData={setData} t={t} />;
-      case 4: return <Step4Deductions data={data} setData={setData} t={t} />;
-      case 5: return <Step5Calcul data={data} setData={setData} t={t} />;
-      case 6: return <Step6Resultat data={data} t={t} onRestart={recommencer} />;
-      default: return null;
-    }
-  };
-
-  /* La page Welcome n'a pas de header compact ni progress bar */
-  const showHeader = etape > 0;
-  const showProgress = etape >= 1 && etape <= 6;
+  const sousTitre = outil ? t.hub.outils[outil.id]?.titre : t.title;
 
   return (
-    <div className="min-h-screen bg-wambs-dark relative">
+    <div className="min-h-screen bg-wambs-dark relative flex flex-col">
       <div className="bg-orbs" />
 
-      {showHeader && (
-        <header className="sticky top-0 z-10 header-bg">
-          <div className="max-w-2xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 py-3 flex items-center justify-between gap-2">
-            {/* Die Marke fuehrt zurueck zur Website — sonst ist der
-                Simulator eine Sackgasse. */}
-            <a href={HOME} className="flex items-center gap-3 min-w-0 group" title={t['site.back']}>
-              <img src={import.meta.env.BASE_URL + "logo-mark.png"} alt="WAMB'S Consulting" className="h-10 w-10 object-contain flex-shrink-0" />
-              <div className="min-w-0">
-                <h1 className="text-xl font-bold text-gradient tracking-wide">WAMB'S</h1>
-                {/* Untertitel erst ab Tablet — auf dem Telefon fehlt die Breite */}
-                <p className="text-xs text-wambs-muted hidden sm:block truncate">{t.title}</p>
-              </div>
-            </a>
-            <div className="flex items-center gap-2 flex-shrink-0">
-              {/* Website-Navigation ab Tablet — auf dem Telefon fehlt die Breite,
-                  dort genuegt die Marke als Rueckweg. */}
-              <nav className="hidden lg:flex items-center gap-5 mr-3">
-                {SITE.map(({ key, href }) => (
-                  <a key={key} href={href}
-                    className="text-sm text-wambs-muted hover:text-wambs-text transition-colors">
-                    {t['site.' + key]}
-                  </a>
-                ))}
-              </nav>
-              <button onClick={toggleTheme}
-                className="p-2 rounded-lg border border-wambs-border text-wambs-muted hover:text-wambs-text transition-colors cursor-pointer"
-                aria-label="Toggle theme">
-                {theme === 'light' ? <MoonIcon /> : <SunIcon />}
-              </button>
-              <LanguageSelector langue={langue} setLangue={setLangue} />
+      <header className="sticky top-0 z-10 header-bg">
+        <div className="max-w-2xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 py-3
+                        flex items-center justify-between gap-2">
+          {/* Die Marke fuehrt zurueck zur Website — sonst ist der Simulator
+              eine Sackgasse. */}
+          <a href={HOME} className="flex items-center gap-3 min-w-0 group" title={t['site.back']}>
+            <img src={`${import.meta.env.BASE_URL}logo-mark.png`} alt="WAMB'S Consulting"
+              className="h-10 w-10 object-contain flex-shrink-0" />
+            <div className="min-w-0">
+              <h1 className="text-xl font-bold text-gradient tracking-wide">WAMB&apos;S</h1>
+              {/* Untertitel erst ab Tablet — auf dem Telefon fehlt die Breite */}
+              <p className="text-xs text-wambs-muted hidden sm:block truncate">{sousTitre}</p>
             </div>
+          </a>
+          <div className="flex items-center gap-2 flex-shrink-0">
+            {/* Website-Navigation ab Tablet — auf dem Telefon genuegt die Marke */}
+            <nav className="hidden lg:flex items-center gap-5 mr-3">
+              {SITE.map(({ key, href }) => (
+                <a key={key} href={href}
+                  className="text-sm text-wambs-muted hover:text-wambs-text transition-colors">
+                  {t[`site.${key}`]}
+                </a>
+              ))}
+            </nav>
+            <button
+              type="button"
+              onClick={basculerTheme}
+              className="p-2 rounded-lg border border-wambs-border text-wambs-muted hover:text-wambs-text
+                         transition-colors cursor-pointer min-w-[40px] min-h-[40px] flex items-center justify-center"
+              aria-label="Toggle theme"
+            >
+              {theme === 'light' ? <MoonIcon /> : <SunIcon />}
+            </button>
+            <LanguageSelector langue={langue} setLangue={setLangue} />
           </div>
-          <div className="line-gradient" />
-        </header>
-      )}
-
-      {/* Language + theme toggle on welcome page */}
-      {!showHeader && (
-        <div className="absolute top-4 right-4 z-10 flex items-center gap-2">
-          <button onClick={toggleTheme}
-            className="p-2 rounded-lg border border-wambs-border text-wambs-muted hover:text-wambs-text transition-colors cursor-pointer"
-            aria-label="Toggle theme">
-            {theme === 'light' ? <MoonIcon /> : <SunIcon />}
-          </button>
-          <LanguageSelector langue={langue} setLangue={setLangue} />
         </div>
-      )}
+        <div className="line-gradient" />
+      </header>
 
-      <main className="max-w-2xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 py-6 relative z-1">
-        {showHeader && <p className="text-center text-wambs-muted text-sm mb-6">{t.subtitle}</p>}
-        {showProgress && <ProgressBar etape={etape} total={TOTAL_ETAPES} t={t} />}
-        <div key={etape}>{renderEtape()}</div>
-
-        {/* Navigation — seulement pour les etapes 1-5 */}
-        {etape >= 1 && etape <= 5 && (
-          <div className="flex gap-3 mt-8 mb-4 max-w-2xl mx-auto">
-            {etape > 1 && (
-              <button onClick={retour} className="btn-outline-gradient flex-1 py-3 rounded-xl cursor-pointer font-medium">
-                {t.back}
-              </button>
-            )}
-            {etape < TOTAL_ETAPES && (
-              <button
-                onClick={suivant}
-                disabled={!peutContinuer()}
-                className={`flex-1 py-3 rounded-xl font-semibold transition-all cursor-pointer ${
-                  peutContinuer() ? 'btn-gradient text-white' : 'bg-wambs-surface text-wambs-muted cursor-not-allowed'
-                }`}
-              >
-                {t.next}
-              </button>
-            )}
-          </div>
+      <main className="flex-grow max-w-2xl lg:max-w-4xl xl:max-w-6xl mx-auto w-full
+                       px-3 sm:px-4 py-4 sm:py-6 relative z-1">
+        {Simulateur ? (
+          <FournisseurOutil outil={outil} langue={langue}>
+            <RetourHub libelle={t.hub.retour} onRetour={() => naviguer('')} />
+            <Simulateur t={t} langue={langue} />
+          </FournisseurOutil>
+        ) : (
+          <ToolHub t={t} naviguer={naviguer} />
         )}
       </main>
 
@@ -232,7 +193,7 @@ export default function App() {
             {SITE.map(({ key, href }) => (
               <a key={key} href={href}
                 className="inline-flex items-center min-h-[44px] text-sm text-wambs-muted hover:text-wambs-text transition-colors">
-                {t['site.' + key]}
+                {t[`site.${key}`]}
               </a>
             ))}
           </nav>

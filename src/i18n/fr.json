@@ -94,7 +94,9 @@
     "estimated": "Valeur indicative, sans engagement",
     "optimized": "Part optimisee",
     "notOptimized": "Part non optimisee",
-    "disclaimer": "Orientation indicative et fortement simplifiée — il ne s'agit ni d'un conseil fiscal ni d'un calcul de votre cas particulier. L'évaluation fiscale est assurée exclusivement par un Steuerberater partenaire."
+    "disclaimer": "Orientation indicative et fortement simplifiée — il ne s'agit ni d'un conseil fiscal ni d'un calcul de votre cas particulier. L'évaluation fiscale est assurée exclusivement par un Steuerberater partenaire.",
+    "breakdownTitel": "Composition de la valeur indicative ({n} postes)",
+    "breakdownHinweis": "Valeurs approximatives — pas un calcul de votre cas particulier"
   },
   "step6": {
     "title": "Votre resultat",

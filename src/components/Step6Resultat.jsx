@@ -123,7 +123,9 @@ export default function Step6Resultat({ data, t, onRestart }) {
       <div className="text-center pt-4 border-t border-wambs-border">
         <p className="text-gradient font-semibold text-lg">WAMB'S Consulting</p>
         <p className="text-wambs-text text-sm">Finanz- &amp; Unternehmensberatung — Berlin</p>
-        <p className="text-wambs-muted text-xs mt-1">Ihr Ansprechpartner: Poclaire Wamba & Team</p>
+        {/* La cle traduite existe dans les trois langues ; en dur, cette ligne
+            restait en allemand pour les visiteurs FR et EN. */}
+        <p className="text-wambs-muted text-xs mt-1">{s.teamNote}</p>
         <p className="text-wambs-muted text-xs mt-0.5">Knesebeckstra&szlig;e 63, 10719 Berlin</p>
       </div>
     </div>

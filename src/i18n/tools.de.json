@@ -1,0 +1,1685 @@
+{
+  "vorbehalt": "Vorbehaltsaufgaben — Steuererklärungen, Jahresabschlüsse, Voranmeldungen und die steuerliche Bewertung Ihres Einzelfalls — erfolgen ausschließlich über einen kooperierenden Steuerberater.",
+
+  "lead": {
+    "introduction": "Hinterlassen Sie uns Ihre Kontaktdaten — wir melden uns mit Ihrem Ergebnis und schlagen einen Termin vor.",
+    "champs": {
+      "nom": "Name",
+      "email": "E-Mail",
+      "telephone": "Telefon (optional)",
+      "message": "Ihre Frage (optional)"
+    },
+    "emailInvalide": "Bitte prüfen Sie Ihre E-Mail-Adresse.",
+    "consentement": "Ich bin damit einverstanden, dass WAMB'S Consulting meine Angaben und mein Simulationsergebnis zur Beantwortung meiner Anfrage speichert und verarbeitet. Die Einwilligung kann ich jederzeit widerrufen.",
+    "lienConfidentialite": "Datenschutzerklärung",
+    "bouton": "Absenden und Termin wählen",
+    "envoiEnCours": "Wird gesendet…",
+    "mentionDonnees": "Übermittelt werden Ihre Kontaktdaten und die Kennzahlen dieser Simulation — keine weiteren Eingaben.",
+    "confirmationTitre": "Danke, wir haben Ihre Anfrage erhalten",
+    "confirmationTexte": "Der Terminkalender öffnet sich in einem neuen Fenster. Falls nicht, nutzen Sie den Link unten.",
+    "confirmationLien": "Terminkalender öffnen"
+  },
+
+  "hub": {
+    "titreOnglet": "Steuer-Rechner",
+    "headline": "Rechner, die Ihnen einen Orientierungswert geben — keine Broschüre",
+    "subline": "Kostenlose Rechner einer Berliner Finanz- & Unternehmensberatung. Ohne Anmeldung, in Deutsch, Französisch und Englisch.",
+    "demarrer": "Starten",
+    "retour": "Alle Rechner",
+    "badgeNouveau": "Neu",
+    "badgePopulaire": "Beliebt",
+    "trustMandantenValeur": "DE · FR · int.",
+    "trustMandanten": "Mandate in DE, FR & international",
+    "trustSprachen": "Beratungssprachen",
+    "trustStandort": "Kanzleisitz",
+    "trustKostenlos": "kostenlos & ohne Anmeldung",
+    "trustKostenlosValeur": "100 %",
+    "privacy": "Alle Berechnungen laufen in Ihrem Browser. Ihre Eingaben verlassen ihn nur, wenn Sie das Kontaktformular ausdrücklich absenden.",
+    "outils": {
+      "steuer": {
+        "titre": "Steuer-Potenzial",
+        "description": "Wie viel Erstattung ist in Ihrer Steuererklärung realistisch drin? Zehn Profile vom Arbeitnehmer bis zur Elternzeit.",
+        "duree": "ca. 2 Minuten"
+      },
+      "bruttoNetto": {
+        "titre": "Brutto-Netto-Rechner",
+        "description": "Was bleibt vom Gehalt übrig? Mit Steuerklassen-Vergleich, Kirchensteuer, Zusatzbeitrag und Arbeitgeberkosten.",
+        "duree": "Sofortergebnis"
+      },
+      "expat": {
+        "titre": "Umzug nach Deutschland",
+        "description": "Zuzug, Wegzug oder Grenzgänger: Steuerpflicht, Progressionsvorbehalt und Splitting bei Ehepartner im Ausland.",
+        "duree": "ca. 3 Minuten"
+      },
+      "honorar": {
+        "titre": "Was kostet der Steuerberater?",
+        "description": "Ihr Honorar nach StBVV — transparent aufgeschlüsselt, mit Angabe der Rechtsgrundlage für jede Position.",
+        "duree": "ca. 1 Minute"
+      },
+      "rechtsform": {
+        "titre": "Einzelunternehmen, UG oder GmbH?",
+        "description": "Vier Rechtsformen im direkten Vergleich: Gewerbesteuer, Körperschaftsteuer, Geschäftsführergehalt und Ausschüttung.",
+        "duree": "Sofortergebnis"
+      },
+      "kleinunternehmer": {
+        "titre": "Kleinunternehmer oder nicht?",
+        "description": "§ 19 UStG gegen Regelbesteuerung — mit der Kundenstruktur, ab der sich die Entscheidung dreht.",
+        "duree": "Sofortergebnis"
+      },
+      "firmenwagen": {
+        "titre": "Firmenwagen: 1 % oder Fahrtenbuch?",
+        "description": "Was der Dienstwagen Sie netto im Monat kostet — inklusive Viertelregelung für Elektrofahrzeuge.",
+        "duree": "Sofortergebnis"
+      },
+      "immobilien": {
+        "titre": "Vermietung: rechnet sich das?",
+        "description": "Rendite nach Steuern, AfA, Werbungskostenüberschuss und Spekulationsfrist — für eine Wohnung zur Vermietung.",
+        "duree": "Sofortergebnis"
+      },
+      "kaufnebenkosten": {
+        "titre": "Kaufnebenkosten beim Immobilienkauf",
+        "description": "Grunderwerbsteuer, Notar, Grundbuch, Makler — und wie viel Eigenkapital Sie wirklich brauchen.",
+        "duree": "Sofortergebnis"
+      },
+      "photovoltaik": {
+        "titre": "Photovoltaik: steuerfrei oder nicht?",
+        "description": "Die 30-kWp-Grenze des § 3 Nr. 72 EStG, der Nullsteuersatz beim Kauf und was die Anlage jährlich einbringt.",
+        "duree": "Sofortergebnis"
+      },
+      "abfindung": {
+        "titre": "Abfindung: was bleibt netto?",
+        "description": "Fünftelregelung, Auszahlungszeitpunkt und die Neuerung seit 2025 — der Arbeitgeber wendet sie nicht mehr an.",
+        "duree": "Sofortergebnis"
+      },
+      "altersvorsorge": {
+        "titre": "Rentenlücke und Vorsorge",
+        "description": "Was Ihnen im Alter fehlt, und was Rürup oder Riester nach Steuern und Zulagen wirklich kosten.",
+        "duree": "Sofortergebnis"
+      },
+      "erbschaft": {
+        "titre": "Erbschaft- und Schenkungsteuer",
+        "description": "Freibeträge, Steuerklasse und die Zehnjahresregel — mit dem Effekt einer gestaffelten Übertragung.",
+        "duree": "Sofortergebnis"
+      },
+      "erklaerungspflicht": {
+        "titre": "Muss ich eine Steuererklärung abgeben?",
+        "description": "Pflichtveranlagung nach § 46 EStG und Ihre Frist nach § 149 AO — mit und ohne steuerliche Beratung.",
+        "duree": "ca. 1 Minute"
+      },
+      "unterhalt": {
+        "titre": "Geld an die Familie im Heimatland",
+        "description": "Unterstützung für Eltern oder Geschwister im Ausland ist absetzbar — mit Ländergruppe, Opfergrenze und den Nachweisen, an denen die meisten Anträge scheitern.",
+        "duree": "Sofortergebnis"
+      },
+      "kindergeldAusland": {
+        "titre": "Kindergeld für Kinder im Ausland",
+        "description": "EU, Abkommensstaat oder Drittstaat: drei völlig verschiedene Antworten — plus der Kinderfreibetrag, der auch ohne Kindergeld bleibt.",
+        "duree": "Sofortergebnis"
+      },
+      "rentenerstattung": {
+        "titre": "Rückkehr: Beiträge erstatten lassen?",
+        "description": "Beitragserstattung nach § 210 SGB VI gegen den Rentenanspruch — eine Entscheidung, die sich nicht rückgängig machen lässt.",
+        "duree": "Sofortergebnis"
+      }
+    }
+  },
+
+  "bn": {
+    "titre": "Brutto-Netto-Rechner",
+    "sousTitre": "Ihr Nettogehalt inklusive Lohnsteuer, Solidaritätszuschlag, Kirchensteuer und Sozialabgaben.",
+    "sectionSalaire": "Ihr Gehalt",
+    "parMois": "Monatlich",
+    "parAn": "Jährlich",
+    "bruttoMois": "Bruttogehalt pro Monat",
+    "bruttoAn": "Bruttogehalt pro Jahr",
+    "annee": "Berechnungsjahr",
+    "sectionImposition": "Besteuerung",
+    "steuerklasse": "Steuerklasse",
+    "steuerklasseIndice": "Steht auf Ihrer Gehaltsabrechnung. Unsicher? Ledige haben in der Regel Klasse I.",
+    "bundesland": "Bundesland",
+    "laender": {
+      "BW": "Baden-Württemberg", "BY": "Bayern", "BE": "Berlin", "BB": "Brandenburg",
+      "HB": "Bremen", "HH": "Hamburg", "HE": "Hessen", "MV": "Mecklenburg-Vorpommern",
+      "NI": "Niedersachsen", "NW": "Nordrhein-Westfalen", "RP": "Rheinland-Pfalz",
+      "SL": "Saarland", "SN": "Sachsen", "ST": "Sachsen-Anhalt",
+      "SH": "Schleswig-Holstein", "TH": "Thüringen"
+    },
+    "kirchensteuer": "Kirchensteuerpflichtig",
+    "kirchensteuerIndice": "8 % in Bayern und Baden-Württemberg, sonst 9 % der Lohnsteuer.",
+    "oui": "Ja",
+    "non": "Nein",
+    "sectionFamille": "Familie",
+    "kinderfreibetraege": "Zahl der Kinderfreibeträge",
+    "kinderfreibetraegeIndice": "0,5 pro Kind je Elternteil. Wirkt sich nur auf Soli und Kirchensteuer aus — nicht auf die Lohnsteuer.",
+    "enfantsMoins25": "Kinder unter 25 Jahren",
+    "enfantsMoins25Indice": "Ab dem zweiten Kind sinkt der Pflegeversicherungsbeitrag um je 0,25 Punkte.",
+    "sansEnfant": "Kinderlos und über 23",
+    "sansEnfantIndice": "Dann fällt der Kinderlosenzuschlag von 0,6 % in der Pflegeversicherung an.",
+    "sectionAssurance": "Krankenversicherung",
+    "typeAssurance": "Versicherungsart",
+    "legale": "Gesetzlich",
+    "privee": "Privat",
+    "zusatzbeitrag": "Zusatzbeitrag Ihrer Kasse",
+    "zusatzbeitragIndice": "Durchschnitt {moyen} %. Den genauen Satz nennt Ihre Krankenkasse.",
+    "primePrivee": "Monatlicher Beitrag (Basisabsicherung)",
+    "primePriveeIndice": "Nur der Basistarif zählt steuerlich. Der Arbeitgeberzuschuss wird automatisch berücksichtigt.",
+    "rvPflichtig": "Rentenversicherungspflichtig",
+    "rvPflichtigIndice": "Nein wählen z. B. als beherrschender GmbH-Geschäftsführer oder Beamter.",
+    "resultatEtiquette": "Ihr Netto pro Monat",
+    "resultatSousTexte": "{annuel} im Jahr — das sind {part} vom Bruttogehalt",
+    "net": "Netto",
+    "impots": "Steuern",
+    "social": "Sozialabgaben",
+    "detailTitre": "Abrechnung im Detail",
+    "brut": "Bruttogehalt",
+    "lohnsteuer": "Lohnsteuer",
+    "soli": "Solidaritätszuschlag",
+    "kirchensteuerLigne": "Kirchensteuer",
+    "rentenversicherung": "Rentenversicherung",
+    "arbeitslosenversicherung": "Arbeitslosenversicherung",
+    "krankenversicherung": "Krankenversicherung",
+    "pflegeversicherung": "Pflegeversicherung",
+    "plafonne": "Beitragsbemessungsgrenze erreicht",
+    "coutEmployeur": "Arbeitgeberkosten gesamt",
+    "coutEmployeurIndice": "Bruttogehalt plus Arbeitgeberanteil zur Sozialversicherung.",
+    "revenuImposable": "Zu versteuerndes Jahreseinkommen",
+    "revenuImposableIndice": "Nach Arbeitnehmer-Pauschbetrag und Vorsorgepauschale (§ 39b EStG).",
+    "comparaisonTitre": "Steuerklassen vergleichen",
+    "klasseCourt": "Klasse",
+    "meilleureOption": "höchstes Netto",
+    "comparaisonNote": "Die Steuerklasse verändert nur den unterjährigen Abzug, nicht die endgültige Jahressteuer. Zu viel gezahlte Lohnsteuer holen Sie über die Steuererklärung zurück.",
+    "coupleTitre": "Als Ehepaar: welche Kombination bringt monatlich am meisten?",
+    "salaireConjointMois": "Bruttogehalt Partner/in pro Monat",
+    "salaireConjointAn": "Bruttogehalt Partner/in pro Jahr",
+    "gainCoupleTitre": "{montant} mehr Netto pro Monat möglich",
+    "gainCoupleTexte": "So groß ist der Unterschied zwischen der besten und der schlechtesten Steuerklassen-Kombination. Ein Wechsel ist einmal jährlich formlos möglich — wir ordnen im Gespräch ein, ob er für Sie in Frage kommt.",
+    "alerteJAEGTitre": "Sie liegen über der Versicherungspflichtgrenze",
+    "alerteJAEGTexte": "Ab diesem Einkommen können Sie in die private Krankenversicherung wechseln. Die Entscheidung ist auf Jahrzehnte bindend — sie gehört vorher durchgerechnet.",
+    "alerteKlasseVTitre": "Steuerklasse V wird pauschal hoch besteuert",
+    "alerteKlasseVTexte": "Der Abzug in Klasse V ist bewusst überhöht. Für V und VI ist diese Berechnung eine Näherung nach § 39b Abs. 2 EStG. Prüfen Sie, ob IV mit Faktor für Sie günstiger ist.",
+    "ctaEtiquette": "Kostenlose Erstberatung",
+    "ctaTexte": "In 15 Minuten ordnen wir Ihre Steuerklasse, Ihre Werbungskosten und die Frage einer möglichen Erstattung ein — unverbindlich.",
+    "avertissement": "Unverbindliche Schätzung ohne Gewähr. Nicht berücksichtigt werden u. a. geldwerte Vorteile, Freibeträge aus dem Lohnsteuerermäßigungsverfahren, Einmalzahlungen und Besonderheiten einzelner Krankenkassen.",
+    "stand": "Rechtsstand {annee} · Parameter geprüft am {date}"
+  },
+
+  "expat": {
+    "titre": "Umzug nach Deutschland — Ihre Steuersituation",
+    "sousTitre": "Zuzug, Wegzug, Grenzgänger: was das für Ihre Steuerpflicht, Ihren Steuersatz und Ihre Steuerklasse bedeutet.",
+    "etapes": ["Ihre Situation", "Zeitraum & Einkünfte", "Familie", "Ihr Ergebnis"],
+    "voirResultat": "Ergebnis anzeigen",
+    "oui": "Ja",
+    "non": "Nein",
+
+    "q1Titre": "Was trifft auf Sie zu?",
+    "q1Indice": "Entscheidend ist, wo sich Ihr Wohnsitz oder gewöhnlicher Aufenthalt befindet (§ 1 EStG).",
+    "situations": {
+      "arrivee": { "titre": "Ich bin dieses Jahr nach Deutschland gezogen", "description": "Wohnsitz im Laufe des Jahres begründet" },
+      "resident": { "titre": "Ich lebe ganzjährig in Deutschland", "description": "Wohnsitz das gesamte Jahr über" },
+      "grenzgaenger": { "titre": "Ich wohne im Ausland und arbeite in Deutschland", "description": "Grenzgänger oder Pendler" },
+      "depart": { "titre": "Ich habe Deutschland dieses Jahr verlassen", "description": "Wegzug im Laufe des Jahres" }
+    },
+
+    "q2Titre": "Aus welchem Land kommen Sie — oder wo wohnen Sie?",
+    "q2Indice": "Das Doppelbesteuerungsabkommen mit diesem Staat entscheidet, welches Land welche Einkünfte besteuern darf.",
+    "pays": {
+      "FR": "Frankreich", "BE": "Belgien", "LU": "Luxemburg", "CH": "Schweiz",
+      "AT": "Österreich", "NL": "Niederlande", "EU_AUTRE": "Anderes EU-/EWR-Land", "HORS_UE": "Land außerhalb der EU"
+    },
+
+    "q3TitreArrivee": "Wann sind Sie angekommen?",
+    "q3TitreDepart": "Wann haben Sie Deutschland verlassen?",
+    "q3Indice": "Bei unterjährigem Zuzug oder Wegzug sind Sie nur für einen Teil des Jahres unbeschränkt steuerpflichtig — mit spürbaren Folgen.",
+    "moisArrivee": "Monat des Zuzugs",
+    "moisDepart": "Monat des Wegzugs",
+    "mois": ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"],
+    "moisResume": "Das ergibt {mois} Monate unbeschränkte Steuerpflicht in Deutschland.",
+
+    "q4Titre": "Ihre Einkünfte",
+    "q4Indice": "Bruttoangaben genügen — die Pauschbeträge zieht der Rechner selbst ab.",
+    "q4IndiceFrontalier": "Als Grenzgänger geben Sie nur den in Deutschland erzielten Arbeitslohn an.",
+    "revenuAllemand": "Bruttoeinkünfte in Deutschland",
+    "revenuAllemandIndice": "Arbeitslohn oder Gewinn im deutschen Zeitraum.",
+    "revenuEtranger": "Einkünfte im Ausland (vor dem Umzug)",
+    "revenuEtrangerIndice": "Diese Einkünfte werden in Deutschland nicht besteuert — sie erhöhen aber Ihren Steuersatz (§ 32b EStG).",
+
+    "q5Titre": "Ihre Familie",
+    "celibataire": "Ledig",
+    "marie": "Verheiratet",
+    "conjointAlEtranger": "Partner/in lebt weiterhin im Ausland",
+    "conjointAlEtrangerIndice": "Innerhalb der EU/des EWR ist das Ehegattensplitting trotzdem möglich (§ 1a EStG).",
+    "revenuConjoint": "Jahreseinkünfte Partner/in",
+    "revenuConjointIndice": "Entscheidet mit darüber, ob die 90-Prozent-Grenze eingehalten wird.",
+    "enfants": "Anzahl Kinder",
+    "enfantsIndice": "Kindergeld gibt es in der Regel auch für Kinder, die in einem anderen EU-Land leben.",
+
+    "resEconomieEtiquette": "Ihr möglicher Steuervorteil",
+    "resEconomieSousTexte": "Erreichbar durch das Ehegattensplitting nach § 1a EStG — es muss beantragt werden.",
+    "resSurcoutEtiquette": "Mehrbelastung durch den Progressionsvorbehalt",
+    "resSurcoutSousTexte": "So viel mehr Steuern kosten Sie Ihre ausländischen Einkünfte, obwohl diese selbst steuerfrei bleiben.",
+
+    "resStatutTitre": "Ihr steuerlicher Status",
+    "resAssujettissement": "Steuerpflicht",
+    "assujettissements": {
+      "unbeschraenkt": "Unbeschränkt (§ 1 Abs. 1 EStG)",
+      "beschraenkt": "Beschränkt (§ 1 Abs. 4 EStG)",
+      "wechsel": "Wechsel im Laufe des Jahres"
+    },
+    "resMoisAllemagne": "Unbeschränkt steuerpflichtig",
+    "resMoisValeur": "{mois} Monate",
+    "resSteuerklasse": "Passende Steuerklasse",
+    "resDeclaration": "Steuererklärung verpflichtend",
+
+    "resChiffrageTitre": "Ihre Steuerlast",
+    "resChiffrageIndice": "Geschätzt auf Basis des Grundtarifs § 32a EStG.",
+    "resRevenuImposable": "Zu versteuerndes Einkommen",
+    "resImpotSansProgression": "Steuer ohne ausländische Einkünfte",
+    "resImpotAvecProgression": "Steuer mit Progressionsvorbehalt",
+    "resTauxSpecial": "Steuersatz steigt von {normal} auf {special}",
+    "resAvecSplitting": "Steuer mit Ehegattensplitting",
+    "resAvecSplittingIndice": "Nach Antrag und Vorlage der EU/EWR-Bescheinigung.",
+    "resSoli": "Solidaritätszuschlag",
+    "resChargeTotale": "Steuerlast gesamt",
+    "resTauxEffectif": "Effektiv {taux}",
+
+    "resAlertesTitre": "Das sollten Sie wissen",
+    "alertes": {
+      "assujettissementMixte": {
+        "titre": "Sie sind nur {mois} Monate unbeschränkt steuerpflichtig",
+        "texte": "Für den übrigen Zeitraum gelten Sie als beschränkt steuerpflichtig. Beide Abschnitte werden in einer einzigen Steuererklärung zusammengeführt.",
+        "reference": "§ 2 Abs. 7 S. 3 EStG"
+      },
+      "progressionvorbehalt": {
+        "titre": "Progressionsvorbehalt: {montant} Mehrbelastung",
+        "texte": "Ihre ausländischen Einkünfte bleiben in Deutschland steuerfrei, heben aber den Steuersatz auf {taux} an. Das überrascht fast jeden Zuzügler im ersten Steuerbescheid.",
+        "reference": "§ 32b Abs. 1 Nr. 2 EStG"
+      },
+      "grenzgaengerFR": {
+        "titre": "Grenzgängerregelung Deutschland–Frankreich",
+        "texte": "Wenn Wohnort und Arbeitsort beide in der Grenzzone liegen, wird Ihr Arbeitslohn im Wohnsitzstaat besteuert — also in Frankreich, nicht in Deutschland. Voraussetzung ist die Bescheinigung des französischen Finanzamts.",
+        "reference": "Art. 13 Abs. 5 DBA Deutschland–Frankreich"
+      },
+      "grenzgaengerCH": {
+        "titre": "Grenzgängerregelung Deutschland–Schweiz",
+        "texte": "Für Grenzgänger gilt eine geteilte Besteuerung mit begrenztem Quellensteuerabzug. Wer regelmäßig nach Arbeitsende nicht an den Wohnort zurückkehrt, verliert diesen Status.",
+        "reference": "Art. 15a DBA Deutschland–Schweiz"
+      },
+      "grenzgaengerGeneral": {
+        "titre": "Besteuerung nach dem Tätigkeitsstaatsprinzip",
+        "texte": "Mit diesem Staat besteht keine besondere Grenzgängerregelung: Ihr Arbeitslohn wird grundsätzlich dort besteuert, wo Sie arbeiten. Auf die 183-Tage-Regel kommt es an.",
+        "reference": "Art. 15 OECD-Musterabkommen"
+      },
+      "splittingPossible": {
+        "titre": "Ehegattensplitting möglich — {montant} Ersparnis",
+        "texte": "Obwohl Ihr Partner im Ausland lebt, können Sie zur Zusammenveranlagung optieren. Sie brauchen dafür die Bescheinigung EU/EWR, bestätigt vom Finanzamt Ihres Heimatlands.",
+        "reference": "§ 1a Abs. 1 Nr. 2 EStG"
+      },
+      "splittingRefuseRevenus": {
+        "titre": "Splitting derzeit nicht möglich",
+        "texte": "Nur {part} Ihrer gemeinsamen Einkünfte werden in Deutschland besteuert. Erforderlich sind 90 Prozent — oder ausländische Einkünfte unterhalb des doppelten Grundfreibetrags.",
+        "reference": "§ 1 Abs. 3, § 1a EStG"
+      },
+      "splittingRefusePays": {
+        "titre": "Splitting bei Partner außerhalb der EU/des EWR",
+        "texte": "Die Zusammenveranlagung mit einem im Ausland lebenden Partner setzt einen Wohnsitz in der EU oder im EWR voraus. Sie werden daher wie ein Lediger besteuert.",
+        "reference": "§ 1a Abs. 1 EStG"
+      },
+      "optionIllimitee": {
+        "titre": "Antrag auf unbeschränkte Steuerpflicht lohnt sich",
+        "texte": "Ihre Einkünfte stammen fast vollständig aus Deutschland. Mit dem Antrag erhalten Sie Grundfreibetrag, Sonderausgaben und Familienvergünstigungen wie ein Inländer.",
+        "reference": "§ 1 Abs. 3 EStG"
+      },
+      "pasDeGrundfreibetrag": {
+        "titre": "Kein Grundfreibetrag bei beschränkter Steuerpflicht",
+        "texte": "Außerhalb von Arbeitslohn wird der Grundfreibetrag von {montant} nicht gewährt. Ihre Steuer beginnt praktisch beim ersten Euro.",
+        "reference": "§ 50 Abs. 1 S. 3 EStG"
+      },
+      "obligationDeclaration": {
+        "titre": "Sie müssen eine Steuererklärung abgeben",
+        "texte": "In Ihrer Konstellation ist die Veranlagung Pflicht, nicht freiwillig. Versäumte Fristen lösen Verspätungszuschläge aus.",
+        "reference": "§ 46 Abs. 2 EStG"
+      },
+      "kindergeldEU": {
+        "titre": "Kindergeld für {enfants} Kind(er) prüfen",
+        "texte": "Anspruch besteht in der Regel auch dann, wenn die Kinder in einem anderen EU-Land leben. Bezieht der andere Elternteil dort bereits Familienleistungen, wird der Unterschiedsbetrag gezahlt.",
+        "reference": "VO (EG) 883/2004"
+      },
+      "doubleImposition": {
+        "titre": "Doppelbesteuerung vermeiden",
+        "texte": "Zwischen Deutschland und {pays} besteht ein Doppelbesteuerungsabkommen. Welcher Staat besteuert, hängt von der Einkunftsart ab — Gehalt, Miete, Rente und Kapitalerträge werden unterschiedlich behandelt.",
+        "reference": "Doppelbesteuerungsabkommen"
+      }
+    },
+
+    "resChecklistTitre": "Ihre nächsten Schritte",
+    "resChecklistIndice": "Die Reihenfolge zählt: ohne Anmeldung keine Steuer-ID, ohne Steuer-ID falscher Lohnsteuerabzug.",
+    "checklist": {
+      "anmeldung": "Wohnsitz beim Bürgeramt anmelden (innerhalb von 14 Tagen)",
+      "steuerId": "Steuer-Identifikationsnummer abwarten und dem Arbeitgeber mitteilen",
+      "lohnsteuerabzug": "Lohnsteuerabzugsmerkmale und Steuerklasse prüfen lassen",
+      "sozialversicherung": "Sozialversicherungsnummer und Krankenkasse klären",
+      "ansaessigkeitsbescheinigung": "Ansässigkeitsbescheinigung des Wohnsitzfinanzamts einholen",
+      "a1Bescheinigung": "A1-Bescheinigung zur Sozialversicherung beantragen",
+      "abmeldung": "Abmeldung beim Bürgeramt und letzte Steuererklärung einplanen",
+      "wegzugsbesteuerung": "Wegzugsbesteuerung prüfen (bei Beteiligung an Kapitalgesellschaften)",
+      "bescheinigungEUEWR": "Bescheinigung EU/EWR vom ausländischen Finanzamt bestätigen lassen",
+      "kindergeldAntrag": "Kindergeld bei der Familienkasse beantragen",
+      "elsterZugang": "ELSTER-Zugang einrichten (Zertifikat kommt per Post)",
+      "unterlagenHeimatland": "Einkommensnachweise aus dem Heimatland für den Zuzugszeitraum sichern"
+    },
+
+    "ctaEtiquette": "Erstberatung auf Deutsch, Französisch oder Englisch",
+    "ctaTexte": "Wir ordnen Ihre Situation im Gespräch und zeigen, welche Themen für Sie relevant sind — auf Deutsch, Französisch oder Englisch. Die steuerliche Bewertung und die Erklärung selbst erfolgen über einen kooperierenden Steuerberater.",
+    "ctaBouton": "Kostenlose Erstberatung buchen",
+    "avertissement": "Vereinfachte Schätzung. Die konkrete Anwendung eines Doppelbesteuerungsabkommens hängt immer vom Einzelfall ab — insbesondere bei Renten, Vermietung, Kapitalerträgen und Entsendungen.",
+    "stand": "Rechtsstand {annee} · Parameter geprüft am {date}"
+  },
+
+  "honorar": {
+    "titre": "Was kostet ein Steuerberater?",
+    "sousTitre": "Ihr Honorar nach der Steuerberatervergütungsverordnung — mit Rechtsgrundlage für jede einzelne Position.",
+    "sectionProfil": "Ihre Situation",
+    "sectionProfilIndice": "Die Auswahl setzt die üblichen Leistungen vor — Sie können sie anschließend anpassen.",
+    "profils": {
+      "arbeitnehmer": { "titre": "Arbeitnehmer", "description": "Nur Einkommensteuererklärung" },
+      "vermieter": { "titre": "Vermieter", "description": "Mit Anlage V" },
+      "freiberufler": { "titre": "Freiberufler", "description": "EÜR, USt, Buchführung" },
+      "gewerbe": { "titre": "Gewerbebetrieb", "description": "Zusätzlich Gewerbesteuer" },
+      "kapitalgesellschaft": { "titre": "GmbH / UG", "description": "Jahresabschluss und Lohn" }
+    },
+    "sectionPrestations": "Gewünschte Leistungen",
+    "sectionPrestationsIndice": "Der Betrag rechts zeigt die Mittelgebühr für die jeweilige Leistung pro Jahr.",
+    "prestations": {
+      "einkommensteuer": { "titre": "Einkommensteuererklärung", "description": "Gegenstandswert: Summe der positiven Einkünfte, mindestens 8.000 €" },
+      "anlageV": { "titre": "Anlage V — Vermietung", "description": "Ermittlung der Einkünfte aus Vermietung und Verpachtung" },
+      "euer": { "titre": "Einnahmen-Überschuss-Rechnung", "description": "Gewinnermittlung nach § 4 Abs. 3 EStG" },
+      "jahresabschluss": { "titre": "Jahresabschluss / Bilanz", "description": "Bilanz und Gewinn- und Verlustrechnung" },
+      "buchfuehrung": { "titre": "Laufende Finanzbuchhaltung", "description": "Monatliche Buchführung inklusive Kontierung" },
+      "ustVoranmeldung": { "titre": "Umsatzsteuer-Voranmeldung", "description": "Pro Anmeldezeitraum, Gegenstandswert 10 % der Entgelte" },
+      "ustJahreserklaerung": { "titre": "Umsatzsteuer-Jahreserklärung", "description": "Jahreserklärung zur Umsatzsteuer" },
+      "gewerbesteuer": { "titre": "Gewerbesteuererklärung", "description": "Gegenstandswert: Gewerbeertrag vor Freibetrag" },
+      "koerperschaftsteuer": { "titre": "Körperschaftsteuererklärung", "description": "Für GmbH, UG und andere Kapitalgesellschaften" },
+      "lohnbuchhaltung": { "titre": "Lohnbuchhaltung", "description": "Pro Arbeitnehmer und Abrechnungszeitraum" }
+    },
+    "sectionChiffres": "Ihre Zahlen",
+    "sectionChiffresIndice": "Schätzwerte genügen — sie bestimmen den Gegenstandswert und damit die Gebührenhöhe.",
+    "champs": {
+      "sommeEinkuenfte": { "label": "Summe Ihrer positiven Einkünfte", "indice": "Brutto vor Abzügen. Mindestgegenstandswert 8.000 €." },
+      "mieteinnahmen": { "label": "Jährliche Mieteinnahmen", "indice": "Maßgeblich ist der höhere Betrag aus Einnahmen oder Werbungskosten." },
+      "jahresumsatz": { "label": "Jahresumsatz", "indice": "Netto-Umsatz Ihres Betriebs." },
+      "betriebsausgaben": { "label": "Jährliche Betriebsausgaben", "indice": "Für den Gegenstandswert zählt der höhere von beiden Beträgen." },
+      "bilanzsumme": { "label": "Bilanzsumme", "indice": "Gegenstandswert ist das Mittel aus Bilanzsumme und Jahresleistung." },
+      "gewerbeertrag": { "label": "Gewerbeertrag", "indice": "Vor Verlustabzug und Freibetrag." },
+      "einkommenKoerperschaft": { "label": "Einkommen der Gesellschaft", "indice": "Vor Verlustabzug. Mindestgegenstandswert 16.000 €." },
+      "nombreSalaries": { "label": "Anzahl Arbeitnehmer", "indice": "Für die monatliche Lohnabrechnung." },
+      "ustPeriodicite": { "label": "Häufigkeit der Voranmeldung", "indice": "Monatlich bei Neugründung und höherer Zahllast." }
+    },
+    "mensuelle": "Monatlich",
+    "trimestrielle": "Vierteljährlich",
+    "resultatEtiquette": "Ihr Honorar pro Jahr",
+    "resultatSousTexte": "Gesetzlicher Rahmen {min} bis {max} · rund {mois} pro Monat",
+    "detailTitre": "Aufschlüsselung nach Rechtsgrundlage",
+    "detailIndice": "Angesetzt ist jeweils die Mittelgebühr — der übliche Ausgangspunkt.",
+    "baseCalcul": "{cadre} Tabelle {table} · Gegenstandswert {valeur}",
+    "baseForfait": "{cadre} € je Arbeitnehmer",
+    "parMois": "monatlich",
+    "sousTotal": "Gebühren gesamt",
+    "auslagen": "Post- und Telekommunikationspauschale",
+    "auslagenIndice": "20 % der Gebühren, höchstens 20 € (§ 16 StBVV).",
+    "tva": "Umsatzsteuer {taux}",
+    "totalTTC": "Gesamt brutto pro Jahr",
+    "aucunePrestationTitre": "Noch keine Leistung ausgewählt",
+    "aucunePrestationTexte": "Wählen Sie oben aus, was Sie brauchen — die Kalkulation erscheint sofort.",
+    "explicationTitre": "Warum eine Spanne und kein Festpreis?",
+    "explicationTexte": "Die StBVV gibt für jede Leistung einen Gebührenrahmen vor. Innerhalb dieses Rahmens richtet sich das Honorar nach Umfang, Schwierigkeit und Haftungsrisiko. Gut vorbereitete Unterlagen senken die Gebühr spürbar.",
+    "pauschalTitre": "Pauschalhonorar möglich",
+    "pauschalTexte": "Für laufend wiederkehrende Leistungen — Buchhaltung, Lohn, Voranmeldungen — vereinbaren wir gern ein festes Monatshonorar. Sie wissen dann ganzjährig, woran Sie sind.",
+    "ctaEtiquette": "Verbindliches Angebot",
+    "ctaTexte": "In 15 Minuten besprechen wir Ihren Bedarf und Sie erhalten ein schriftliches Festpreisangebot. Vorbehaltsaufgaben verantwortet ein unabhängiger Steuerberater.",
+    "ctaBouton": "Angebot anfordern",
+    "avertissement": "Unverbindliche Kalkulation auf Basis der Mittelgebühr. Das konkrete Honorar wird nach den Umständen des Einzelfalls bestimmt (§ 11 StBVV); abweichende Vereinbarungen nach § 4 StBVV bleiben möglich.",
+    "stand": "StBVV-Tabellen geprüft am {date}"
+  },
+
+  "rechtsform": {
+    "titre": "Einzelunternehmen, UG oder GmbH?",
+    "sousTitre": "Vier Rechtsformen auf denselben Gewinn gerechnet — mit Gewerbesteuer, Körperschaftsteuer, Geschäftsführergehalt und Ausschüttung.",
+    "oui": "Ja",
+    "non": "Nein",
+    "annee": "Berechnungsjahr",
+    "sectionBenefice": "Gewinn und Entnahme",
+    "sectionBeneficeIndice": "Gewinn vor Geschäftsführergehalt. Das Gehalt ist der entscheidende Hebel: es mindert den Gewinn der Gesellschaft, nicht den des Einzelunternehmers.",
+    "benefice": "Jahresgewinn vor Geschäftsführergehalt",
+    "remuneration": "Geschäftsführergehalt (nur UG und GmbH)",
+    "remunerationIndice": "Beim Einzelunternehmer gibt es kein Gehalt: der gesamte Gewinn ist sein Einkommen.",
+    "quoteDistribution": "Anteil des Gewinns, der ausgeschüttet wird",
+    "quoteDistributionIndice": "Was in der Gesellschaft bleibt, ist nicht verloren — es wird nur später besteuert. Genau darin liegt der Vorteil der Kapitalgesellschaft.",
+    "sectionCommune": "Standort",
+    "sectionCommuneIndice": "Der Hebesatz der Gemeinde entscheidet über die Gewerbesteuer — und ist bei der Standortwahl frei wählbar.",
+    "hebesatz": "Gewerbesteuer-Hebesatz",
+    "hebesatzIndice": "Bis {neutre} % wird die Gewerbesteuer beim Einzelunternehmer vollständig auf die Einkommensteuer angerechnet.",
+    "communes": {
+      "Berlin": "Berlin", "Hamburg": "Hamburg", "Muenchen": "München", "Koeln": "Köln",
+      "Frankfurt": "Frankfurt", "Leipzig": "Leipzig", "Potsdam": "Potsdam", "Duesseldorf": "Düsseldorf"
+    },
+    "sectionPersonnel": "Persönliche Situation",
+    "splitting": "Zusammenveranlagung",
+    "splittingIndice": "Verheiratet oder in eingetragener Lebenspartnerschaft.",
+    "kirchensteuer": "Kirchensteuerpflichtig",
+    "bundesland": "Bundesland",
+    "resultatEtiquette": "Günstigste Rechtsform",
+    "resultatSousTexte": "Bis zu {montant} Unterschied zur ungünstigsten Variante",
+    "meilleure": "günstigste",
+    "formes": {
+      "freiberufler": { "titre": "Freiberufler", "description": "Keine Gewerbesteuer, keine Handelsregisterpflicht" },
+      "einzelunternehmen": { "titre": "Einzelunternehmen", "description": "Gewerbesteuer mit Freibetrag, Anrechnung nach § 35 EStG" },
+      "ug": { "titre": "UG (haftungsbeschränkt)", "description": "Wie die GmbH, aber ab 1 € Stammkapital und mit Rücklagenpflicht" },
+      "gmbh": { "titre": "GmbH", "description": "Haftungsbeschränkung, 25.000 € Stammkapital" }
+    },
+    "postes": {
+      "gewerbesteuer": "Gewerbesteuer",
+      "anrechnung": "Anrechnung auf die Einkommensteuer",
+      "anrechnungIndice": "Höchstens das Vierfache des Steuermessbetrags.",
+      "koerperschaftsteuer": "Körperschaftsteuer (15 %)",
+      "soliKst": "Solidaritätszuschlag auf die Körperschaftsteuer",
+      "einkommensteuer": "Einkommensteuer",
+      "surRemuneration": "auf {montant} Gehalt",
+      "soli": "Solidaritätszuschlag",
+      "kirchensteuer": "Kirchensteuer",
+      "abgeltungsteuer": "Abgeltungsteuer auf die Ausschüttung",
+      "surDistribution": "auf {montant} Ausschüttung"
+    },
+    "chargeTotale": "Gesamtbelastung",
+    "chargeCourte": "{montant} Steuern · {taux}",
+    "valeurCreee": "Was Ihnen unterm Strich bleibt",
+    "valeurCreeeIndice": "Privat verfügbar plus einbehaltener Gewinn, abgezinst um die spätere Ausschüttungsteuer. Nach dieser Größe wird sortiert.",
+    "revenuDisponible": "Verfügbar für Sie privat",
+    "resteDansSociete": "Bleibt in der Gesellschaft",
+    "resteDansSocieteIndice": "Bei späterer Ausschüttung fällt noch Abgeltungsteuer an.",
+    "reserveObligatoire": "Davon gesetzliche Rücklage",
+    "reserveObligatoireIndice": "Die UG muss 25 % des Jahresüberschusses zurücklegen, bis 25.000 € erreicht sind.",
+    "alertes": {
+      "thesaurierung": {
+        "titre": "Die Kapitalgesellschaft verschiebt die Steuer, sie spart sie nicht",
+        "texte": "Was in der GmbH oder UG bleibt, ist zunächst nur mit rund 30 % belastet — bei der späteren Ausschüttung kommen aber noch {decote} hinzu. Deshalb bewertet dieser Vergleich einbehaltene Gewinne abgezinst. Die Kapitalgesellschaft gewinnt, wenn Sie reinvestieren; entnehmen Sie alles, ist das Einzelunternehmen meist günstiger."
+      },
+      "hebesatzEleve": {
+        "titre": "Hebesatz über {neutre} % — die Gewerbesteuer wird nicht vollständig angerechnet",
+        "texte": "Der Teil oberhalb dieser Schwelle bleibt beim Einzelunternehmer echte Zusatzbelastung. Ein Standortwechsel in eine Nachbargemeinde kann mehrere tausend Euro jährlich sparen."
+      },
+      "hebesatzNeutre": {
+        "titre": "Hebesatz bis {neutre} % — Gewerbesteuer faktisch neutral",
+        "texte": "Die Anrechnung nach § 35 EStG gleicht die Gewerbesteuer beim Einzelunternehmer vollständig aus. Der Nachteil gegenüber dem Freiberufler entfällt damit praktisch."
+      },
+      "stammkapital": {
+        "titre": "Stammkapital: UG ab {ug}, GmbH ab {gmbh}",
+        "texte": "Die UG senkt die Einstiegshürde, wirkt aber bei Banken und Großkunden oft weniger solide. Sie kann später in eine GmbH umgewandelt werden."
+      },
+      "ugRuecklage": {
+        "titre": "Die UG darf nicht den vollen Gewinn ausschütten",
+        "texte": "25 % des Jahresüberschusses müssen in die gesetzliche Rücklage, bis 25.000 € erreicht sind. Erst danach ist die Vollausschüttung möglich."
+      },
+      "angemessenheit": {
+        "titre": "Das Geschäftsführergehalt muss angemessen sein",
+        "texte": "Ein überhöhtes Gehalt wertet das Finanzamt als verdeckte Gewinnausschüttung und besteuert es nach. Der Fremdvergleich entscheidet — wir prüfen ihn mit Ihnen."
+      },
+      "hypotheses": {
+        "titre": "Was diese Rechnung voraussetzt",
+        "texte": "Beherrschender Gesellschafter-Geschäftsführer, also keine Sozialversicherungspflicht — dadurch bleibt der Vergleich zum Einzelunternehmer fair. Hinzurechnungen und Kürzungen bei der Gewerbesteuer sowie die Option zum Teileinkünfteverfahren sind nicht berücksichtigt."
+      }
+    },
+    "ctaEtiquette": "Rechtsformberatung",
+    "ctaTexte": "Die Rechtsform entscheidet über Jahrzehnte — Haftung, Finanzierung, Nachfolge und Steuern hängen daran. Wir rechnen Ihren konkreten Fall durch, inklusive Wechselkosten.",
+    "ctaBouton": "Rechtsform besprechen",
+    "avertissement": "Vereinfachter Vergleich der laufenden Steuerbelastung. Nicht berücksichtigt: Gründungs- und Umwandlungskosten, Buchführungs- und Abschlusskosten, Haftungsfragen, Sozialversicherung sowie gewerbesteuerliche Hinzurechnungen und Kürzungen."
+  },
+
+  "kleinunternehmer": {
+    "titre": "Kleinunternehmer oder Regelbesteuerung?",
+    "sousTitre": "§ 19 UStG lohnt sich bei Privatkunden und schadet bei Geschäftskunden. Dieser Rechner zeigt, wo Sie stehen.",
+    "oui": "Ja",
+    "non": "Nein",
+    "sectionChiffreAffaires": "Ihr Umsatz",
+    "sectionChiffreAffairesIndice": "Maßgeblich ist der Umsatz, den Ihre Kunden zahlen.",
+    "umsatz": "Umsatz im laufenden Jahr",
+    "premiereAnnee": "Erstes Geschäftsjahr",
+    "premiereAnneeIndice": "Im Gründungsjahr zählt nur die Grenze des laufenden Jahres.",
+    "vorjahresumsatz": "Umsatz im Vorjahr",
+    "vorjahresumsatzIndice": "Über {limite} entfällt die Kleinunternehmerregelung im Folgejahr.",
+    "sectionClientele": "Ihre Kundenstruktur",
+    "sectionClienteleIndice": "Das ist der eigentliche Hebel der Entscheidung.",
+    "partParticuliers": "Anteil Privatkunden",
+    "partParticuliersIndice": "Privatkunden achten auf den Endpreis: ohne Umsatzsteuer behalten Sie mehr. Geschäftskunden ziehen die Vorsteuer ohnehin ab — dort bringt die Befreiung nichts.",
+    "sectionDepenses": "Ihre Ausgaben",
+    "sectionDepensesIndice": "Nur Ausgaben mit ausgewiesener Umsatzsteuer zählen. Netto angeben.",
+    "achats": "Laufende Ausgaben mit Vorsteuer",
+    "achatsIndice": "Material, Software, Miete, Fahrzeug, Fremdleistungen.",
+    "investissement": "Geplante Investition",
+    "investissementIndice": "Eine größere Anschaffung kann allein die Regelbesteuerung rechtfertigen.",
+    "satzReduit": "Ermäßigter Steuersatz (7 %)",
+    "satzReduitIndice": "Bücher, Lebensmittel, Personenbeförderung, kulturelle Leistungen.",
+    "resultatEtiquette": "Für Sie günstiger",
+    "resultatSousTexte": "Vorteil von {montant} pro Jahr",
+    "resultatNonEligible": "Sie erfüllen die Voraussetzungen nicht",
+    "resultatNonEligibleTexte": "Die Umsatzgrenzen des § 19 UStG sind überschritten — die Regelbesteuerung ist verpflichtend.",
+    "regimeObligatoire": "Regelbesteuerung",
+    "options": {
+      "kleinunternehmer": "Kleinunternehmer",
+      "regelbesteuerung": "Regelbesteuerung"
+    },
+    "recettes": "Einnahmen",
+    "depenses": "Ausgaben",
+    "resultat": "Ergebnis",
+    "detailTitre": "Woraus sich der Unterschied ergibt",
+    "tvaNonFacturee": "Nicht abgeführte Umsatzsteuer",
+    "tvaNonFactureeIndice": "Ihr Vorteil bei Privatkunden — bei gleichem Endpreis bleibt sie bei Ihnen.",
+    "vorsteuerPerdue": "Nicht abziehbare Vorsteuer",
+    "vorsteuerPerdueIndice": "Ihr Nachteil: als Kleinunternehmer ist die Umsatzsteuer auf Ihre Ausgaben endgültiger Kostenfaktor.",
+    "difference": "Unterschied pro Jahr",
+    "differenceIndice": "zugunsten von: {regime}",
+    "seuilBascule": "Kipppunkt beim Privatkundenanteil",
+    "seuilBasculeIndice": "Ab diesem Anteil an Privatkunden lohnt sich die Kleinunternehmerregelung.",
+    "alertes": {
+      "grenzeVorjahrDepassee": {
+        "titre": "Vorjahresumsatz über {limite}",
+        "texte": "Damit ist die Kleinunternehmerregelung in diesem Jahr ausgeschlossen. Sie müssen Umsatzsteuer ausweisen und Voranmeldungen abgeben.",
+        "reference": "§ 19 Abs. 1 UStG"
+      },
+      "grenzeLaufendDepassee": {
+        "titre": "Grenze von {limite} im laufenden Jahr überschritten",
+        "texte": "Seit 2025 endet die Befreiung sofort mit dem Umsatz, der die Grenze überschreitet — nicht erst zum Jahreswechsel. Ab diesem Geschäft ist Umsatzsteuer auszuweisen.",
+        "reference": "§ 19 Abs. 1 S. 2 UStG"
+      },
+      "basculeAnneeProchaine": {
+        "titre": "Dieses Jahr noch befreit — nächstes Jahr nicht mehr",
+        "texte": "Ihr Umsatz liegt über {limite}. Sie bleiben dieses Jahr Kleinunternehmer, wechseln aber zum 1. Januar zwingend in die Regelbesteuerung. Kalkulieren Sie Ihre Preise rechtzeitig neu.",
+        "reference": "§ 19 Abs. 1 UStG"
+      },
+      "investissement": {
+        "titre": "Vorsteuer aus der Investition: {montant}",
+        "texte": "Diesen Betrag bekämen Sie in der Regelbesteuerung vom Finanzamt erstattet. Bei größeren Anschaffungen kippt das die Entscheidung oft allein.",
+        "reference": "§ 15 UStG"
+      },
+      "renonciationInteressante": {
+        "titre": "Verzicht auf die Befreiung bringt {montant} pro Jahr",
+        "texte": "Ihre Kundenstruktur und Ihre Vorsteuer sprechen für die Regelbesteuerung. Der Verzicht wird formlos gegenüber dem Finanzamt erklärt.",
+        "reference": "§ 19 Abs. 3 UStG"
+      },
+      "franchiseInteressante": {
+        "titre": "Die Kleinunternehmerregelung bringt {montant} pro Jahr",
+        "texte": "Behalten Sie die Befreiung. Sie sparen zusätzlich die Voranmeldungen und einen Teil der laufenden Buchhaltung.",
+        "reference": "§ 19 Abs. 1 UStG"
+      },
+      "bindung": {
+        "titre": "Der Verzicht bindet Sie {annees} Jahre",
+        "texte": "Wer auf die Kleinunternehmerregelung verzichtet, kommt fünf Kalenderjahre lang nicht zurück. Die Entscheidung gehört durchgerechnet, nicht abgehakt.",
+        "reference": "§ 19 Abs. 3 UStG"
+      },
+      "clienteleProfessionnelle": {
+        "titre": "Bei Geschäftskunden zählt der Bruttopreis nicht",
+        "texte": "Ihre Kunden ziehen die Umsatzsteuer als Vorsteuer ab — für sie ist Ihr Nettopreis maßgeblich. Der vermeintliche Preisvorteil der Befreiung entfällt hier vollständig.",
+        "reference": "§ 15 UStG"
+      },
+      "chargeAdministrative": {
+        "titre": "Der Aufwand gehört in die Rechnung",
+        "texte": "Regelbesteuerung heißt laufende Voranmeldungen, Vorsteuerprüfung und korrekte Rechnungsangaben. Was das kostet, sehen Sie in unserem Honorarrechner.",
+        "reference": "§ 18 UStG"
+      }
+    },
+    "ctaEtiquette": "Entscheidung absichern",
+    "ctaTexte": "Fünf Jahre Bindung verdienen eine saubere Rechnung. Wir gehen Ihre Zahlen, Ihre Kundenstruktur und Ihre geplanten Investitionen mit Ihnen durch; die Voranmeldungen laufen über einen kooperierenden Steuerberater.",
+    "ctaBouton": "Kostenlose Erstberatung buchen",
+    "avertissement": "Vereinfachter Vergleich. Nicht berücksichtigt: innergemeinschaftliche Leistungen und Reverse-Charge-Fälle, Differenzbesteuerung, gemischte Steuersätze sowie die Vorsteuerberichtigung nach § 15a UStG beim Wechsel."
+  },
+
+  "firmenwagen": {
+    "titre": "Firmenwagen: 1 %-Regel oder Fahrtenbuch?",
+    "sousTitre": "Nicht der geldwerte Vorteil zählt, sondern was der Wagen Ihnen netto vom Gehalt nimmt.",
+    "oui": "Ja",
+    "non": "Nein",
+    "sectionVehicule": "Das Fahrzeug",
+    "sectionVehiculeIndice": "Maßgeblich ist der Bruttolistenpreis zum Zeitpunkt der Erstzulassung — nicht der tatsächliche Kaufpreis.",
+    "bruttolistenpreis": "Bruttolistenpreis",
+    "motorisation": "Antriebsart",
+    "motorisations": {
+      "verbrenner": { "titre": "Verbrenner", "description": "1 % des Listenpreises" },
+      "elektro": { "titre": "Elektro", "description": "0,25 % bis 100.000 €" },
+      "hybride": { "titre": "Hybrid", "description": "0,5 % unter Bedingungen" }
+    },
+    "anschaffungRecente": "Überlassung ab dem 01.07.2025",
+    "anschaffungRecenteIndice": "Davor galt eine Preisgrenze von 70.000 € statt 100.000 € für die Viertelregelung.",
+    "sectionTrajets": "Ihre Fahrten",
+    "distanceTravail": "Entfernung Wohnung – erste Tätigkeitsstätte",
+    "distanceTravailIndice": "Einfache Strecke, kürzeste Straßenverbindung.",
+    "joursTravailles": "Arbeitstage pro Jahr",
+    "joursTravaillesIndice": "Üblich sind 220 Tage. Bei Homeoffice entsprechend weniger.",
+    "sectionSalaire": "Ihr Gehalt",
+    "sectionSalaireIndice": "Der geldwerte Vorteil wird mit Ihrem persönlichen Steuersatz belastet — deshalb ist Ihr Gehalt entscheidend.",
+    "bruttoAnnuel": "Bruttogehalt pro Jahr",
+    "steuerklasse": "Steuerklasse",
+    "bundesland": "Bundesland",
+    "kirchensteuer": "Kirchensteuerpflichtig",
+    "sectionCarnet": "Fahrtenbuch",
+    "sectionCarnetIndice": "Nur ausfüllen, wenn Sie die tatsächlichen Kosten kennen.",
+    "carnetActif": "Fahrtenbuch vergleichen",
+    "carnetActifIndice": "Lohnt sich vor allem bei geringem Privatanteil und teuren Fahrzeugen.",
+    "coutAnnuelVehicule": "Gesamtkosten pro Jahr",
+    "coutAnnuelVehiculeIndice": "Abschreibung, Versicherung, Steuer, Wartung, Kraftstoff oder Strom.",
+    "kmTotal": "Gesamtfahrleistung pro Jahr",
+    "kmPrives": "Davon rein privat",
+    "kmPrivesIndice": "Ohne die Fahrten zur Arbeit — die rechnet der Simulator selbst.",
+    "resultatEtiquette": "Ihr Firmenwagen kostet Sie netto",
+    "resultatSousTexte": "{annuel} pro Jahr — günstigste Methode: {methode}",
+    "methodes": { "forfait": "1 %-Regelung", "carnet": "Fahrtenbuch" },
+    "avantageEnNature": "Geldwerter Vorteil",
+    "impotsEtCotisations": "Steuern und Abgaben",
+    "parMois": "Pro Monat",
+    "carnetInactif": "Aktivieren Sie den Fahrtenbuch-Vergleich und tragen Sie Ihre tatsächlichen Kosten ein.",
+    "detailTitre": "So entsteht der Betrag (1 %-Regelung)",
+    "assiette": "Bemessungsgrundlage",
+    "assietteIndice": "{part} des Bruttolistenpreises",
+    "usagePrive": "Private Nutzung (1 % monatlich)",
+    "trajetsTravail": "Fahrten zur Arbeit (0,03 % monatlich)",
+    "trajetsTravailIndice": "je Entfernungskilometer, hier {km} km",
+    "avantageTotal": "Geldwerter Vorteil pro Jahr",
+    "impotsSupplementaires": "Zusätzliche Steuern",
+    "cotisationsSupplementaires": "Zusätzliche Sozialabgaben",
+    "coutReel": "Tatsächliche Belastung",
+    "coutReelIndice": "{taux} des geldwerten Vorteils",
+    "economieElectrique": {
+      "titre": "Elektrisch sparen Sie {montant} pro Jahr",
+      "texte": "Derselbe Listenpreis als Verbrenner würde Sie {thermique} monatlich kosten statt {actuel}. Die Viertelregelung ist die wirksamste Stellschraube beim Dienstwagen."
+    },
+    "alertes": {
+      "electriqueAvantage": {
+        "titre": "Viertelregelung greift (Listenpreis bis {plafond})",
+        "texte": "Nur ein Viertel des Bruttolistenpreises wird angesetzt — sowohl für die private Nutzung als auch für die Fahrten zur Arbeit.",
+        "reference": "§ 6 Abs. 1 Nr. 4 S. 2 Nr. 3 EStG"
+      },
+      "electriqueAuDessusPlafond": {
+        "titre": "Über {plafond}: nur die halbe Bemessungsgrundlage",
+        "texte": "Oberhalb der Preisgrenze gilt statt der Viertel- die Halbregelung. Wenige tausend Euro Listenpreis weniger können hier über Jahre viel Geld sparen.",
+        "reference": "§ 6 Abs. 1 Nr. 4 EStG"
+      },
+      "plafondAncien": {
+        "titre": "Ältere Überlassung: Grenze bei {plafond}",
+        "texte": "Für Fahrzeuge, die vor dem 01.07.2025 überlassen wurden, gilt weiterhin die alte Preisgrenze. Maßgeblich ist der Zeitpunkt der Überlassung, nicht das Steuerjahr.",
+        "reference": "§ 6 Abs. 1 Nr. 4 EStG"
+      },
+      "hybrideConditions": {
+        "titre": "Hybride nur unter Bedingungen begünstigt",
+        "texte": "Die Halbierung setzt eine elektrische Mindestreichweite oder einen niedrigen CO₂-Ausstoß voraus. Erfüllt das Fahrzeug sie nicht, gilt die volle 1 %-Regel.",
+        "reference": "§ 6 Abs. 1 Nr. 4 S. 2 Nr. 2 EStG"
+      },
+      "carnetInteressant": {
+        "titre": "Fahrtenbuch spart Ihnen {montant} pro Jahr",
+        "texte": "Ihr Privatanteil ist niedrig genug, dass sich der Aufwand rechnet. Die Methode wird für das ganze Jahr und je Fahrzeug einheitlich gewählt.",
+        "reference": "§ 8 Abs. 2 S. 4 EStG"
+      },
+      "forfaitInteressant": {
+        "titre": "Die 1 %-Regelung ist für Sie günstiger",
+        "texte": "Der Unterschied beträgt {montant} pro Jahr zugunsten der Pauschale — bei deutlich weniger Aufwand.",
+        "reference": "§ 8 Abs. 2 EStG"
+      },
+      "carnetNonRenseigne": {
+        "titre": "Fahrtenbuch nicht verglichen",
+        "texte": "Ohne Gesamtkosten und Fahrleistung lässt sich die zweite Methode nicht bewerten. Aktivieren Sie den Vergleich, wenn Sie die Zahlen haben."
+      },
+      "carnetExigences": {
+        "titre": "Ein Fahrtenbuch muss lückenlos sein",
+        "texte": "Datum, Kilometerstand, Ziel, Zweck und Geschäftspartner je Fahrt — zeitnah und unveränderbar. Excel-Listen erkennt das Finanzamt nicht an; dann gilt rückwirkend die 1 %-Regel.",
+        "reference": "R 8.1 Abs. 9 Nr. 2 LStR"
+      },
+      "entfernungspauschale": {
+        "titre": "Entfernungspauschale von {montant} nicht vergessen",
+        "texte": "Trotz Firmenwagen können Sie die Fahrten zur Arbeit als Werbungskosten geltend machen. Das mindert Ihre Steuer in der Jahreserklärung — nicht schon beim Lohnsteuerabzug.",
+        "reference": "§ 9 Abs. 1 Nr. 4 EStG"
+      },
+      "einzelbewertung": {
+        "titre": "Bei {jours} Arbeitstagen lohnt die Einzelbewertung",
+        "texte": "Wer an weniger als 180 Tagen im Jahr zur Arbeit fährt, kann statt der 0,03 % pauschal je Monat nur 0,002 % je tatsächlicher Fahrt ansetzen. Der Arbeitgeber muss mitspielen.",
+        "reference": "BMF-Schreiben zur Einzelbewertung"
+      }
+    },
+    "ctaEtiquette": "Dienstwagen richtig aufsetzen",
+    "ctaTexte": "Methodenwahl, Elektro-Grenze, Ladestrom und Gehaltsumwandlung: beim Firmenwagen entscheiden Details über vierstellige Beträge. Wir rechnen Ihre Konstellation durch.",
+    "ctaBouton": "Kostenlose Erstberatung buchen",
+    "avertissement": "Vereinfachte Berechnung. Nicht berücksichtigt: Zuzahlungen des Arbeitnehmers, Ladestrom und Wallbox, Familienheimfahrten bei doppelter Haushaltsführung, Poolfahrzeuge sowie die pauschale Besteuerung von Fahrtkostenzuschüssen."
+  },
+
+  "immobilien": {
+    "titre": "Vermietete Immobilie: rechnet sich das?",
+    "sousTitre": "Rendite nach Steuern, Abschreibung und Werbungskostenüberschuss — auf Basis Ihrer eigenen Zahlen.",
+    "oui": "Ja",
+    "non": "Nein",
+    "sectionBien": "Das Objekt",
+    "sectionBienIndice": "Kaufpreis ohne Nebenkosten — die rechnet der Simulator selbst dazu.",
+    "prix": "Kaufpreis",
+    "partTerrain": "Anteil Grund und Boden",
+    "partTerrainIndice": "Nur das Gebäude wird abgeschrieben, der Grund und Boden nie. Ein zu hoch angesetzter Bodenanteil kostet Sie jedes Jahr AfA.",
+    "bundesland": "Bundesland",
+    "courtier": "Mit Maklerprovision",
+    "sectionAmortissement": "Abschreibung",
+    "sectionAmortissementIndice": "Der Satz hängt vom Fertigstellungsjahr ab.",
+    "amortissements": {
+      "habitationDepuis2023": { "titre": "3 % linear", "description": "Fertigstellung ab 2023" },
+      "habitationDepuis1925": { "titre": "2 % linear", "description": "Fertigstellung ab 1925" },
+      "habitationAvant1925": { "titre": "2,5 % linear", "description": "Fertigstellung vor 1925" },
+      "degressif": { "titre": "5 % degressiv", "description": "Baubeginn 10/2023 – 09/2029" }
+    },
+    "sectionExploitation": "Einnahmen und Ausgaben",
+    "loyerAnnuel": "Jahreskaltmiete",
+    "loyerAnnuelIndice": "Ohne umlagefähige Nebenkosten.",
+    "chargesAnnuelles": "Nicht umlagefähige Kosten",
+    "chargesAnnuellesIndice": "Verwaltung, Instandhaltungsrücklage, Reparaturen, Versicherung.",
+    "interetsAnnuels": "Zinsen pro Jahr",
+    "interetsAnnuelsIndice": "Nur der Zinsanteil ist Werbungskosten — die Tilgung nicht.",
+    "remboursementCapital": "Tilgung pro Jahr",
+    "remboursementCapitalIndice": "Belastet Ihre Liquidität, mindert aber nicht die Steuer.",
+    "sectionFiscalite": "Ihre Steuersituation",
+    "sectionFiscaliteIndice": "Ihr übriges zu versteuerndes Einkommen bestimmt, wie viel ein Verlust wert ist.",
+    "autresRevenus": "Übriges zu versteuerndes Einkommen",
+    "splitting": "Zusammenveranlagung",
+    "resultatEtiquette": "Ihre monatliche Liquidität nach Steuern",
+    "resultatSousTexte": "{annuel} im Jahr · Rendite nach Steuern {rendement}",
+    "detailAcquisitionTitre": "Was der Kauf wirklich kostet",
+    "prixAchat": "Kaufpreis",
+    "mutation": "Grunderwerbsteuer",
+    "mutationIndice": "{taux} in diesem Bundesland",
+    "notaire": "Notar und Grundbuch",
+    "commission": "Maklerprovision",
+    "coutTotal": "Gesamtinvestition",
+    "detailFiscalTitre": "Steuerliches Ergebnis",
+    "detailFiscalIndice": "Ein Überschuss der Werbungskosten mindert Ihre gesamte Einkommensteuer.",
+    "amortissement": "Abschreibung (AfA)",
+    "amortissementIndice": "{taux} auf {base}",
+    "resultatFiscal": "Einkünfte aus Vermietung",
+    "effetImpot": "Wirkung auf Ihre Steuer",
+    "effetImpotIndice": "bei einem Grenzsteuersatz von {taux}",
+    "rendementsTitre": "Renditen",
+    "rendementBrut": "Bruttorendite",
+    "rendementNet": "Nettorendite",
+    "rendementNetIndice": "nach nicht umlagefähigen Kosten",
+    "rendementApresImpot": "Rendite nach Steuern",
+    "alertesTitre": "Das sollten Sie wissen",
+    "alertes": {
+      "fraisAcquisition": {
+        "titre": "Kaufnebenkosten: {montant} ({part} des Kaufpreises)",
+        "texte": "Diese Summe finanziert keine Bank mit. Sie erhöht aber die Abschreibungsbasis, soweit sie auf das Gebäude entfällt.",
+        "reference": "§ 255 HGB"
+      },
+      "deficit": {
+        "titre": "Werbungskostenüberschuss spart {montant} Steuern",
+        "texte": "Der Verlust aus Vermietung wird mit Ihren übrigen Einkünften verrechnet. Bei einem Grenzsteuersatz von {taux} zahlt das Finanzamt einen erheblichen Teil Ihrer Zinsen mit.",
+        "reference": "§ 21 EStG"
+      },
+      "benefice": {
+        "titre": "Überschuss: {montant} zusätzliche Steuer",
+        "texte": "Ihre Mieteinnahmen übersteigen Zinsen, Kosten und Abschreibung. Prüfen Sie, ob Erhaltungsaufwand vorgezogen werden kann.",
+        "reference": "§ 21 EStG"
+      },
+      "terrain": {
+        "titre": "Bodenanteil von {part} angesetzt",
+        "texte": "Die Aufteilung zwischen Grund und Gebäude entscheidet über Ihre AfA für Jahrzehnte. Sie gehört in den Kaufvertrag — nachträglich akzeptiert das Finanzamt sie selten.",
+        "reference": "BMF-Arbeitshilfe zur Kaufpreisaufteilung"
+      },
+      "speculation": {
+        "titre": "Spekulationsfrist: {ans} Jahre",
+        "texte": "Ein Verkauf innerhalb dieser Frist macht den Gewinn steuerpflichtig. Bei durchgehender Selbstnutzung im Verkaufsjahr und den {ansUsage} vorangegangenen Jahren entfällt die Steuer.",
+        "reference": "§ 23 Abs. 1 Nr. 1 EStG"
+      },
+      "degressif": {
+        "titre": "Degressive AfA von {taux} gewählt",
+        "texte": "Sie schreiben in den ersten Jahren deutlich mehr ab, später entsprechend weniger. Ein Wechsel zur linearen AfA ist einmalig möglich.",
+        "reference": "§ 7 Abs. 5a EStG"
+      },
+      "tilgung": {
+        "titre": "Tilgung von {montant} ist keine Werbungskosten",
+        "texte": "Sie fließt ab, mindert aber die Steuer nicht — der klassische Grund, warum eine Immobilie steuerlich rentabel und trotzdem liquiditätsschwach sein kann.",
+        "reference": "§ 9 EStG"
+      }
+    },
+    "ctaEtiquette": "Vor dem Notartermin rechnen",
+    "ctaTexte": "Kaufpreisaufteilung, AfA-Wahl und Finanzierungsstruktur legen Ihre Steuerlast für Jahrzehnte fest. Danach lässt sich wenig korrigieren — davor sehr viel.",
+    "ctaBouton": "Kostenlose Erstberatung buchen",
+    "avertissement": "Vereinfachte Rechnung für das erste Jahr. Nicht berücksichtigt: Mietausfall und Leerstand, Instandhaltungsstau, Sonderabschreibungen, anschaffungsnaher Herstellungsaufwand sowie die Entwicklung von Miete und Zins."
+  },
+
+  "kaufnebenkosten": {
+    "titre": "Kaufnebenkosten beim Immobilienkauf",
+    "sousTitre": "Grunderwerbsteuer, Notar, Grundbuch und Makler — die Summe, die keine Bank finanziert.",
+    "oui": "Ja",
+    "non": "Nein",
+    "sectionAchat": "Ihr Kauf",
+    "prix": "Kaufpreis",
+    "bundesland": "Bundesland",
+    "courtier": "Makler beteiligt",
+    "courtierIndice": "Seit 2020 wird die Provision bei Wohnimmobilien in der Regel geteilt.",
+    "apport": "Verfügbares Eigenkapital",
+    "apportIndice": "Die Nebenkosten müssen daraus vollständig gedeckt sein.",
+    "classementTitre": "Grunderwerbsteuer im Ländervergleich",
+    "classementIndice": "Ihr Bundesland ist hervorgehoben.",
+    "resultatEtiquette": "Ihre Kaufnebenkosten",
+    "resultatSousTexte": "{part} des Kaufpreises · Gesamtinvestition {total}",
+    "detailTitre": "Aufschlüsselung",
+    "prixAchat": "Kaufpreis",
+    "mutation": "Grunderwerbsteuer",
+    "mutationIndice": "{taux} in diesem Bundesland",
+    "notaire": "Notarkosten",
+    "notaireIndice": "Beurkundung und Vollzug, gesetzlich geregelt.",
+    "registre": "Grundbucheintrag",
+    "commission": "Maklerprovision",
+    "commissionIndice": "Käuferanteil inklusive Umsatzsteuer.",
+    "fraisTotal": "Nebenkosten gesamt",
+    "coutTotal": "Gesamtinvestition",
+    "emprunt": "Finanzierungsbedarf",
+    "empruntIndice": "{part} der Gesamtinvestition",
+    "alertesTitre": "Das sollten Sie wissen",
+    "alertes": {
+      "apportInsuffisant": {
+        "titre": "Ihr Eigenkapital deckt die Nebenkosten nicht",
+        "texte": "Sie brauchen mindestens {montant} allein für Steuer, Notar und Makler. Banken finanzieren diese Kosten praktisch nie mit — sie sind der häufigste Grund für eine geplatzte Finanzierung."
+      },
+      "apportSuffisant": {
+        "titre": "Nebenkosten aus Eigenkapital gedeckt",
+        "texte": "Damit ist die wichtigste Hürde genommen. Was darüber hinausgeht, senkt Ihren Zinssatz spürbar."
+      },
+      "ecartLand": {
+        "titre": "In Bayern wären es {montant} weniger",
+        "texte": "Der niedrigste Satz Deutschlands liegt bei {taux}. Bei Kapitalanlagen lohnt der Blick über die Landesgrenze — beim Eigenheim selten.",
+        "reference": "§ 11 GrEStG"
+      },
+      "courtier": {
+        "titre": "Maklerprovision von {montant}",
+        "texte": "Frei verhandelbar, auch wenn es selten so dargestellt wird. Beim Direktkauf vom Eigentümer entfällt sie vollständig.",
+        "reference": "§ 656c BGB"
+      },
+      "mobilier": {
+        "titre": "Mitgekauftes Inventar senkt die Steuer",
+        "texte": "Einbauküche, Markise oder Sauna gehören nicht zum Grundstück. Wird ihr Wert im Kaufvertrag gesondert ausgewiesen, fällt darauf keine Grunderwerbsteuer an.",
+        "reference": "§ 2 GrEStG"
+      },
+      "delaiPaiement": {
+        "titre": "Die Steuer kommt schneller als gedacht",
+        "texte": "Der Bescheid folgt wenige Wochen nach der Beurkundung und ist binnen eines Monats fällig. Ohne Unbedenklichkeitsbescheinigung keine Eintragung ins Grundbuch.",
+        "reference": "§ 22 GrEStG"
+      }
+    },
+    "ctaEtiquette": "Finanzierung durchrechnen",
+    "ctaTexte": "Wir prüfen Ihre Kaufnebenkosten, die Aufteilung des Kaufpreises und die steuerliche Struktur — bevor Sie beim Notar sitzen.",
+    "ctaBouton": "Kostenlose Erstberatung buchen",
+    "avertissement": "Notar- und Grundbuchkosten sind Erfahrungswerte nach GNotKG; maßgeblich ist die Kostenrechnung im Einzelfall. Maklerprovisionen sind regional unterschiedlich und verhandelbar.",
+    "stand": "Grunderwerbsteuersätze geprüft am {date}"
+  },
+
+  "photovoltaik": {
+    "titre": "Photovoltaik: steuerfrei oder nicht?",
+    "sousTitre": "Die 30-kWp-Grenze entscheidet — darunter bleibt alles steuerfrei, darüber wird die Anlage zum Gewerbebetrieb.",
+    "sectionInstallation": "Ihre Anlage",
+    "sectionInstallationIndice": "Maßgeblich ist die Bruttoleistung laut Marktstammdatenregister.",
+    "puissance": "Leistung",
+    "unites": "Wohn- und Gewerbeeinheiten im Gebäude",
+    "unitesIndice": "Die Grenze gilt je Einheit — beim Mehrfamilienhaus vervielfacht sie sich.",
+    "autresInstallations": "Weitere Anlagen von Ihnen",
+    "autresInstallationsIndice": "Alle Anlagen eines Steuerpflichtigen zählen zusammen.",
+    "investissement": "Investitionssumme",
+    "investissementIndice": "Module, Wechselrichter, Speicher und Montage.",
+    "sectionRendement": "Ertrag und Preise",
+    "sectionRendementIndice": "Richtwerte, die Sie an Ihr Angebot anpassen können.",
+    "productionParKwp": "Ertrag je kWp und Jahr",
+    "partAutoconsommation": "Eigenverbrauchsquote",
+    "tarifInjection": "Einspeisevergütung je kWh",
+    "tarifInjectionIndice": "Steht in Ihrem EEG-Bescheid.",
+    "prixElectricite": "Ihr Strompreis je kWh",
+    "tauxMarginal": "Ihr Grenzsteuersatz",
+    "tauxMarginalIndice": "Nur relevant, wenn die Anlage nicht steuerfrei ist.",
+    "resultatEtiquette": "Ihr steuerfreier Ertrag pro Jahr",
+    "resultatImposable": "Ihr Ertrag nach Steuern",
+    "resultatSousTexte": "Die Anlage hat sich nach {ans} Jahren amortisiert",
+    "resultatSansAmortissement": "Keine Amortisation bei diesen Annahmen",
+    "detailTitre": "Woraus sich der Ertrag zusammensetzt",
+    "production": "Jahresertrag",
+    "productionIndice": "{puissance} kWp",
+    "injection": "Einspeisung",
+    "injectionIndice": "{kwh} kWh",
+    "autoconsommation": "Ersparte Stromkosten",
+    "autoconsommationIndice": "{kwh} kWh selbst verbraucht",
+    "beneficeAnnuel": "Ertrag pro Jahr",
+    "impot": "Einkommensteuer",
+    "impotIndice": "bei einem Grenzsteuersatz von {taux}",
+    "limitesTitre": "Die beiden Grenzen",
+    "limitesIndice": "Beide müssen eingehalten sein, sonst entfällt die Befreiung vollständig.",
+    "limiteObjet": "Grenze für dieses Gebäude",
+    "limiteObjetIndice": "30 kWp × {unites} Einheiten",
+    "limiteContribuable": "Ihre Anlagen insgesamt",
+    "alertesTitre": "Das sollten Sie wissen",
+    "alertes": {
+      "exonere": {
+        "titre": "Steuerfrei — {montant} pro Jahr ohne Einkommensteuer",
+        "texte": "Ihre Anlage bleibt unter {limite}. Weder Einspeisevergütung noch Eigenverbrauch werden besteuert, und eine Gewinnermittlung entfällt.",
+        "reference": "§ 3 Nr. 72 EStG"
+      },
+      "depasseObjet": {
+        "titre": "Über der Grenze von {limite}",
+        "texte": "Mit {puissance} kWp verlieren Sie die Befreiung vollständig — es gibt keine anteilige Lösung. Wenige Module weniger können mehrere hundert Euro Steuern im Jahr sparen.",
+        "reference": "§ 3 Nr. 72 EStG"
+      },
+      "depasseContribuable": {
+        "titre": "Gesamtgrenze von {limite} überschritten",
+        "texte": "Sie kommen mit allen Anlagen auf {total} kWp. Ab dieser Schwelle sind sämtliche Anlagen steuerpflichtig, auch die kleinen.",
+        "reference": "§ 3 Nr. 72 S. 1 EStG"
+      },
+      "tauxZero": {
+        "titre": "Nullsteuersatz spart Ihnen {montant}",
+        "texte": "Lieferung und Installation auf einem Wohngebäude werden ohne Umsatzsteuer abgerechnet. Sie müssen dafür nichts beantragen und auch nicht zur Regelbesteuerung optieren.",
+        "reference": "§ 12 Abs. 3 UStG"
+      },
+      "kleinunternehmer": {
+        "titre": "Kleinunternehmer bleiben lohnt sich jetzt",
+        "texte": "Früher verzichteten Betreiber auf die Befreiung, um die Vorsteuer aus dem Kauf zu ziehen. Mit dem Nullsteuersatz gibt es keine Vorsteuer mehr — der Verzicht bringt nur noch Aufwand.",
+        "reference": "§ 19 UStG"
+      },
+      "euerRequise": {
+        "titre": "Gewinnermittlung erforderlich",
+        "texte": "Ohne Befreiung wird die Anlage zum Gewerbebetrieb: Einnahmen-Überschuss-Rechnung, Anlage G und Abschreibung über 20 Jahre.",
+        "reference": "§ 4 Abs. 3 EStG"
+      },
+      "gewerbeanmeldung": {
+        "titre": "Anmeldung trotzdem nötig",
+        "texte": "Die Steuerbefreiung entbindet nicht von der Registrierung im Marktstammdatenregister und der Anzeige beim Finanzamt.",
+        "reference": "§ 138 AO"
+      }
+    },
+    "ctaEtiquette": "Vor dem Kauf prüfen",
+    "ctaTexte": "Anlagengröße, Speicher und Eigentümerstruktur entscheiden über die Steuerfreiheit. Wir prüfen Ihr Angebot, bevor Sie unterschreiben.",
+    "ctaBouton": "Kostenlose Erstberatung buchen",
+    "avertissement": "Vereinfachte Wirtschaftlichkeitsrechnung. Nicht berücksichtigt: Degradation der Module, Wechselrichtertausch, Versicherung, Speicherverluste, Finanzierungskosten sowie die Entwicklung von Strom- und Einspeisepreisen."
+  },
+
+  "abfindung": {
+    "titre": "Abfindung: was bleibt netto?",
+    "sousTitre": "Die Fünftelregelung mildert die Progression — aber seit 2025 erst in der Steuererklärung, nicht mehr auf der Gehaltsabrechnung.",
+    "oui": "Ja",
+    "non": "Nein",
+    "sectionIndemnite": "Ihre Abfindung",
+    "indemnite": "Höhe der Abfindung",
+    "revenuRestant": "Übriges zu versteuerndes Einkommen im Auszahlungsjahr",
+    "revenuRestantIndice": "Gehalt bis zum Austritt, Arbeitslosengeld zählt nicht dazu.",
+    "splitting": "Zusammenveranlagung",
+    "sectionTiming": "Zeitpunkt der Auszahlung",
+    "sectionTimingIndice": "Der wirksamste Hebel überhaupt: in einem Jahr ohne Gehalt ist der Steuersatz deutlich niedriger.",
+    "versementAnneeSuivante": "Auszahlung erst im Folgejahr",
+    "versementAnneeSuivanteIndice": "Häufig verhandelbar — der Aufhebungsvertrag legt es fest.",
+    "revenuAnneeSuivante": "Voraussichtliches Einkommen im Folgejahr",
+    "revenuAnneeSuivanteIndice": "Neues Gehalt, Rente oder null bei Arbeitslosigkeit.",
+    "resultatEtiquette": "Von Ihrer Abfindung bleibt",
+    "resultatSousTexte": "{charge} Steuern · effektiv {taux}",
+    "methodes": { "ordinaire": "Ohne Fünftelregelung", "cinquieme": "Mit Fünftelregelung" },
+    "methodesIndice": {
+      "ordinaire": "Die Abfindung wird voll dem Jahreseinkommen zugeschlagen.",
+      "cinquieme": "Besteuert, als verteilte sie sich auf fünf Jahre."
+    },
+    "detailTitre": "Berechnung",
+    "indemniteBrute": "Abfindung brutto",
+    "revenuBase": "Übriges Einkommen",
+    "revenuBaseIndice": "Grundlage für den Steuersatz",
+    "impotSansRegle": "Steuer ohne Fünftelregelung",
+    "impotAvecRegle": "Steuer mit Fünftelregelung",
+    "economie": "Ersparnis",
+    "economieIndice": "Das Finanzamt wendet automatisch die günstigere Variante an.",
+    "soli": "Solidaritätszuschlag",
+    "netVerse": "Netto aus der Abfindung",
+    "decalageTitre": "Was eine Verschiebung ins Folgejahr bringt",
+    "decalageIndice": "Gleiche Abfindung, anderes Auszahlungsjahr.",
+    "decalageActuel": "Auszahlung in diesem Jahr",
+    "decalageReporte": "Auszahlung im Folgejahr",
+    "decalageGain": "Unterschied",
+    "alertesTitre": "Das sollten Sie wissen",
+    "alertes": {
+      "cinquiemeApplique": {
+        "titre": "Fünftelregelung spart Ihnen {montant}",
+        "texte": "Der Progressionseffekt wird gemildert, weil die Steuer auf ein Fünftel berechnet und dann verfünffacht wird.",
+        "reference": "§ 34 Abs. 1 EStG"
+      },
+      "cinquiemeSansEffet": {
+        "titre": "Fünftelregelung bringt hier nichts",
+        "texte": "Ihr übriges Einkommen liegt bereits im Spitzensteuersatz. Auch ein Fünftel der Abfindung wird dann mit demselben Satz belastet.",
+        "reference": "§ 34 Abs. 1 EStG"
+      },
+      "plusDePrelevement": {
+        "titre": "Seit {annee} wendet der Arbeitgeber die Regel nicht mehr an",
+        "texte": "Auf der Abrechnung wird zunächst voll besteuert — Ihr Konto zeigt also weniger, als Ihnen zusteht. Den Unterschied holen Sie erst über die Steuererklärung zurück.",
+        "reference": "Wachstumschancengesetz"
+      },
+      "declarationObligatoire": {
+        "titre": "Ohne Steuererklärung kein Vorteil",
+        "texte": "Die Fünftelregelung wird nur auf Antrag im Veranlagungsverfahren gewährt. Wer keine Erklärung abgibt, verschenkt den gesamten Betrag.",
+        "reference": "§ 46 Abs. 2 Nr. 5 EStG"
+      },
+      "decalage": {
+        "titre": "Verschiebung ins Folgejahr spart {montant}",
+        "texte": "Wird die Abfindung erst im Januar ausgezahlt, trifft sie auf ein Jahr mit geringerem Einkommen. Das gehört in den Aufhebungsvertrag — nachträglich geht es nicht.",
+        "reference": "§ 11 EStG"
+      },
+      "zusammenballung": {
+        "titre": "Die Zahlung muss zusammengeballt zufließen",
+        "texte": "Wird die Abfindung auf zwei Jahre verteilt, entfällt die Fünftelregelung in der Regel ganz. Kleine Teilzahlungen bis zur Hälfte sind unschädlich.",
+        "reference": "BFH-Rechtsprechung zu § 34 EStG"
+      },
+      "sozialversicherung": {
+        "titre": "Sozialabgaben fallen nicht an",
+        "texte": "Eine echte Abfindung für den Verlust des Arbeitsplatzes ist beitragsfrei. Nachzahlungen von Lohn oder Urlaubsabgeltung dagegen nicht.",
+        "reference": "§ 14 SGB IV"
+      }
+    },
+    "ctaEtiquette": "Bevor Sie unterschreiben",
+    "ctaTexte": "Auszahlungszeitpunkt, Zusammenballung und Verteilung entscheiden über vier- bis fünfstellige Beträge — und sind nur vor Abschluss des Aufhebungsvertrags verhandelbar.",
+    "ctaBouton": "Kostenlose Erstberatung buchen",
+    "avertissement": "Vereinfachte Berechnung. Nicht berücksichtigt: Kirchensteuer, Progressionsvorbehalt durch Arbeitslosengeld, betriebliche Altersvorsorge sowie Vergütungen für mehrjährige Tätigkeit."
+  },
+
+  "altersvorsorge": {
+    "titre": "Rentenlücke und Vorsorge",
+    "sousTitre": "Was Ihnen im Alter fehlt — und was Rürup oder Riester nach Steuern und Zulagen wirklich kosten.",
+    "oui": "Ja",
+    "non": "Nein",
+    "sectionSituation": "Ihre Situation",
+    "brutAnnuel": "Bruttoeinkommen pro Jahr",
+    "age": "Ihr Alter",
+    "ageRetraite": "Geplanter Renteneintritt",
+    "enfants": "Kinder mit Kindergeldanspruch",
+    "enfantsIndice": "Jedes Kind erhöht die Riester-Zulage erheblich.",
+    "splitting": "Zusammenveranlagung",
+    "sectionBesoin": "Ihr Bedarf im Alter",
+    "sectionBesoinIndice": "Als Anteil Ihres heutigen Bruttoeinkommens.",
+    "besoinPart": "Benötigt im Ruhestand",
+    "sectionEpargne": "Ihre Vorsorge",
+    "sectionEpargneIndice": "Der Betrag, den Sie jährlich zurücklegen können.",
+    "epargneAnnuelle": "Sparbetrag pro Jahr",
+    "rendement": "Angenommene Rendite",
+    "rendementIndice": "Nach Kosten, vor Inflation.",
+    "resultatEtiquette": "Ihre monatliche Rentenlücke",
+    "resultatSousTexte": "Erwartete Nettorente {rente} · noch {ans} Jahre Zeit",
+    "renteTitre": "Ihre gesetzliche Rente",
+    "renteIndice": "Schätzung auf Basis des Rentenniveaus — verbindlich ist allein Ihre Renteninformation.",
+    "renteBrute": "Bruttorente",
+    "partImposable": "Steuerpflichtiger Anteil",
+    "partImposableIndice": "bei Renteneintritt {annee}",
+    "impotSurRente": "Steuer auf die Rente",
+    "renteNette": "Nettorente",
+    "besoin": "Ihr Bedarf",
+    "deficit": "Lücke",
+    "enveloppes": {
+      "ruerup": { "titre": "Rürup (Basisrente)", "description": "Voll absetzbar, dafür lebenslange Rente ohne Kapitalwahl." },
+      "riester": { "titre": "Riester", "description": "Zulagen statt Steuervorteil — besonders stark mit Kindern." }
+    },
+    "versement": "Beitrag",
+    "avantage": "Staatliche Förderung",
+    "effortNet": "Ihr Nettoaufwand",
+    "capital": "Kapital bei Rentenbeginn",
+    "alertesTitre": "Das sollten Sie wissen",
+    "alertes": {
+      "deficit": {
+        "titre": "Ihnen fehlen {montant} pro Monat",
+        "texte": "Die Lücke wächst mit jedem Jahr, das Sie warten — der Zinseszins arbeitet nur mit Zeit."
+      },
+      "pasDeDeficit": {
+        "titre": "Keine rechnerische Lücke",
+        "texte": "Bei diesen Annahmen deckt die gesetzliche Rente Ihren Bedarf. Prüfen Sie trotzdem Inflation und Pflegerisiko."
+      },
+      "estimationRente": {
+        "titre": "Diese Rentenschätzung ist grob",
+        "texte": "Sie unterstellt ein Rentenniveau von {part} des Bruttoeinkommens. Ihre tatsächliche Rente hängt von Ihrem gesamten Versicherungsverlauf ab — Ihre jährliche Renteninformation ist die einzige belastbare Quelle.",
+        "reference": "§ 154 SGB VI"
+      },
+      "impositionRente": {
+        "titre": "Ihre Rente wird zu {part} besteuert",
+        "texte": "Der steuerpflichtige Anteil richtet sich nach dem Jahr des Renteneintritts und bleibt danach lebenslang festgeschrieben. Wer {annee} in Rente geht, kommt nicht mehr auf einen niedrigeren Satz.",
+        "reference": "§ 22 Nr. 1 S. 3 EStG"
+      },
+      "ruerup": {
+        "titre": "Rürup spart Ihnen {montant} Steuern",
+        "texte": "Beiträge sind bis {plafond} in voller Höhe als Sonderausgaben abziehbar. Je höher Ihr Steuersatz heute, desto größer der Effekt.",
+        "reference": "§ 10 Abs. 1 Nr. 2 EStG"
+      },
+      "plafondRuerupAtteint": {
+        "titre": "Höchstbetrag von {plafond} erreicht",
+        "texte": "Darüber hinausgehende Beiträge bringen keinen zusätzlichen Steuervorteil. Für den Rest sind andere Anlageformen sinnvoller.",
+        "reference": "§ 10 Abs. 3 EStG"
+      },
+      "riesterEnfants": {
+        "titre": "Kinderzulagen von {montant}",
+        "texte": "Mit {enfants} Kind(ern) schlägt Riester Rürup fast immer — die Zulagen sind unabhängig von Ihrem Steuersatz.",
+        "reference": "§ 85 EStG"
+      },
+      "ruerupIrrevocable": {
+        "titre": "Rürup ist unwiderruflich",
+        "texte": "Kein Kapitalwahlrecht, keine Kündigung, keine Vererbung ohne Zusatzbaustein. Der Steuervorteil wird mit maximaler Bindung erkauft.",
+        "reference": "§ 10 Abs. 1 Nr. 2b EStG"
+      }
+    },
+    "ctaEtiquette": "Vorsorge durchrechnen",
+    "ctaTexte": "Rürup, Riester, betriebliche Altersvorsorge oder freies Depot: die richtige Wahl hängt von Steuersatz, Kindern und Anlagehorizont ab. Wir rechnen alle Wege für Sie durch.",
+    "ctaBouton": "Kostenlose Erstberatung buchen",
+    "avertissement": "Grobe Orientierung, keine Anlageberatung. Nicht berücksichtigt: Inflation, Produktkosten, Rentenanpassungen, Erwerbsminderung sowie Ihre individuelle Versicherungsbiografie."
+  },
+
+  "erbschaft": {
+    "titre": "Erbschaft- und Schenkungsteuer",
+    "sousTitre": "Freibeträge, Steuerklasse und die Zehnjahresregel — die drei einzigen Stellschrauben.",
+    "oui": "Ja",
+    "non": "Nein",
+    "sectionTransmission": "Die Übertragung",
+    "donation": "Schenkung zu Lebzeiten",
+    "donationIndice": "Statt Erbfall — dieselben Freibeträge, aber beliebig oft wiederholbar.",
+    "patrimoine": "Wert des Vermögens",
+    "beneficiaires": "Zahl der Empfänger",
+    "beneficiairesIndice": "Jeder Empfänger hat seinen eigenen Freibetrag.",
+    "sectionLien": "Verwandtschaftsverhältnis",
+    "sectionLienIndice": "Es bestimmt Freibetrag und Steuerklasse — und damit fast alles.",
+    "liens": {
+      "conjoint": { "titre": "Ehe- oder Lebenspartner", "description": "500.000 € Freibetrag" },
+      "enfant": { "titre": "Kind oder Stiefkind", "description": "400.000 € Freibetrag" },
+      "petitEnfant": { "titre": "Enkelkind", "description": "200.000 € Freibetrag" },
+      "parent": { "titre": "Eltern (im Erbfall)", "description": "100.000 € Freibetrag" },
+      "frereSoeur": { "titre": "Geschwister", "description": "20.000 €, Steuerklasse II" },
+      "neveu": { "titre": "Nichte oder Neffe", "description": "20.000 €, Steuerklasse II" },
+      "autre": { "titre": "Nicht verwandt", "description": "20.000 €, Steuerklasse III" }
+    },
+    "resultatEtiquette": "Fällige Steuer",
+    "resultatSousTexte": "Effektiv {taux} · es bleiben {net}",
+    "detailTitre": "Berechnung je Empfänger",
+    "detailIndice": "Die Steuer wird für jeden Empfänger einzeln berechnet.",
+    "partParBeneficiaire": "Anteil je Empfänger",
+    "partParBeneficiaireIndice": "bei {nombre} Empfänger(n)",
+    "abattement": "Persönlicher Freibetrag",
+    "abattementIndice": "Steuerklasse {classe}",
+    "versorgung": "Versorgungsfreibetrag",
+    "versorgungIndice": "Nur im Erbfall, gekürzt um Hinterbliebenenbezüge.",
+    "baseTaxable": "Steuerpflichtiger Erwerb",
+    "taux": "Steuersatz",
+    "tauxIndice": "Steuerklasse {classe}",
+    "impotParPart": "Steuer je Empfänger",
+    "netParBeneficiaire": "Es bleibt je Empfänger",
+    "etalementTitre": "Was eine gestaffelte Übertragung bringt",
+    "etalementIndice": "Zwei Schenkungen im Abstand von {ans} Jahren statt einer einzigen Übertragung.",
+    "etalementSans": "Auf einmal",
+    "etalementAvec": "In zwei Schritten",
+    "etalementGain": "Ersparnis",
+    "alertesTitre": "Das sollten Sie wissen",
+    "alertes": {
+      "sousAbattement": {
+        "titre": "Unter dem Freibetrag von {abattement} — keine Steuer",
+        "texte": "Bei diesem Wert fällt nichts an. Eine Anzeige beim Finanzamt kann trotzdem nötig sein.",
+        "reference": "§ 16 ErbStG"
+      },
+      "impotDu": {
+        "titre": "{montant} Steuer bei einem Satz von {taux}",
+        "texte": "In Steuerklasse {classe} gilt der Satz auf den gesamten steuerpflichtigen Erwerb, nicht stufenweise. Knapp über einer Wertgrenze kann das teuer werden — der Härteausgleich mildert es nur ab.",
+        "reference": "§ 19 ErbStG"
+      },
+      "etalement": {
+        "titre": "Gestaffelt übertragen spart {montant}",
+        "texte": "Freibeträge leben alle {ans} Jahre neu auf. Wer früh beginnt, überträgt dasselbe Vermögen in mehreren Schritten praktisch steuerfrei.",
+        "reference": "§ 14 ErbStG"
+      },
+      "classeDefavorable": {
+        "titre": "Steuerklasse {classe} ist teuer",
+        "texte": "Außerhalb der engsten Familie sinkt der Freibetrag auf 20.000 € und der Satz beginnt bei 15 bis 30 Prozent. Adoption, Heirat oder eine Gesellschaftskonstruktion können das ändern — mit erheblichen Folgen in anderen Bereichen.",
+        "reference": "§ 15 ErbStG"
+      },
+      "versorgungsfreibetrag": {
+        "titre": "Zusätzlicher Versorgungsfreibetrag von {montant}",
+        "texte": "Er steht nur dem überlebenden Ehe- oder Lebenspartner zu und wird um den Kapitalwert steuerfreier Hinterbliebenenrenten gekürzt.",
+        "reference": "§ 17 ErbStG"
+      },
+      "immobilier": {
+        "titre": "Immobilien werden anders bewertet",
+        "texte": "Nicht der Verkehrswert zählt, sondern der Wert nach Bewertungsgesetz. Selbstgenutztes Familienheim kann für Partner und Kinder ganz steuerfrei bleiben, wenn zehn Jahre weiter dort gewohnt wird.",
+        "reference": "§ 13 Abs. 1 Nr. 4b und 4c ErbStG"
+      },
+      "delaiDeclaration": {
+        "titre": "Drei Monate Anzeigefrist",
+        "texte": "Erwerb und Schenkung müssen dem Finanzamt binnen drei Monaten angezeigt werden — unabhängig davon, ob Steuer anfällt.",
+        "reference": "§ 30 ErbStG"
+      }
+    },
+    "ctaEtiquette": "Übertragung planen",
+    "ctaTexte": "Die Zehnjahresregel wirkt nur, wenn man früh genug anfängt. Wir prüfen Freibeträge, Bewertung und Nießbrauch — und rechnen die Staffelung für Ihre Familie durch.",
+    "ctaBouton": "Kostenlose Erstberatung buchen",
+    "avertissement": "Vereinfachte Berechnung. Nicht berücksichtigt: Bewertung von Immobilien und Betriebsvermögen, Verschonungsregeln für Unternehmen, Nießbrauch, Pflichtteilsansprüche, Härteausgleich sowie Vorerwerbe der letzten zehn Jahre.",
+    "stand": "ErbStG-Werte geprüft am {date}"
+  },
+
+  "erklaerungspflicht": {
+    "titre": "Muss ich eine Steuererklärung abgeben?",
+    "sousTitre": "Pflicht oder freiwillig — und bis wann. Zwei Fragen, die selten zusammen beantwortet werden.",
+    "oui": "Ja",
+    "non": "Nein",
+    "sectionAnnee": "Steuerjahr",
+    "avecConseil": "Mit steuerlicher Beratung",
+    "avecConseilIndice": "Ein Mandat verlängert die Frist automatisch — ohne Antrag.",
+    "sectionMotifs": "Trifft eines davon auf Sie zu?",
+    "sectionMotifsIndice": "Ein einziger Punkt genügt für die Pflichtveranlagung.",
+    "motifs": {
+      "revenusAnnexes": { "titre": "Nebeneinkünfte oder Lohnersatzleistungen", "description": "Vermietung, Renten, Elterngeld, Kurzarbeitergeld, Arbeitslosengeld" },
+      "plusieursEmployeurs": { "titre": "Mehrere Arbeitgeber gleichzeitig", "description": "Zweitjob in Steuerklasse VI" },
+      "classeVouFacteur": { "titre": "Steuerklasse III/V oder IV mit Faktor", "description": "Betrifft fast alle Ehepaare mit ungleichem Einkommen" },
+      "freibetrag": { "titre": "Freibetrag auf der Lohnsteuerkarte", "description": "Eingetragener Freibetrag beim Lohnsteuerabzug" },
+      "abfindung": { "titre": "Abfindung oder Vergütung für mehrere Jahre", "description": "Ermäßigt besteuerte außerordentliche Einkünfte" },
+      "ehegattenWechsel": { "titre": "Scheidung oder Tod des Partners mit Wiederheirat", "description": "Im selben Jahr" },
+      "independant": { "titre": "Selbständige oder gewerbliche Tätigkeit", "description": "Auch nebenberuflich" },
+      "capitauxEtrangers": { "titre": "Kapitalerträge ohne Steuerabzug", "description": "Ausländisches Depot, Kryptowährungen" },
+      "demandeFinanzamt": { "titre": "Das Finanzamt hat Sie aufgefordert", "description": "Schriftliche Aufforderung erhalten" }
+    },
+    "revenusAnnexesMontant": "Höhe dieser Einkünfte",
+    "revenusAnnexesIndice": "Erst über {seuil} entsteht die Pflicht.",
+    "sectionVolontaires": "Und lohnt sie sich?",
+    "sectionVolontairesIndice": "Auch ohne Pflicht bekommen die meisten Arbeitnehmer Geld zurück.",
+    "volontaires": {
+      "fraisEleves": { "titre": "Hohe Werbungskosten", "description": "Über dem Pauschbetrag von 1.230 €" },
+      "emploiPartiel": { "titre": "Nicht das ganze Jahr gearbeitet", "description": "Berufseinstieg, Elternzeit, Studium" },
+      "changementEmploi": { "titre": "Jobwechsel oder Umzug", "description": "Bewerbungs- und Umzugskosten" },
+      "mariageRecent": { "titre": "Geheiratet", "description": "Splittingvorteil oft erst über die Erklärung" },
+      "dons": { "titre": "Spenden oder Handwerkerleistungen", "description": "Haushaltsnahe Dienstleistungen zählen mit" }
+    },
+    "resultatObligatoire": "Sie sind zur Abgabe verpflichtet — Frist",
+    "resultatFacultatif": "Freiwillig — Sie haben Zeit bis",
+    "resultatSousTexte": "für das Steuerjahr {annee}",
+    "resultatSousTexteFacultatif": "Vier Jahre rückwirkend, also bis {date}",
+    "delaisTitre": "Ihre Fristen im Vergleich",
+    "delaisIndice": "Die Frist verlängert sich allein durch das Mandat, ohne Antrag.",
+    "delaiSansConseil": "Ohne Beratung",
+    "delaiAvecConseil": "Mit Beratung",
+    "delaiAvecConseilIndice": "{jours} Tage mehr Zeit",
+    "delaiVolontaire": "Freiwillige Abgabe",
+    "delaiVolontaireIndice": "Vier Jahre Festsetzungsfrist.",
+    "motifsRetenusTitre": "Das löst Ihre Pflicht aus",
+    "alertesTitre": "Das sollten Sie wissen",
+    "alertes": {
+      "obligatoire": {
+        "titre": "Pflichtveranlagung — {nombre} Grund/Gründe erfüllt",
+        "texte": "Die Abgabe ist verpflichtend, nicht freiwillig. Wer die Frist verstreichen lässt, riskiert eine Schätzung des Finanzamts zu seinen Ungunsten.",
+        "reference": "§ 46 Abs. 2 EStG"
+      },
+      "retard": {
+        "titre": "Verspätung kostet ab dem ersten Monat",
+        "texte": "Der Zuschlag beträgt {part} der festgesetzten Steuer je angefangenem Monat, mindestens {minimum} monatlich. Er wird bei Pflichtabgabe regelmäßig festgesetzt, nicht nur im Ausnahmefall.",
+        "reference": "§ 152 AO"
+      },
+      "volontaireRentable": {
+        "titre": "Freiwillig abgeben lohnt sich hier",
+        "texte": "Sie haben {nombre} Punkt(e) angegeben, die typischerweise zu einer Erstattung führen. Im Schnitt bekommen Arbeitnehmer vierstellige Beträge zurück.",
+        "reference": "§ 46 Abs. 2 Nr. 8 EStG"
+      },
+      "aucuneObligation": {
+        "titre": "Keine Abgabepflicht erkennbar",
+        "texte": "Nach Ihren Angaben besteht keine Pflicht. Eine freiwillige Erklärung bleibt trotzdem möglich — und meistens lohnend.",
+        "reference": "§ 46 EStG"
+      },
+      "quatreAns": {
+        "titre": "Vier Jahre Zeit statt weniger Monate",
+        "texte": "Ohne Abgabepflicht können Sie rückwirkend vier Jahre einreichen. Alte Jahre sind oft die lohnendsten — sie werden nur meistens vergessen.",
+        "reference": "§ 169 AO"
+      },
+      "gainDelai": {
+        "titre": "Mit Beratung {jours} Tage mehr Zeit",
+        "texte": "Die verlängerte Frist gilt automatisch, sobald ein Mandat besteht. Sie ist nicht der Hauptgrund für eine Beratung, aber ein realer Nebeneffekt.",
+        "reference": "§ 149 Abs. 3 AO"
+      },
+      "sousSeuil": {
+        "titre": "Nebeneinkünfte unter {seuil}",
+        "texte": "Damit lösen sie keine Abgabepflicht aus. Bei Lohnersatzleistungen greift der Progressionsvorbehalt allerdings schon darunter.",
+        "reference": "§ 46 Abs. 2 Nr. 1 EStG"
+      },
+      "abfindung": {
+        "titre": "Abfindung: die Erklärung bringt bares Geld",
+        "texte": "Seit 2025 wendet der Arbeitgeber die Fünftelregelung nicht mehr an. Nur über die Veranlagung holen Sie den Unterschied zurück.",
+        "reference": "§ 34 EStG"
+      }
+    },
+    "ctaEtiquette": "Frist sichern",
+    "ctaTexte": "Wir ordnen Ihre Situation, sichten die offenen Jahre und begleiten die Erklärung über einen kooperierenden Steuerberater — mit dem verlängerten Abgabetermin.",
+    "ctaBouton": "Kostenlose Erstberatung buchen",
+    "avertissement": "Orientierungshilfe, keine abschließende Prüfung. § 46 EStG kennt weitere Tatbestände; maßgeblich bleibt Ihre konkrete Situation. Fristen können durch Einzelverfügung des Finanzamts abweichen.",
+    "stand": "Fristen nach § 149 AO, Stand {date}"
+  },
+
+  "unterhalt": {
+    "titre": "Geld an die Familie im Heimatland absetzen",
+    "sousTitre": "Wer Eltern oder Geschwister im Ausland unterstützt, kann das steuerlich geltend machen — die wenigsten wissen es, und noch weniger kennen die Bedingungen.",
+    "oui": "Ja",
+    "non": "Nein",
+    "sectionEnvois": "Ihre Zahlungen",
+    "sectionEnvoisIndice": "Summe eines Kalenderjahres, für alle unterstützten Personen zusammen.",
+    "montantVerse": "Überwiesener Betrag pro Jahr",
+    "nombrePersonnes": "Zahl der unterstützten Personen",
+    "nombrePersonnesIndice": "Jede Person hat ihren eigenen Höchstbetrag.",
+    "moisSoutien": "Monate, in denen Sie unterstützt haben",
+    "parVirement": "Zahlung per Banküberweisung",
+    "parVirementIndice": "Entscheidend: seit 2025 sind Bargeld und Mitnahmen bei Heimreisen nicht mehr absetzbar.",
+    "sectionPays": "Wohnsitzland der unterstützten Person",
+    "sectionPaysIndice": "Das Finanzamt kürzt den Höchstbetrag nach dem Lebensstandard des Wohnsitzstaates. Ihre Gruppe finden Sie im BMF-Schreiben zur Ländergruppeneinteilung — wir prüfen sie im Gespräch mit Ihnen.",
+    "groupes": {
+      "1": { "titre": "Gruppe 1 — voller Betrag", "description": "Länder auf deutschem Niveau" },
+      "2": { "titre": "Gruppe 2 — drei Viertel", "description": "Etwas niedrigeres Niveau" },
+      "3": { "titre": "Gruppe 3 — die Hälfte", "description": "Deutlich niedrigeres Niveau" },
+      "4": { "titre": "Gruppe 4 — ein Viertel", "description": "Die meisten Länder Subsahara-Afrikas" }
+    },
+    "sectionBeneficiaire": "Die unterstützte Person",
+    "sectionBeneficiaireIndice": "Absetzbar sind nur gesetzlich unterhaltsberechtigte Angehörige — Eltern, Großeltern, Kinder, Ehepartner. Geschwister zählen nicht dazu.",
+    "conjointBeneficiaire": "Es ist mein Ehepartner",
+    "conjointBeneficiaireIndice": "Beim Ehepartner entfällt die Opfergrenze.",
+    "beneficiaireApteAuTravail": "Person ist erwerbsfähig und unter 65",
+    "beneficiaireApteAuTravailIndice": "Wer arbeiten könnte, muss es grundsätzlich auch: dann lehnt das Finanzamt den Abzug ab.",
+    "revenusPersonne": "Eigene Einkünfte der Person pro Jahr",
+    "revenusPersonneIndice": "Rente, Miete, Lohn — angerechnet wird alles über 624 €.",
+    "sectionPayeur": "Ihre Situation",
+    "sectionPayeurIndice": "Bestimmt Ihre Opfergrenze und Ihren Steuersatz.",
+    "revenuNetPayeur": "Ihr verfügbares Nettoeinkommen",
+    "revenuNetPayeurIndice": "Nach Steuern und Sozialabgaben.",
+    "revenuImposablePayeur": "Ihr zu versteuerndes Einkommen",
+    "splitting": "Zusammenveranlagung",
+    "conjointPayeur": "Ich habe einen Ehepartner",
+    "conjointPayeurIndice": "Senkt die Opfergrenze um 5 Punkte.",
+    "enfantsPayeur": "Eigene Kinder mit Kindergeldanspruch",
+    "enfantsPayeurIndice": "Jedes Kind senkt die Opfergrenze um weitere 5 Punkte.",
+    "resultatEtiquette": "Ihre Steuerersparnis",
+    "resultatSousTexte": "{deductible} absetzbar bei einem Grenzsteuersatz von {taux}",
+    "resultatBloque": "Kein Abzug möglich",
+    "resultatBloqueTexte": "Eine Voraussetzung ist nicht erfüllt — siehe die Hinweise unten.",
+    "detailTitre": "Wie sich der Betrag ergibt",
+    "detailIndice": "Der Höchstbetrag gilt je unterstützter Person.",
+    "montantVerseLigne": "Überwiesen",
+    "plafondPlein": "Höchstbetrag je Person",
+    "plafondPleinIndice": "Gruppe {groupe}, also {part} des Grundfreibetrags",
+    "plafondProrata": "Nach Zwölftelung",
+    "imputation": "Anrechnung eigener Einkünfte",
+    "imputationIndice": "über der Freigrenze von 624 €",
+    "opfergrenzeLigne": "Opfergrenze",
+    "opfergrenzeIndice": "{part} Ihres Nettoeinkommens",
+    "deductible": "Absetzbar insgesamt",
+    "economie": "Steuerersparnis",
+    "economieIndice": "bei {taux} Grenzsteuersatz",
+    "partReconnue": "Anerkannter Anteil Ihrer Zahlungen",
+    "alertesTitre": "Das entscheidet über Ihren Abzug",
+    "alertes": {
+      "especesRefusees": {
+        "titre": "Bargeld ist seit {annee} nicht mehr absetzbar",
+        "texte": "Nur Überweisungen auf ein Konto der unterstützten Person werden anerkannt. Mitgenommenes Bargeld bei Heimreisen zählt nicht mehr, auch nicht mit Zeugen oder Quittung. Das ist der häufigste Ablehnungsgrund überhaupt.",
+        "reference": "§ 33a Abs. 1 S. 12 EStG"
+      },
+      "virementObligatoire": {
+        "titre": "Überweisen Sie ausschließlich per Bank",
+        "texte": "Seit 2025 sind ausschließlich Überweisungen auf ein Konto der unterstützten Person absetzbar. Bewahren Sie jeden Beleg auf — er ist Ihr einziger Nachweis.",
+        "reference": "§ 33a Abs. 1 S. 12 EStG"
+      },
+      "erwerbsobliegenheit": {
+        "titre": "Erwerbsobliegenheit steht dem Abzug entgegen",
+        "texte": "Bei erwerbsfähigen Personen unter 65 unterstellt das Finanzamt, dass sie für sich selbst sorgen können. Der Abzug gelingt dann nur mit Nachweis, warum das nicht möglich ist — Krankheit, Pflege von Angehörigen, nachgewiesene Arbeitslosigkeit.",
+        "reference": "R 33a.1 Abs. 2 EStR"
+      },
+      "laendergruppe": {
+        "titre": "Gruppe {groupe}: nur {part} des Höchstbetrags",
+        "texte": "Für Ihr Wohnsitzland liegt der Höchstbetrag bei {plafond} statt beim vollen Grundfreibetrag. Diese Kürzung überrascht fast jeden — sie richtet sich nach dem Lebensstandard vor Ort, nicht nach dem, was Sie tatsächlich überweisen.",
+        "reference": "§ 33a Abs. 1 S. 6 EStG"
+      },
+      "opfergrenze": {
+        "titre": "Opfergrenze begrenzt Sie auf {montant}",
+        "texte": "Außerhalb der Ehe erkennt das Finanzamt höchstens {part} Ihres Nettoeinkommens an — die Annahme ist, dass niemand mehr abgeben kann, ohne sich selbst zu gefährden.",
+        "reference": "BMF-Schreiben zur Opfergrenze"
+      },
+      "revenusBeneficiaire": {
+        "titre": "Eigene Einkünfte kürzen um {montant}",
+        "texte": "Alles über der Freigrenze von {seuil} wird vom Höchstbetrag abgezogen. Eine kleine Rente im Heimatland kann den Abzug erheblich schmälern.",
+        "reference": "§ 33a Abs. 1 S. 5 EStG"
+      },
+      "zwoelftelung": {
+        "titre": "Nur {nombre} Monate berücksichtigt",
+        "texte": "Der Höchstbetrag wird für jeden Monat ohne Unterstützung um ein Zwölftel gekürzt. Regelmäßige monatliche Überweisungen sind deshalb günstiger als eine Einmalzahlung im Dezember.",
+        "reference": "§ 33a Abs. 3 EStG"
+      },
+      "plafonne": {
+        "titre": "{montant} bleiben unberücksichtigt",
+        "texte": "Ihre Zahlungen liegen über dem anerkannten Betrag. Der übersteigende Teil ist steuerlich verloren — bei mehreren unterstützten Personen lässt sich das durch Aufteilung oft vermeiden.",
+        "reference": "§ 33a Abs. 1 EStG"
+      },
+      "justificatifs": {
+        "titre": "Diese Nachweise brauchen Sie",
+        "texte": "Unterhaltserklärung der unterstützten Person auf amtlichem Vordruck, Meldebescheinigung oder gleichwertiger Nachweis des Wohnsitzes, Bestätigung über eigene Einkünfte, sowie sämtliche Überweisungsbelege. Fehlt einer davon, scheitert der gesamte Abzug.",
+        "reference": "§ 33a Abs. 1 S. 9 EStG"
+      },
+      "vermoegen": {
+        "titre": "Die Person darf kein nennenswertes Vermögen haben",
+        "texte": "Über etwa {limite} Vermögen entfällt der Abzug. Ein selbstbewohntes Haus im Heimatland bleibt dabei in der Regel außer Betracht.",
+        "reference": "§ 33a Abs. 1 S. 4 EStG"
+      },
+      "groupeAVerifier": {
+        "titre": "Ihre Ländergruppe gehört überprüft",
+        "texte": "Die Einteilung wird jährlich vom Bundesfinanzministerium neu festgelegt und einzelne Länder wechseln die Gruppe. Wir prüfen Ihre im Gespräch — eine falsche Gruppe verschiebt das Ergebnis erheblich.",
+        "reference": "BMF-Schreiben Ländergruppeneinteilung"
+      }
+    },
+    "ctaEtiquette": "Rückwirkend bis zu vier Jahre",
+    "ctaTexte": "Wer bisher nichts abgesetzt hat, kann meist noch vier Jahre nachholen. Wir prüfen Ihre Überweisungen, besorgen die Vordrucke für Ihre Familie und übernehmen die Erklärung.",
+    "ctaBouton": "Kostenlose Erstberatung buchen",
+    "avertissement": "Vereinfachte Berechnung. Nicht berücksichtigt: Unterhalt an mehrere Personen mit unterschiedlichen Wohnsitzländern, gemeinsame Zahlungen mehrerer Unterstützer, Sachleistungen sowie die genaue Ermittlung des Nettoeinkommens für die Opfergrenze."
+  },
+
+  "kindergeldAusland": {
+    "titre": "Kindergeld für Kinder im Ausland",
+    "sousTitre": "Drei Wohnsitzländer, drei völlig verschiedene Antworten — und ein Freibetrag, der auch dann bleibt, wenn es kein Kindergeld gibt.",
+    "oui": "Ja",
+    "non": "Nein",
+    "sectionResidence": "Wo leben die Kinder?",
+    "sectionResidenceIndice": "Entscheidend ist der Wohnsitz des Kindes, nicht Ihre Staatsangehörigkeit.",
+    "regimes": {
+      "ue": { "titre": "EU, EWR oder Schweiz", "description": "Voller Anspruch" },
+      "abkommen": { "titre": "Abkommensstaat", "description": "Algerien, Bosnien, Kosovo, Marokko, Montenegro, Serbien, Tunesien, Türkei" },
+      "drittstaat": { "titre": "Drittstaat", "description": "Alle übrigen Länder" }
+    },
+    "activiteCotisante": "Ich bin sozialversicherungspflichtig beschäftigt",
+    "activiteCotisanteIndice": "Oder ich beziehe Arbeitslosen- oder Krankengeld. Ohne das kein Anspruch aus dem Abkommen.",
+    "prestationsEtranger": "Familienleistungen im Wohnsitzland",
+    "prestationsEtrangerIndice": "Was dort bereits gezahlt wird, mindert das deutsche Kindergeld.",
+    "sectionGroupe": "Ländergruppe des Wohnsitzlands",
+    "sectionGroupeIndice": "Sie bestimmt, wie viel vom Kinderfreibetrag übrig bleibt.",
+    "groupes": {
+      "1": { "titre": "Gruppe 1 — voller Betrag", "description": "Länder auf deutschem Niveau" },
+      "2": { "titre": "Gruppe 2 — drei Viertel", "description": "Etwas niedrigeres Niveau" },
+      "3": { "titre": "Gruppe 3 — die Hälfte", "description": "Deutlich niedrigeres Niveau" },
+      "4": { "titre": "Gruppe 4 — ein Viertel", "description": "Die meisten Länder Subsahara-Afrikas" }
+    },
+    "sectionFamille": "Ihre Familie",
+    "enfants": "Zahl der Kinder",
+    "revenuImposable": "Ihr zu versteuerndes Einkommen",
+    "revenuImposableIndice": "Bestimmt, was der Freibetrag wert ist.",
+    "splitting": "Zusammenveranlagung",
+    "resultatEtiquette": "Ihr Vorteil pro Jahr",
+    "resultatSousTexte": "{mensuel} Kindergeld pro Monat",
+    "resultatSansAllocation": "Kein Kindergeld — der Kinderfreibetrag bleibt Ihnen aber erhalten",
+    "voies": {
+      "allocations": { "titre": "Kindergeld", "description": "Monatlich ausgezahlt, unabhängig vom Einkommen." },
+      "abattement": { "titre": "Kinderfreibetrag", "description": "Wirkt über die Steuererklärung, steigt mit dem Steuersatz." }
+    },
+    "detailTitre": "Beide Wege im Vergleich",
+    "detailIndice": "Das Finanzamt prüft automatisch, was für Sie günstiger ist.",
+    "allocationPleine": "Kindergeld in voller Höhe",
+    "allocationPleineIndice": "{enfants} Kind(er)",
+    "allocationVersee": "Tatsächlich gezahlt",
+    "abattementPlein": "Kinderfreibetrag ungekürzt",
+    "abattementReduit": "Nach Kürzung",
+    "abattementReduitIndice": "Gruppe {groupe}, also {part}",
+    "economieAbattement": "Steuerersparnis daraus",
+    "avantageRetenu": "Für Sie wirksam",
+    "avantageRetenuIndice": "Der günstigere der beiden Wege.",
+    "ecartAllemagne": "Nachteil gegenüber Kindern in Deutschland",
+    "ecartAllemagneIndice": "Was dieselbe Familie mit Kindern in Deutschland erhielte.",
+    "alertesTitre": "Das sollten Sie wissen",
+    "alertes": {
+      "regimeUE": {
+        "titre": "Voller Anspruch innerhalb der EU",
+        "texte": "Leben Ihre Kinder in der EU, im EWR oder in der Schweiz, haben Sie denselben Anspruch, als lebten sie in Deutschland.",
+        "reference": "VO (EG) 883/2004"
+      },
+      "differenzzahlung": {
+        "titre": "Nur der Unterschiedsbetrag wird gezahlt",
+        "texte": "Werden im Wohnsitzland bereits {montant} an Familienleistungen gezahlt, zahlt Deutschland nur die Differenz. Doppelt gibt es nichts.",
+        "reference": "Art. 68 VO (EG) 883/2004"
+      },
+      "regimeAbkommen": {
+        "titre": "Anspruch aus dem Sozialversicherungsabkommen",
+        "texte": "Mit Ihrem Wohnsitzstaat besteht ein Abkommen, das den Anspruch auf Kinder im Ausland erstreckt. Voraussetzung bleibt Ihre versicherungspflichtige Beschäftigung in Deutschland.",
+        "reference": "§ 63 Abs. 1 S. 6 EStG"
+      },
+      "montantConventionnel": {
+        "titre": "Die Höhe richtet sich nach dem Abkommen",
+        "texte": "Für Kinder in Abkommensstaaten wird häufig ein geringerer Betrag gezahlt als für Kinder in Deutschland. Der genaue Satz ergibt sich aus dem jeweiligen Abkommen — wir schlagen ihn für Ihr Land nach.",
+        "reference": "Sozialversicherungsabkommen"
+      },
+      "abkommenSansActivite": {
+        "titre": "Ohne versicherungspflichtige Beschäftigung kein Anspruch",
+        "texte": "Das Abkommen greift nur, solange Sie in Deutschland sozialversicherungspflichtig beschäftigt sind oder Arbeitslosen- beziehungsweise Krankengeld beziehen. Selbständigkeit reicht in der Regel nicht.",
+        "reference": "§ 63 Abs. 1 S. 6 EStG"
+      },
+      "regimeDrittstaat": {
+        "titre": "Kein Kindergeld für Kinder im Drittstaat",
+        "texte": "Das Territorialitätsprinzip schließt den Anspruch aus, wenn das Kind weder in der EU noch in einem Abkommensstaat lebt. Daran ändert weder Ihre Staatsangehörigkeit noch Ihr Aufenthaltstitel etwas.",
+        "reference": "§ 63 Abs. 1 S. 6 EStG"
+      },
+      "macedoine": {
+        "titre": "Nordmazedonien ist kein Abkommensstaat",
+        "texte": "Anders als bei den Nachbarländern Serbien, Montenegro und Kosovo besteht kein entsprechendes Abkommen. Diese Verwechslung führt regelmäßig zu abgelehnten Anträgen.",
+        "reference": "§ 63 Abs. 1 S. 6 EStG"
+      },
+      "abattementReduit": {
+        "titre": "Kinderfreibetrag um {montant} gekürzt",
+        "texte": "In Gruppe {groupe} bleiben {part} des Freibetrags. Er entfällt aber nie ganz — auch ohne Kindergeld können Sie ihn geltend machen.",
+        "reference": "§ 32 Abs. 6 S. 4 EStG"
+      },
+      "abattementPlusFavorable": {
+        "titre": "Der Freibetrag bringt {montant} mehr",
+        "texte": "Bei Ihrem Einkommen wirkt der Kinderfreibetrag stärker als das Kindergeld. Das Finanzamt rechnet automatisch die günstigere Variante — aber nur, wenn Sie eine Steuererklärung abgeben.",
+        "reference": "§ 31 EStG"
+      },
+      "ecartAllemagne": {
+        "titre": "{montant} weniger als bei Kindern in Deutschland",
+        "texte": "So groß ist der Unterschied allein aufgrund des Wohnsitzes Ihrer Kinder. Prüfen Sie, ob stattdessen Unterhaltsleistungen nach § 33a EStG absetzbar sind.",
+        "reference": "§ 32 und § 63 EStG"
+      },
+      "titreSejour": {
+        "titre": "Ihr Aufenthaltstitel muss passen",
+        "texte": "Für Nicht-EU-Bürger setzt das Kindergeld eine Niederlassungserlaubnis oder eine zur Erwerbstätigkeit berechtigende Aufenthaltserlaubnis voraus. Reine Duldungen und bestimmte befristete Titel genügen nicht.",
+        "reference": "§ 62 Abs. 2 EStG"
+      },
+      "unterhaltAlternative": {
+        "titre": "Ohne Kindergeld bleibt der Unterhaltsabzug",
+        "texte": "Zahlungen an Kinder im Ausland, für die kein Kindergeld gewährt wird, sind als Unterhalt nach § 33a EStG absetzbar. Für viele Familien ist das der übersehene Ausweg — unser Unterhaltsrechner zeigt die Höhe.",
+        "reference": "§ 33a Abs. 1 EStG"
+      }
+    },
+    "ctaEtiquette": "Anspruch prüfen lassen",
+    "ctaTexte": "Wohnsitz der Kinder, Aufenthaltstitel und Abkommenslage entscheiden — und werden von der Familienkasse häufig zu eng ausgelegt. Wir prüfen Ihren Fall und legen bei Ablehnung Einspruch ein.",
+    "ctaBouton": "Kostenlose Erstberatung buchen",
+    "avertissement": "Vereinfachte Darstellung. Die Höhe des Kindergeldes für Abkommensstaaten richtet sich nach dem jeweiligen Abkommen und ist hier mit dem vollen deutschen Satz gerechnet. Nicht berücksichtigt: Zählkindvorteil, Kinder über 18 in Ausbildung, konkurrierende Ansprüche des anderen Elternteils."
+  },
+
+  "rentenerstattung": {
+    "titre": "Rückkehr ins Heimatland: Beiträge erstatten lassen?",
+    "sousTitre": "Die Erstattung bringt sofort Geld — löscht aber alle Ansprüche, für immer. Der Vergleich beider Wege in Zahlen.",
+    "oui": "Ja",
+    "non": "Nein",
+    "sectionCarriere": "Ihre Beitragszeit",
+    "sectionCarriereIndice": "Alle Monate, in denen Sie in Deutschland Rentenbeiträge gezahlt haben.",
+    "moisCotises": "Beitragsmonate",
+    "moisFormat": "{mois} Monate ({ans} Jahre)",
+    "ansFormat": "{ans} Jahre",
+    "salaireMoyenAnnuel": "Durchschnittliches Bruttogehalt",
+    "salaireMoyenIndice": "Über Ihre gesamte Beitragszeit gerechnet. Wer genau den Bundesdurchschnitt verdient, erhält einen Rentenpunkt pro Jahr.",
+    "sectionSituation": "Ihre Situation",
+    "age": "Ihr Alter",
+    "moisDepuisDepart": "Monate seit dem Ende der Versicherungspflicht",
+    "moisDepuisDepartIndice": "Die Erstattung ist erst nach 24 Monaten möglich.",
+    "ressortissantUE": "Ich bin EU-Staatsangehöriger",
+    "ressortissantUEIndice": "Wer freiwillig weiter einzahlen darf, bekommt keine Erstattung.",
+    "resultatEtiquette": "Unsere Einschätzung",
+    "resultatConserver": "Anspruch behalten: {pension} monatlich ab 67 statt {remboursement} einmalig",
+    "resultatRembourser": "Erstattung von {remboursement} — die Beitragszeit reicht für keine Rente",
+    "recommandations": { "conserver": "Anspruch behalten", "rembourser": "Erstattung beantragen" },
+    "voies": {
+      "conserver": { "titre": "Anspruch behalten", "description": "Lebenslange Rente ab 67, auch im Ausland gezahlt." },
+      "rembourser": { "titre": "Beiträge erstatten lassen", "description": "Einmalzahlung, danach ist alles erloschen." }
+    },
+    "parMois": "pro Monat ab 67",
+    "uneFois": "einmalig",
+    "detailTitre": "Die Zahlen im Einzelnen",
+    "periodeCotisee": "Beitragszeit",
+    "wartezeit": "Wartezeit von 5 Jahren erfüllt",
+    "wartezeitIndice": "Ohne sie besteht kein Rentenanspruch.",
+    "points": "Rentenpunkte",
+    "pointsIndice": "Ein Punkt je Jahr mit Durchschnittsverdienst.",
+    "pensionMensuelle": "Monatliche Rente",
+    "pensionIndice": "bei einem Rentenwert von {valeur}",
+    "cotisationsTotales": "Eingezahlte Beiträge insgesamt",
+    "remboursement": "Erstattungsbetrag",
+    "remboursementIndice": "Nur Ihr eigener Anteil.",
+    "partPerdue": "Arbeitgeberanteil",
+    "partPerdueIndice": "Wird nie erstattet.",
+    "pointEquilibre": "Erstattung eingeholt nach",
+    "pointEquilibreIndice": "So lange dauert es, bis die Rente den Erstattungsbetrag erreicht.",
+    "pensionCumulee": "Rente über {ans} Jahre",
+    "pensionCumuleeIndice": "Bei durchschnittlicher Bezugsdauer ab 67.",
+    "alertesTitre": "Das sollten Sie wissen",
+    "alertes": {
+      "ressortissantUE": {
+        "titre": "Als EU-Bürger keine Erstattung möglich",
+        "texte": "Wer weiterhin freiwillig einzahlen darf, ist von der Erstattung ausgeschlossen. Ihre Beitragszeiten werden ohnehin mit denen anderer EU-Staaten zusammengerechnet.",
+        "reference": "§ 210 Abs. 1a SGB VI"
+      },
+      "delaiNonEcoule": {
+        "titre": "Noch {nombre} Monate Wartezeit",
+        "texte": "Die Erstattung kann erst 24 Monate nach dem Ende der Versicherungspflicht beantragt werden. Der Gesetzgeber will damit übereilte Entscheidungen verhindern.",
+        "reference": "§ 210 Abs. 3 SGB VI"
+      },
+      "wartezeitAtteinte": {
+        "titre": "Sie haben einen Rentenanspruch von {montant} monatlich",
+        "texte": "Mit mehr als {nombre} Beitragsjahren ist die allgemeine Wartezeit erfüllt. Dieser Anspruch bleibt lebenslang bestehen, auch wenn Sie nie wieder in Deutschland arbeiten.",
+        "reference": "§ 50 Abs. 1 SGB VI"
+      },
+      "wartezeitManquante": {
+        "titre": "Noch {nombre} Beitragsmonate bis zum Rentenanspruch",
+        "texte": "Unter fünf Jahren entsteht keine Rente. Freiwillige Beiträge können die Lücke schließen — oft die günstigere Alternative zur Erstattung.",
+        "reference": "§ 50 Abs. 1 SGB VI"
+      },
+      "partPatronalePerdue": {
+        "titre": "{montant} Arbeitgeberanteil sind verloren",
+        "texte": "Erstattet wird nur, was Sie selbst gezahlt haben — rund die Hälfte. Der Arbeitgeberanteil verfällt ersatzlos. Genau das übersehen die meisten bei der Entscheidung.",
+        "reference": "§ 210 Abs. 1 SGB VI"
+      },
+      "irreversible": {
+        "titre": "Die Entscheidung ist endgültig",
+        "texte": "Mit der Erstattung wird das Versicherungsverhältnis aufgelöst: alle Beitragszeiten, auch Kindererziehungs- und Ausbildungszeiten, sind gelöscht. Eine Rückzahlung, um die Zeiten wiederherzustellen, ist nicht vorgesehen.",
+        "reference": "§ 210 Abs. 6 SGB VI"
+      },
+      "pointEquilibre": {
+        "titre": "Nach {nombre} Rentenjahren ist die Erstattung eingeholt",
+        "texte": "Ab diesem Zeitpunkt hätte Ihnen die Rente mehr gebracht als die Einmalzahlung. Bei einer durchschnittlichen Bezugsdauer von 18 Jahren ist die Rechnung meist eindeutig."
+      },
+      "versementEtranger": {
+        "titre": "Die Rente wird auch ins Ausland gezahlt",
+        "texte": "Deutsche Renten werden weltweit überwiesen. Die frühere Kürzung auf 70 Prozent gilt für Renten ab Oktober 2013 nicht mehr — ein Grund mehr, den Anspruch zu behalten.",
+        "reference": "§§ 110 ff. SGB VI"
+      },
+      "accordBilateral": {
+        "titre": "Ein Sozialversicherungsabkommen kann alles ändern",
+        "texte": "Besteht mit Ihrem Heimatland ein Abkommen, werden dortige Versicherungszeiten mit den deutschen zusammengerechnet. Damit erreichen viele die fünf Jahre, die ihnen in Deutschland allein fehlen.",
+        "reference": "Zwischenstaatliche Abkommen"
+      }
+    },
+    "ctaEtiquette": "Vor dem Antrag rechnen",
+    "ctaTexte": "Die Erstattung lässt sich nicht rückgängig machen. Wir prüfen Ihren Versicherungsverlauf, mögliche Abkommenszeiten und die Option freiwilliger Beiträge — bevor Sie den Antrag stellen.",
+    "ctaBouton": "Kostenlose Erstberatung buchen",
+    "avertissement": "Vereinfachte Schätzung. Die tatsächliche Rente ergibt sich aus Ihrem Versicherungsverlauf bei der Deutschen Rentenversicherung, einschließlich Kindererziehungs-, Anrechnungs- und Zurechnungszeiten. Rentenanpassungen, Abschläge bei vorzeitigem Bezug und die Besteuerung der Rente sind nicht berücksichtigt.",
+    "stand": "Rentenwerte und § 210 SGB VI, Stand {date}"
+  }
+}

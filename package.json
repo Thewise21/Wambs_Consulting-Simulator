@@ -7,9 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+    "selbsttest": "node scripts/selbsttest.mjs",
+    "i18n": "node scripts/i18n-check.mjs",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "paquet": "node scripts/preparer-livraison.mjs",
+    "deploy": "node -e \"console.error('\\n  Ce script publiait vers GitHub Pages (simulator.wambsconsulting.de).\\n  La base est desormais /simulator/ : un tel envoi casserait le site en ligne.\\n  Utiliser: npm run paquet, puis televerser par FTP chez OVH.\\n  Voir docs/mise-en-ligne.md\\n'); process.exit(1)\""
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.2",
