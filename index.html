@@ -8,6 +8,31 @@
     <meta name="theme-color" content="#F4F1EA" />
     <link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="/fonts/fraunces-var.woff2" as="font" type="font/woff2" crossorigin />
+    <!-- Reichweite: Matomo-Instanz der Hauptseite (/matomo/), ohne Cookies.
+         Der Simulator schaltet seine Rechner ueber das URL-Fragment um; das
+         Fragment erreicht den Server nie. Deshalb meldet dieses Skript jeden
+         Wechsel selbst und setzt die vollstaendige Adresse samt #/rechner —
+         nur so ist zaehlbar, WELCHER der 17 Rechner genutzt wird. Die kurze
+         Verzoegerung wartet, bis React den Seitentitel nachgezogen hat.    -->
+    <script>
+      (function () {
+        if (!/(^|\.)wambsconsulting\.de$/.test(location.hostname)) return;
+        var q = (window._paq = window._paq || []);
+        q.push(['disableCookies']);
+        q.push(['setTrackerUrl', '/matomo/matomo.php']);
+        q.push(['setSiteId', '1']);
+        function melden() {
+          q.push(['setCustomUrl', location.pathname + (location.hash || '')]);
+          q.push(['setDocumentTitle', document.title]);
+          q.push(['trackPageView']);
+        }
+        window.addEventListener('hashchange', function () { setTimeout(melden, 400); });
+        setTimeout(melden, 400);
+        var s = document.createElement('script');
+        s.async = true; s.src = '/matomo/matomo.js';
+        document.head.appendChild(s);
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
