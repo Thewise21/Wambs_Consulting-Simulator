@@ -2,7 +2,12 @@ node_modules/
 dist/
 .vite/
 .DS_Store
-package-lock.json
+
+# package-lock.json est desormais VERSIONNE (decision Poclaire, 21.08.2026) :
+# sans lui, chaque build tirait des dependances differentes — le hash du
+# bundle changeait sans modification de code. Pour des calculateurs fiscaux,
+# les builds doivent etre reproductibles. Mise a jour voulue des dependances :
+# `npm update` puis committer le lock avec les tests qui vont avec.
 
 # Configuration locale : contient l'URL du webhook n8n de production.
 # Seul .env.example est versionne.
