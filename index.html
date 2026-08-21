@@ -22,9 +22,13 @@
         q.push(['setTrackerUrl', '/matomo/matomo.php']);
         q.push(['setSiteId', '1']);
         function melden() {
-          q.push(['setCustomUrl', location.pathname + (location.hash || '')]);
-          q.push(['setDocumentTitle', document.title]);
-          q.push(['trackPageView']);
+          /* Immer window._paq verwenden: sobald matomo.js geladen ist,
+             ersetzt es das Array durch sein eigenes Objekt — Meldungen an
+             die alte Variable kaemen sonst nie an. */
+          var p = window._paq;
+          p.push(['setCustomUrl', location.pathname + (location.hash || '')]);
+          p.push(['setDocumentTitle', document.title]);
+          p.push(['trackPageView']);
         }
         window.addEventListener('hashchange', function () { setTimeout(melden, 400); });
         setTimeout(melden, 400);
